@@ -20,7 +20,8 @@ android {
 
 dependencies {
   // DEC-023. Google Nearby Connections (transport 1), Fused Location, Jetpack UWB (C8).
-  implementation 'com.google.android.gms:play-services-nearby:19.5.0'
+  // 19.5.0 ships Kotlin 2.4 metadata, which the Kotlin 2.2 toolchain of RN 0.88 cannot read (DEC-023).
+  implementation 'com.google.android.gms:play-services-nearby:19.3.0'
   implementation 'com.google.android.gms:play-services-location:21.3.0'
   implementation 'androidx.core.uwb:uwb:1.0.0'
   // libsodium for Android (DEC-009). @aar keeps the native JNA build for Android.

@@ -32,7 +32,7 @@ Every approved change, clarification and dependency for Mesh Radar. The PRD (/do
 - **DEC-020 i18n.** i18next with its JSON v4 plural keys (CLDR categories through `Intl.PluralRules`) instead of the ICU message format plugin; Crowdin supports this format.
 - **DEC-021 Payments.** `expo-iap` 6.1.1 (Expo module from the react-native-iap maintainers) instead of `react-native-iap`.
 - **DEC-022 Analytics and crashes.** Both opt-in and off by default. Analytics events queue on the device and go to PostHog's HTTP batch endpoint when online (no SDK); they never include location. Sentry's React Native SDK is initialised only after opt-in and only when a DSN is configured; the source map upload plugin is not added until Rohan creates the Sentry project.
-- **DEC-023 Package versions.** Expo SDK 58 set as in Sinew (expo 58.0.14, react-native 0.88.0, reanimated 4.7.1); other Expo packages pinned to the versions in expo 58.0.14 `bundledNativeModules.json`. `@shopify/react-native-skia` 2.14.0, `@sentry/react-native` 8.28.0, `qrcode-generator` 2.0.4 (QR rendering, no native code), `react-native-view-shot` 6.1.1 (memory cards and lost-child wallpaper). Android: `play-services-nearby` 19.5.0, `play-services-location` 21.3.0, `androidx.core.uwb:uwb` 1.0.0.
+- **DEC-023 Package versions.** Expo SDK 58 set as in Sinew (expo 58.0.14, react-native 0.88.0, reanimated 4.7.1); other Expo packages pinned to the versions in expo 58.0.14 `bundledNativeModules.json`. `@shopify/react-native-skia` 2.14.0, `@sentry/react-native` 8.28.0, `qrcode-generator` 2.0.4 (QR rendering, no native code), `react-native-view-shot` 6.1.1 (memory cards and lost-child wallpaper). Android: `play-services-nearby` 19.3.0 (19.5.0 is built with Kotlin 2.4 metadata that the Kotlin 2.2 toolchain of React Native 0.88 cannot read; CI build of 2026-10-19), `play-services-location` 21.3.0, `androidx.core.uwb:uwb` 1.0.0.
 
 ## Safety and Play compliance
 
@@ -40,3 +40,7 @@ Every approved change, clarification and dependency for Mesh Radar. The PRD (/do
 - **DEC-025 Lock-screen emergency card (A4).** Shown in the persistent notification with public visibility only when the person turns on "Show on lock screen" (default off), with a notice that anyone holding the phone can read it.
 - **DEC-026 Family Circle (G6).** Uploads only the same encrypted mesh packets to a Worker mailbox whose ID is an HMAC of the group key; the Worker never sees location in readable form. It runs only while the person has started the engine (foreground service), so no background location permission is needed.
 - **DEC-027 Separation alerts and breadcrumbs are paid (NEEDS ROHAN).** Section 10 puts them in Event Pass, but rule 1 says never paywall anything that helps someone in danger, and E9 protects Elders and Children. Built as the tiers say; recommend making separation alerts free.
+
+## Design
+
+- **DEC-028 Light primary darkened for contrast.** Section 7's light `primary` #00987F with white text measures 3.6:1, below the 4.5:1 AA rule in the same section. Buttons and teal text use #007F6A (4.95:1 on white, 4.65:1 as text on `bg`); #00987F remains the radar sweep colour, where 3:1 for graphics applies. `src/core/theme/contrast.test.ts` checks every text pair in all three themes.
