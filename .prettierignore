@@ -1,0 +1,7 @@
+node_modules
+coverage
+packs/build
+android
+docs/PRD.md
+package-lock.json
+modules/mesh-engine/core/build
