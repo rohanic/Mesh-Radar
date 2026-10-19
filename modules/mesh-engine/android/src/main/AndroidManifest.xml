@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- Section 9 permissions. Bluetooth and Wi-Fi for Nearby Connections and BLE beacons. -->
+  <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- Radar positions; also required by Nearby on Android 11 and below. -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <!-- Keep the mesh alive with the screen off (foreground service started while on screen). -->
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <!-- Incoming SOS rings through Do Not Disturb when the person allows it (optional). -->
+  <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+  <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <!-- Lost-child card as lock-screen wallpaper (E6). -->
+  <uses-permission android:name="android.permission.SET_WALLPAPER" />
+  <!-- UWB fine-find on supported phones (C8). -->
+  <uses-permission android:name="android.permission.UWB_RANGING" />
+
+  <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
+  <uses-feature android:name="android.hardware.uwb" android:required="false" />
+  <uses-feature android:name="android.hardware.sensor.barometer" android:required="false" />
+  <uses-feature android:name="android.hardware.sensor.compass" android:required="false" />
+
+  <application>
+    <service
+      android:name=".MeshService"
+      android:exported="false"
+      android:foregroundServiceType="connectedDevice|location" />
+
+    <receiver
+      android:name=".ActionReceiver"
+      android:exported="false" />
+  </application>
+</manifest>

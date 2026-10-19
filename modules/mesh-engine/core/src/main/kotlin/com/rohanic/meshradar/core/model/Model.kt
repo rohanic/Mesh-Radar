@@ -467,6 +467,40 @@ data class ChatMessage(
     var hops: Int = 0,
 )
 
+fun ChatMessage.toJson(): JSONObject = JSONObject().apply {
+    put("msgId", msgId); put("groupId", groupId); put("senderId", senderId); put("recipientId", recipientId ?: JSONObject.NULL)
+    put("outgoing", outgoing); put("kind", kind); put("text", text); put("quickCode", quickCode)
+    put("lat", lat ?: JSONObject.NULL); put("lon", lon ?: JSONObject.NULL); put("pinId", pinId ?: JSONObject.NULL)
+    put("image", image?.let { CoreState.b64(it) } ?: JSONObject.NULL); put("fullSize", fullSize); put("createdAt", createdAt)
+    put("state", state.name); put("deliveredTo", JSONArray(deliveredTo.toList())); put("readBy", JSONArray(readBy.toList())); put("hops", hops)
+}
+
+fun chatMessageFromJson(o: JSONObject): ChatMessage {
+    fun optStr(k: String): String? = if (o.isNull(k)) null else o.optString(k)
+    fun optDbl(k: String): Double? = if (o.isNull(k) || !o.has(k)) null else o.getDouble(k)
+    val m = ChatMessage(
+        msgId = o.getString("msgId"),
+        groupId = o.getString("groupId"),
+        senderId = o.getString("senderId"),
+        recipientId = optStr("recipientId"),
+        outgoing = o.optBoolean("outgoing"),
+        kind = o.optString("kind", "text"),
+        text = o.optString("text"),
+        quickCode = o.optInt("quickCode"),
+        lat = optDbl("lat"),
+        lon = optDbl("lon"),
+        pinId = optStr("pinId"),
+        image = optStr("image")?.let { CoreState.unb64(it) },
+        fullSize = o.optLong("fullSize"),
+        createdAt = o.optLong("createdAt"),
+        state = runCatching { MessageState.valueOf(o.optString("state")) }.getOrDefault(MessageState.RECEIVED),
+        hops = o.optInt("hops"),
+    )
+    o.optJSONArray("deliveredTo")?.let { a -> for (i in 0 until a.length()) m.deliveredTo.add(a.getString(i)) }
+    o.optJSONArray("readBy")?.let { a -> for (i in 0 until a.length()) m.readBy.add(a.getString(i)) }
+    return m
+}
+
 /** D3 delivery states. RECEIVED is used for incoming messages. */
 enum class MessageState { SENDING, IN_MESH, DELIVERED, READ, RECEIVED }
 

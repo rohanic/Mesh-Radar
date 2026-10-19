@@ -1,0 +1,29 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'com.rohanic.meshradar'
+version = '1.0.0'
+
+android {
+  namespace "com.rohanic.meshradar.engine"
+  defaultConfig {
+    versionCode 1
+    versionName '1.0.0'
+  }
+  sourceSets {
+    // The pure Kotlin mesh core is shared with the JVM test project in ../core (DEC-009).
+    main.java.srcDirs += ['../core/src/main/kotlin']
+  }
+}
+
+dependencies {
+  // DEC-023. Google Nearby Connections (transport 1), Fused Location, Jetpack UWB (C8).
+  implementation 'com.google.android.gms:play-services-nearby:19.5.0'
+  implementation 'com.google.android.gms:play-services-location:21.3.0'
+  implementation 'androidx.core.uwb:uwb:1.0.0'
+  // libsodium for Android (DEC-009). @aar keeps the native JNA build for Android.
+  implementation 'com.goterl:lazysodium-android:5.2.0@aar'
+  implementation 'net.java.dev.jna:jna:5.17.0@aar'
+}

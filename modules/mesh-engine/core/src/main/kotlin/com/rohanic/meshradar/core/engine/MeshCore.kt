@@ -90,6 +90,9 @@ import kotlin.random.Random
 interface Link {
     fun neighbours(): List<String>
     fun send(endpoint: String, frame: ByteArray)
+
+    /** Phones discovered in radio range, connected or not (crowd damping input, DEC-010). */
+    fun density(): Int = neighbours().size
 }
 
 /** Engine events, forwarded to JS and to Android notifications. Payloads are JS-friendly maps. */
@@ -722,7 +725,7 @@ class MeshCore(
 
     private fun receive(packet: Packet, via: Via) {
         val now = nowSec()
-        val decision = router.onReceive(packet, now, link.neighbours().size, relayEnabled())
+        val decision = router.onReceive(packet, now, link.density(), relayEnabled())
         if (decision !is RouteDecision.Accept) return
         lastPacketMs = nowMs()
         state.stats.packetsReceived++
@@ -1081,6 +1084,27 @@ class MeshCore(
             "messageState",
             mapOf("msgId" to m.msgId, "groupId" to m.groupId, "state" to m.state.name.lowercase(), "delivered" to m.deliveredTo.size, "read" to m.readBy.size),
         )
+    }
+
+    /** Encrypt a full photo with the group key before it leaves the phone (D6). Nonce is prepended. */
+    @Synchronized
+    fun sealBlob(groupId: String, plain: ByteArray): ByteArray {
+        val g = group(groupId)
+        val nonce = crypto.random(24)
+        return nonce + crypto.seal(g.key, nonce, plain, "mr-photo".toByteArray())
+    }
+
+    @Synchronized
+    fun openBlob(groupId: String, sealed: ByteArray): ByteArray? {
+        val g = state.groups[groupId] ?: return null
+        if (sealed.size < 24 + Crypto.MAC_BYTES) return null
+        return crypto.open(g.key, sealed.copyOf(24), sealed.copyOfRange(24, sealed.size), "mr-photo".toByteArray())
+    }
+
+    /** Quick reply to every active group (notification action "I'm OK"). */
+    @Synchronized
+    fun quickReplyAll(code: Int) {
+        for (g in activeGroups()) sendChat(g.id, null, ChatKind.QUICK, "", code, null, null, null)
     }
 
     // ---------------------------------------------------------------- meeting points
