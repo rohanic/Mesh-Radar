@@ -35,9 +35,11 @@ class MeshCoreTest {
         return g
     }
 
-    private fun upgrade(net: TestNet, node: TestNet.Node, tier: String, licenceKey: com.rohanic.meshradar.core.crypto.IdentityKeys) {
-        val payload = JSONObject().put("kind", "licence").put("lid", "L1").put("tier", tier).put("sub", node.core.signPublicHex)
-            .put("iat", net.clock.now / 1000).put("exp", net.clock.now / 1000 + 14 * 86_400).toString().toByteArray()
+    private fun upgrade(net: TestNet, node: TestNet.Node, tier: String, licenceKey: com.rohanic.meshradar.core.crypto.IdentityKeys, members: Int? = null) {
+        val json = JSONObject().put("kind", "licence").put("lid", "L1").put("tier", tier).put("sub", node.core.signPublicHex)
+            .put("iat", net.clock.now / 1000).put("exp", net.clock.now / 1000 + 14 * 86_400)
+        members?.let { json.put("members", it) }
+        val payload = json.toString().toByteArray()
         val sig = Sodium.crypto.sign(payload, licenceKey.signSecret)
         val enc = Base64.getUrlEncoder().withoutPadding()
         node.core.importLicence(enc.encodeToString(payload) + "." + enc.encodeToString(sig))
@@ -455,5 +457,17 @@ class MeshCoreTest {
         val sig = a.core.signForEvent("hajj", msg)
         assertTrue(Sodium.crypto.verify(sig, msg, hexToBytes(a.core.eventPublicKey("hajj"))))
         assertFalse(Sodium.crypto.verify(sig, msg, hexToBytes(a.core.eventPublicKey("umrah"))))
+    }
+
+    @Test
+    fun `organiser licences cap the roster at the size bought`() {
+        val licenceKey = Sodium.crypto.newIdentity()
+        val net = TestNet(config = CoreConfig(licencePublicKey = licenceKey.signPublic))
+        val org = net.add("org").also { it.profile("org") }
+        upgrade(net, org, "organiser", licenceKey, members = 50)
+        val g = org.core.createGroup("School trip", "", 0, 0)["id"] as String
+        assertEquals(50, org.core.groupDetail(g)["maxMembers"])
+        assertEquals(50, org.core.entitlements(g)["maxMembers"])
+        assertEquals(true, org.core.entitlements(null)["organiser"])
     }
 }

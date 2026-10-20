@@ -33,8 +33,11 @@ enum class Tier(
     }
 }
 
-/** A verified licence. [sub] is the purchaser's signing key (hex). */
-data class Licence(val id: String, val tier: Tier, val sub: String, val issuedAt: Long, val expiresAt: Long, val token: String)
+/**
+ * A verified licence. [sub] is the purchaser's signing key (hex). [members] is the group size it
+ * allows: the tier maximum, or less for organiser plans sold by roster size (DEC-035).
+ */
+data class Licence(val id: String, val tier: Tier, val sub: String, val issuedAt: Long, val expiresAt: Long, val token: String, val members: Int)
 
 /** A verified organiser certificate (E8: one signed organiser report verifies an alert). */
 data class OrganiserCert(val pk: String, val name: String, val eventId: String, val expiresAt: Long)
@@ -54,7 +57,8 @@ class Licences(private val crypto: Crypto, private val publicKey: ByteArray?) {
         if (exp <= nowSec) return null
         val sub = o.optString("sub")
         if (sub.length != 64) return null
-        return Licence(o.optString("lid"), tier, sub.lowercase(), o.optLong("iat"), exp, token)
+        val members = o.optInt("members", tier.maxMembers).coerceIn(Tier.FREE.maxMembers, tier.maxMembers)
+        return Licence(o.optString("lid"), tier, sub.lowercase(), o.optLong("iat"), exp, token, members)
     }
 
     fun verifyOrganiserCert(token: ByteArray, nowSec: Long): OrganiserCert? {

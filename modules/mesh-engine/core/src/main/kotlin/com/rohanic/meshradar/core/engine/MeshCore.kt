@@ -317,6 +317,15 @@ class MeshCore(
     private fun storedOwnTier(now: Long): Tier =
         ownLicences.mapNotNull { licences.verify(it, now) }.maxByOrNull { it.tier.rank }?.tier ?: Tier.FREE
 
+    /** Largest group my own licences allow (organiser plans are sold by roster size, DEC-035). */
+    private fun myMaxMembers(): Int {
+        val now = nowSec()
+        return (ownLicences + state.groups.values.flatMap { it.licences }).distinct()
+            .mapNotNull { licences.verify(it, now) }
+            .filter { it.sub == signPublicHex }
+            .maxOfOrNull { it.members } ?: Tier.FREE.maxMembers
+    }
+
     @Synchronized
     fun createGroup(name: String, eventId: String, expiresAtSec: Long, colour: Int): Map<String, Any?> {
         if (activeGroups().size >= myTier().maxActiveGroups) throw MeshException("group_limit")
@@ -329,7 +338,7 @@ class MeshCore(
             createdAt = now,
             expiresAt = expiresAtSec,
             eventId = eventId,
-            maxMembers = myTier().maxMembers,
+            maxMembers = myMaxMembers(),
             colour = colour,
         )
         g.members[myId] = selfMember(now, Role.LEADER)
@@ -1722,7 +1731,7 @@ class MeshCore(
         for (g in state.groups.values) {
             if (isLeader(g) && token !in g.licences) {
                 g.licences.add(token)
-                g.maxMembers = maxOf(g.maxMembers, tierOf(g).maxMembers)
+                g.maxMembers = maxOf(g.maxMembers, lic.members)
                 if (!g.archived) sendGroup(g, LicenceBody(token.toByteArray()))
             }
         }
@@ -1747,7 +1756,7 @@ class MeshCore(
         val lic = licences.verify(token, nowSec()) ?: return
         if (lic.sub != g.leaderSignPk.hex()) return
         g.licences.add(token)
-        g.maxMembers = maxOf(g.maxMembers, lic.tier.maxMembers)
+        g.maxMembers = maxOf(g.maxMembers, lic.members)
         markDirty()
         events.emit("licence", mapOf("groupId" to g.id, "tier" to tierOf(g).name.lowercase()))
         emitGroup(g)
@@ -1757,7 +1766,8 @@ class MeshCore(
     fun entitlements(groupId: String?): Map<String, Any?> {
         val tier = groupId?.let { state.groups[it]?.let(::tierOf) } ?: myTier()
         val best = if (tier.rank >= myTier().rank) tier else myTier()
-        return Maps.tier(best) + mapOf("groupTier" to tier.name.lowercase(), "myTier" to myTier().name.lowercase())
+        val members = groupId?.let { state.groups[it]?.maxMembers } ?: myMaxMembers()
+        return Maps.tier(best) + mapOf("maxMembers" to members, "groupTier" to tier.name.lowercase(), "myTier" to myTier().name.lowercase())
     }
 
     @Synchronized

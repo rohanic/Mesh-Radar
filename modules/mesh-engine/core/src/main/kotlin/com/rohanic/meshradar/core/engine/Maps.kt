@@ -75,7 +75,7 @@ object Maps {
         "createdAtMs" to g.createdAt * 1000,
         "expiresAtMs" to g.expiresAt * 1000,
         "memberCount" to g.members.size,
-        "maxMembers" to maxOf(g.maxMembers, tier.maxMembers).coerceAtMost(Tier.ORGANISER.maxMembers),
+        "maxMembers" to g.maxMembers.coerceAtMost(Tier.ORGANISER.maxMembers),
         "isLeader" to (g.members[myId]?.let { it.signPk.contentEquals(g.leaderSignPk) } ?: false),
         "myRole" to (g.members[myId]?.role?.name?.lowercase() ?: "member"),
         "separationM" to g.separationM,
