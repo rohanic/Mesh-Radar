@@ -13,11 +13,15 @@ import id from './locales/id.json';
 import ms from './locales/ms.json';
 import tr from './locales/tr.json';
 import ur from './locales/ur.json';
+import { pseudoTree } from '@/core/engine/pseudo';
 import type { LanguageCode } from '@/state/settings';
 
 // i18next with JSON v4 plural keys (CLDR categories via Intl.PluralRules; DEC-020).
+// Dev builds with EXPO_PUBLIC_PSEUDO_LOCALE=1 show English as a pseudo-locale (section 11 tooling).
+const english = __DEV__ && process.env.EXPO_PUBLIC_PSEUDO_LOCALE === '1' ? pseudoTree(en) : en;
+
 export const resources = {
-  en: { translation: en },
+  en: { translation: english },
   ur: { translation: ur },
   ar: { translation: ar },
   hi: { translation: hi },
