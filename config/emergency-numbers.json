@@ -1,1 +1,726 @@
-{ "version": 1, "countries": {} }
+{
+  "version": 2,
+  "researchedOn": "2026-10-20",
+  "countries": {
+    "SA": {
+      "name": {
+        "en": "Saudi Arabia"
+      },
+      "numbers": [
+        {
+          "id": "sa-unified-911",
+          "kind": "emergency",
+          "label": {
+            "en": "Unified emergency number"
+          },
+          "number": "911",
+          "source": "https://my.gov.sa/en/emergency-contact",
+          "verified": false
+        },
+        {
+          "id": "sa-no-sim-112",
+          "kind": "emergency",
+          "label": {
+            "en": "Emergency without a Saudi SIM card"
+          },
+          "number": "112",
+          "source": "https://my.gov.sa/en/emergency-contact",
+          "verified": false
+        },
+        {
+          "id": "sa-police",
+          "kind": "police",
+          "label": {
+            "en": "Police"
+          },
+          "number": "999",
+          "source": "https://my.gov.sa/en/emergency-contact",
+          "verified": false
+        },
+        {
+          "id": "sa-red-crescent",
+          "kind": "ambulance",
+          "label": {
+            "en": "Saudi Red Crescent (ambulance)"
+          },
+          "number": "997",
+          "source": "https://my.gov.sa/en/emergency-contact",
+          "verified": false
+        },
+        {
+          "id": "sa-civil-defense",
+          "kind": "fire",
+          "label": {
+            "en": "Civil Defense (fire, rescue, disasters)"
+          },
+          "number": "998",
+          "source": "https://my.gov.sa/en/emergency-contact",
+          "verified": false
+        },
+        {
+          "id": "sa-child-helpline",
+          "kind": "child",
+          "label": {
+            "en": "Child helpline (National Family Safety Program)"
+          },
+          "number": "116111",
+          "source": "https://my.gov.sa/en/content/human-rights",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "911 is answered by unified centres reported for the Makkah, Madinah, Riyadh and Eastern regions; in other regions 999, 997 and 998 are the direct lines."
+      }
+    },
+    "IQ": {
+      "name": {
+        "en": "Iraq"
+      },
+      "numbers": [
+        {
+          "id": "iq-unified-911",
+          "kind": "emergency",
+          "label": {
+            "en": "Unified emergency number"
+          },
+          "number": "911",
+          "source": "https://pmo.iq/?article=2933",
+          "verified": false
+        },
+        {
+          "id": "iq-police",
+          "kind": "police",
+          "label": {
+            "en": "Police"
+          },
+          "number": "104",
+          "source": "https://iq.usembassy.gov/contact/",
+          "verified": false
+        },
+        {
+          "id": "iq-ambulance",
+          "kind": "ambulance",
+          "label": {
+            "en": "Ambulance"
+          },
+          "number": "122",
+          "source": "https://www.gov.uk/foreign-travel-advice/iraq/getting-help",
+          "verified": false
+        },
+        {
+          "id": "iq-civil-defense",
+          "kind": "fire",
+          "label": {
+            "en": "Civil Defense (fire and rescue)"
+          },
+          "number": "115",
+          "source": "https://iq.usembassy.gov/contact/",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "911 is the unified number for federal Iraq, run from a Baghdad centre since 2025; in the Kurdistan Region the regional government lists its own police, ambulance and civil defence lines, and 911 is not confirmed there."
+      }
+    },
+    "PK": {
+      "name": {
+        "en": "Pakistan"
+      },
+      "numbers": [
+        {
+          "id": "pk-rescue-1122",
+          "kind": "rescue",
+          "label": {
+            "en": "Rescue 1122 (ambulance, fire, rescue)"
+          },
+          "number": "1122",
+          "source": "https://www.gov.uk/foreign-travel-advice/pakistan/getting-help",
+          "verified": false
+        },
+        {
+          "id": "pk-police",
+          "kind": "police",
+          "label": {
+            "en": "Police"
+          },
+          "number": "15",
+          "source": "https://www.gov.uk/foreign-travel-advice/pakistan/getting-help",
+          "verified": false
+        },
+        {
+          "id": "pk-ambulance-115",
+          "kind": "ambulance",
+          "label": {
+            "en": "Ambulance"
+          },
+          "number": "115",
+          "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+          "verified": false
+        },
+        {
+          "id": "pk-fire-16",
+          "kind": "fire",
+          "label": {
+            "en": "Fire brigade"
+          },
+          "number": "16",
+          "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+          "verified": false
+        },
+        {
+          "id": "pk-motorway-police",
+          "kind": "police",
+          "label": {
+            "en": "Motorway Police (motorways and national highways)"
+          },
+          "number": "130",
+          "source": "https://nhmp.gov.pk/",
+          "verified": false
+        },
+        {
+          "id": "pk-child-1121",
+          "kind": "child",
+          "label": {
+            "en": "Child protection helpline (Punjab, Khyber Pakhtunkhwa)"
+          },
+          "number": "1121",
+          "source": "https://cpwb.punjab.gov.pk/helpline",
+          "verified": false
+        },
+        {
+          "id": "pk-ndma",
+          "kind": "disaster",
+          "label": {
+            "en": "NDMA national disaster helpline"
+          },
+          "number": "051111157157",
+          "source": "https://www.ndma.gov.pk/",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "Rescue 1122 is run by each province and covers Punjab and Khyber Pakhtunkhwa but only some districts elsewhere, so where it does not answer use 15, 115 or 16."
+      }
+    },
+    "IN": {
+      "name": {
+        "en": "India"
+      },
+      "numbers": [
+        {
+          "id": "in-112",
+          "kind": "emergency",
+          "label": {
+            "en": "Emergency (police, fire, ambulance)"
+          },
+          "number": "112",
+          "source": "https://112.gov.in/",
+          "verified": false
+        },
+        {
+          "id": "in-police",
+          "kind": "police",
+          "label": {
+            "en": "Police"
+          },
+          "number": "100",
+          "source": "https://www.india.gov.in/directory/helpline",
+          "verified": false
+        },
+        {
+          "id": "in-fire",
+          "kind": "fire",
+          "label": {
+            "en": "Fire"
+          },
+          "number": "101",
+          "source": "https://www.india.gov.in/directory/helpline",
+          "verified": false
+        },
+        {
+          "id": "in-ambulance-108",
+          "kind": "ambulance",
+          "label": {
+            "en": "Emergency ambulance"
+          },
+          "number": "108",
+          "source": "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=1217&lid=189",
+          "verified": false
+        },
+        {
+          "id": "in-child-1098",
+          "kind": "child",
+          "label": {
+            "en": "Child helpline"
+          },
+          "number": "1098",
+          "source": "https://www.india.gov.in/directory/helpline",
+          "verified": false
+        },
+        {
+          "id": "in-tourist-1363",
+          "kind": "tourist",
+          "label": {
+            "en": "Tourist helpline (24 hours, many languages)"
+          },
+          "number": "1363",
+          "source": "https://www.incredibleindia.gov.in/en/emergency",
+          "verified": false
+        },
+        {
+          "id": "in-women-181",
+          "kind": "women",
+          "label": {
+            "en": "Women helpline"
+          },
+          "number": "181",
+          "source": "https://wcd.gov.in/women/help",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "Ambulance services 108 and 102 are run by each state and 102 is mainly patient transport, and the 181 women helpline is listed as not running in West Bengal; dial 112 if unsure."
+      }
+    },
+    "BD": {
+      "name": {
+        "en": "Bangladesh"
+      },
+      "numbers": [
+        {
+          "id": "bd-999",
+          "kind": "emergency",
+          "label": {
+            "en": "National emergency service (police, fire, ambulance)"
+          },
+          "number": "999",
+          "source": "https://www.999.gov.bd/",
+          "verified": false
+        },
+        {
+          "id": "bd-fire-102",
+          "kind": "fire",
+          "label": {
+            "en": "Fire Service and Civil Defence"
+          },
+          "number": "102",
+          "source": "https://fireservice.gov.bd/",
+          "verified": false
+        },
+        {
+          "id": "bd-women-child-109",
+          "kind": "women",
+          "label": {
+            "en": "Helpline for violence against women and children"
+          },
+          "number": "109",
+          "source": "https://dwa.gov.bd/",
+          "verified": false
+        },
+        {
+          "id": "bd-child-1098",
+          "kind": "child",
+          "label": {
+            "en": "Child helpline"
+          },
+          "number": "1098",
+          "source": "https://dss.gov.bd/pages/static-pages/6922deb1933eb65569e1cab0",
+          "verified": false
+        },
+        {
+          "id": "bd-tourist-police",
+          "kind": "tourist",
+          "label": {
+            "en": "Tourist Police"
+          },
+          "number": "01320222222",
+          "source": "https://tourist.police.gov.bd/",
+          "verified": false
+        },
+        {
+          "id": "bd-disaster-1090",
+          "kind": "disaster",
+          "label": {
+            "en": "Disaster and weather warnings (recorded messages)"
+          },
+          "number": "1090",
+          "source": "https://ddm.gov.bd/pages/static-pages/6922dc30933eb65569e0edd0",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "999 works from any phone across the country, and 1090 gives recorded warnings only, not rescue."
+      }
+    },
+    "ID": {
+      "name": {
+        "en": "Indonesia"
+      },
+      "numbers": [
+        {
+          "id": "id-112",
+          "kind": "emergency",
+          "label": {
+            "en": "Emergency call centre"
+          },
+          "number": "112",
+          "source": "https://layanan112.komdigi.go.id/tentang",
+          "verified": false
+        },
+        {
+          "id": "id-police",
+          "kind": "police",
+          "label": {
+            "en": "Police"
+          },
+          "number": "110",
+          "source": "https://humas.polri.go.id/news/detail/2209926-polri-sediakan-layanan-call-center-110-bebas-pulsa-untuk-respons-cepat-masyarakat",
+          "verified": false
+        },
+        {
+          "id": "id-ambulance-119",
+          "kind": "ambulance",
+          "label": {
+            "en": "Ambulance (PSC 119)"
+          },
+          "number": "119",
+          "source": "https://kemkes.go.id/id/layanan/psc-119",
+          "verified": false
+        },
+        {
+          "id": "id-fire-113",
+          "kind": "fire",
+          "label": {
+            "en": "Fire brigade"
+          },
+          "number": "113",
+          "source": "https://layanan112.komdigi.go.id/tentang",
+          "verified": false
+        },
+        {
+          "id": "id-basarnas-115",
+          "kind": "rescue",
+          "label": {
+            "en": "Basarnas search and rescue"
+          },
+          "number": "115",
+          "source": "https://basarnas.go.id/berita/kabasarnas-darurat-sar-hubungi-115",
+          "verified": false
+        },
+        {
+          "id": "id-bnpb-117",
+          "kind": "disaster",
+          "label": {
+            "en": "BNPB disaster call centre"
+          },
+          "number": "117",
+          "source": "https://bnpb.go.id/berita/perkembangan-situasi-dan-penanganan-bencana-di-tanah-air-14-oktober-2026",
+          "verified": false
+        },
+        {
+          "id": "id-sapa-129",
+          "kind": "child",
+          "label": {
+            "en": "SAPA 129 (violence against women and children)"
+          },
+          "number": "129",
+          "source": "https://www.kemenpppa.go.id/index.php/siaran-pers/kemenpppa-aktivasi-layanan-sapa-129-terintegrasi-serentak-di-10-provinsi",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "112 works only in regencies and cities whose local government has launched it, so the national numbers 110, 113, 115, 117 and 119 remain the safer choice elsewhere."
+      }
+    },
+    "MY": {
+      "name": {
+        "en": "Malaysia"
+      },
+      "numbers": [
+        {
+          "id": "my-999",
+          "kind": "emergency",
+          "label": {
+            "en": "Emergency (police, ambulance, fire, civil defence)"
+          },
+          "number": "999",
+          "source": "https://999.gov.my/mers-999/apa-itu-mers-999/",
+          "verified": false
+        },
+        {
+          "id": "my-112",
+          "kind": "emergency",
+          "label": {
+            "en": "Emergency from a mobile phone"
+          },
+          "number": "112",
+          "source": "https://www.gov.uk/foreign-travel-advice/malaysia/getting-help",
+          "verified": false
+        },
+        {
+          "id": "my-talian-kasih",
+          "kind": "child",
+          "label": {
+            "en": "Talian Kasih (abuse, women, children, family crisis)"
+          },
+          "number": "15999",
+          "source": "https://www.malaysia.gov.my/en/categories/law--safety/vulnerable-groups/talian-kasih-15999",
+          "verified": false
+        },
+        {
+          "id": "my-nadma",
+          "kind": "disaster",
+          "label": {
+            "en": "NADMA national disaster operations room (24 hours)"
+          },
+          "number": "0380642400",
+          "source": "https://portalbencana.nadma.gov.my/en/component/sppagebuilder/?view=page&id=4493",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "999 is the main number for police, ambulance, fire and civil defence, and is free from landlines and mobiles."
+      }
+    },
+    "TR": {
+      "name": {
+        "en": "Turkey"
+      },
+      "numbers": [
+        {
+          "id": "tr-112",
+          "kind": "emergency",
+          "label": {
+            "en": "Emergency (ambulance, fire, police, gendarmerie, disaster)"
+          },
+          "number": "112",
+          "source": "https://www.112.gov.tr/112-acm-projesi",
+          "verified": false
+        },
+        {
+          "id": "tr-police-155",
+          "kind": "police",
+          "label": {
+            "en": "Police (connects to 112)"
+          },
+          "number": "155",
+          "source": "https://www.112.gov.tr/samsun/artik-polis-imdat-112-de",
+          "verified": false
+        },
+        {
+          "id": "tr-gendarmerie-156",
+          "kind": "police",
+          "label": {
+            "en": "Gendarmerie, rural areas (connects to 112)"
+          },
+          "number": "156",
+          "source": "https://www.112.gov.tr/samsun/artik-polis-imdat-112-de",
+          "verified": false
+        },
+        {
+          "id": "tr-fire-110",
+          "kind": "fire",
+          "label": {
+            "en": "Fire (connects to 112)"
+          },
+          "number": "110",
+          "source": "https://www.112.gov.tr/samsun/artik-polis-imdat-112-de",
+          "verified": false
+        },
+        {
+          "id": "tr-afad-122",
+          "kind": "disaster",
+          "label": {
+            "en": "AFAD disaster line (connects to 112)"
+          },
+          "number": "122",
+          "source": "https://www.112.gov.tr/samsun/artik-afad-imdat-112-de",
+          "verified": false
+        },
+        {
+          "id": "tr-alo-183",
+          "kind": "women",
+          "label": {
+            "en": "ALO 183 social support (violence, women, children, family)"
+          },
+          "number": "183",
+          "source": "https://alo183.aile.gov.tr/",
+          "verified": false
+        },
+        {
+          "id": "tr-istanbul-tourist-police",
+          "kind": "tourist",
+          "label": {
+            "en": "Istanbul Tourist Police"
+          },
+          "number": "02125274503",
+          "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "112 covers all 81 provinces, and the old numbers 155, 156, 110 and 122 still connect to the 112 centre."
+      }
+    },
+    "NP": {
+      "name": {
+        "en": "Nepal"
+      },
+      "numbers": [
+        {
+          "id": "np-police",
+          "kind": "police",
+          "label": {
+            "en": "Police"
+          },
+          "number": "100",
+          "source": "https://ntb.gov.np/plan-your-trip/before-you-come/tourist-police",
+          "verified": false
+        },
+        {
+          "id": "np-ambulance",
+          "kind": "ambulance",
+          "label": {
+            "en": "Ambulance"
+          },
+          "number": "102",
+          "source": "https://www.gov.uk/foreign-travel-advice/nepal/getting-help",
+          "verified": false
+        },
+        {
+          "id": "np-fire",
+          "kind": "fire",
+          "label": {
+            "en": "Fire"
+          },
+          "number": "101",
+          "source": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Nepal.html",
+          "verified": false
+        },
+        {
+          "id": "np-tourist-police",
+          "kind": "tourist",
+          "label": {
+            "en": "Tourist Police (English spoken)"
+          },
+          "number": "1144",
+          "source": "https://ntb.gov.np/plan-your-trip/before-you-come/tourist-police",
+          "verified": false
+        },
+        {
+          "id": "np-disaster-1234",
+          "kind": "disaster",
+          "label": {
+            "en": "Government disaster and rescue hotline"
+          },
+          "number": "1234",
+          "source": "https://moha.gov.np/en",
+          "verified": false
+        },
+        {
+          "id": "np-armed-police",
+          "kind": "rescue",
+          "label": {
+            "en": "Armed Police Force"
+          },
+          "number": "1114",
+          "source": "https://np.usembassy.gov/weather-alert-u-s-embassy-kathmandu-nepal-september-24-2026/",
+          "verified": false
+        },
+        {
+          "id": "np-child-1098",
+          "kind": "child",
+          "label": {
+            "en": "Child helpline"
+          },
+          "number": "1098",
+          "source": "https://ncrc.gov.np/",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "Ambulances are unreliable outside Kathmandu, so on treks the Tourist Police on 1144 are often the best first call."
+      }
+    },
+    "AE": {
+      "name": {
+        "en": "United Arab Emirates"
+      },
+      "numbers": [
+        {
+          "id": "ae-police",
+          "kind": "police",
+          "label": {
+            "en": "Police (use if unsure)"
+          },
+          "number": "999",
+          "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/handling-emergencies",
+          "verified": false
+        },
+        {
+          "id": "ae-ambulance",
+          "kind": "ambulance",
+          "label": {
+            "en": "Ambulance"
+          },
+          "number": "998",
+          "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/handling-emergencies",
+          "verified": false
+        },
+        {
+          "id": "ae-civil-defence",
+          "kind": "fire",
+          "label": {
+            "en": "Fire (Civil Defence)"
+          },
+          "number": "997",
+          "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/handling-emergencies",
+          "verified": false
+        },
+        {
+          "id": "ae-search-rescue",
+          "kind": "rescue",
+          "label": {
+            "en": "Search and rescue"
+          },
+          "number": "995",
+          "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/handling-emergencies",
+          "verified": false
+        },
+        {
+          "id": "ae-coastguard",
+          "kind": "rescue",
+          "label": {
+            "en": "Coastguard (sea emergencies, Abu Dhabi)"
+          },
+          "number": "996",
+          "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/handling-emergencies",
+          "verified": false
+        },
+        {
+          "id": "ae-child-protection",
+          "kind": "child",
+          "label": {
+            "en": "Child Protection Centre (Ministry of Interior)"
+          },
+          "number": "116111",
+          "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/children-safety",
+          "verified": false
+        },
+        {
+          "id": "ae-dubai-tourist-police",
+          "kind": "tourist",
+          "label": {
+            "en": "Dubai Tourist Police duty officer"
+          },
+          "number": "0504538107",
+          "source": "https://www.dubaipolice.gov.ae/wps/portal/home/services/visitorsservices/touristpolice",
+          "verified": false
+        }
+      ],
+      "note": {
+        "en": "999, 998 and 997 work in every emirate, while 996 is listed for sea emergencies in Abu Dhabi and the Dubai Tourist Police line covers Dubai only."
+      }
+    }
+  }
+}

@@ -155,7 +155,7 @@ function ActiveSos({ silentDefault }: { silentDefault: boolean }) {
             {numbers.numbers.map((n) => (
               <Pressable key={n.id} accessibilityRole="button" accessibilityLabel={t('numbers.call', { number: n.number })} onPress={() => void Linking.openURL(`tel:${n.number}`)} style={{ minHeight: 56, justifyContent: 'center' }}>
                 <Row style={{ justifyContent: 'space-between' }}>
-                  <Text style={{ flex: 1 }}>{pick(n.label, lang)}</Text>
+                  <Text style={{ flex: 1 }}>{`${t(`numbers.kinds.${n.kind}`)}, ${pick(n.label, lang)}`}</Text>
                   <Text variant="title" tone="sos" tabular>
                     {n.number}
                   </Text>

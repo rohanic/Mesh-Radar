@@ -8,8 +8,13 @@ import type { LanguageCode } from '@/state/settings';
 
 export type Localized = Partial<Record<LanguageCode, string>> & { en: string };
 
+export const NUMBER_KINDS = ['emergency', 'police', 'ambulance', 'fire', 'rescue', 'tourist', 'child', 'women', 'disaster', 'other'] as const;
+export type NumberKind = (typeof NUMBER_KINDS)[number];
+
 export interface EmergencyNumber {
   id: string;
+  /** Shown in the reader's language from `numbers.kinds`; the label names the service. */
+  kind: NumberKind;
   label: Localized;
   number: string;
   source: string;

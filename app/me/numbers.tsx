@@ -28,7 +28,13 @@ export default function Numbers() {
         <Card>
           <Text variant="title">{pick(c.name, lang)}</Text>
           {c.numbers.map((n) => (
-            <ListRow key={n.id} icon="phone" title={n.number} subtitle={pick(n.label, lang)} onPress={() => void Linking.openURL(`tel:${n.number}`)} />
+            <ListRow
+              key={n.id}
+              icon="phone"
+              title={`${t(`numbers.kinds.${n.kind}`)}: ${n.number}`}
+              subtitle={pick(n.label, lang)}
+              onPress={() => void Linking.openURL(`tel:${n.number}`)}
+            />
           ))}
           {c.note ? <Text variant="caption" tone="muted">{pick(c.note, lang)}</Text> : null}
           {c.numbers.some((n) => !n.verified) ? <Text variant="caption" tone="warning">{t('numbers.unverified')}</Text> : null}
