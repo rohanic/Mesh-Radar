@@ -4,6 +4,9 @@ on:
   pull_request:
   push:
     branches: [main, 'claude/**']
+  # The Android build runs only when started by hand (Actions tab, Run workflow); day-to-day
+  # builds happen on a developer laptop (docs/build-android.md).
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -64,17 +67,16 @@ jobs:
           distribution: temurin
           java-version: 21
       - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.14.3'
       - name: Core tests (protocol, crypto, routing, engine, 500-phone simulator)
         working-directory: modules/mesh-engine/core
-        run: gradle test --no-daemon
+        run: ./gradlew test --no-daemon
       - name: Simulator report
         if: always()
         run: cat modules/mesh-engine/core/build/simulator-report.txt || true
 
   android:
     name: Android debug build
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:

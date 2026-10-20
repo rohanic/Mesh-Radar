@@ -19,7 +19,7 @@
     "packs:validate": "tsx scripts/packs.ts validate",
     "packs:build": "tsx scripts/packs.ts build",
     "packs:publish": "tsx scripts/packs.ts publish",
-    "core:test": "cd modules/mesh-engine/core && gradle test --no-daemon",
+    "core:test": "tsx scripts/core-test.ts",
     "worker:check": "npm --prefix worker run check",
     "eas-build-post-install": "tsx scripts/check-release.ts --if-gated"
   },

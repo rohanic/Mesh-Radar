@@ -24,14 +24,14 @@ Rules for any coding agent working on Mesh Radar. The product source of truth is
 | Lint | `npm run lint` |
 | Unit tests (TS engines, UI) | `npm test` |
 | Engine coverage | `npm run test:coverage` |
-| Kotlin mesh core + 500-phone simulator (JDK 21, Gradle 8) | `npm run core:test` |
+| Kotlin mesh core + 500-phone simulator (JDK 21, Gradle wrapper) | `npm run core:test` |
 | Copy rules (no emojis, no em dashes) | `npm run check:copy` |
 | Every language has every key | `npm run check:i18n` |
 | No secrets in client code | `npm run check:secrets` |
 | Event packs: validate / build (under 2 MB, signed) | `npm run packs:validate` / `npm run packs:build` |
 | Release gate (numbers and translations verified) | `npm run check:release` |
 | Worker typecheck | `npm run worker:check` |
-| Dev build on a device | `npx expo run:android` |
+| Dev build on a device (see docs/build-android.md) | `npx expo run:android` |
 
 ## Layout
 

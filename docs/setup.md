@@ -4,12 +4,12 @@ How to run Mesh Radar locally, deploy the Worker, set up Play Console products a
 
 ## 1. Local development
 
-Requirements: Node 22, JDK 21, Android Studio with SDK 37, a phone with Android 8.0 or later (two phones to test the mesh). Gradle 8 for the Kotlin core tests.
+Requirements: Node 22, JDK 21, Android Studio with SDK 37, a phone with Android 8.0 or later (two phones to test the mesh). The full step-by-step laptop guide, including release builds, is [build-android.md](build-android.md).
 
 ```sh
 npm ci
 npm run typecheck && npm run lint && npm test
-npm run core:test             # Kotlin core and the 500-phone simulator (JDK 21)
+npm run core:test             # Kotlin core and the 500-phone simulator (JDK 21; Gradle comes from the wrapper)
 npx expo run:android          # builds the native module and installs a dev build
 ```
 
