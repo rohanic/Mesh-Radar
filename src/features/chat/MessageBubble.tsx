@@ -5,6 +5,8 @@ import { useTheme } from '@/core/theme/ThemeProvider';
 import { radius, space } from '@/core/theme/tokens';
 import { useFormat } from '@/i18n/format';
 import type { Member, Message, Pin } from 'mesh-engine';
+import { hasVoiceClip, playVoiceClip } from '@/features/sound/voiceClips';
+import { useSettings } from '@/state/settings';
 import { Text } from '@/ui/components';
 import { Icon } from '@/ui/icons/Icon';
 
@@ -29,6 +31,7 @@ export function MessageBubble({
   const { t } = useTranslation();
   const theme = useTheme();
   const f = useFormat();
+  const lang = useSettings((s) => s.language);
   const mine = m.outgoing;
   const pin = m.refId ? pins.find((p) => p.id === m.refId) : undefined;
   let body = m.text;
@@ -78,6 +81,17 @@ export function MessageBubble({
           <Text weight={m.kind === 'quick' ? 'bold' : 'regular'} style={{ color: mine ? theme.colors.onPrimary : theme.colors.text }}>
             {body}
           </Text>
+        ) : null}
+        {m.kind === 'quick' && hasVoiceClip(lang, m.quickCode) ? (
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => playVoiceClip(lang, m.quickCode)}
+            style={{ flexDirection: 'row', alignItems: 'center', gap: space.xs, minHeight: 44 }}>
+            <Icon name="volume-2" size={18} color={mine ? theme.colors.onPrimary : theme.colors.primary} />
+            <Text variant="bodySmall" weight="bold" style={{ color: mine ? theme.colors.onPrimary : theme.colors.primary }}>
+              {t('chat.playVoice')}
+            </Text>
+          </Pressable>
         ) : null}
         {(m.lat != null && m.lon != null) || pin ? (
           <Pressable

@@ -92,6 +92,7 @@ import TrophyIcon from 'lucide-react-native/icons/trophy';
 import UserIcon from 'lucide-react-native/icons/user';
 import UsersIcon from 'lucide-react-native/icons/users';
 import WallpaperIcon from 'lucide-react-native/icons/wallpaper';
+import Volume2Icon from 'lucide-react-native/icons/volume-2';
 import WavesIcon from 'lucide-react-native/icons/waves-horizontal';
 import WifiIcon from 'lucide-react-native/icons/wifi';
 import XIcon from 'lucide-react-native/icons/x';
@@ -189,6 +190,7 @@ export const ICONS = {
   'trophy': TrophyIcon,
   'user': UserIcon,
   'users': UsersIcon,
+  'volume-2': Volume2Icon,
   'wallpaper': WallpaperIcon,
   'waves': WavesIcon,
   'wifi': WifiIcon,
