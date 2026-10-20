@@ -26,7 +26,10 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm run lint
-      - run: npm test -- --ci --passWithNoTests
+      - run: npm run check:copy
+      - run: npm run check:i18n
+      - run: npm run check:secrets
+      - run: npm run test:coverage -- --ci
 
   core:
     name: Kotlin mesh core and simulator
@@ -53,6 +56,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # Native builds (Skia, Reanimated, Worklets) need more disk than a stock runner has free.
+      - name: Free disk space
+        run: sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/local/share/boost "$AGENT_TOOLSDIRECTORY/CodeQL" && df -h /
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
@@ -68,7 +74,8 @@ jobs:
         run: npx expo prebuild --platform android --no-install
       - name: Assemble debug APK
         working-directory: android
-        run: ./gradlew assembleDebug --no-daemon --stacktrace
+        # One ABI keeps the check build inside the runner's memory; release bundles build all four on EAS.
+        run: ./gradlew assembleDebug --no-daemon --stacktrace -PreactNativeArchitectures=arm64-v8a
       - uses: actions/upload-artifact@v4
         with:
           name: mesh-radar-debug-apk
