@@ -118,6 +118,8 @@ export interface MeshEngineApi {
   reportCrowd(opts: { eventId: string; kind: CrowdKind; label: string; lat: number; lon: number; organiserCert?: string }): Promise<string>;
   crowdAlerts(eventId: string): Promise<CrowdAlert[]>;
   eventPublicKey(eventId: string): Promise<string>;
+  /** Ed25519 signature (base64) of a UTF-8 message with the per-event pseudonymous key. */
+  signForEvent(eventId: string, message: string): Promise<string>;
   sharePack(groupId: string, packId: string, json: string): Promise<void>;
 
   importLicence(token: string): Promise<LicenceInfo>;

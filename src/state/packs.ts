@@ -15,10 +15,12 @@ export interface PacksState {
   eventDay: boolean;
   /** G7: event communities the person opted into. */
   communities: string[];
+  /** G7: community authors (per-event keys) this person hid on their own phone. */
+  blockedAuthors: string[];
   install: (p: EventPack) => void;
   remove: (id: string) => void;
   toggleItem: (packId: string, index: number) => void;
-  set: (patch: Partial<Pick<PacksState, 'activeEventId' | 'activeCountry' | 'eventDay' | 'communities'>>) => void;
+  set: (patch: Partial<Pick<PacksState, 'activeEventId' | 'activeCountry' | 'eventDay' | 'communities' | 'blockedAuthors'>>) => void;
   reset: () => void;
 }
 
@@ -31,6 +33,7 @@ export const usePacks = create<PacksState>()(
       activeCountry: null,
       eventDay: false,
       communities: [],
+      blockedAuthors: [],
       install: (p) => set((s) => ({ installed: { ...s.installed, [p.id]: p } })),
       remove: (id) =>
         set((s) => {
@@ -44,7 +47,7 @@ export const usePacks = create<PacksState>()(
           return { checklist: { ...s.checklist, [packId]: cur.includes(index) ? cur.filter((i) => i !== index) : [...cur, index] } };
         }),
       set: (patch) => set(patch),
-      reset: () => set({ installed: {}, checklist: {}, activeEventId: null, activeCountry: null, eventDay: false, communities: [] }),
+      reset: () => set({ installed: {}, checklist: {}, activeEventId: null, activeCountry: null, eventDay: false, communities: [], blockedAuthors: [] }),
     }),
     { name: 'packs', storage: kvStorage, version: 1 },
   ),

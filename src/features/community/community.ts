@@ -1,10 +1,13 @@
+import { COMMUNITY, postSigningMessage, reportSigningMessage } from '@/core/engine/community';
 import { extra } from '@/features/engine/config';
+import { MeshEngine } from 'mesh-engine';
 
-// Event communities (G7, DEC-003): opt-in public pages per event, online only, served by the
-// Worker. Posts are short text; authors are per-event pseudonyms; three reports hide a post.
+// Event communities (G7, DEC-036): opt-in public pages per event, online only, served by the
+// Worker. Authors are per-event pseudonymous keys; posts and reports are signed with them.
 
 export interface CommunityPost {
   id: string;
+  /** Author's per-event public key (hex). */
   author: string;
   text: string;
   city: string;
@@ -14,6 +17,8 @@ export interface CommunityPost {
 function base(): string | null {
   return extra.apiBaseUrl ? extra.apiBaseUrl.replace(/\/$/, '') : null;
 }
+
+const nowSec = () => Math.floor(Date.now() / 1000);
 
 export async function fetchPosts(eventId: string): Promise<CommunityPost[] | null> {
   const b = base();
@@ -28,14 +33,17 @@ export async function fetchPosts(eventId: string): Promise<CommunityPost[] | nul
   }
 }
 
-export async function createPost(eventId: string, author: string, text: string, city: string): Promise<boolean> {
+export async function createPost(eventId: string, text: string, city: string): Promise<boolean> {
   const b = base();
   if (!b) return false;
   try {
+    const pk = await MeshEngine.eventPublicKey(eventId);
+    const post = { eventId, pk, city: city.slice(0, COMMUNITY.cityChars), text: text.slice(0, COMMUNITY.textChars), ts: nowSec() };
+    const sig = await MeshEngine.signForEvent(eventId, postSigningMessage(post));
     const r = await fetch(`${b}/v1/community/${encodeURIComponent(eventId)}/posts`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ author, text: text.slice(0, 500), city: city.slice(0, 60) }),
+      body: JSON.stringify({ pk, city: post.city, text: post.text, ts: post.ts, sig }),
     });
     return r.ok;
   } catch {
@@ -43,14 +51,17 @@ export async function createPost(eventId: string, author: string, text: string, 
   }
 }
 
-export async function reportPost(eventId: string, postId: string, reporter: string): Promise<boolean> {
+export async function reportPost(eventId: string, postId: string): Promise<boolean> {
   const b = base();
   if (!b) return false;
   try {
+    const pk = await MeshEngine.eventPublicKey(eventId);
+    const ts = nowSec();
+    const sig = await MeshEngine.signForEvent(eventId, reportSigningMessage({ eventId, pk, postId, ts }));
     const r = await fetch(`${b}/v1/community/${encodeURIComponent(eventId)}/report`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ postId, reporter }),
+      body: JSON.stringify({ pk, postId, ts, sig }),
     });
     return r.ok;
   } catch {

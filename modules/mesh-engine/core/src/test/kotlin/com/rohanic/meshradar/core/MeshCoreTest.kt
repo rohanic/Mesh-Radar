@@ -11,6 +11,7 @@ import com.rohanic.meshradar.core.protocol.CrumbReason
 import com.rohanic.meshradar.core.protocol.ResolveReason
 import com.rohanic.meshradar.core.protocol.Role
 import com.rohanic.meshradar.core.protocol.SosKind
+import com.rohanic.meshradar.core.protocol.hexToBytes
 import com.rohanic.meshradar.core.protocol.toHex
 import org.json.JSONObject
 import java.util.Base64
@@ -444,5 +445,15 @@ class MeshCoreTest {
         val a = net.add("a")
         assertEquals(16, a.core.myId.length)
         assertFalse(a.core.myId == ByteArray(8).toHex())
+    }
+
+    @Test
+    fun `event community signatures verify with the event key only`() {
+        val net = TestNet()
+        val a = net.add("a")
+        val msg = "post:hajj:Meet at Gate 79".toByteArray()
+        val sig = a.core.signForEvent("hajj", msg)
+        assertTrue(Sodium.crypto.verify(sig, msg, hexToBytes(a.core.eventPublicKey("hajj"))))
+        assertFalse(Sodium.crypto.verify(sig, msg, hexToBytes(a.core.eventPublicKey("umrah"))))
     }
 }

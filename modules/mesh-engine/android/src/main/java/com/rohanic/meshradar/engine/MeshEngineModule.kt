@@ -291,6 +291,10 @@ class MeshEngineModule : Module() {
 
         AsyncFunction("eventPublicKey") { eventId: String -> Engine.core.eventPublicKey(eventId) }
 
+        AsyncFunction("signForEvent") { eventId: String, message: String ->
+            Base64.getEncoder().encodeToString(Engine.core.signForEvent(eventId, message.toByteArray(Charsets.UTF_8)))
+        }
+
         AsyncFunction("sharePack") { groupId: String, packId: String, json: String -> guard { Engine.core.sharePack(groupId, packId, json) } }
 
         // ------------------------------------------------------------ licences (section 10)

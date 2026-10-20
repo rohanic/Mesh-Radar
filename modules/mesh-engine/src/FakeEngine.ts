@@ -390,6 +390,9 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
     async eventPublicKey() {
       return hex(64);
     },
+    async signForEvent() {
+      return '';
+    },
     async sharePack() {},
     async importLicence() {
       throw Object.assign(new Error('bad_licence'), { code: 'bad_licence' });

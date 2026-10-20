@@ -2,11 +2,11 @@ import { useCallback, useState } from 'react';
 import { useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
+import { COMMUNITY, postProblem } from '@/core/engine/community';
 import { text } from '@/core/packs/schema';
 import { createPost, fetchPosts, reportPost, type CommunityPost } from '@/features/community/community';
 import { bundledPacks } from '@/features/packs/packs';
 import { useFormat } from '@/i18n/format';
-import { MeshEngine } from 'mesh-engine';
 import { usePacks } from '@/state/packs';
 import { useSettings } from '@/state/settings';
 import { Button, Card, Chip, Field, Header, Notice, Row, Screen, Text } from '@/ui/components';
@@ -22,7 +22,9 @@ export default function Community() {
   const communities = usePacks((s) => s.communities);
   const pack = usePacks((s) => s.installed[id]) ?? bundledPacks().find((p) => p.id === id);
   const [posts, setPosts] = useState<CommunityPost[] | null>(null);
-  const [hidden, setHidden] = useState<string[]>([]);
+  const blocked = usePacks((s) => s.blockedAuthors);
+  const [reported, setReported] = useState<string[]>([]);
+  const [error, setError] = useState<string | null>(null);
   const [draft, setDraft] = useState('');
   const [city, setCity] = useState('');
 
@@ -44,22 +46,23 @@ export default function Community() {
         <>
           {posts === null ? <Notice tone="warning" text={t('community.offline')} /> : null}
           <Card>
-            <Field label={t('community.city')} value={city} onChangeText={setCity} maxLength={60} />
-            <Field label={t('community.post')} placeholder={t('community.placeholder')} value={draft} onChangeText={setDraft} multiline maxLength={500} />
+            <Field label={t('community.city')} value={city} onChangeText={setCity} maxLength={COMMUNITY.cityChars} />
+            <Field label={t('community.post')} placeholder={t('community.placeholder')} value={draft} onChangeText={setDraft} multiline maxLength={COMMUNITY.textChars} />
+            {error ? <Notice tone="warning" text={error} /> : null}
             <Button
               label={t('community.post')}
-              disabled={!draft.trim()}
+              disabled={postProblem(draft, city) !== null}
               onPress={async () => {
-                const author = (await MeshEngine.eventPublicKey(id)).slice(0, 16);
-                if (await createPost(id, author, draft.trim(), city.trim())) {
+                setError(null);
+                if (await createPost(id, draft.trim(), city.trim())) {
                   setDraft('');
                   await load();
-                }
+                } else setError(t('community.failed'));
               }}
             />
           </Card>
           {(posts ?? [])
-            .filter((p) => !hidden.includes(p.author))
+            .filter((p) => !blocked.includes(p.author) && !reported.includes(p.id))
             .map((p) => (
               <Card key={p.id}>
                 <Text>{p.text}</Text>
@@ -70,12 +73,11 @@ export default function Community() {
                   <Chip
                     label={t('community.report')}
                     onPress={async () => {
-                      const me = (await MeshEngine.eventPublicKey(id)).slice(0, 16);
-                      await reportPost(id, p.id, me);
-                      setHidden((h) => [...h, p.author]);
+                      await reportPost(id, p.id);
+                      setReported((r) => [...r, p.id]);
                     }}
                   />
-                  <Chip label={t('community.block')} onPress={() => setHidden((h) => [...h, p.author])} />
+                  <Chip label={t('community.block')} onPress={() => set({ blockedAuthors: [...blocked, p.author] })} />
                 </Row>
               </Card>
             ))}

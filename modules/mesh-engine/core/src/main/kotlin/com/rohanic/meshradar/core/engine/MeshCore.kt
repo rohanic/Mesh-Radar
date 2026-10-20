@@ -1534,6 +1534,10 @@ class MeshCore(
     @Synchronized
     fun eventPublicKey(eventId: String): String = pseudonym("event:$eventId").first.hex()
 
+    /** Signs an online event-community payload with the same per-event pseudonym (G7, DEC-036). */
+    @Synchronized
+    fun signForEvent(eventId: String, message: ByteArray): ByteArray = crypto.sign(message, pseudonym("event:$eventId").second)
+
     @Synchronized
     fun postEvent(eventId: String, text: String): Map<String, Any?> {
         if (text.isBlank() || text.codePointCount(0, text.length) > Limits.EVENT_TEXT_CHARS) throw MeshException("text_too_long")
