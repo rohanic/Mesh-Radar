@@ -22,17 +22,38 @@
     "tr"
   ],
   "title": {
-    "en": "Hajj"
+    "en": "Hajj",
+    "ur": "حج",
+    "ar": "الحج",
+    "hi": "हज",
+    "bn": "হজ",
+    "id": "Haji",
+    "ms": "Haji",
+    "tr": "Hac"
   },
   "summary": {
-    "en": "Mina, Arafat and Muzdalifah with millions of pilgrims. Agree on your camp and meeting points before each move."
+    "en": "Mina, Arafat and Muzdalifah with millions of pilgrims. Agree on your camp and meeting points before each move.",
+    "ur": "منیٰ، عرفات اور مزدلفہ، لاکھوں حاجیوں کے ساتھ۔ ہر بار جگہ بدلنے سے پہلے اپنا کیمپ اور ملنے کی جگہیں طے کر لیں۔",
+    "ar": "منى وعرفات ومزدلفة مع ملايين الحجاج. اتفقوا على المخيم ونقاط التجمع قبل كل تنقّل.",
+    "hi": "लाखों हाजियों के साथ मिना, अराफ़ात और मुज़दलिफ़ा। हर बार एक जगह से दूसरी जगह जाने से पहले अपना कैंप और मिलने की जगहें तय कर लें।",
+    "bn": "লাখ লাখ হাজির ভিড়ে মিনা, আরাফাত আর মুজদালিফা। প্রতিবার অন্য জায়গায় যাওয়ার আগে আপনার ক্যাম্প আর দেখা করার জায়গা ঠিক করে নিন।",
+    "id": "Mina, Arafah dan Muzdalifah dipadati jutaan jemaah. Sepakati kemah dan titik kumpul Anda sebelum setiap kali berpindah.",
+    "ms": "Mina, Arafah dan Muzdalifah dipenuhi berjuta-juta jemaah. Tetapkan kem dan tempat pertemuan anda sebelum setiap kali berpindah.",
+    "tr": "Milyonlarca hacıyla birlikte Mina, Arafat ve Müzdelife. Her yer değiştirmeden önce kampınızda ve buluşma noktalarında anlaşın."
   },
   "dates": [
     {
       "start": "2027-05-14",
       "end": "2027-05-19",
       "label": {
-        "en": "Hajj 1448 (8 to 13 Dhu al-Hijjah)"
+        "en": "Hajj 1448 (8 to 13 Dhu al-Hijjah)",
+        "ur": "حج 1448 (8 سے 13 ذوالحجہ)",
+        "ar": "حج 1448 (من 8 إلى 13 ذي الحجة)",
+        "hi": "हज 1448 (8 से 13 ज़ुल-हिज्जा)",
+        "bn": "হজ 1448 (8 থেকে 13 জিলহজ)",
+        "id": "Haji 1448 (8 sampai 13 Zulhijah)",
+        "ms": "Haji 1448 (8 hingga 13 Zulhijah)",
+        "tr": "Hac 1448 (8 ile 13 Zilhicce arası)"
       },
       "approx": true
     },
@@ -40,7 +61,14 @@
       "start": "2028-05-03",
       "end": "2028-05-08",
       "label": {
-        "en": "Hajj 1449 (8 to 13 Dhu al-Hijjah)"
+        "en": "Hajj 1449 (8 to 13 Dhu al-Hijjah)",
+        "ur": "حج 1449 (8 سے 13 ذوالحجہ)",
+        "ar": "حج 1449 (من 8 إلى 13 ذي الحجة)",
+        "hi": "हज 1449 (8 से 13 ज़ुल-हिज्जा)",
+        "bn": "হজ 1449 (8 থেকে 13 জিলহজ)",
+        "id": "Haji 1449 (8 sampai 13 Zulhijah)",
+        "ms": "Haji 1449 (8 hingga 13 Zulhijah)",
+        "tr": "Hac 1449 (8 ile 13 Zilhicce arası)"
       },
       "approx": true
     }
@@ -48,112 +76,308 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "Your camp in Mina"
+        "en": "Your camp in Mina",
+        "ur": "منیٰ میں آپ کا کیمپ",
+        "ar": "مخيمك في منى",
+        "hi": "मिना में आपका कैंप",
+        "bn": "মিনায় আপনার ক্যাম্প",
+        "id": "Kemah Anda di Mina",
+        "ms": "Kem anda di Mina",
+        "tr": "Mina'daki kampınız"
       },
       "detail": {
-        "en": "Learn your camp number, its gate and a nearby landmark. Save the camp as a meeting point in the app before you leave it. Roads and camps in Mina look very alike."
+        "en": "Learn your camp number, its gate and a nearby landmark. Save the camp as a meeting point in the app before you leave it. Roads and camps in Mina look very alike.",
+        "ur": "اپنا کیمپ نمبر، اس کا گیٹ اور قریب کی کوئی نشانی یاد کر لیں۔ کیمپ سے نکلنے سے پہلے اسے ایپ میں ملنے کی جگہ کے طور پر محفوظ کر لیں۔ منیٰ کی سڑکیں اور کیمپ بہت ملتے جلتے ہیں۔",
+        "ar": "اعرف رقم مخيمك وبوابته ومعلمًا قريبًا منه. واحفظ المخيم كنقطة تجمع في التطبيق قبل أن تغادره. فالطرق والمخيمات في منى متشابهة جدًا.",
+        "hi": "अपना कैंप नंबर, उसका गेट और पास की कोई पहचान की जगह याद कर लें। कैंप से निकलने से पहले उसे ऐप में मिलने की जगह के तौर पर सेव कर लें। मिना में सड़कें और कैंप बिल्कुल एक जैसे दिखते हैं।",
+        "bn": "আপনার ক্যাম্প নম্বর, তার গেট আর কাছের চেনার মতো একটি জায়গা জেনে নিন। ক্যাম্প থেকে বের হওয়ার আগে অ্যাপে সেটি দেখা করার জায়গা হিসেবে সেভ করুন। মিনার রাস্তা আর ক্যাম্পগুলো দেখতে প্রায় একই রকম।",
+        "id": "Hafalkan nomor kemah Anda, gerbangnya dan patokan di dekatnya. Simpan kemah sebagai titik kumpul di aplikasi sebelum meninggalkannya. Jalan dan kemah di Mina terlihat sangat mirip.",
+        "ms": "Hafal nombor kem anda, pintunya dan mercu tanda berdekatan. Simpan kem sebagai tempat pertemuan dalam aplikasi sebelum anda meninggalkannya. Jalan dan kem di Mina kelihatan sangat serupa.",
+        "tr": "Kamp numaranızı, kampın kapısını ve yakındaki belirgin bir noktayı öğrenin. Kamptan ayrılmadan önce kampı uygulamada buluşma noktası olarak kaydedin. Mina'daki yollar ve kamplar birbirine çok benzer."
       }
     },
     {
       "name": {
-        "en": "A numbered gate of the Grand Mosque"
+        "en": "A numbered gate of the Grand Mosque",
+        "ur": "مسجد الحرام کا کوئی نمبر والا گیٹ",
+        "ar": "باب مرقّم في المسجد الحرام",
+        "hi": "मस्जिद अल-हराम का कोई नंबर वाला गेट",
+        "bn": "মসজিদুল হারামের একটি নম্বর দেওয়া গেট",
+        "id": "Pintu bernomor di Masjidil Haram",
+        "ms": "Pintu bernombor Masjidil Haram",
+        "tr": "Mescid-i Haram'ın numaralı bir kapısı"
       },
       "detail": {
-        "en": "Every gate has a number, for example King Abdulaziz Gate 1 and King Fahd Gate 79. Agree on one gate number with your group."
+        "en": "Every gate has a number, for example King Abdulaziz Gate 1 and King Fahd Gate 79. Agree on one gate number with your group.",
+        "ur": "ہر گیٹ کا ایک نمبر ہے، مثلاً شاہ عبدالعزیز گیٹ 1 اور شاہ فہد گیٹ 79۔ اپنے گروپ کے ساتھ ایک گیٹ نمبر طے کر لیں۔",
+        "ar": "لكل باب رقم، مثل باب الملك عبد العزيز رقم 1 وباب الملك فهد رقم 79. اتفق مع مجموعتك على رقم باب واحد.",
+        "hi": "हर गेट का एक नंबर है, जैसे किंग अब्दुलअज़ीज़ गेट 1 और किंग फ़हद गेट 79। अपने ग्रुप के साथ एक गेट नंबर तय कर लें।",
+        "bn": "প্রতিটি গেটের একটি নম্বর আছে, যেমন বাদশাহ আবদুল আজিজ গেট 1 আর বাদশাহ ফাহাদ গেট 79। গ্রুপের সাথে একটি গেট নম্বর ঠিক করে নিন।",
+        "id": "Setiap pintu punya nomor, misalnya Pintu King Abdulaziz nomor 1 dan Pintu King Fahd nomor 79. Sepakati satu nomor pintu dengan grup Anda.",
+        "ms": "Setiap pintu ada nombor, contohnya Pintu King Abdulaziz nombor 1 dan Pintu King Fahd nombor 79. Tetapkan satu nombor pintu bersama kumpulan anda.",
+        "tr": "Her kapının bir numarası vardır, örneğin 1 numaralı Kral Abdülaziz Kapısı ve 79 numaralı Kral Fahd Kapısı. Grubunuzla tek bir kapı numarasında anlaşın."
       }
     },
     {
       "name": {
-        "en": "Your Mashaer metro station"
+        "en": "Your Mashaer metro station",
+        "ur": "آپ کا مشاعر میٹرو اسٹیشن",
+        "ar": "محطتك في قطار المشاعر",
+        "hi": "आपका मशाएर मेट्रो स्टेशन",
+        "bn": "আপনার মাশায়ের মেট্রো স্টেশন",
+        "id": "Stasiun kereta Masyair Anda",
+        "ms": "Stesen tren Masyair anda",
+        "tr": "Meşair metrosundaki istasyonunuz"
       },
       "detail": {
-        "en": "If your group uses the metro, agree on the station you will meet at. There are three stations each in Arafat, Muzdalifah and Mina."
+        "en": "If your group uses the metro, agree on the station you will meet at. There are three stations each in Arafat, Muzdalifah and Mina.",
+        "ur": "اگر آپ کا گروپ میٹرو استعمال کرتا ہے تو وہ اسٹیشن طے کر لیں جہاں آپ ملیں گے۔ عرفات، مزدلفہ اور منیٰ میں تین تین اسٹیشن ہیں۔",
+        "ar": "إذا كانت مجموعتك تستخدم القطار، فاتفقوا على المحطة التي ستلتقون فيها. توجد ثلاث محطات في كل من عرفات ومزدلفة ومنى.",
+        "hi": "अगर आपका ग्रुप मेट्रो से जाता है, तो तय कर लें कि किस स्टेशन पर मिलेंगे। अराफ़ात, मुज़दलिफ़ा और मिना, हर एक में तीन स्टेशन हैं।",
+        "bn": "আপনার গ্রুপ মেট্রোতে চড়লে কোন স্টেশনে দেখা করবেন তা ঠিক করে নিন। আরাফাত, মুজদালিফা আর মিনায় তিনটি করে স্টেশন আছে।",
+        "id": "Jika grup Anda naik kereta, sepakati stasiun tempat bertemu. Arafah, Muzdalifah dan Mina masing-masing punya tiga stasiun.",
+        "ms": "Jika kumpulan anda menaiki tren, tetapkan stesen tempat anda akan berjumpa. Arafah, Muzdalifah dan Mina masing-masing ada tiga stesen.",
+        "tr": "Grubunuz metroyu kullanıyorsa buluşacağınız istasyonda anlaşın. Arafat, Müzdelife ve Mina'nın her birinde üç istasyon vardır."
       }
     },
     {
       "name": {
-        "en": "Your hotel lobby in Makkah"
+        "en": "Your hotel lobby in Makkah",
+        "ur": "مکہ میں آپ کے ہوٹل کی لابی",
+        "ar": "بهو فندقك في مكة المكرمة",
+        "hi": "मक्का में आपके होटल की लॉबी",
+        "bn": "মক্কায় আপনার হোটেলের লবি",
+        "id": "Lobi hotel Anda di Makkah",
+        "ms": "Lobi hotel anda di Makkah",
+        "tr": "Mekke'deki otelinizin lobisi"
       },
       "detail": {
-        "en": "A fixed place everyone can reach on their own if the group is split for hours."
+        "en": "A fixed place everyone can reach on their own if the group is split for hours.",
+        "ur": "ایک طے شدہ جگہ جہاں ہر کوئی خود پہنچ سکے، اگر گروپ گھنٹوں کے لیے بچھڑ جائے۔",
+        "ar": "مكان ثابت يستطيع كل فرد الوصول إليه بمفرده إذا تفرقت المجموعة لساعات.",
+        "hi": "एक पक्की जगह, जहाँ अगर ग्रुप घंटों के लिए बिछड़ जाए, तो हर कोई खुद पहुँच सके।",
+        "bn": "গ্রুপ কয়েক ঘণ্টা আলাদা থাকলে সবাই নিজে নিজে পৌঁছাতে পারে এমন একটি নির্দিষ্ট জায়গা।",
+        "id": "Tempat tetap yang bisa didatangi setiap orang sendiri jika grup terpisah berjam-jam.",
+        "ms": "Tempat tetap yang boleh dituju oleh setiap orang sendiri jika kumpulan terpisah berjam-jam.",
+        "tr": "Grup saatlerce dağılırsa herkesin tek başına ulaşabileceği sabit bir yer."
       }
     }
   ],
   "dos": [
     {
-      "en": "Keep your camp number and group leader details with you on paper as well as on your phone."
+      "en": "Keep your camp number and group leader details with you on paper as well as on your phone.",
+      "ur": "اپنا کیمپ نمبر اور گروپ لیڈر کی تفصیل فون کے ساتھ ساتھ کاغذ پر بھی اپنے پاس رکھیں۔",
+      "ar": "احمل رقم مخيمك وبيانات قائد المجموعة مكتوبة على ورقة، وكذلك على هاتفك.",
+      "hi": "अपना कैंप नंबर और ग्रुप लीडर की जानकारी फोन के साथ-साथ कागज पर भी अपने पास रखें।",
+      "bn": "ক্যাম্প নম্বর আর দলনেতার তথ্য ফোনের পাশাপাশি কাগজে লিখেও সাথে রাখুন।",
+      "id": "Simpan nomor kemah dan data ketua grup di kertas, juga di ponsel Anda.",
+      "ms": "Simpan nombor kem dan butiran ketua kumpulan di atas kertas dan juga dalam telefon anda.",
+      "tr": "Kamp numaranızı ve grup liderinin bilgilerini telefonunuzun yanı sıra kâğıt üzerinde de yanınızda taşıyın."
     },
     {
-      "en": "Set a meeting point in the app before every move: Mina, Arafat, Muzdalifah, Jamarat."
+      "en": "Set a meeting point in the app before every move: Mina, Arafat, Muzdalifah, Jamarat.",
+      "ur": "ہر بار جگہ بدلنے سے پہلے ایپ میں ملنے کی جگہ طے کریں: منیٰ، عرفات، مزدلفہ، جمرات۔",
+      "ar": "حدّد نقطة تجمع في التطبيق قبل كل تنقّل: منى، عرفات، مزدلفة، الجمرات.",
+      "hi": "हर बार एक जगह से दूसरी जगह जाने से पहले ऐप में मिलने की जगह तय करें: मिना, अराफ़ात, मुज़दलिफ़ा, जमरात।",
+      "bn": "প্রতিবার অন্য জায়গায় যাওয়ার আগে অ্যাপে দেখা করার জায়গা ঠিক করুন: মিনা, আরাফাত, মুজদালিফা, জামারাত।",
+      "id": "Tentukan titik kumpul di aplikasi sebelum setiap kali berpindah: Mina, Arafah, Muzdalifah, Jamarat.",
+      "ms": "Tetapkan tempat pertemuan dalam aplikasi sebelum setiap kali berpindah: Mina, Arafah, Muzdalifah, Jamarat.",
+      "tr": "Her yer değiştirmeden önce uygulamada bir buluşma noktası belirleyin: Mina, Arafat, Müzdelife, Cemerat."
     },
     {
-      "en": "Drink water often and rest in the shade in the hottest hours."
+      "en": "Drink water often and rest in the shade in the hottest hours.",
+      "ur": "بار بار پانی پئیں اور سب سے گرم گھنٹوں میں سائے میں آرام کریں۔",
+      "ar": "اشرب الماء باستمرار، واسترح في الظل في أشد ساعات الحر.",
+      "hi": "बार-बार पानी पिएँ और सबसे ज्यादा गर्मी के समय छाँव में आराम करें।",
+      "bn": "বারবার পানি পান করুন, আর সবচেয়ে গরমের সময়ে ছায়ায় বিশ্রাম নিন।",
+      "id": "Sering minum air dan beristirahat di tempat teduh pada jam-jam paling panas.",
+      "ms": "Minum air dengan kerap dan berehat di tempat teduh pada waktu paling panas.",
+      "tr": "Sık sık su için ve en sıcak saatlerde gölgede dinlenin."
     },
     {
-      "en": "Keep your phone charged and switch Mesh Radar to Balanced mode on long days."
+      "en": "Keep your phone charged and switch Mesh Radar to Balanced mode on long days.",
+      "ur": "اپنا فون چارج رکھیں اور لمبے دنوں میں Mesh Radar کو متوازن موڈ پر کر دیں۔",
+      "ar": "أبقِ هاتفك مشحونًا، وحوّل Mesh Radar إلى وضع «متوازن» في الأيام الطويلة.",
+      "hi": "फोन चार्ज रखें और लंबे दिनों में Mesh Radar को संतुलित मोड पर कर दें।",
+      "bn": "ফোনে চার্জ রাখুন, আর লম্বা দিনে Mesh Radar ভারসাম্য মোডে রাখুন।",
+      "id": "Jaga baterai ponsel tetap terisi dan ganti Mesh Radar ke mode Seimbang pada hari-hari yang panjang.",
+      "ms": "Pastikan telefon sentiasa dicas dan tukar Mesh Radar ke mod Seimbang pada hari yang panjang.",
+      "tr": "Telefonunuzu şarjlı tutun ve uzun günlerde Mesh Radar'ı Dengeli moda alın."
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔",
+      "ar": "اعرف أماكن المخارج وطريقًا ثانيًا للخروج فور وصولك.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।",
+      "id": "Begitu tiba, cari pintu keluar dan jalan keluar kedua.",
+      "ms": "Sebaik sahaja tiba, cari pintu keluar dan laluan keluar kedua.",
+      "tr": "Varır varmaz çıkışları ve ikinci bir çıkış yolunu bulun."
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔",
+      "ar": "في الزحام الشديد، ارفع يديك قرب صدرك لتحمي تنفسك.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।",
+      "id": "Di kerumunan padat, angkat kedua tangan dan tahan di dekat dada agar Anda tetap bisa bernapas.",
+      "ms": "Dalam orang ramai yang sesak, angkat kedua-dua tangan dekat dada supaya anda masih boleh bernafas.",
+      "tr": "Yoğun kalabalıkta, nefes alabilmek için ellerinizi göğsünüzün önünde, yukarıda tutun."
     },
     {
-      "en": "Move with the flow and work your way diagonally toward the edge."
+      "en": "Move with the flow and work your way diagonally toward the edge.",
+      "ur": "ہجوم کے بہاؤ کے ساتھ چلیں اور ترچھا چلتے ہوئے آہستہ آہستہ کنارے کی طرف جائیں۔",
+      "ar": "تحرّك مع اتجاه الحشد، وتقدّم بشكل مائل شيئًا فشيئًا نحو الطرف.",
+      "hi": "भीड़ के बहाव के साथ चलें और तिरछी दिशा में धीरे-धीरे किनारे की ओर बढ़ें।",
+      "bn": "ভিড়ের স্রোতের সাথে চলুন, আর কোনাকুনি এগিয়ে ধীরে ধীরে কিনারার দিকে সরে যান।",
+      "id": "Ikuti arus kerumunan dan bergeraklah serong sedikit demi sedikit ke arah tepi.",
+      "ms": "Ikut arus orang ramai dan bergerak menyerong sedikit demi sedikit ke arah tepi.",
+      "tr": "Kalabalığın akışıyla birlikte ilerleyin ve çapraz giderek yavaş yavaş kenara doğru çıkın."
     }
   ],
   "donts": [
     {
-      "en": "Don't leave your group to take a shortcut through the crowd."
+      "en": "Don't leave your group to take a shortcut through the crowd.",
+      "ur": "ہجوم میں سے چھوٹا راستہ لینے کے لیے اپنا گروپ نہ چھوڑیں۔",
+      "ar": "لا تترك مجموعتك لتسلك طريقًا مختصرًا وسط الحشد.",
+      "hi": "भीड़ में से छोटा रास्ता लेने के लिए अपना ग्रुप न छोड़ें।",
+      "bn": "ভিড়ের মধ্যে দিয়ে শর্টকাট নিতে গ্রুপ ছেড়ে যাবেন না।",
+      "id": "Jangan memisahkan diri dari grup untuk mengambil jalan pintas menerobos kerumunan.",
+      "ms": "Jangan tinggalkan kumpulan untuk mengambil jalan pintas meredah orang ramai.",
+      "tr": "Kalabalığın içinden kestirmeden gitmek için grubunuzdan ayrılmayın."
     },
     {
-      "en": "Don't go to the Jamarat outside your group's scheduled time."
+      "en": "Don't go to the Jamarat outside your group's scheduled time.",
+      "ur": "جمرات پر اپنے گروپ کے مقررہ وقت کے علاوہ کسی اور وقت نہ جائیں۔",
+      "ar": "لا تذهب إلى الجمرات في غير الوقت المحدد لمجموعتك.",
+      "hi": "अपने ग्रुप के तय समय के अलावा किसी और समय जमरात न जाएँ।",
+      "bn": "আপনার গ্রুপের নির্ধারিত সময়ের বাইরে জামারাতে যাবেন না।",
+      "id": "Jangan pergi ke Jamarat di luar jadwal grup Anda.",
+      "ms": "Jangan pergi ke Jamarat di luar waktu yang dijadualkan untuk kumpulan anda.",
+      "tr": "Grubunuza ayrılan saatin dışında Cemerat'a gitmeyin."
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔",
+      "ar": "لا تدفع عكس اتجاه الحشد، ولا تتوقف أو تجلس وسطه.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।",
+      "id": "Jangan mendorong melawan arus kerumunan, dan jangan berhenti atau duduk di tengahnya.",
+      "ms": "Jangan menolak melawan arus orang ramai, dan jangan berhenti atau duduk di tengahnya.",
+      "tr": "Kalabalığın akışına karşı itmeyin, kalabalığın içinde durmayın ya da oturmayın."
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "ur": "جب ہجوم شدید ہو تو دیواروں، باڑ یا رکاوٹوں سے لگ کر کھڑے نہ ہوں۔",
+      "ar": "لا تقف ملاصقًا للجدران أو الأسوار أو الحواجز عندما يشتد الزحام.",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "bn": "ভিড় ঘন হলে দেয়াল, বেড়া বা ব্যারিকেডের গা ঘেঁষে দাঁড়াবেন না।",
+      "id": "Jangan berdiri menempel ke dinding, pagar atau barikade saat kerumunan padat.",
+      "ms": "Jangan berdiri rapat pada dinding, pagar atau penghadang apabila orang ramai sesak.",
+      "tr": "Kalabalık yoğunken duvarların, çitlerin veya bariyerlerin dibinde durmayın."
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "8 Dhu al-Hijjah, Day of Tarwiyah"
+        "en": "8 Dhu al-Hijjah, Day of Tarwiyah",
+        "ur": "8 ذوالحجہ، یومِ ترویہ",
+        "ar": "8 ذي الحجة، يوم التروية",
+        "hi": "8 ज़ुल-हिज्जा, तरविया का दिन",
+        "bn": "8 জিলহজ, তারবিয়ার দিন",
+        "id": "8 Zulhijah, Hari Tarwiyah",
+        "ms": "8 Zulhijah, Hari Tarwiyah",
+        "tr": "8 Zilhicce, Terviye günü"
       },
       "detail": {
-        "en": "Pilgrims enter ihram for Hajj and most spend the day and night in Mina."
+        "en": "Pilgrims enter ihram for Hajj and most spend the day and night in Mina.",
+        "ur": "حاجی حج کا احرام باندھتے ہیں اور زیادہ تر دن اور رات منیٰ میں گزارتے ہیں۔",
+        "ar": "يُحرم الحجاج بالحج، ويقضي معظمهم اليوم والليلة في منى.",
+        "hi": "हाजी हज के लिए एहराम बाँधते हैं और ज्यादातर लोग दिन और रात मिना में बिताते हैं।",
+        "bn": "হাজিরা হজের ইহরাম বাঁধেন, আর বেশিরভাগই দিন ও রাত মিনায় কাটান।",
+        "id": "Jemaah berihram untuk haji, dan sebagian besar menghabiskan siang dan malam di Mina.",
+        "ms": "Jemaah berihram untuk haji dan kebanyakannya berada di Mina sepanjang siang dan malam.",
+        "tr": "Hacılar hac için ihrama girer ve çoğu, günü ve geceyi Mina'da geçirir."
       }
     },
     {
       "title": {
-        "en": "9 Dhu al-Hijjah, Day of Arafah"
+        "en": "9 Dhu al-Hijjah, Day of Arafah",
+        "ur": "9 ذوالحجہ، یومِ عرفہ",
+        "ar": "9 ذي الحجة، يوم عرفة",
+        "hi": "9 ज़ुल-हिज्जा, अरफ़ा का दिन",
+        "bn": "9 জিলহজ, আরাফার দিন",
+        "id": "9 Zulhijah, Hari Arafah",
+        "ms": "9 Zulhijah, Hari Arafah",
+        "tr": "9 Zilhicce, Arefe günü"
       },
       "detail": {
-        "en": "Move from Mina to Arafat and stay until sunset, then go to Muzdalifah for the night."
+        "en": "Move from Mina to Arafat and stay until sunset, then go to Muzdalifah for the night.",
+        "ur": "منیٰ سے عرفات جائیں اور سورج ڈوبنے تک وہیں رہیں، پھر رات کے لیے مزدلفہ جائیں۔",
+        "ar": "انتقل من منى إلى عرفات وابقَ فيها حتى غروب الشمس، ثم توجه إلى مزدلفة للمبيت.",
+        "hi": "मिना से अराफ़ात जाएँ और सूरज डूबने तक वहीं रहें, फिर रात के लिए मुज़दलिफ़ा जाएँ।",
+        "bn": "মিনা থেকে আরাফাতে যান আর সূর্যাস্ত পর্যন্ত থাকুন, তারপর রাত কাটাতে মুজদালিফায় যান।",
+        "id": "Berangkat dari Mina ke Arafah dan tetap di sana sampai matahari terbenam, lalu ke Muzdalifah untuk bermalam.",
+        "ms": "Bergerak dari Mina ke Arafah dan berada di sana hingga matahari terbenam, kemudian ke Muzdalifah untuk bermalam.",
+        "tr": "Mina'dan Arafat'a geçin ve gün batımına kadar orada kalın, sonra geceyi geçirmek için Müzdelife'ye gidin."
       }
     },
     {
       "title": {
-        "en": "10 Dhu al-Hijjah, Day of Sacrifice"
+        "en": "10 Dhu al-Hijjah, Day of Sacrifice",
+        "ur": "10 ذوالحجہ، قربانی کا دن",
+        "ar": "10 ذي الحجة، يوم النحر",
+        "hi": "10 ज़ुल-हिज्जा, क़ुर्बानी का दिन",
+        "bn": "10 জিলহজ, কোরবানির দিন",
+        "id": "10 Zulhijah, Hari Nahar (Hari Kurban)",
+        "ms": "10 Zulhijah, Hari Nahar (Hari Korban)",
+        "tr": "10 Zilhicce, Kurban günü"
       },
       "detail": {
-        "en": "Stone Jamrat al-Aqabah, offer the sacrifice, shave or trim, and perform Tawaf al-Ifadah."
+        "en": "Stoning of Jamrat al-Aqabah, the sacrifice (in person or through a voucher), shaving or trimming, and Tawaf al-Ifadah.",
+        "ur": "جمرۂ عقبہ کی رمی، قربانی (خود یا کوپن کے ذریعے)، سر منڈوانا یا بال کٹوانا، اور طوافِ افاضہ۔",
+        "ar": "رمي جمرة العقبة، والهدي (بنفسك أو عبر صك الهدي)، والحلق أو التقصير، وطواف الإفاضة.",
+        "hi": "जमरत अल-अक़बा पर कंकड़ मारना, क़ुर्बानी (खुद या कूपन के ज़रिए), सिर मुँडवाना या बाल कटवाना, और तवाफ़ अल-इफ़ादा।",
+        "bn": "জামরাতুল আকাবায় কংকর নিক্ষেপ, কোরবানি (নিজে বা কুপনের মাধ্যমে), মাথা মুণ্ডন বা চুল ছোট করা, আর তাওয়াফে ইফাদা।",
+        "id": "Melontar Jumrah Aqabah, berkurban (sendiri atau lewat voucher), mencukur atau memendekkan rambut, dan tawaf ifadah.",
+        "ms": "Melontar Jamrah Aqabah, korban (sendiri atau melalui kupon), bercukur atau bergunting, dan tawaf ifadah.",
+        "tr": "Akabe cemresine taş atma, kurban (kendiniz ya da kupon ile), tıraş olma ya da saç kısaltma ve ziyaret (ifaza) tavafı."
       }
     },
     {
       "title": {
-        "en": "11 to 13 Dhu al-Hijjah, Days of Tashreeq"
+        "en": "11 to 13 Dhu al-Hijjah, Days of Tashreeq",
+        "ur": "11 سے 13 ذوالحجہ، ایامِ تشریق",
+        "ar": "من 11 إلى 13 ذي الحجة، أيام التشريق",
+        "hi": "11 से 13 ज़ुल-हिज्जा, तशरीक़ के दिन",
+        "bn": "11 থেকে 13 জিলহজ, আইয়ামে তাশরিক",
+        "id": "11 sampai 13 Zulhijah, Hari Tasyrik",
+        "ms": "11 hingga 13 Zulhijah, Hari Tasyrik",
+        "tr": "11 ile 13 Zilhicce arası, Teşrik günleri"
       },
       "detail": {
-        "en": "Stay in Mina and stone all three Jamarat each day."
+        "en": "Stay in Mina and stone all three Jamarat each day.",
+        "ur": "منیٰ میں رہیں اور ہر دن تینوں جمرات کو کنکریاں ماریں۔",
+        "ar": "ابقَ في منى وارمِ الجمرات الثلاث كل يوم.",
+        "hi": "मिना में रहें और हर दिन तीनों जमरात पर कंकड़ मारें।",
+        "bn": "মিনায় থাকুন আর প্রতিদিন তিনটি জামারাতেই কংকর নিক্ষেপ করুন।",
+        "id": "Tinggal di Mina dan melontar ketiga jumrah setiap hari.",
+        "ms": "Tinggal di Mina dan melontar ketiga-tiga jamrah setiap hari.",
+        "tr": "Mina'da kalın ve her gün üç cemrenin hepsine taş atın."
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "ar": "أنا تائه",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি",
+        "id": "Saya tersesat",
+        "ms": "Saya sesat",
+        "tr": "Kayboldum"
       },
       "phrase": "أنا تائه",
       "lang": "ar",
@@ -161,7 +385,14 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "ar": "ساعدني من فضلك",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন",
+        "id": "Tolong bantu saya",
+        "ms": "Tolong bantu saya",
+        "tr": "Lütfen bana yardım edin"
       },
       "phrase": "ساعدني من فضلك",
       "lang": "ar",
@@ -169,7 +400,14 @@
     },
     {
       "meaning": {
-        "en": "I need a doctor"
+        "en": "I need a doctor",
+        "ur": "مجھے ڈاکٹر چاہیے",
+        "ar": "أحتاج إلى طبيب",
+        "hi": "मुझे डॉक्टर चाहिए",
+        "bn": "আমার ডাক্তার দরকার",
+        "id": "Saya butuh dokter",
+        "ms": "Saya perlukan doktor",
+        "tr": "Doktora ihtiyacım var"
       },
       "phrase": "أحتاج إلى طبيب",
       "lang": "ar",
@@ -177,7 +415,14 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "ur": "ہسپتال کہاں ہے؟",
+        "ar": "أين المستشفى؟",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?",
+        "id": "Di mana rumah sakit?",
+        "ms": "Di mana hospital?",
+        "tr": "Hastane nerede?"
       },
       "phrase": "أين المستشفى؟",
       "lang": "ar",
@@ -185,7 +430,14 @@
     },
     {
       "meaning": {
-        "en": "Call an ambulance"
+        "en": "Call an ambulance",
+        "ur": "ایمبولینس بلائیں",
+        "ar": "اتصل بالإسعاف",
+        "hi": "एम्बुलेंस बुलाइए",
+        "bn": "অ্যাম্বুলেন্স ডাকুন",
+        "id": "Panggil ambulans",
+        "ms": "Panggil ambulans",
+        "tr": "Ambulans çağırın"
       },
       "phrase": "اتصل بالإسعاف",
       "lang": "ar",
@@ -193,7 +445,14 @@
     },
     {
       "meaning": {
-        "en": "I am looking for my family"
+        "en": "I am looking for my family",
+        "ur": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
+        "ar": "أبحث عن عائلتي",
+        "hi": "मुझे अपने परिवार की तलाश है",
+        "bn": "আমি আমার পরিবারকে খুঁজছি",
+        "id": "Saya sedang mencari keluarga saya",
+        "ms": "Saya sedang mencari keluarga saya",
+        "tr": "Ailemi arıyorum"
       },
       "phrase": "أبحث عن عائلتي",
       "lang": "ar",
@@ -201,7 +460,14 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "ur": "براہ کرم پانی دیں",
+        "ar": "ماء من فضلك",
+        "hi": "कृपया पानी दीजिए",
+        "bn": "দয়া করে একটু পানি দিন",
+        "id": "Minta air",
+        "ms": "Minta air",
+        "tr": "Su, lütfen"
       },
       "phrase": "ماء من فضلك",
       "lang": "ar",
@@ -209,7 +475,14 @@
     },
     {
       "meaning": {
-        "en": "My camp number is"
+        "en": "My camp number is",
+        "ur": "میرا کیمپ نمبر یہ ہے",
+        "ar": "رقم مخيمي",
+        "hi": "मेरा कैंप नंबर है",
+        "bn": "আমার ক্যাম্প নম্বর হলো",
+        "id": "Nomor kemah saya",
+        "ms": "Nombor kem saya ialah",
+        "tr": "Kamp numaram"
       },
       "phrase": "رقم مخيمي",
       "lang": "ar",
@@ -218,22 +491,64 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "ar": "كل فرد في المجموعة لديه التطبيق، وانضم إلى المجموعة، وملأ بطاقة الطوارئ الخاصة به.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।",
+      "id": "Semua anggota grup sudah memasang aplikasi, bergabung ke grup dan mengisi kartu darurat mereka.",
+      "ms": "Setiap ahli kumpulan ada aplikasi ini, sudah menyertai kumpulan dan sudah mengisi kad kecemasan masing-masing.",
+      "tr": "Gruptaki herkeste uygulama var, herkes gruba katıldı ve acil durum kartını doldurdu."
     },
     {
-      "en": "Camp number, hotel name and group leader phone saved in the emergency card."
+      "en": "Camp number, hotel name and group leader phone saved in the emergency card.",
+      "ur": "کیمپ نمبر، ہوٹل کا نام اور گروپ لیڈر کا فون نمبر ایمرجنسی کارڈ میں محفوظ ہے۔",
+      "ar": "رقم المخيم واسم الفندق وهاتف قائد المجموعة محفوظة في بطاقة الطوارئ.",
+      "hi": "कैंप नंबर, होटल का नाम और ग्रुप लीडर का फोन नंबर इमरजेंसी कार्ड में सेव है।",
+      "bn": "ক্যাম্প নম্বর, হোটেলের নাম আর দলনেতার ফোন নম্বর জরুরি কার্ডে সেভ করা আছে।",
+      "id": "Nomor kemah, nama hotel dan nomor telepon ketua grup sudah disimpan di kartu darurat.",
+      "ms": "Nombor kem, nama hotel dan nombor telefon ketua kumpulan disimpan dalam kad kecemasan.",
+      "tr": "Kamp numarası, otel adı ve grup liderinin telefonu acil durum kartına kaydedildi."
     },
     {
-      "en": "Meeting points added for the camp, a mosque gate and the hotel."
+      "en": "Meeting points added for the camp, a mosque gate and the hotel.",
+      "ur": "کیمپ، مسجد کے ایک گیٹ اور ہوٹل کے لیے ملنے کی جگہیں شامل ہیں۔",
+      "ar": "نقاط تجمع مضافة للمخيم ولأحد أبواب المسجد وللفندق.",
+      "hi": "कैंप, मस्जिद का एक गेट और होटल, मिलने की जगहों के तौर पर जुड़े हैं।",
+      "bn": "ক্যাম্প, মসজিদের একটি গেট আর হোটেল দেখা করার জায়গা হিসেবে যোগ করা আছে।",
+      "id": "Titik kumpul sudah ditambahkan untuk kemah, satu pintu masjid dan hotel.",
+      "ms": "Tempat pertemuan ditambah untuk kem, satu pintu masjid dan hotel.",
+      "tr": "Kamp, Mescid-i Haram'ın bir kapısı ve otel için buluşma noktaları eklendi."
     },
     {
-      "en": "Power bank, charging cable and a printed copy of the lost-child card for children."
+      "en": "Power bank, charging cable and a printed copy of the lost-child card for children.",
+      "ur": "پاور بینک، چارجنگ کیبل، اور بچوں کے لیے گمشدہ بچے کے کارڈ کی پرنٹ کاپی۔",
+      "ar": "شاحن متنقل، وكابل شحن، ونسخة مطبوعة من بطاقة الطفل التائه للأطفال.",
+      "hi": "पावर बैंक, चार्जिंग केबल और बच्चों के लिए खोए बच्चे के कार्ड का प्रिंट।",
+      "bn": "পাওয়ার ব্যাংক, চার্জিং কেবল, আর শিশুদের জন্য হারানো শিশুর কার্ডের প্রিন্ট করা কপি।",
+      "id": "Power bank, kabel pengisi daya dan cetakan kartu anak hilang untuk anak-anak.",
+      "ms": "Power bank, kabel pengecas dan salinan bercetak kad kanak-kanak hilang untuk kanak-kanak.",
+      "tr": "Powerbank, şarj kablosu ve çocuklar için kayıp çocuk kartının basılı bir kopyası."
     },
     {
-      "en": "Comfortable sandals, umbrella for shade, refillable water bottle."
+      "en": "Comfortable sandals, umbrella for shade, refillable water bottle.",
+      "ur": "آرام دہ چپل، سائے کے لیے چھتری، دوبارہ بھرنے والی پانی کی بوتل۔",
+      "ar": "صندل مريح، ومظلة للظل، وزجاجة ماء قابلة لإعادة التعبئة.",
+      "hi": "आरामदायक चप्पल, धूप से बचने के लिए छाता, दोबारा भरी जा सकने वाली पानी की बोतल।",
+      "bn": "আরামদায়ক স্যান্ডেল, ছায়ার জন্য ছাতা, বারবার ভরা যায় এমন পানির বোতল।",
+      "id": "Sandal yang nyaman, payung untuk berteduh, botol minum yang bisa diisi ulang.",
+      "ms": "Sandal yang selesa, payung untuk berteduh, botol air yang boleh diisi semula.",
+      "tr": "Rahat sandalet, gölge için şemsiye, yeniden doldurulabilir su şişesi."
     },
     {
-      "en": "Practice an SOS together and run one regroup drill before you travel."
+      "en": "Practice an SOS together and run one regroup drill before you travel.",
+      "ur": "سفر سے پہلے سب مل کر SOS کی مشق کریں اور ایک بار دوبارہ ملنے کی مشق بھی کر لیں۔",
+      "ar": "تدرّبوا معًا على SOS، وأجروا تمرين لمّ الشمل مرة واحدة قبل السفر.",
+      "hi": "यात्रा से पहले साथ मिलकर SOS का अभ्यास करें और एक बार मिलने का अभ्यास भी करें।",
+      "bn": "যাত্রার আগে সবাই মিলে SOS অনুশীলন করুন আর একবার একসাথে হওয়ার মহড়া করুন।",
+      "id": "Coba latihan SOS bersama dan lakukan satu latihan kumpul kembali sebelum berangkat.",
+      "ms": "Cuba latihan SOS bersama-sama dan buat satu latihan berkumpul semula sebelum berangkat.",
+      "tr": "Yola çıkmadan önce birlikte SOS alıştırması ve bir buluşma tatbikatı yapın."
     }
   ],
   "sources": [

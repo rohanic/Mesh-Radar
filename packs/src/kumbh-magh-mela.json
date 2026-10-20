@@ -16,17 +16,23 @@
     "bn"
   ],
   "title": {
-    "en": "Kumbh and Magh Mela"
+    "en": "Kumbh and Magh Mela",
+    "hi": "कुंभ और माघ मेला",
+    "bn": "কুম্ভ ও মাঘ মেলা"
   },
   "summary": {
-    "en": "Bathing days at Prayagraj, Haridwar, Nashik-Trimbakeshwar and Ujjain. Know your sector, ghat and the lost and found centres."
+    "en": "Bathing days at Prayagraj, Haridwar, Nashik-Trimbakeshwar and Ujjain. Know your sector, ghat and the lost and found centres.",
+    "hi": "प्रयागराज, हरिद्वार, नासिक-त्र्यंबकेश्वर और उज्जैन में स्नान के दिन। अपना सेक्टर, घाट और खोया-पाया केंद्रों की जानकारी रखें।",
+    "bn": "প্রয়াগরাজ, হরিদ্বার, নাশিক-ত্র্যম্বকেশ্বর আর উজ্জয়িনীতে স্নানের দিন। আপনার সেক্টর, ঘাট আর হারানো-প্রাপ্তি কেন্দ্রগুলো জেনে রাখুন।"
   },
   "dates": [
     {
       "start": "2026-10-31",
       "end": "2026-10-31",
       "label": {
-        "en": "Nashik-Trimbakeshwar Simhastha opens (flag hoisting)"
+        "en": "Nashik-Trimbakeshwar Simhastha opens (flag hoisting)",
+        "hi": "नासिक-त्र्यंबकेश्वर सिंहस्थ की शुरुआत (झंडा फहराना)",
+        "bn": "নাশিক-ত্র্যম্বকেশ্বর সিংহস্থের শুরু (পতাকা উত্তোলন)"
       },
       "approx": false
     },
@@ -34,7 +40,9 @@
       "start": "2027-01-14",
       "end": "2027-04-20",
       "label": {
-        "en": "Haridwar Ardh Kumbh 2027"
+        "en": "Haridwar Ardh Kumbh 2027",
+        "hi": "हरिद्वार अर्धकुंभ 2027",
+        "bn": "হরিদ্বার অর্ধকুম্ভ 2027"
       },
       "approx": false
     },
@@ -42,7 +50,9 @@
       "start": "2027-01-15",
       "end": "2027-03-06",
       "label": {
-        "en": "Magh Mela 2027, Prayagraj"
+        "en": "Magh Mela 2027, Prayagraj",
+        "hi": "माघ मेला 2027, प्रयागराज",
+        "bn": "মাঘ মেলা 2027, প্রয়াগরাজ"
       },
       "approx": true
     },
@@ -50,7 +60,9 @@
       "start": "2027-02-06",
       "end": "2027-02-06",
       "label": {
-        "en": "Mauni Amavasya, the biggest Magh Mela bathing day"
+        "en": "Mauni Amavasya, the biggest Magh Mela bathing day",
+        "hi": "मौनी अमावस्या, माघ मेले का सबसे बड़ा स्नान",
+        "bn": "মৌনী অমাবস্যা, মাঘ মেলার সবচেয়ে বড় স্নানের দিন"
       },
       "approx": true
     },
@@ -58,7 +70,9 @@
       "start": "2027-03-06",
       "end": "2027-03-06",
       "label": {
-        "en": "Haridwar Amrit Snan, Mahashivratri"
+        "en": "Haridwar Amrit Snan, Mahashivratri",
+        "hi": "हरिद्वार अमृत स्नान, महाशिवरात्रि",
+        "bn": "হরিদ্বার অমৃত স্নান, মহাশিবরাত্রি"
       },
       "approx": false
     },
@@ -66,7 +80,9 @@
       "start": "2027-03-08",
       "end": "2027-03-08",
       "label": {
-        "en": "Haridwar Amrit Snan, Phalguna Amavasya"
+        "en": "Haridwar Amrit Snan, Phalguna Amavasya",
+        "hi": "हरिद्वार अमृत स्नान, फाल्गुन अमावस्या",
+        "bn": "হরিদ্বার অমৃত স্নান, ফাল্গুন অমাবস্যা"
       },
       "approx": false
     },
@@ -74,7 +90,9 @@
       "start": "2027-04-14",
       "end": "2027-04-14",
       "label": {
-        "en": "Haridwar Amrit Snan, Mesh Sankranti"
+        "en": "Haridwar Amrit Snan, Mesh Sankranti",
+        "hi": "हरिद्वार अमृत स्नान, मेष संक्रांति",
+        "bn": "হরিদ্বার অমৃত স্নান, মেষ সংক্রান্তি"
       },
       "approx": false
     },
@@ -82,7 +100,9 @@
       "start": "2027-08-02",
       "end": "2027-08-02",
       "label": {
-        "en": "Nashik-Trimbakeshwar first Amrit Snan"
+        "en": "Nashik-Trimbakeshwar first Amrit Snan",
+        "hi": "नासिक-त्र्यंबकेश्वर पहला अमृत स्नान",
+        "bn": "নাশিক-ত্র্যম্বকেশ্বর প্রথম অমৃত স্নান"
       },
       "approx": false
     },
@@ -90,7 +110,9 @@
       "start": "2027-08-31",
       "end": "2027-08-31",
       "label": {
-        "en": "Nashik-Trimbakeshwar second Amrit Snan"
+        "en": "Nashik-Trimbakeshwar second Amrit Snan",
+        "hi": "नासिक-त्र्यंबकेश्वर दूसरा अमृत स्नान",
+        "bn": "নাশিক-ত্র্যম্বকেশ্বর দ্বিতীয় অমৃত স্নান"
       },
       "approx": false
     },
@@ -98,7 +120,9 @@
       "start": "2027-09-11",
       "end": "2027-09-12",
       "label": {
-        "en": "Nashik-Trimbakeshwar third Amrit Snan"
+        "en": "Nashik-Trimbakeshwar third Amrit Snan",
+        "hi": "नासिक-त्र्यंबकेश्वर तीसरा अमृत स्नान",
+        "bn": "নাশিক-ত্র্যম্বকেশ্বর তৃতীয় অমৃত স্নান"
       },
       "approx": false
     },
@@ -106,7 +130,9 @@
       "start": "2028-03-27",
       "end": "2028-05-27",
       "label": {
-        "en": "Ujjain Simhastha 2028"
+        "en": "Ujjain Simhastha 2028",
+        "hi": "उज्जैन सिंहस्थ 2028",
+        "bn": "উজ্জয়িনী সিংহস্থ 2028"
       },
       "approx": true
     }
@@ -114,96 +140,144 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "Your sector and ghat number"
+        "en": "Your sector and ghat number",
+        "hi": "आपका सेक्टर और घाट नंबर",
+        "bn": "আপনার সেক্টর আর ঘাট নম্বর"
       },
       "detail": {
-        "en": "Mela areas are split into numbered or colour coded sectors, and ghats are numbered. Save yours as soon as you arrive."
+        "en": "Mela areas are split into numbered or colour coded sectors, and ghats are numbered. Save yours as soon as you arrive.",
+        "hi": "मेला क्षेत्र नंबर या रंग वाले सेक्टरों में बँटा होता है, और घाटों के भी नंबर होते हैं। पहुँचते ही अपना सेक्टर और घाट सेव कर लें।",
+        "bn": "মেলা এলাকা নম্বর দেওয়া বা রং দিয়ে চিহ্নিত সেক্টরে ভাগ করা থাকে, আর ঘাটগুলোরও নম্বর থাকে। পৌঁছেই আপনারটি সেভ করে নিন।"
       }
     },
     {
       "name": {
-        "en": "A lost and found centre"
+        "en": "A lost and found centre",
+        "hi": "खोया-पाया केंद्र",
+        "bn": "একটি হারানো-প্রাপ্তি কেন্দ্র"
       },
       "detail": {
-        "en": "At Maha Kumbh 2025 the mela authority ran lost and found centres across the mela area where people without a phone could call family. Note the nearest one."
+        "en": "At Maha Kumbh 2025 the mela authority ran lost and found centres across the mela area where people without a phone could call family. Note the nearest one.",
+        "hi": "महाकुंभ 2025 में मेला प्रशासन ने पूरे मेला क्षेत्र में खोया-पाया केंद्र चलाए थे, जहाँ बिना फोन वाले लोग अपने परिवार को फोन कर सकते थे। सबसे पास वाले केंद्र को याद रख लें।",
+        "bn": "মহাকুম্ভ 2025-এ মেলা কর্তৃপক্ষ পুরো মেলা এলাকায় হারানো-প্রাপ্তি কেন্দ্র চালিয়েছিল, যেখান থেকে যাঁদের ফোন নেই তাঁরাও পরিবারকে ফোন করতে পারতেন। সবচেয়ে কাছেরটি কোথায় তা জেনে রাখুন।"
       }
     },
     {
       "name": {
-        "en": "A pontoon bridge end"
+        "en": "A pontoon bridge end",
+        "hi": "पीपा पुल का एक सिरा",
+        "bn": "পন্টুন সেতুর এক মাথা"
       },
       "detail": {
-        "en": "Pick one end of a named bridge, not the middle."
+        "en": "Pick one end of a named bridge, not the middle.",
+        "hi": "किसी नाम वाले पुल का एक सिरा चुनें, बीच का हिस्सा नहीं।",
+        "bn": "নাম আছে এমন একটি সেতুর এক মাথা বেছে নিন, মাঝখান নয়।"
       }
     },
     {
       "name": {
-        "en": "Ramkund or Kushavarta"
+        "en": "Ramkund or Kushavarta",
+        "hi": "रामकुंड या कुशावर्त",
+        "bn": "রামকুণ্ড বা কুশাবর্ত"
       },
       "detail": {
-        "en": "The main bathing places at the Nashik-Trimbakeshwar Simhastha."
+        "en": "The main bathing places at the Nashik-Trimbakeshwar Simhastha.",
+        "hi": "नासिक-त्र्यंबकेश्वर सिंहस्थ में स्नान की मुख्य जगहें।",
+        "bn": "নাশিক-ত্র্যম্বকেশ্বর সিংহস্থের প্রধান স্নানের জায়গা।"
       }
     }
   ],
   "dos": [
     {
-      "en": "Go to bathe early on the big days, or on a quieter day if you can."
+      "en": "Go to bathe early on the big days, or on a quieter day if you can.",
+      "hi": "बड़े स्नान वाले दिनों में जल्दी स्नान के लिए जाएँ, या हो सके तो कम भीड़ वाले किसी दिन जाएँ।",
+      "bn": "প্রধান স্নানের দিনগুলোতে সকাল সকাল স্নান করতে যান, অথবা পারলে কম ভিড়ের কোনো দিনে যান।"
     },
     {
-      "en": "Agree on a ghat and a time to meet after bathing."
+      "en": "Agree on a ghat and a time to meet after bathing.",
+      "hi": "स्नान के बाद मिलने के लिए एक घाट और समय तय कर लें।",
+      "bn": "স্নানের পরে কোন ঘাটে, কখন দেখা করবেন তা ঠিক করে নিন।"
     },
     {
-      "en": "Keep elders and children on the side of the ghat, away from the steps where people push down."
+      "en": "Keep elders and children on the side of the ghat, away from the steps where people push down.",
+      "hi": "बुजुर्गों और बच्चों को घाट के किनारे की ओर रखें, उन सीढ़ियों से दूर जहाँ लोग धक्का देकर नीचे उतरते हैं।",
+      "bn": "বয়স্ক আর শিশুদের ঘাটের পাশের দিকে রাখুন, যে সিঁড়িতে লোকজন ঠেলে নিচে নামে তার থেকে দূরে।"
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।"
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।"
     },
     {
-      "en": "Move with the flow and work your way diagonally toward the edge."
+      "en": "Move with the flow and work your way diagonally toward the edge.",
+      "hi": "भीड़ के बहाव के साथ चलें और तिरछी दिशा में धीरे-धीरे किनारे की ओर बढ़ें।",
+      "bn": "ভিড়ের স্রোতের সাথে চলুন, আর কোনাকুনি এগিয়ে ধীরে ধীরে কিনারার দিকে সরে যান।"
     },
     {
-      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms."
+      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms.",
+      "hi": "अगर गिर जाएँ, तो जल्दी उठें। उठ न सकें, तो एक करवट लेटकर सिकुड़ जाएँ और बाँहों से सिर ढक लें।",
+      "bn": "পড়ে গেলে তাড়াতাড়ি উঠে দাঁড়ান। না পারলে এক পাশে কাত হয়ে গুটিসুটি হয়ে শুয়ে দুই হাতে মাথা ঢেকে রাখুন।"
     }
   ],
   "donts": [
     {
-      "en": "Don't stop on bridges, steps or narrow approach roads."
+      "en": "Don't stop on bridges, steps or narrow approach roads.",
+      "hi": "पुलों, सीढ़ियों या आने-जाने के संकरे रास्तों पर न रुकें।",
+      "bn": "সেতু, সিঁড়ি বা ঢোকার সরু রাস্তায় থামবেন না।"
     },
     {
-      "en": "Don't go into deep water: stay within the ropes and barricades."
+      "en": "Don't go into deep water: stay within the ropes and barricades.",
+      "hi": "गहरे पानी में न जाएँ: रस्सियों और बैरिकेड के अंदर ही रहें।",
+      "bn": "গভীর জলে নামবেন না। দড়ি আর ব্যারিকেডের ভেতরেই থাকুন।"
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।"
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "bn": "ভিড় ঘন হলে দেয়াল, বেড়া বা ব্যারিকেডের গা ঘেঁষে দাঁড়াবেন না।"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Haridwar Ardh Kumbh 2027 bathing days"
+        "en": "Haridwar Ardh Kumbh 2027 bathing days",
+        "hi": "हरिद्वार अर्धकुंभ 2027 के स्नान के दिन",
+        "bn": "হরিদ্বার অর্ধকুম্ভ 2027, স্নানের দিন"
       },
       "detail": {
-        "en": "14 Jan, 6 Feb, 11 Feb, 20 Feb, 6 Mar, 8 Mar, 7 Apr, 14 Apr, 15 Apr and 20 Apr. Amrit Snans are 6 Mar, 8 Mar and 14 Apr."
+        "en": "14 Jan, 6 Feb, 11 Feb, 20 Feb, 6 Mar, 8 Mar, 7 Apr, 14 Apr, 15 Apr and 20 Apr. Amrit Snans are 6 Mar, 8 Mar and 14 Apr.",
+        "hi": "14 जनवरी, 6 फरवरी, 11 फरवरी, 20 फरवरी, 6 मार्च, 8 मार्च, 7 अप्रैल, 14 अप्रैल, 15 अप्रैल और 20 अप्रैल। अमृत स्नान 6 मार्च, 8 मार्च और 14 अप्रैल को हैं।",
+        "bn": "14 জানুয়ারি, 6 ফেব্রুয়ারি, 11 ফেব্রুয়ারি, 20 ফেব্রুয়ারি, 6 মার্চ, 8 মার্চ, 7 এপ্রিল, 14 এপ্রিল, 15 এপ্রিল আর 20 এপ্রিল। অমৃত স্নান 6 মার্চ, 8 মার্চ আর 14 এপ্রিল।"
       }
     },
     {
       "title": {
-        "en": "The Sangam at Prayagraj"
+        "en": "The Sangam at Prayagraj",
+        "hi": "प्रयागराज में संगम",
+        "bn": "প্রয়াগরাজের সঙ্গম"
       },
       "detail": {
-        "en": "Where the Ganga and Yamuna meet, about 7 km from Civil Lines. Boats leave from the ghat near the fort."
+        "en": "Where the Ganga and Yamuna meet, about 7 km from Civil Lines. Boats leave from the ghat near the fort.",
+        "hi": "जहाँ गंगा और यमुना मिलती हैं, सिविल लाइंस से लगभग 7 किलोमीटर। नावें किले के पास वाले घाट से चलती हैं।",
+        "bn": "যেখানে গঙ্গা আর যমুনা মিশেছে, সিভিল লাইনস থেকে প্রায় 7 কিলোমিটার দূরে। কেল্লার কাছের ঘাট থেকে নৌকা ছাড়ে।"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "मैं खो गया हूँ",
       "lang": "hi",
@@ -211,7 +285,9 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "कृपया मेरी मदद कीजिए",
       "lang": "hi",
@@ -219,7 +295,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the lost and found centre?"
+        "en": "Where is the lost and found centre?",
+        "hi": "खोया-पाया केंद्र कहाँ है?",
+        "bn": "হারানো-প্রাপ্তি কেন্দ্র কোথায়?"
       },
       "phrase": "खोया-पाया केंद्र कहाँ है?",
       "lang": "hi",
@@ -227,7 +305,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?"
       },
       "phrase": "अस्पताल कहाँ है?",
       "lang": "hi",
@@ -235,7 +315,9 @@
     },
     {
       "meaning": {
-        "en": "I need a doctor"
+        "en": "I need a doctor",
+        "hi": "मुझे डॉक्टर चाहिए",
+        "bn": "আমার ডাক্তার দরকার"
       },
       "phrase": "मुझे डॉक्टर चाहिए",
       "lang": "hi",
@@ -243,7 +325,9 @@
     },
     {
       "meaning": {
-        "en": "Where are the police?"
+        "en": "Where are the police?",
+        "hi": "पुलिस कहाँ है?",
+        "bn": "পুলিশ কোথায়?"
       },
       "phrase": "पुलिस कहाँ है?",
       "lang": "hi",
@@ -251,7 +335,9 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "hi": "कृपया पानी दीजिए",
+        "bn": "দয়া করে একটু জল দিন"
       },
       "phrase": "पानी दीजिए",
       "lang": "hi",
@@ -259,7 +345,9 @@
     },
     {
       "meaning": {
-        "en": "Which sector is this?"
+        "en": "Which sector is this?",
+        "hi": "यह कौन सा सेक्टर है?",
+        "bn": "এটা কোন সেক্টর?"
       },
       "phrase": "यह कौन सा सेक्टर है?",
       "lang": "hi",
@@ -268,19 +356,29 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।"
     },
     {
-      "en": "Children carry a printed lost-child card."
+      "en": "Children carry a printed lost-child card.",
+      "hi": "बच्चों के पास खोए बच्चे के कार्ड का प्रिंट है।",
+      "bn": "শিশুদের কাছে প্রিন্ট করা হারানো শিশুর কার্ড আছে।"
     },
     {
-      "en": "Sector, ghat and camp saved as meeting points."
+      "en": "Sector, ghat and camp saved as meeting points.",
+      "hi": "सेक्टर, घाट और कैंप, मिलने की जगहों के तौर पर सेव हैं।",
+      "bn": "সেক্টর, ঘাট আর ক্যাম্প দেখা করার জায়গা হিসেবে সেভ করা আছে।"
     },
     {
-      "en": "Dry clothes in a plastic bag, a towel and a power bank."
+      "en": "Dry clothes in a plastic bag, a towel and a power bank.",
+      "hi": "प्लास्टिक की थैली में सूखे कपड़े, एक तौलिया और पावर बैंक।",
+      "bn": "প্লাস্টিকের ব্যাগে শুকনো কাপড়, একটি তোয়ালে আর পাওয়ার ব্যাংক।"
     },
     {
-      "en": "Practice an SOS together and run one regroup drill before you travel."
+      "en": "Practice an SOS together and run one regroup drill before you travel.",
+      "hi": "यात्रा से पहले साथ मिलकर SOS का अभ्यास करें और एक बार मिलने का अभ्यास भी करें।",
+      "bn": "যাত্রার আগে সবাই মিলে SOS অনুশীলন করুন আর একবার একসাথে হওয়ার মহড়া করুন।"
     }
   ],
   "sources": [

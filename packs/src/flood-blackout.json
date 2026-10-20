@@ -24,17 +24,32 @@
     "ms"
   ],
   "title": {
-    "en": "Floods and blackouts"
+    "en": "Floods and blackouts",
+    "ur": "سیلاب اور بجلی کی بندش",
+    "hi": "बाढ़ और बिजली गुल",
+    "bn": "বন্যা ও বিদ্যুৎ বিভ্রাট",
+    "id": "Banjir dan mati listrik",
+    "ms": "Banjir dan bekalan elektrik terputus"
   },
   "summary": {
-    "en": "When the network and power fail, the mesh keeps your family in touch. Agree on where to go before you need it."
+    "en": "When the network and power fail, the mesh keeps your family in touch. Agree on where to go before you need it.",
+    "ur": "جب نیٹ ورک اور بجلی بند ہو جائیں تو میش آپ کے گھر والوں کو آپس میں جوڑے رکھتا ہے۔ ضرورت پڑنے سے پہلے طے کر لیں کہ کہاں جانا ہے۔",
+    "hi": "जब नेटवर्क और बिजली चली जाए, तब मेश आपके परिवार को जोड़े रखता है। जरूरत पड़ने से पहले ही तय कर लें कि कहाँ जाना है।",
+    "bn": "নেটওয়ার্ক আর বিদ্যুৎ চলে গেলেও মেশের মাধ্যমে আপনার পরিবার যোগাযোগে থাকে। দরকার পড়ার আগেই ঠিক করে রাখুন কোথায় যাবেন।",
+    "id": "Saat jaringan dan listrik mati, mesh menjaga keluarga Anda tetap terhubung. Sepakati tempat tujuan sebelum Anda membutuhkannya.",
+    "ms": "Apabila rangkaian dan bekalan elektrik terputus, mesh memastikan keluarga anda terus berhubung. Tetapkan bersama ke mana hendak pergi sebelum anda memerlukannya."
   },
   "dates": [
     {
       "start": "2026-10-01",
       "end": "2026-12-31",
       "label": {
-        "en": "India northeast monsoon 2026 (south peninsula)"
+        "en": "India northeast monsoon 2026 (south peninsula)",
+        "ur": "بھارت کا شمال مشرقی مون سون 2026 (جنوبی جزیرہ نما)",
+        "hi": "भारत में उत्तर-पूर्वी मानसून 2026 (दक्षिण भारत)",
+        "bn": "ভারতের উত্তর-পূর্ব মৌসুমি বর্ষা 2026 (দক্ষিণ উপদ্বীপ)",
+        "id": "Monsun timur laut India 2026 (semenanjung selatan)",
+        "ms": "Monsun timur laut India 2026 (semenanjung selatan)"
       },
       "approx": false
     },
@@ -42,7 +57,12 @@
       "start": "2027-04-01",
       "end": "2027-10-31",
       "label": {
-        "en": "Bangladesh flood season 2027"
+        "en": "Bangladesh flood season 2027",
+        "ur": "بنگلہ دیش میں سیلاب کا موسم 2027",
+        "hi": "बांग्लादेश में बाढ़ का मौसम 2027",
+        "bn": "বাংলাদেশের বন্যার মৌসুম 2027",
+        "id": "Musim banjir Bangladesh 2027",
+        "ms": "Musim banjir Bangladesh 2027"
       },
       "approx": true
     },
@@ -50,7 +70,12 @@
       "start": "2027-06-01",
       "end": "2027-09-30",
       "label": {
-        "en": "India and Nepal southwest monsoon 2027"
+        "en": "India and Nepal southwest monsoon 2027",
+        "ur": "بھارت اور نیپال کا جنوب مغربی مون سون 2027",
+        "hi": "भारत और नेपाल में दक्षिण-पश्चिमी मानसून 2027",
+        "bn": "ভারত ও নেপালের দক্ষিণ-পশ্চিম মৌসুমি বর্ষা 2027",
+        "id": "Monsun barat daya India dan Nepal 2027",
+        "ms": "Monsun barat daya India dan Nepal 2027"
       },
       "approx": true
     },
@@ -58,7 +83,12 @@
       "start": "2027-07-01",
       "end": "2027-09-30",
       "label": {
-        "en": "Pakistan monsoon 2027"
+        "en": "Pakistan monsoon 2027",
+        "ur": "پاکستان کا مون سون 2027",
+        "hi": "पाकिस्तान में मानसून 2027",
+        "bn": "পাকিস্তানের মৌসুমি বর্ষা 2027",
+        "id": "Monsun Pakistan 2027",
+        "ms": "Monsun Pakistan 2027"
       },
       "approx": true
     },
@@ -66,7 +96,12 @@
       "start": "2027-10-01",
       "end": "2027-12-31",
       "label": {
-        "en": "India northeast monsoon 2027 (south peninsula)"
+        "en": "India northeast monsoon 2027 (south peninsula)",
+        "ur": "بھارت کا شمال مشرقی مون سون 2027 (جنوبی جزیرہ نما)",
+        "hi": "भारत में उत्तर-पूर्वी मानसून 2027 (दक्षिण भारत)",
+        "bn": "ভারতের উত্তর-পূর্ব মৌসুমি বর্ষা 2027 (দক্ষিণ উপদ্বীপ)",
+        "id": "Monsun timur laut India 2027 (semenanjung selatan)",
+        "ms": "Monsun timur laut India 2027 (semenanjung selatan)"
       },
       "approx": true
     }
@@ -74,88 +109,198 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "High ground near home"
+        "en": "High ground near home",
+        "ur": "گھر کے قریب اونچی جگہ",
+        "hi": "घर के पास कोई ऊँची जगह",
+        "bn": "বাড়ির কাছে উঁচু জায়গা",
+        "id": "Tempat tinggi dekat rumah",
+        "ms": "Tempat tinggi dekat rumah"
       },
       "detail": {
-        "en": "A school, mosque, temple or upper floor everyone in the family knows."
+        "en": "A school, mosque, temple or upper floor everyone in the family knows.",
+        "ur": "کوئی اسکول، مسجد، مندر یا اوپر کی منزل جسے گھر کا ہر فرد جانتا ہو۔",
+        "hi": "कोई स्कूल, मस्जिद, मंदिर या ऊपरी मंजिल, जिसे परिवार में सब जानते हों।",
+        "bn": "পরিবারের সবার চেনা কোনো স্কুল, মসজিদ, মন্দির বা কোনো বাড়ির ওপরের তলা।",
+        "id": "Sekolah, masjid, kuil atau lantai atas yang diketahui semua anggota keluarga.",
+        "ms": "Sekolah, masjid, kuil atau tingkat atas yang diketahui oleh semua ahli keluarga."
       }
     },
     {
       "name": {
-        "en": "The nearest relief camp"
+        "en": "The nearest relief camp",
+        "ur": "سب سے قریبی امدادی کیمپ",
+        "hi": "सबसे पास का राहत कैंप",
+        "bn": "সবচেয়ে কাছের ত্রাণ শিবির",
+        "id": "Tempat pengungsian terdekat",
+        "ms": "Pusat pemindahan terdekat"
       },
       "detail": {
-        "en": "Add it as a meeting point when local authorities announce it."
+        "en": "Add it as a meeting point when local authorities announce it.",
+        "ur": "جب مقامی انتظامیہ اس کا اعلان کرے تو اسے ملنے کی جگہ کے طور پر شامل کر لیں۔",
+        "hi": "जब स्थानीय प्रशासन इसकी घोषणा करे, तो इसे मिलने की जगह के तौर पर जोड़ लें।",
+        "bn": "স্থানীয় প্রশাসন ঘোষণা করলে এটি দেখা করার জায়গা হিসেবে যোগ করুন।",
+        "id": "Tambahkan sebagai titik kumpul saat pihak berwenang setempat mengumumkannya.",
+        "ms": "Tambahkannya sebagai tempat pertemuan apabila pihak berkuasa tempatan mengumumkannya."
       }
     },
     {
       "name": {
-        "en": "A relative's home outside the flood area"
+        "en": "A relative's home outside the flood area",
+        "ur": "سیلاب والے علاقے سے باہر کسی رشتہ دار کا گھر",
+        "hi": "बाढ़ वाले इलाके से बाहर किसी रिश्तेदार का घर",
+        "bn": "বন্যা এলাকার বাইরে কোনো আত্মীয়ের বাড়ি",
+        "id": "Rumah kerabat di luar daerah banjir",
+        "ms": "Rumah saudara di luar kawasan banjir"
       },
       "detail": {
-        "en": "Somewhere to regroup if you are separated for days."
+        "en": "Somewhere to regroup if you are separated for days.",
+        "ur": "اگر آپ کئی دن کے لیے بچھڑ جائیں تو دوبارہ ملنے کی جگہ۔",
+        "hi": "अगर आप कई दिनों तक बिछड़े रहें, तो फिर से इकट्ठा होने की जगह।",
+        "bn": "কয়েক দিনের জন্য আলাদা হয়ে গেলে আবার একসাথে হওয়ার জায়গা।",
+        "id": "Tempat untuk berkumpul kembali jika Anda terpisah berhari-hari.",
+        "ms": "Tempat untuk berkumpul semula jika anda terpisah berhari-hari."
       }
     }
   ],
   "dos": [
     {
-      "en": "Agree on a family meeting point on high ground before the monsoon."
+      "en": "Agree on a family meeting point on high ground before the monsoon.",
+      "ur": "مون سون سے پہلے کسی اونچی جگہ پر گھر والوں کے ملنے کی جگہ طے کر لیں۔",
+      "hi": "मानसून से पहले ही किसी ऊँची जगह पर परिवार के मिलने की जगह तय कर लें।",
+      "bn": "বর্ষার আগেই উঁচু জায়গায় পরিবারের দেখা করার একটি জায়গা ঠিক করে নিন।",
+      "id": "Sepakati titik kumpul keluarga di tempat tinggi sebelum musim monsun.",
+      "ms": "Tetapkan tempat pertemuan keluarga di kawasan tinggi sebelum musim monsun."
     },
     {
-      "en": "Keep phones and power banks charged when a warning is issued, and switch the app to Ultra-saver if the power is out."
+      "en": "Keep phones and power banks charged when a warning is issued, and switch the app to Ultra-saver if the power is out.",
+      "ur": "وارننگ جاری ہو تو فون اور پاور بینک چارج رکھیں، اور بجلی چلی جائے تو ایپ کو انتہائی بچت پر کر دیں۔",
+      "hi": "चेतावनी जारी होते ही फोन और पावर बैंक चार्ज रखें, और बिजली चली जाए तो ऐप को अल्ट्रा सेवर पर कर दें।",
+      "bn": "সতর্কবার্তা জারি হলে ফোন আর পাওয়ার ব্যাংক চার্জ দিয়ে রাখুন, আর বিদ্যুৎ চলে গেলে অ্যাপটি অতি সাশ্রয় মোডে দিন।",
+      "id": "Saat ada peringatan, pastikan ponsel dan power bank terisi, dan ganti aplikasi ke Super hemat jika listrik padam.",
+      "ms": "Pastikan telefon dan power bank dicas apabila amaran dikeluarkan, dan tukar aplikasi ke Ultra jimat jika bekalan elektrik terputus."
     },
     {
-      "en": "Use a stick to check for open manholes and drains when you must walk in water."
+      "en": "Use a stick to check for open manholes and drains when you must walk in water.",
+      "ur": "اگر پانی میں چلنا ہی پڑے تو چھڑی سے ٹٹول کر کھلے مین ہول اور نالوں کا پتا لگائیں۔",
+      "hi": "अगर पानी में चलना ही पड़े, तो खुले मैनहोल और नालों का पता करने के लिए डंडे से टटोलते हुए चलें।",
+      "bn": "পানির মধ্যে দিয়ে হাঁটতেই হলে খোলা ম্যানহোল আর নালা আছে কি না, লাঠি দিয়ে দেখে নিন।",
+      "id": "Jika terpaksa berjalan di air, gunakan tongkat untuk memeriksa lubang got dan selokan yang terbuka.",
+      "ms": "Jika terpaksa berjalan dalam air, gunakan kayu untuk memeriksa lubang pembetung dan longkang yang terbuka."
     },
     {
-      "en": "Switch off electricity at home before water comes in."
+      "en": "Switch off electricity at home before water comes in.",
+      "ur": "پانی اندر آنے سے پہلے گھر کی بجلی بند کر دیں۔",
+      "hi": "पानी घर में आने से पहले घर की बिजली बंद कर दें।",
+      "bn": "ঘরে পানি ঢোকার আগেই বাড়ির বিদ্যুৎ বন্ধ করে দিন।",
+      "id": "Matikan listrik di rumah sebelum air masuk.",
+      "ms": "Matikan bekalan elektrik di rumah sebelum air masuk."
     },
     {
-      "en": "Follow warnings from your national meteorological department."
+      "en": "Follow warnings from your national meteorological department.",
+      "ur": "اپنے ملک کے محکمہ موسمیات کی وارننگز پر عمل کریں۔",
+      "hi": "अपने देश के मौसम विभाग की चेतावनियों का पालन करें।",
+      "bn": "আপনার দেশের আবহাওয়া দপ্তরের সতর্কবার্তা মেনে চলুন।",
+      "id": "Ikuti peringatan dari badan meteorologi nasional di negara Anda.",
+      "ms": "Ikut amaran daripada jabatan meteorologi negara anda."
     }
   ],
   "donts": [
     {
-      "en": "Don't walk through moving water: even a shallow current can knock an adult down."
+      "en": "Don't walk through moving water: even a shallow current can knock an adult down.",
+      "ur": "بہتے پانی میں سے نہ گزریں: کم گہرا بہتا پانی بھی بڑے آدمی کو گرا سکتا ہے۔",
+      "hi": "बहते पानी में से होकर न चलें: कम गहरे पानी का बहाव भी किसी बड़े इंसान को गिरा सकता है।",
+      "bn": "স্রোতের পানির মধ্যে দিয়ে হাঁটবেন না। কম গভীর স্রোতও একজন বড় মানুষকে ফেলে দিতে পারে।",
+      "id": "Jangan berjalan menembus air yang mengalir: arus yang dangkal pun bisa menjatuhkan orang dewasa.",
+      "ms": "Jangan meredah air yang mengalir: arus yang cetek pun boleh menjatuhkan orang dewasa."
     },
     {
-      "en": "Don't drive into flooded roads: about half a metre of water can carry a car away."
+      "en": "Don't drive into flooded roads: about half a metre of water can carry a car away.",
+      "ur": "پانی میں ڈوبی سڑکوں پر گاڑی نہ لے جائیں: تقریباً آدھا میٹر پانی گاڑی کو بہا لے جا سکتا ہے۔",
+      "hi": "पानी भरी सड़कों पर गाड़ी न ले जाएँ: लगभग आधा मीटर पानी कार को बहा ले जा सकता है।",
+      "bn": "পানিতে ডোবা রাস্তায় গাড়ি চালাবেন না। প্রায় আধা মিটার পানিই একটি গাড়ি ভাসিয়ে নিতে পারে।",
+      "id": "Jangan berkendara masuk ke jalan yang banjir: air setinggi sekitar setengah meter bisa menghanyutkan mobil.",
+      "ms": "Jangan memandu ke jalan yang dinaiki air: air sedalam kira-kira setengah meter boleh menghanyutkan kereta."
     },
     {
-      "en": "Don't go near power lines in a flood."
+      "en": "Don't go near power lines in a flood.",
+      "ur": "سیلاب میں بجلی کی تاروں کے قریب نہ جائیں۔",
+      "hi": "बाढ़ में बिजली के तारों के पास न जाएँ।",
+      "bn": "বন্যার সময় বিদ্যুতের তারের কাছে যাবেন না।",
+      "id": "Jangan mendekati kabel listrik saat banjir.",
+      "ms": "Jangan mendekati talian elektrik semasa banjir."
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Monsoon seasons"
+        "en": "Monsoon seasons",
+        "ur": "مون سون کے موسم",
+        "hi": "मानसून के मौसम",
+        "bn": "বর্ষার মৌসুম",
+        "id": "Musim monsun",
+        "ms": "Musim monsun"
       },
       "detail": {
-        "en": "India June to September (northeast monsoon in the south October to December), Pakistan July to September, Nepal normally mid June to early October, Bangladesh flood season April to October. Real onset moves by weeks."
+        "en": "India June to September (northeast monsoon in the south October to December), Pakistan July to September, Nepal normally mid June to early October, Bangladesh flood season April to October. Real onset moves by weeks.",
+        "ur": "بھارت جون سے ستمبر (جنوب میں شمال مشرقی مون سون اکتوبر سے دسمبر)، پاکستان جولائی سے ستمبر، نیپال عام طور پر جون کے وسط سے اکتوبر کے شروع تک، بنگلہ دیش میں سیلاب کا موسم اپریل سے اکتوبر۔ اصل آغاز ہفتوں آگے پیچھے ہو سکتا ہے۔",
+        "hi": "भारत में जून से सितंबर (दक्षिण में उत्तर-पूर्वी मानसून अक्टूबर से दिसंबर), पाकिस्तान में जुलाई से सितंबर, नेपाल में आमतौर पर जून के बीच से अक्टूबर की शुरुआत तक, बांग्लादेश में बाढ़ का मौसम अप्रैल से अक्टूबर। असल शुरुआत कई हफ्ते आगे-पीछे हो सकती है।",
+        "bn": "ভারতে জুন থেকে সেপ্টেম্বর (দক্ষিণে উত্তর-পূর্ব মৌসুমি বর্ষা অক্টোবর থেকে ডিসেম্বর), পাকিস্তানে জুলাই থেকে সেপ্টেম্বর, নেপালে সাধারণত জুনের মাঝামাঝি থেকে অক্টোবরের শুরু, বাংলাদেশে বন্যার মৌসুম এপ্রিল থেকে অক্টোবর। বর্ষা আসলে কবে শুরু হয়, তা কয়েক সপ্তাহ আগে-পিছে হয়।",
+        "id": "India Juni sampai September (monsun timur laut di wilayah selatan Oktober sampai Desember), Pakistan Juli sampai September, Nepal biasanya pertengahan Juni sampai awal Oktober, musim banjir Bangladesh April sampai Oktober. Awal musim yang sebenarnya bisa bergeser beberapa minggu.",
+        "ms": "India Jun hingga September (monsun timur laut di bahagian selatan Oktober hingga Disember), Pakistan Julai hingga September, Nepal biasanya pertengahan Jun hingga awal Oktober, musim banjir Bangladesh April hingga Oktober. Permulaan sebenar boleh berubah beberapa minggu."
       }
     },
     {
       "title": {
-        "en": "Blackouts"
+        "en": "Blackouts",
+        "ur": "بجلی کی بندش",
+        "hi": "बिजली गुल",
+        "bn": "বিদ্যুৎ বিভ্রাট",
+        "id": "Mati listrik",
+        "ms": "Bekalan elektrik terputus"
       },
       "detail": {
-        "en": "On 23 January 2023 Pakistan's national grid failed nationwide; mobile towers were affected and many areas were dark for over 12 hours. The mesh works without towers or power."
+        "en": "On 23 January 2023 Pakistan's national grid failed nationwide; mobile towers were affected and many areas were dark for over 12 hours. The mesh works without towers or power.",
+        "ur": "23 جنوری 2023 کو پاکستان کا قومی گرڈ پورے ملک میں بند ہو گیا تھا، موبائل ٹاور متاثر ہوئے اور کئی علاقے 12 گھنٹے سے زیادہ اندھیرے میں رہے۔ میش ٹاوروں یا بجلی کے بغیر کام کرتا ہے۔",
+        "hi": "23 जनवरी 2023 को पाकिस्तान का राष्ट्रीय बिजली ग्रिड पूरे देश में ठप हो गया था। मोबाइल टावरों पर असर पड़ा और कई इलाकों में 12 घंटे से ज्यादा अँधेरा रहा। मेश बिना टावर और बिना बिजली के काम करता है।",
+        "bn": "23 জানুয়ারি 2023 তারিখে পাকিস্তানের জাতীয় গ্রিড সারা দেশে বিকল হয়ে যায়। মোবাইল টাওয়ারের ওপরও প্রভাব পড়ে, আর অনেক এলাকা 12 ঘণ্টারও বেশি অন্ধকারে ছিল। মেশ টাওয়ার বা বিদ্যুৎ ছাড়াই চলে।",
+        "id": "Pada 23 Januari 2023, jaringan listrik nasional Pakistan padam di seluruh negeri. Menara seluler ikut terdampak dan banyak daerah gelap lebih dari 12 jam. Mesh tetap bekerja tanpa menara atau listrik.",
+        "ms": "Pada 23 Januari 2023, grid elektrik nasional Pakistan gagal di seluruh negara. Menara telefon mudah alih terjejas dan banyak kawasan gelap lebih daripada 12 jam. Mesh berfungsi tanpa menara atau bekalan elektrik."
       }
     }
   ],
   "phrasebook": [],
   "checklist": [
     {
-      "en": "Every family member has the app, has joined the family group and has filled in their emergency card."
+      "en": "Every family member has the app, has joined the family group and has filled in their emergency card.",
+      "ur": "گھر کے ہر فرد کے پاس ایپ ہے، وہ گھر والوں کے گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "hi": "परिवार के हर सदस्य के पास ऐप है, सब परिवार के ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "পরিবারের সবার ফোনে অ্যাপ আছে, সবাই পরিবারের গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।",
+      "id": "Semua anggota keluarga sudah memasang aplikasi, bergabung ke grup keluarga dan mengisi kartu darurat mereka.",
+      "ms": "Setiap ahli keluarga ada aplikasi ini, sudah menyertai kumpulan keluarga dan sudah mengisi kad kecemasan masing-masing."
     },
     {
-      "en": "A family meeting point on high ground saved in the app."
+      "en": "A family meeting point on high ground saved in the app.",
+      "ur": "اونچی جگہ پر گھر والوں کے ملنے کی جگہ ایپ میں محفوظ ہے۔",
+      "hi": "किसी ऊँची जगह पर परिवार के मिलने की जगह ऐप में सेव है।",
+      "bn": "উঁচু জায়গায় পরিবারের দেখা করার একটি জায়গা অ্যাপে সেভ করা আছে।",
+      "id": "Titik kumpul keluarga di tempat tinggi sudah disimpan di aplikasi.",
+      "ms": "Tempat pertemuan keluarga di kawasan tinggi disimpan dalam aplikasi."
     },
     {
-      "en": "Charged power banks, torch, drinking water, medicines and copies of documents in a waterproof bag."
+      "en": "Charged power banks, torch, drinking water, medicines and copies of documents in a waterproof bag.",
+      "ur": "چارج شدہ پاور بینک، ٹارچ، پینے کا پانی، دوائیں اور کاغذات کی کاپیاں واٹر پروف تھیلے میں۔",
+      "hi": "चार्ज किए हुए पावर बैंक, टॉर्च, पीने का पानी, दवाइयाँ और कागजों की कॉपी, एक ऐसे बैग में जिसमें पानी न जाए।",
+      "bn": "চার্জ দেওয়া পাওয়ার ব্যাংক, টর্চ, খাবার পানি, ওষুধ আর কাগজপত্রের কপি, একটি ওয়াটারপ্রুফ ব্যাগে।",
+      "id": "Power bank yang sudah terisi, senter, air minum, obat-obatan dan salinan dokumen di dalam tas tahan air.",
+      "ms": "Power bank yang sudah dicas, lampu suluh, air minuman, ubat-ubatan dan salinan dokumen dalam beg kalis air."
     },
     {
-      "en": "If you use Family Circle, turn it on for the family group before the season."
+      "en": "If you use Family Circle, turn it on for the family group before the season.",
+      "ur": "اگر آپ خاندانی حلقہ استعمال کرتے ہیں تو موسم شروع ہونے سے پہلے اسے گھر والوں کے گروپ کے لیے آن کر دیں۔",
+      "hi": "अगर आप परिवार सर्कल इस्तेमाल करते हैं, तो बाढ़ के मौसम से पहले इसे परिवार के ग्रुप के लिए चालू कर दें।",
+      "bn": "ফ্যামিলি সার্কেল ব্যবহার করলে মৌসুম শুরুর আগেই পরিবারের গ্রুপে সেটি চালু করুন।",
+      "id": "Jika Anda memakai Lingkar Keluarga, nyalakan untuk grup keluarga sebelum musimnya tiba.",
+      "ms": "Jika anda menggunakan Lingkaran Keluarga, hidupkannya untuk kumpulan keluarga sebelum musim bermula."
     }
   ],
   "sources": [

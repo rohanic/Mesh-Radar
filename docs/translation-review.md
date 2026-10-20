@@ -84,3 +84,46 @@ Indonesian and Malay:
 - Mosque gates use "Pintu" ("Pintu 79"), not the app's generic "Gerbang".
 - "Mashaer metro" is "kereta Masyair" (id) and "tren Masyair" (ms); "mataf" carries a short gloss in umrah/dos[3].
 - "Water, please" is "Minta air"; Malay "relief camp" is "Pusat pemindahan terdekat"; "power bank" kept as is.
+
+Urdu:
+- Phrasebook word order: "My camp number is" is میرا کیمپ نمبر یہ ہے and "Where is gate number" is یہ گیٹ نمبر کہاں ہے؟, so the speaker points at the number.
+- "the Rawdah" is روضہ (ریاض الجنہ), since روضہ alone can mean the Prophet's tomb.
+- Gate names use گیٹ to match the app; the signs say باب (for example باب الملک فہد).
+- Tawaf al-Ifadah is طوافِ افاضہ; many Pakistani pilgrims know it as طوافِ زیارت.
+- Arbaeen poles are کھمبا; pilgrims may know them as عمود or "پول نمبر". "Shrine of al-Abbas" has no honorific; add one if preferred.
+- "(south peninsula)" is جنوبی جزیرہ نما; جنوبی بھارت is plainer.
+- Phrasebook lines use the masculine form.
+
+Arabic:
+- "imambargah" is written حسينيتك (الإمام باره); proper names in muharram/meetingPoints[2] (Hussainian Iranian Imambargah, Masjid-e-Ilahi, Dhanmondi, Dhaka) are best-guess spellings, and «كربلاء» is quoted so it is not read as the city in Iraq.
+- "Guides" in arbaeen/meetingPoints[1] is read as printed guides (الأدلة الإرشادية).
+- umrah/schedule[1] "each night prayer" is قبل كل صلاة في الليل.
+- hajj/schedule[2] now lists the rites as nouns (ذبح الهدي), not an order to slaughter, since many pilgrims buy a sacrifice voucher.
+
+Turkish:
+- "mevkib" (mawkib) and "Hz. Abbas Türbesi" may be hard for some readers.
+- Jamarat uses "Cemerat" for the place and "cemre" for the pillars; some pilgrims know "şeytan taşlama" better.
+- Day of Sacrifice is "Kurban günü"; Tawaf al-Ifadah is "ziyaret (ifaza) tavafı".
+- "Powerbank" is used; "the mosque" is named Mescid-i Haram; gate names use "Kral" (some sources use "Melik").
+- Phrasebook fragments completed by a number start with "..." because Turkish puts the number first.
+
+Hindi:
+- "I am lost" is "मैं खो गया/गई हूँ" so it works for women and men.
+- Phrasebook fragments use spoken order so a number can follow ("कहाँ है गेट नंबर", "मेरा कैंप नंबर है").
+- विजयादशमी is used for Bijoya Dashami; बिजोया दशमी may suit the Bengal context.
+- "south peninsula" became दक्षिण भारत; "Ear protection" is "कानों की सुरक्षा का सामान".
+- Hajj names mirror the English (जमरत अल-अक़बा, तवाफ़ अल-इफ़ादा); South Asian pilgrims may know जमरा-ए-अक़बा and तवाफ़-ए-ज़ियारत.
+- "Rawdah" is "रौज़ा शरीफ़", and the shrine of al-Abbas is also रौज़ा; check they do not confuse.
+- "मौकिब" kept as a loanword; autumn is पतझड़ (शरद may be preferred); "trail junction" is "रास्ते का हर दोराहा" (strictly a two-way fork).
+- Rath Yatra: "deities" is "भगवान", "Suna Besha" is "सुना बेश".
+
+Bengali:
+- Water is জল in the Durga Puja, Kumbh and Rath Yatra packs and পানি in Hajj, Umrah, Muharram and floods; the reviewer may want one word.
+- "Pandal" is প্যান্ডেল; Bangladeshi readers may prefer মণ্ডপ.
+- "ইমামবারগাহ" is kept in the Karachi proper name; the general word is ইমামবাড়া. "Sabeel" has no gloss.
+- Rawdah is "রওজা শরিফ"; check it matches Nusuk's wording.
+- Spellings: ওমরাহ, কংকর নিক্ষেপ, আইয়ামে তাশরিক, তারবিয়ার দিন, তাওয়াফে ইফাদা, উজ্জয়িনী.
+- "Northeast monsoon" (উত্তর-পূর্ব মৌসুমি বর্ষা) relies on the "(দক্ষিণ উপদ্বীপ)" note to be clear.
+- "এনক্লোজার" kept for stadium enclosures; গ্যালারি or স্ট্যান্ড may be more familiar in Bangladesh.
+
+Changed in the English source after drafting (translations patched to match): the Muharram pack now says Hyderabad, India and Karbala, Iraq, and the Day of Sacrifice lists the rites as nouns, with the sacrifice made in person or through a voucher, instead of telling pilgrims to slaughter.

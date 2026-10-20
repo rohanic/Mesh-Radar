@@ -18,17 +18,23 @@
     "ur"
   ],
   "title": {
-    "en": "Trekking"
+    "en": "Trekking",
+    "ur": "ٹریکنگ",
+    "hi": "ट्रेकिंग"
   },
   "summary": {
-    "en": "Treks in Nepal, Gilgit-Baltistan and the Indian Himalaya. Set check-in timers and keep the group within reach."
+    "en": "Treks in Nepal, Gilgit-Baltistan and the Indian Himalaya. Set check-in timers and keep the group within reach.",
+    "ur": "نیپال، گلگت بلتستان اور بھارتی ہمالیہ میں ٹریکنگ۔ حاضری ٹائمر لگائیں اور گروپ کو ایک دوسرے کی پہنچ میں رکھیں۔",
+    "hi": "नेपाल, गिलगित-बाल्टिस्तान और भारतीय हिमालय में ट्रेक। हाजिरी टाइमर लगाएँ और ग्रुप को एक-दूसरे की पहुँच में रखें।"
   },
   "dates": [
     {
       "start": "2026-09-01",
       "end": "2026-11-30",
       "label": {
-        "en": "Nepal autumn trekking season 2026"
+        "en": "Nepal autumn trekking season 2026",
+        "ur": "نیپال میں خزاں کا ٹریکنگ سیزن 2026",
+        "hi": "नेपाल में पतझड़ का ट्रेकिंग सीजन 2026"
       },
       "approx": true
     },
@@ -36,7 +42,9 @@
       "start": "2027-03-01",
       "end": "2027-05-31",
       "label": {
-        "en": "Nepal spring trekking season 2027"
+        "en": "Nepal spring trekking season 2027",
+        "ur": "نیپال میں بہار کا ٹریکنگ سیزن 2027",
+        "hi": "नेपाल में बसंत का ट्रेकिंग सीजन 2027"
       },
       "approx": true
     },
@@ -44,7 +52,9 @@
       "start": "2027-09-01",
       "end": "2027-11-30",
       "label": {
-        "en": "Nepal autumn trekking season 2027"
+        "en": "Nepal autumn trekking season 2027",
+        "ur": "نیپال میں خزاں کا ٹریکنگ سیزن 2027",
+        "hi": "नेपाल में पतझड़ का ट्रेकिंग सीजन 2027"
       },
       "approx": true
     },
@@ -52,7 +62,9 @@
       "start": "2028-03-01",
       "end": "2028-05-31",
       "label": {
-        "en": "Nepal spring trekking season 2028"
+        "en": "Nepal spring trekking season 2028",
+        "ur": "نیپال میں بہار کا ٹریکنگ سیزن 2028",
+        "hi": "नेपाल में बसंत का ट्रेकिंग सीजन 2028"
       },
       "approx": true
     },
@@ -60,7 +72,9 @@
       "start": "2028-09-01",
       "end": "2028-11-30",
       "label": {
-        "en": "Nepal autumn trekking season 2028"
+        "en": "Nepal autumn trekking season 2028",
+        "ur": "نیپال میں خزاں کا ٹریکنگ سیزن 2028",
+        "hi": "नेपाल में पतझड़ का ट्रेकिंग सीजन 2028"
       },
       "approx": true
     }
@@ -68,71 +82,105 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "Tonight's lodge or camp"
+        "en": "Tonight's lodge or camp",
+        "ur": "آج رات کا لاج یا کیمپ",
+        "hi": "आज रात का लॉज या कैंप"
       },
       "detail": {
-        "en": "Save it as a meeting point every morning before you set off."
+        "en": "Save it as a meeting point every morning before you set off.",
+        "ur": "ہر صبح نکلنے سے پہلے اسے ملنے کی جگہ کے طور پر محفوظ کر لیں۔",
+        "hi": "हर सुबह निकलने से पहले इसे मिलने की जगह के तौर पर सेव कर लें।"
       }
     },
     {
       "name": {
-        "en": "Each trail junction"
+        "en": "Each trail junction",
+        "ur": "ٹریک کا ہر دوراہا",
+        "hi": "रास्ते का हर दोराहा"
       },
       "detail": {
-        "en": "The leader can add checkpoints with deadlines in the app."
+        "en": "The leader can add checkpoints with deadlines in the app.",
+        "ur": "لیڈر ایپ میں وقت کی حد کے ساتھ چیک پوائنٹ شامل کر سکتا ہے۔",
+        "hi": "लीडर ऐप में समय सीमा के साथ पड़ाव जोड़ सकते हैं।"
       }
     },
     {
       "name": {
-        "en": "A Himalayan Rescue Association aid post"
+        "en": "A Himalayan Rescue Association aid post",
+        "ur": "ہمالین ریسکیو ایسوسی ایشن کی امدادی چوکی",
+        "hi": "हिमालयन रेस्क्यू एसोसिएशन की सहायता चौकी"
       },
       "detail": {
-        "en": "On the Everest route at Pheriche and on the Annapurna route at Manang, staffed in spring and autumn."
+        "en": "On the Everest route at Pheriche and on the Annapurna route at Manang, staffed in spring and autumn.",
+        "ur": "ایورسٹ کے راستے پر فیریچے میں اور اناپورنا کے راستے پر منانگ میں، بہار اور خزاں میں یہاں عملہ موجود ہوتا ہے۔",
+        "hi": "एवरेस्ट वाले रास्ते पर फेरिचे में और अन्नपूर्णा वाले रास्ते पर मनांग में, बसंत और पतझड़ में यहाँ स्टाफ रहता है।"
       }
     }
   ],
   "dos": [
     {
-      "en": "Set a check-in timer before every day on the trail."
+      "en": "Set a check-in timer before every day on the trail.",
+      "ur": "ٹریک پر ہر دن شروع کرنے سے پہلے حاضری ٹائمر لگائیں۔",
+      "hi": "रास्ते पर हर दिन निकलने से पहले हाजिरी टाइमर लगाएँ।"
     },
     {
-      "en": "Keep the slowest walker in the middle of the group, not at the back."
+      "en": "Keep the slowest walker in the middle of the group, not at the back.",
+      "ur": "سب سے آہستہ چلنے والے کو گروپ کے بیچ میں رکھیں، پیچھے نہیں۔",
+      "hi": "सबसे धीरे चलने वाले को ग्रुप के बीच में रखें, सबसे पीछे नहीं।"
     },
     {
-      "en": "Check permit rules before you go: in parts of Nepal you need a licensed guide and a TIMS card."
+      "en": "Check permit rules before you go: in parts of Nepal you need a licensed guide and a TIMS card.",
+      "ur": "جانے سے پہلے پرمٹ کے قواعد معلوم کر لیں: نیپال کے کچھ حصوں میں لائسنس یافتہ گائیڈ اور TIMS کارڈ ضروری ہے۔",
+      "hi": "जाने से पहले परमिट के नियम देख लें: नेपाल के कुछ इलाकों में लाइसेंस वाला गाइड और TIMS कार्ड जरूरी है।"
     },
     {
-      "en": "Register your trek with the tourism department in Gilgit-Baltistan."
+      "en": "Register your trek with the tourism department in Gilgit-Baltistan.",
+      "ur": "گلگت بلتستان میں اپنا ٹریک محکمہ سیاحت کے پاس رجسٹر کروائیں۔",
+      "hi": "गिलगित-बाल्टिस्तान में अपना ट्रेक पर्यटन विभाग में दर्ज कराएँ।"
     },
     {
-      "en": "Climb slowly and rest when anyone has a headache, nausea or dizziness at altitude."
+      "en": "Climb slowly and rest when anyone has a headache, nausea or dizziness at altitude.",
+      "ur": "آہستہ اوپر چڑھیں، اور بلندی پر کسی کو سر درد، متلی یا چکر ہو تو آرام کریں۔",
+      "hi": "धीरे-धीरे चढ़ें, और ऊँचाई पर किसी को सिरदर्द, जी मिचलाना या चक्कर आए, तो आराम करें।"
     }
   ],
   "donts": [
     {
-      "en": "Don't leave the trail to take a shortcut, especially in fog or snow."
+      "en": "Don't leave the trail to take a shortcut, especially in fog or snow.",
+      "ur": "چھوٹا راستہ لینے کے لیے ٹریک سے نہ ہٹیں، خاص طور پر دھند یا برف میں۔",
+      "hi": "छोटा रास्ता लेने के लिए पगडंडी न छोड़ें, खासकर कोहरे या बर्फ में।"
     },
     {
-      "en": "Don't split the group without agreeing where and when you will meet again."
+      "en": "Don't split the group without agreeing where and when you will meet again.",
+      "ur": "یہ طے کیے بغیر گروپ کو الگ نہ کریں کہ دوبارہ کہاں اور کب ملیں گے۔",
+      "hi": "दोबारा कहाँ और कब मिलेंगे, यह तय किए बिना ग्रुप को न बाँटें।"
     },
     {
-      "en": "Don't keep climbing with symptoms of altitude sickness."
+      "en": "Don't keep climbing with symptoms of altitude sickness.",
+      "ur": "بلندی کی بیماری کی علامات ہوں تو اوپر چڑھنا جاری نہ رکھیں۔",
+      "hi": "ऊँचाई की बीमारी के लक्षण हों, तो चढ़ाई जारी न रखें।"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Seasons"
+        "en": "Seasons",
+        "ur": "موسم",
+        "hi": "मौसम"
       },
       "detail": {
-        "en": "The Nepal Tourism Board lists spring (March to May) and autumn (September to November) as the best months for the Annapurna area. Other areas differ."
+        "en": "The Nepal Tourism Board lists spring (March to May) and autumn (September to November) as the best months for the Annapurna area. Other areas differ.",
+        "ur": "نیپال ٹورازم بورڈ کے مطابق اناپورنا کے علاقے کے لیے بہترین مہینے بہار (مارچ سے مئی) اور خزاں (ستمبر سے نومبر) ہیں۔ دوسرے علاقوں میں یہ مختلف ہیں۔",
+        "hi": "नेपाल टूरिज्म बोर्ड के अनुसार अन्नपूर्णा इलाके के लिए बसंत (मार्च से मई) और पतझड़ (सितंबर से नवंबर) सबसे अच्छे महीने हैं। दूसरे इलाकों में यह अलग है।"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "hi": "कृपया मेरी मदद कीजिए"
       },
       "phrase": "कृपया मलाई मद्दत गर्नुहोस्",
       "lang": "ne",
@@ -140,7 +188,9 @@
     },
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "hi": "मैं खो गया/गई हूँ"
       },
       "phrase": "म बाटो हराएँ",
       "lang": "ne",
@@ -148,7 +198,9 @@
     },
     {
       "meaning": {
-        "en": "I need a doctor"
+        "en": "I need a doctor",
+        "ur": "مجھے ڈاکٹر چاہیے",
+        "hi": "मुझे डॉक्टर चाहिए"
       },
       "phrase": "मलाई डाक्टर चाहियो",
       "lang": "ne",
@@ -156,7 +208,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the nearest village?"
+        "en": "Where is the nearest village?",
+        "ur": "سب سے قریبی گاؤں کہاں ہے؟",
+        "hi": "सबसे पास का गाँव कहाँ है?"
       },
       "phrase": "नजिकको गाउँ कहाँ छ?",
       "lang": "ne",
@@ -164,7 +218,9 @@
     },
     {
       "meaning": {
-        "en": "Call the police"
+        "en": "Call the police",
+        "ur": "پولیس کو بلائیں",
+        "hi": "पुलिस को बुलाइए"
       },
       "phrase": "प्रहरीलाई बोलाउनुहोस्",
       "lang": "ne",
@@ -172,7 +228,9 @@
     },
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "hi": "मैं खो गया/गई हूँ"
       },
       "phrase": "میں کھو گیا ہوں",
       "lang": "ur",
@@ -180,7 +238,9 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "hi": "कृपया मेरी मदद कीजिए"
       },
       "phrase": "براہ کرم میری مدد کریں",
       "lang": "ur",
@@ -189,19 +249,29 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card, including blood group."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card, including blood group.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور بلڈ گروپ سمیت اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने ब्लड ग्रुप समेत अपना इमरजेंसी कार्ड भर लिया है।"
     },
     {
-      "en": "Permits, TIMS card or registration done for your route."
+      "en": "Permits, TIMS card or registration done for your route.",
+      "ur": "آپ کے راستے کے لیے پرمٹ، TIMS کارڈ یا رجسٹریشن مکمل ہے۔",
+      "hi": "आपके रास्ते के लिए परमिट, TIMS कार्ड या रजिस्ट्रेशन हो चुका है।"
     },
     {
-      "en": "Check-in plan with checkpoints and deadlines set by the leader."
+      "en": "Check-in plan with checkpoints and deadlines set by the leader.",
+      "ur": "لیڈر نے چیک پوائنٹ اور وقت کی حد کے ساتھ حاضری کا پلان طے کر دیا ہے۔",
+      "hi": "लीडर ने पड़ाव और समय सीमा के साथ हाजिरी का प्लान तय कर दिया है।"
     },
     {
-      "en": "Power bank, headlamp, warm layers, water purification."
+      "en": "Power bank, headlamp, warm layers, water purification.",
+      "ur": "پاور بینک، ہیڈ لیمپ، گرم کپڑوں کی تہیں، پانی صاف کرنے کا سامان۔",
+      "hi": "पावर बैंक, सिर पर बाँधने वाली टॉर्च, परतों में पहनने के गर्म कपड़े, पानी साफ करने का सामान।"
     },
     {
-      "en": "Set the app to Balanced mode; use Ultra-saver when battery is low."
+      "en": "Set the app to Balanced mode; use Ultra-saver when battery is low.",
+      "ur": "ایپ کو متوازن موڈ پر رکھیں، بیٹری کم ہو تو انتہائی بچت استعمال کریں۔",
+      "hi": "ऐप को संतुलित मोड पर रखें, बैटरी कम हो तो अल्ट्रा सेवर इस्तेमाल करें।"
     }
   ],
   "sources": [

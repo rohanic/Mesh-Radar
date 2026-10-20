@@ -22,17 +22,38 @@
     "tr"
   ],
   "title": {
-    "en": "Umrah"
+    "en": "Umrah",
+    "ur": "عمرہ",
+    "ar": "العمرة",
+    "hi": "उमरा",
+    "bn": "ওমরাহ",
+    "id": "Umrah",
+    "ms": "Umrah",
+    "tr": "Umre"
   },
   "summary": {
-    "en": "Umrah at the Grand Mosque, busiest in Ramadan. Use gate numbers to meet up and keep your permits ready."
+    "en": "Umrah at the Grand Mosque, busiest in Ramadan. Use gate numbers to meet up and keep your permits ready.",
+    "ur": "مسجد الحرام میں عمرہ، رمضان میں سب سے زیادہ رش۔ ملنے کے لیے گیٹ نمبر استعمال کریں اور اپنے پرمٹ تیار رکھیں۔",
+    "ar": "العمرة في المسجد الحرام، وأشد أوقاتها زحامًا في رمضان. استعينوا بأرقام الأبواب لتلتقوا، وأبقوا تصاريحكم جاهزة.",
+    "hi": "मस्जिद अल-हराम में उमरा, रमज़ान में सबसे ज्यादा भीड़। मिलने के लिए गेट नंबरों का इस्तेमाल करें और अपने परमिट तैयार रखें।",
+    "bn": "মসজিদুল হারামে ওমরাহ, রমজানে সবচেয়ে বেশি ভিড়। দেখা করতে গেট নম্বর ব্যবহার করুন, আর পারমিট হাতের কাছে রাখুন।",
+    "id": "Umrah di Masjidil Haram, paling ramai saat Ramadan. Gunakan nomor pintu untuk bertemu dan siapkan izin Anda.",
+    "ms": "Umrah di Masjidil Haram, paling sesak pada bulan Ramadan. Gunakan nombor pintu untuk berjumpa dan sediakan permit anda.",
+    "tr": "Mescid-i Haram'da umre, en kalabalık dönemi Ramazan'dır. Buluşmak için kapı numaralarını kullanın ve izinlerinizi hazır tutun."
   },
   "dates": [
     {
       "start": "2027-02-08",
       "end": "2027-03-08",
       "label": {
-        "en": "Ramadan 1448, the busiest Umrah weeks"
+        "en": "Ramadan 1448, the busiest Umrah weeks",
+        "ur": "رمضان 1448، عمرے کے سب سے زیادہ رش والے ہفتے",
+        "ar": "رمضان 1448، أكثر أسابيع العمرة زحامًا",
+        "hi": "रमज़ान 1448, उमरा के सबसे ज्यादा भीड़ वाले हफ्ते",
+        "bn": "রমজান 1448, ওমরাহর সবচেয়ে ভিড়ের সপ্তাহগুলো",
+        "id": "Ramadan 1448, minggu-minggu umrah paling ramai",
+        "ms": "Ramadan 1448, minggu-minggu umrah paling sesak",
+        "tr": "Ramazan 1448, umrenin en yoğun haftaları"
       },
       "approx": true
     },
@@ -40,7 +61,14 @@
       "start": "2028-01-28",
       "end": "2028-02-25",
       "label": {
-        "en": "Ramadan 1449, the busiest Umrah weeks"
+        "en": "Ramadan 1449, the busiest Umrah weeks",
+        "ur": "رمضان 1449، عمرے کے سب سے زیادہ رش والے ہفتے",
+        "ar": "رمضان 1449، أكثر أسابيع العمرة زحامًا",
+        "hi": "रमज़ान 1449, उमरा के सबसे ज्यादा भीड़ वाले हफ्ते",
+        "bn": "রমজান 1449, ওমরাহর সবচেয়ে ভিড়ের সপ্তাহগুলো",
+        "id": "Ramadan 1449, minggu-minggu umrah paling ramai",
+        "ms": "Ramadan 1449, minggu-minggu umrah paling sesak",
+        "tr": "Ramazan 1449, umrenin en yoğun haftaları"
       },
       "approx": true
     }
@@ -48,82 +76,222 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "A numbered gate of the Grand Mosque"
+        "en": "A numbered gate of the Grand Mosque",
+        "ur": "مسجد الحرام کا کوئی نمبر والا گیٹ",
+        "ar": "باب مرقّم في المسجد الحرام",
+        "hi": "मस्जिद अल-हराम का कोई नंबर वाला गेट",
+        "bn": "মসজিদুল হারামের একটি নম্বর দেওয়া গেট",
+        "id": "Pintu bernomor di Masjidil Haram",
+        "ms": "Pintu bernombor Masjidil Haram",
+        "tr": "Mescid-i Haram'ın numaralı bir kapısı"
       },
       "detail": {
-        "en": "Every gate has its own number, for example King Abdulaziz Gate 1, Safa Gate 11, Fath Gate 45, Umrah Gate 62, King Fahd Gate 79 and King Abdullah Gate 100. The Ministry advises agreeing on a door number before you start."
+        "en": "Every gate has its own number, for example King Abdulaziz Gate 1, Safa Gate 11, Fath Gate 45, Umrah Gate 62, King Fahd Gate 79 and King Abdullah Gate 100. The Ministry advises agreeing on a door number before you start.",
+        "ur": "ہر گیٹ کا اپنا نمبر ہے، مثلاً شاہ عبدالعزیز گیٹ 1، صفا گیٹ 11، فتح گیٹ 45، عمرہ گیٹ 62، شاہ فہد گیٹ 79 اور شاہ عبداللہ گیٹ 100۔ وزارتِ حج و عمرہ کا مشورہ ہے کہ شروع کرنے سے پہلے ایک دروازے کا نمبر طے کر لیں۔",
+        "ar": "لكل باب رقمه الخاص، مثل باب الملك عبد العزيز رقم 1، وباب الصفا رقم 11، وباب الفتح رقم 45، وباب العمرة رقم 62، وباب الملك فهد رقم 79، وباب الملك عبد الله رقم 100. وتوصي الوزارة بالاتفاق على رقم باب قبل أن تبدأ.",
+        "hi": "हर गेट का अपना नंबर है, जैसे किंग अब्दुलअज़ीज़ गेट 1, सफ़ा गेट 11, फ़तह गेट 45, उमरा गेट 62, किंग फ़हद गेट 79 और किंग अब्दुल्लाह गेट 100। मंत्रालय की सलाह है कि शुरू करने से पहले एक दरवाजे का नंबर तय कर लें।",
+        "bn": "প্রতিটি গেটের নিজস্ব নম্বর আছে, যেমন বাদশাহ আবদুল আজিজ গেট 1, সাফা গেট 11, ফাতহ গেট 45, ওমরাহ গেট 62, বাদশাহ ফাহাদ গেট 79 আর বাদশাহ আবদুল্লাহ গেট 100। মন্ত্রণালয় শুরু করার আগেই একটি দরজার নম্বর ঠিক করে নেওয়ার পরামর্শ দেয়।",
+        "id": "Setiap pintu punya nomor sendiri, misalnya Pintu King Abdulaziz nomor 1, Pintu Safa nomor 11, Pintu Fath nomor 45, Pintu Umrah nomor 62, Pintu King Fahd nomor 79 dan Pintu King Abdullah nomor 100. Kementerian Haji dan Umrah Saudi menyarankan agar menyepakati nomor pintu sebelum mulai.",
+        "ms": "Setiap pintu ada nombornya sendiri, contohnya Pintu King Abdulaziz nombor 1, Pintu Safa nombor 11, Pintu Fath nombor 45, Pintu Umrah nombor 62, Pintu King Fahd nombor 79 dan Pintu King Abdullah nombor 100. Kementerian Haji dan Umrah Arab Saudi menasihatkan agar anda menetapkan nombor pintu sebelum bermula.",
+        "tr": "Her kapının kendi numarası vardır, örneğin 1 numaralı Kral Abdülaziz Kapısı, 11 numaralı Safa Kapısı, 45 numaralı Fetih Kapısı, 62 numaralı Umre Kapısı, 79 numaralı Kral Fahd Kapısı ve 100 numaralı Kral Abdullah Kapısı. Bakanlık, başlamadan önce bir kapı numarasında anlaşmayı öneriyor."
       }
     },
     {
       "name": {
-        "en": "Your hotel lobby"
+        "en": "Your hotel lobby",
+        "ur": "آپ کے ہوٹل کی لابی",
+        "ar": "بهو فندقك",
+        "hi": "आपके होटल की लॉबी",
+        "bn": "আপনার হোটেলের লবি",
+        "id": "Lobi hotel Anda",
+        "ms": "Lobi hotel anda",
+        "tr": "Otelinizin lobisi"
       },
       "detail": {
-        "en": "A fixed place everyone can reach on their own."
+        "en": "A fixed place everyone can reach on their own.",
+        "ur": "ایک طے شدہ جگہ جہاں ہر کوئی خود پہنچ سکے۔",
+        "ar": "مكان ثابت يستطيع كل فرد الوصول إليه بمفرده.",
+        "hi": "एक पक्की जगह, जहाँ हर कोई खुद पहुँच सके।",
+        "bn": "সবাই নিজে নিজে পৌঁছাতে পারে এমন একটি নির্দিষ্ট জায়গা।",
+        "id": "Tempat tetap yang bisa didatangi setiap orang sendiri.",
+        "ms": "Tempat tetap yang boleh dituju oleh setiap orang sendiri.",
+        "tr": "Herkesin tek başına ulaşabileceği sabit bir yer."
       }
     },
     {
       "name": {
-        "en": "A spot outside the gate"
+        "en": "A spot outside the gate",
+        "ur": "گیٹ کے باہر کوئی جگہ",
+        "ar": "مكان خارج الباب",
+        "hi": "गेट के बाहर एक जगह",
+        "bn": "গেটের বাইরে একটি জায়গা",
+        "id": "Tempat di luar pintu",
+        "ms": "Tempat di luar pintu",
+        "tr": "Kapının dışında bir yer"
       },
       "detail": {
-        "en": "Gates can close when full (the gate panel turns red), so also agree on a spot outside it."
+        "en": "Gates can close when full (the gate panel turns red), so also agree on a spot outside it.",
+        "ur": "بھر جانے پر گیٹ بند ہو سکتے ہیں (گیٹ کا بورڈ لال ہو جاتا ہے)، اس لیے گیٹ کے باہر بھی ایک جگہ طے کر لیں۔",
+        "ar": "قد تُغلق الأبواب عند امتلائها (تتحول لوحة الباب إلى اللون الأحمر)، لذا اتفقوا أيضًا على مكان خارجه.",
+        "hi": "भर जाने पर गेट बंद हो सकते हैं (गेट का पैनल लाल हो जाता है), इसलिए उसके बाहर भी एक जगह तय कर लें।",
+        "bn": "ভেতরে ভরে গেলে গেট বন্ধ হয়ে যেতে পারে (গেটের প্যানেল লাল হয়ে যায়), তাই গেটের বাইরেও একটি জায়গা ঠিক করে নিন।",
+        "id": "Pintu bisa ditutup saat penuh (papan tanda pintu berubah merah), jadi sepakati juga satu tempat di luar pintu itu.",
+        "ms": "Pintu boleh ditutup apabila penuh (papan tanda pintu bertukar merah), jadi tetapkan juga satu tempat di luarnya.",
+        "tr": "Kapılar dolunca kapanabilir (kapı ekranı kırmızı olur), bu yüzden kapının dışında bir yerde de anlaşın."
       }
     }
   ],
   "dos": [
     {
-      "en": "Book your Umrah and prayer permits in the Nusuk app before you go."
+      "en": "Book your Umrah and prayer permits in the Nusuk app before you go.",
+      "ur": "جانے سے پہلے Nusuk ایپ میں عمرہ اور نماز کے پرمٹ بک کر لیں۔",
+      "ar": "احجز تصاريح العمرة والصلاة في تطبيق نسك قبل أن تذهب.",
+      "hi": "जाने से पहले Nusuk ऐप में अपने उमरा और नमाज़ के परमिट बुक कर लें।",
+      "bn": "যাওয়ার আগে Nusuk অ্যাপে আপনার ওমরাহ আর নামাজের পারমিট বুক করুন।",
+      "id": "Pesan izin umrah dan izin salat di aplikasi Nusuk sebelum berangkat.",
+      "ms": "Tempah permit umrah dan permit solat dalam aplikasi Nusuk sebelum berangkat.",
+      "tr": "Gitmeden önce umre ve namaz izinlerinizi Nusuk uygulamasından alın."
     },
     {
-      "en": "Agree on a gate number before every visit to the mosque."
+      "en": "Agree on a gate number before every visit to the mosque.",
+      "ur": "مسجد جانے سے پہلے ہر بار ایک گیٹ نمبر طے کر لیں۔",
+      "ar": "اتفقوا على رقم باب قبل كل زيارة للمسجد.",
+      "hi": "मस्जिद में हर बार जाने से पहले एक गेट नंबर तय कर लें।",
+      "bn": "প্রতিবার মসজিদে যাওয়ার আগে একটি গেট নম্বর ঠিক করে নিন।",
+      "id": "Sepakati nomor pintu setiap kali sebelum pergi ke masjid.",
+      "ms": "Tetapkan nombor pintu sebelum setiap kali ke masjid.",
+      "tr": "Mescid-i Haram'a her gidişinizden önce bir kapı numarasında anlaşın."
     },
     {
-      "en": "Check the gate panels: green means entry is open, red means that gate is full."
+      "en": "Check the gate panels: green means entry is open, red means that gate is full.",
+      "ur": "گیٹ کے بورڈ دیکھیں: ہرا مطلب داخلہ کھلا ہے، لال مطلب وہ گیٹ بھر چکا ہے۔",
+      "ar": "انظر إلى لوحات الأبواب: الأخضر يعني أن الدخول مفتوح، والأحمر يعني أن ذلك الباب ممتلئ.",
+      "hi": "गेट के पैनल देखें: हरा मतलब अंदर जा सकते हैं, लाल मतलब वह गेट भर गया है।",
+      "bn": "গেটের প্যানেল দেখুন। সবুজ মানে ঢোকা যাবে, লাল মানে সেই গেট ভরে গেছে।",
+      "id": "Perhatikan papan tanda pintu: hijau berarti boleh masuk, merah berarti pintu itu penuh.",
+      "ms": "Lihat papan tanda pintu: hijau bermaksud boleh masuk, merah bermaksud pintu itu sudah penuh.",
+      "tr": "Kapı ekranlarına bakın: yeşil girişin açık olduğunu, kırmızı o kapının dolu olduğunu gösterir."
     },
     {
-      "en": "Keep elders and children close in the mataf and on the way out after prayers."
+      "en": "Keep elders and children close in the mataf and on the way out after prayers.",
+      "ur": "مطاف میں اور نماز کے بعد باہر نکلتے ہوئے بزرگوں اور بچوں کو قریب رکھیں۔",
+      "ar": "أبقِ كبار السن والأطفال قريبين منك في المطاف وعند الخروج بعد الصلوات.",
+      "hi": "मताफ़ में और नमाज़ के बाद बाहर निकलते समय बुजुर्गों और बच्चों को पास रखें।",
+      "bn": "মাতাফে আর নামাজের পরে বের হওয়ার সময় বয়স্ক আর শিশুদের কাছে রাখুন।",
+      "id": "Jaga lansia dan anak-anak tetap dekat di mataf (area tawaf) dan saat keluar setelah salat.",
+      "ms": "Pastikan warga emas dan kanak-kanak sentiasa dekat di mataf (kawasan tawaf) dan semasa keluar selepas solat.",
+      "tr": "Metafta ve namazlardan sonra çıkarken yaşlıları ve çocukları yakınınızda tutun."
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔",
+      "ar": "اعرف أماكن المخارج وطريقًا ثانيًا للخروج فور وصولك.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।",
+      "id": "Begitu tiba, cari pintu keluar dan jalan keluar kedua.",
+      "ms": "Sebaik sahaja tiba, cari pintu keluar dan laluan keluar kedua.",
+      "tr": "Varır varmaz çıkışları ve ikinci bir çıkış yolunu bulun."
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔",
+      "ar": "في الزحام الشديد، ارفع يديك قرب صدرك لتحمي تنفسك.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।",
+      "id": "Di kerumunan padat, angkat kedua tangan dan tahan di dekat dada agar Anda tetap bisa bernapas.",
+      "ms": "Dalam orang ramai yang sesak, angkat kedua-dua tangan dekat dada supaya anda masih boleh bernafas.",
+      "tr": "Yoğun kalabalıkta, nefes alabilmek için ellerinizi göğsünüzün önünde, yukarıda tutun."
     }
   ],
   "donts": [
     {
-      "en": "Don't wait for a lost person inside the mataf. Go to your agreed gate."
+      "en": "Don't wait for a lost person inside the mataf. Go to your agreed gate.",
+      "ur": "مطاف کے اندر کسی بچھڑے ہوئے شخص کا انتظار نہ کریں۔ اپنے طے شدہ گیٹ پر جائیں۔",
+      "ar": "لا تنتظر الشخص التائه داخل المطاف. اذهب إلى الباب المتفق عليه.",
+      "hi": "किसी खोए हुए व्यक्ति का इंतजार मताफ़ के अंदर न करें। अपने तय गेट पर जाएँ।",
+      "bn": "হারিয়ে যাওয়া কারও জন্য মাতাফের ভেতরে অপেক্ষা করবেন না। আগে থেকে ঠিক করা গেটে চলে যান।",
+      "id": "Jangan menunggu orang yang hilang di dalam mataf. Pergilah ke pintu yang sudah disepakati.",
+      "ms": "Jangan tunggu orang yang hilang di dalam mataf. Pergi ke pintu yang telah ditetapkan.",
+      "tr": "Kaybolan birini metafın içinde beklemeyin. Anlaştığınız kapıya gidin."
     },
     {
-      "en": "Don't block doors or stairways after prayers."
+      "en": "Don't block doors or stairways after prayers.",
+      "ur": "نماز کے بعد دروازوں یا سیڑھیوں کا راستہ نہ روکیں۔",
+      "ar": "لا تسدّ الأبواب أو السلالم بعد الصلوات.",
+      "hi": "नमाज़ के बाद दरवाजों या सीढ़ियों का रास्ता न रोकें।",
+      "bn": "নামাজের পরে দরজা বা সিঁড়ি আটকে দাঁড়াবেন না।",
+      "id": "Jangan menghalangi pintu atau tangga setelah salat.",
+      "ms": "Jangan menghalang pintu atau tangga selepas solat.",
+      "tr": "Namazlardan sonra kapıların ve merdivenlerin önünü kapatmayın."
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔",
+      "ar": "لا تدفع عكس اتجاه الحشد، ولا تتوقف أو تجلس وسطه.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।",
+      "id": "Jangan mendorong melawan arus kerumunan, dan jangan berhenti atau duduk di tengahnya.",
+      "ms": "Jangan menolak melawan arus orang ramai, dan jangan berhenti atau duduk di tengahnya.",
+      "tr": "Kalabalığın akışına karşı itmeyin, kalabalığın içinde durmayın ya da oturmayın."
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Umrah season 1448"
+        "en": "Umrah season 1448",
+        "ur": "عمرہ سیزن 1448",
+        "ar": "موسم العمرة 1448",
+        "hi": "उमरा सीजन 1448",
+        "bn": "ওমরাহ মৌসুম 1448",
+        "id": "Musim umrah 1448",
+        "ms": "Musim umrah 1448",
+        "tr": "Umre sezonu 1448"
       },
       "detail": {
-        "en": "The Ministry calendar runs the season from 14 Dhu al-Hijjah 1447 to 30 Shawwal 1448 (about 31 May 2026 to 7 April 2027)."
+        "en": "The Ministry calendar runs the season from 14 Dhu al-Hijjah 1447 to 30 Shawwal 1448 (about 31 May 2026 to 7 April 2027).",
+        "ur": "وزارتِ حج و عمرہ کے کیلنڈر کے مطابق سیزن 14 ذوالحجہ 1447 سے 30 شوال 1448 تک ہے (تقریباً 31 مئی 2026 سے 7 اپریل 2027 تک)۔",
+        "ar": "بحسب تقويم الوزارة، يمتد الموسم من 14 ذي الحجة 1447 إلى 30 شوال 1448 (من 31 مايو 2026 إلى 7 أبريل 2027 تقريبًا).",
+        "hi": "मंत्रालय के कैलेंडर के हिसाब से सीजन 14 ज़ुल-हिज्जा 1447 से 30 शव्वाल 1448 तक है (लगभग 31 मई 2026 से 7 अप्रैल 2027)।",
+        "bn": "মন্ত্রণালয়ের ক্যালেন্ডার অনুযায়ী মৌসুম চলে 14 জিলহজ 1447 থেকে 30 শাওয়াল 1448 পর্যন্ত (মোটামুটি 31 মে 2026 থেকে 7 এপ্রিল 2027)।",
+        "id": "Menurut kalender Kementerian Haji dan Umrah Saudi, musim ini berlangsung dari 14 Zulhijah 1447 sampai 30 Syawal 1448 (sekitar 31 Mei 2026 sampai 7 April 2027).",
+        "ms": "Mengikut kalendar Kementerian Haji dan Umrah Arab Saudi, musim ini berlangsung dari 14 Zulhijah 1447 hingga 30 Syawal 1448 (kira-kira 31 Mei 2026 hingga 7 April 2027).",
+        "tr": "Bakanlık takvimine göre sezon 14 Zilhicce 1447'den 30 Şevval 1448'e kadar sürer (yaklaşık 31 Mayıs 2026'dan 7 Nisan 2027'ye)."
       }
     },
     {
       "title": {
-        "en": "Ramadan"
+        "en": "Ramadan",
+        "ur": "رمضان",
+        "ar": "رمضان",
+        "hi": "रमज़ान",
+        "bn": "রমজান",
+        "id": "Ramadan",
+        "ms": "Ramadan",
+        "tr": "Ramazan"
       },
       "detail": {
-        "en": "The mosque is busiest in the last ten nights. Plan meeting points before each night prayer."
+        "en": "The mosque is busiest in the last ten nights. Plan meeting points before each night prayer.",
+        "ur": "آخری دس راتوں میں مسجد میں سب سے زیادہ رش ہوتا ہے۔ ہر رات کی نماز سے پہلے ملنے کی جگہیں طے کر لیں۔",
+        "ar": "يكون المسجد في أشد زحامه في الليالي العشر الأواخر. خطط لنقاط التجمع قبل كل صلاة في الليل.",
+        "hi": "आखिरी दस रातों में मस्जिद में सबसे ज्यादा भीड़ होती है। रात की हर नमाज़ से पहले मिलने की जगहें तय कर लें।",
+        "bn": "শেষ দশ রাতে মসজিদে সবচেয়ে বেশি ভিড় হয়। প্রতিটি রাতের নামাজের আগে দেখা করার জায়গা ঠিক করে নিন।",
+        "id": "Masjid paling ramai pada sepuluh malam terakhir. Tentukan titik kumpul sebelum setiap salat malam.",
+        "ms": "Masjid paling sesak pada sepuluh malam terakhir. Rancang tempat pertemuan sebelum setiap solat malam.",
+        "tr": "Mescid en çok son on gecede kalabalık olur. Her gece, namazdan önce buluşma noktalarını planlayın."
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "ar": "أنا تائه",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি",
+        "id": "Saya tersesat",
+        "ms": "Saya sesat",
+        "tr": "Kayboldum"
       },
       "phrase": "أنا تائه",
       "lang": "ar",
@@ -131,7 +299,14 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "ar": "ساعدني من فضلك",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন",
+        "id": "Tolong bantu saya",
+        "ms": "Tolong bantu saya",
+        "tr": "Lütfen bana yardım edin"
       },
       "phrase": "ساعدني من فضلك",
       "lang": "ar",
@@ -139,7 +314,14 @@
     },
     {
       "meaning": {
-        "en": "I need a doctor"
+        "en": "I need a doctor",
+        "ur": "مجھے ڈاکٹر چاہیے",
+        "ar": "أحتاج إلى طبيب",
+        "hi": "मुझे डॉक्टर चाहिए",
+        "bn": "আমার ডাক্তার দরকার",
+        "id": "Saya butuh dokter",
+        "ms": "Saya perlukan doktor",
+        "tr": "Doktora ihtiyacım var"
       },
       "phrase": "أحتاج إلى طبيب",
       "lang": "ar",
@@ -147,7 +329,14 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "ur": "ہسپتال کہاں ہے؟",
+        "ar": "أين المستشفى؟",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?",
+        "id": "Di mana rumah sakit?",
+        "ms": "Di mana hospital?",
+        "tr": "Hastane nerede?"
       },
       "phrase": "أين المستشفى؟",
       "lang": "ar",
@@ -155,7 +344,14 @@
     },
     {
       "meaning": {
-        "en": "Call an ambulance"
+        "en": "Call an ambulance",
+        "ur": "ایمبولینس بلائیں",
+        "ar": "اتصل بالإسعاف",
+        "hi": "एम्बुलेंस बुलाइए",
+        "bn": "অ্যাম্বুলেন্স ডাকুন",
+        "id": "Panggil ambulans",
+        "ms": "Panggil ambulans",
+        "tr": "Ambulans çağırın"
       },
       "phrase": "اتصل بالإسعاف",
       "lang": "ar",
@@ -163,7 +359,14 @@
     },
     {
       "meaning": {
-        "en": "I am looking for my family"
+        "en": "I am looking for my family",
+        "ur": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
+        "ar": "أبحث عن عائلتي",
+        "hi": "मुझे अपने परिवार की तलाश है",
+        "bn": "আমি আমার পরিবারকে খুঁজছি",
+        "id": "Saya sedang mencari keluarga saya",
+        "ms": "Saya sedang mencari keluarga saya",
+        "tr": "Ailemi arıyorum"
       },
       "phrase": "أبحث عن عائلتي",
       "lang": "ar",
@@ -171,7 +374,14 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "ur": "براہ کرم پانی دیں",
+        "ar": "ماء من فضلك",
+        "hi": "कृपया पानी दीजिए",
+        "bn": "দয়া করে একটু পানি দিন",
+        "id": "Minta air",
+        "ms": "Minta air",
+        "tr": "Su, lütfen"
       },
       "phrase": "ماء من فضلك",
       "lang": "ar",
@@ -179,7 +389,14 @@
     },
     {
       "meaning": {
-        "en": "Where is gate number"
+        "en": "Where is gate number",
+        "ur": "یہ گیٹ نمبر کہاں ہے؟",
+        "ar": "أين الباب رقم",
+        "hi": "कहाँ है गेट नंबर",
+        "bn": "গেট নম্বর ... কোথায়?",
+        "id": "Di mana pintu nomor",
+        "ms": "Di mana pintu nombor",
+        "tr": "... numaralı kapı nerede?"
       },
       "phrase": "أين باب رقم",
       "lang": "ar",
@@ -188,19 +405,54 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "ar": "كل فرد في المجموعة لديه التطبيق، وانضم إلى المجموعة، وملأ بطاقة الطوارئ الخاصة به.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।",
+      "id": "Semua anggota grup sudah memasang aplikasi, bergabung ke grup dan mengisi kartu darurat mereka.",
+      "ms": "Setiap ahli kumpulan ada aplikasi ini, sudah menyertai kumpulan dan sudah mengisi kad kecemasan masing-masing.",
+      "tr": "Gruptaki herkeste uygulama var, herkes gruba katıldı ve acil durum kartını doldurdu."
     },
     {
-      "en": "Nusuk permits booked for Umrah and for the Rawdah if you plan to visit."
+      "en": "Nusuk permits booked for Umrah and for the Rawdah if you plan to visit.",
+      "ur": "عمرہ کے لیے Nusuk پرمٹ بک ہے، اور اگر روضہ (ریاض الجنہ) جانا ہو تو اس کا بھی۔",
+      "ar": "تصاريح نسك محجوزة للعمرة، وللروضة الشريفة إن كنت تنوي زيارتها.",
+      "hi": "उमरा के लिए, और अगर रौज़ा शरीफ़ जाना है तो उसके लिए भी, Nusuk परमिट बुक हैं।",
+      "bn": "ওমরাহর জন্য, আর রওজা শরিফে যেতে চাইলে তার জন্যও, Nusuk পারমিট বুক করা আছে।",
+      "id": "Izin Nusuk sudah dipesan untuk umrah, dan untuk Raudhah jika Anda berencana ke sana.",
+      "ms": "Permit Nusuk ditempah untuk umrah, dan untuk Raudhah jika anda bercadang ke sana.",
+      "tr": "Umre için ve ziyaret etmeyi düşünüyorsanız Ravza için Nusuk izinleri alındı."
     },
     {
-      "en": "Hotel name and group leader phone saved in the emergency card."
+      "en": "Hotel name and group leader phone saved in the emergency card.",
+      "ur": "ہوٹل کا نام اور گروپ لیڈر کا فون نمبر ایمرجنسی کارڈ میں محفوظ ہے۔",
+      "ar": "اسم الفندق وهاتف قائد المجموعة محفوظان في بطاقة الطوارئ.",
+      "hi": "होटल का नाम और ग्रुप लीडर का फोन नंबर इमरजेंसी कार्ड में सेव है।",
+      "bn": "হোটেলের নাম আর দলনেতার ফোন নম্বর জরুরি কার্ডে সেভ করা আছে।",
+      "id": "Nama hotel dan nomor telepon ketua grup sudah disimpan di kartu darurat.",
+      "ms": "Nama hotel dan nombor telefon ketua kumpulan disimpan dalam kad kecemasan.",
+      "tr": "Otel adı ve grup liderinin telefonu acil durum kartına kaydedildi."
     },
     {
-      "en": "A gate number and a hotel added as meeting points."
+      "en": "A gate number and a hotel added as meeting points.",
+      "ur": "ایک گیٹ نمبر اور ہوٹل ملنے کی جگہوں کے طور پر شامل ہیں۔",
+      "ar": "رقم باب وفندق مضافان كنقطتي تجمع.",
+      "hi": "एक गेट नंबर और होटल, मिलने की जगहों के तौर पर जुड़े हैं।",
+      "bn": "একটি গেট নম্বর আর হোটেল দেখা করার জায়গা হিসেবে যোগ করা আছে।",
+      "id": "Satu nomor pintu dan hotel sudah ditambahkan sebagai titik kumpul.",
+      "ms": "Satu nombor pintu dan hotel ditambah sebagai tempat pertemuan.",
+      "tr": "Bir kapı numarası ve bir otel, buluşma noktası olarak eklendi."
     },
     {
-      "en": "Power bank and charging cable."
+      "en": "Power bank and charging cable.",
+      "ur": "پاور بینک اور چارجنگ کیبل۔",
+      "ar": "شاحن متنقل وكابل شحن.",
+      "hi": "पावर बैंक और चार्जिंग केबल।",
+      "bn": "পাওয়ার ব্যাংক আর চার্জিং কেবল।",
+      "id": "Power bank dan kabel pengisi daya.",
+      "ms": "Power bank dan kabel pengecas.",
+      "tr": "Powerbank ve şarj kablosu."
     }
   ],
   "sources": [

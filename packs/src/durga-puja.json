@@ -17,17 +17,23 @@
     "hi"
   ],
   "title": {
-    "en": "Durga Puja"
+    "en": "Durga Puja",
+    "hi": "दुर्गा पूजा",
+    "bn": "দুর্গাপূজা"
   },
   "summary": {
-    "en": "Pandal hopping in Kolkata, across West Bengal and in Bangladesh. Pick meeting points at each pandal and at the metro."
+    "en": "Pandal hopping in Kolkata, across West Bengal and in Bangladesh. Pick meeting points at each pandal and at the metro.",
+    "hi": "कोलकाता, पूरे पश्चिम बंगाल और बांग्लादेश में पंडाल घूमना। हर पंडाल पर और मेट्रो स्टेशन पर मिलने की जगहें चुन लें।",
+    "bn": "কলকাতা, পুরো পশ্চিমবঙ্গ আর বাংলাদেশে প্যান্ডেলে প্যান্ডেলে ঘোরা। প্রতিটি প্যান্ডেলে আর মেট্রোতে দেখা করার জায়গা ঠিক করুন।"
   },
   "dates": [
     {
       "start": "2026-10-17",
       "end": "2026-10-21",
       "label": {
-        "en": "Durga Puja 2026, West Bengal (Shashthi to Bijoya Dashami)"
+        "en": "Durga Puja 2026, West Bengal (Shashthi to Bijoya Dashami)",
+        "hi": "दुर्गा पूजा 2026, पश्चिम बंगाल (षष्ठी से विजयादशमी)",
+        "bn": "দুর্গাপূজা 2026, পশ্চিমবঙ্গ (ষষ্ঠী থেকে বিজয়া দশমী)"
       },
       "approx": false
     },
@@ -35,7 +41,9 @@
       "start": "2027-10-05",
       "end": "2027-10-10",
       "label": {
-        "en": "Durga Puja 2027 (Shashthi to Bijoya Dashami)"
+        "en": "Durga Puja 2027 (Shashthi to Bijoya Dashami)",
+        "hi": "दुर्गा पूजा 2027 (षष्ठी से विजयादशमी)",
+        "bn": "দুর্গাপূজা 2027 (ষষ্ঠী থেকে বিজয়া দশমী)"
       },
       "approx": true
     },
@@ -43,7 +51,9 @@
       "start": "2028-09-25",
       "end": "2028-09-27",
       "label": {
-        "en": "Durga Puja 2028 (Ashtami to Vijayadashami)"
+        "en": "Durga Puja 2028 (Ashtami to Bijoya Dashami)",
+        "hi": "दुर्गा पूजा 2028 (अष्टमी से विजयादशमी)",
+        "bn": "দুর্গাপূজা 2028 (অষ্টমী থেকে বিজয়া দশমী)"
       },
       "approx": true
     }
@@ -51,79 +61,117 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "The entrance of each pandal"
+        "en": "The entrance of each pandal",
+        "hi": "हर पंडाल का अंदर जाने का गेट",
+        "bn": "প্রতিটি প্যান্ডেলের প্রবেশপথ"
       },
       "detail": {
-        "en": "Agree on a spot outside before you go into every pandal, since the way out is often different from the way in."
+        "en": "Agree on a spot outside before you go into every pandal, since the way out is often different from the way in.",
+        "hi": "हर पंडाल में जाने से पहले बाहर एक जगह तय कर लें, क्योंकि निकलने का रास्ता अक्सर अंदर जाने के रास्ते से अलग होता है।",
+        "bn": "প্রতিটি প্যান্ডেলে ঢোকার আগে বাইরে একটি জায়গা ঠিক করে নিন, কারণ বের হওয়ার পথ অনেক সময় ঢোকার পথ থেকে আলাদা হয়।"
       }
     },
     {
       "name": {
-        "en": "A metro station exit"
+        "en": "A metro station exit",
+        "hi": "मेट्रो स्टेशन का बाहर निकलने का गेट",
+        "bn": "মেট্রো স্টেশনের একটি বের হওয়ার গেট"
       },
       "detail": {
-        "en": "Kolkata Metro runs late into the night on Saptami, Ashtami and Navami. Pick one station and one exit."
+        "en": "Kolkata Metro runs late into the night on Saptami, Ashtami and Navami. Pick one station and one exit.",
+        "hi": "सप्तमी, अष्टमी और नवमी को कोलकाता मेट्रो देर रात तक चलती है। एक स्टेशन और उसका एक बाहर निकलने का गेट चुन लें।",
+        "bn": "সপ্তমী, অষ্টমী আর নবমীতে কলকাতা মেট্রো অনেক রাত পর্যন্ত চলে। একটি স্টেশন আর একটি বের হওয়ার গেট বেছে নিন।"
       }
     },
     {
       "name": {
-        "en": "Your car or bus"
+        "en": "Your car or bus",
+        "hi": "आपकी कार या बस",
+        "bn": "আপনার গাড়ি বা বাস"
       },
       "detail": {
-        "en": "Save where you parked as a meeting point."
+        "en": "Save where you parked as a meeting point.",
+        "hi": "जहाँ गाड़ी खड़ी की है, उस जगह को मिलने की जगह के तौर पर सेव कर लें।",
+        "bn": "যেখানে গাড়ি রেখেছেন, সেই জায়গাটি দেখা করার জায়গা হিসেবে সেভ করুন।"
       }
     }
   ],
   "dos": [
     {
-      "en": "Use the Kolkata Police Puja Guide Map to plan your route."
+      "en": "Use the Kolkata Police Puja Guide Map to plan your route.",
+      "hi": "अपना रास्ता तय करने के लिए कोलकाता पुलिस का पूजा गाइड मैप देखें।",
+      "bn": "কোন পথে যাবেন তা ঠিক করতে কলকাতা পুলিশের পূজা গাইড ম্যাপ ব্যবহার করুন।"
     },
     {
-      "en": "Go to the busiest pandals early in the day or after midnight."
+      "en": "Go to the busiest pandals early in the day or after midnight.",
+      "hi": "सबसे ज्यादा भीड़ वाले पंडालों में दिन में जल्दी या आधी रात के बाद जाएँ।",
+      "bn": "সবচেয়ে ভিড়ের প্যান্ডেলগুলোতে দিনের শুরুতে বা মাঝরাতের পরে যান।"
     },
     {
-      "en": "Hold children's hands in queues and at pandal exits."
+      "en": "Hold children's hands in queues and at pandal exits.",
+      "hi": "लाइन में और पंडाल से बाहर निकलने की जगह पर बच्चों का हाथ पकड़े रखें।",
+      "bn": "লাইনে আর প্যান্ডেল থেকে বের হওয়ার পথে শিশুদের হাত ধরে রাখুন।"
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।"
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।"
     }
   ],
   "donts": [
     {
-      "en": "Don't follow the crowd into a pandal without agreeing where to meet outside."
+      "en": "Don't follow the crowd into a pandal without agreeing where to meet outside.",
+      "hi": "बाहर मिलने की जगह तय किए बिना भीड़ के पीछे-पीछे पंडाल में न जाएँ।",
+      "bn": "বাইরে কোথায় দেখা করবেন তা ঠিক না করে ভিড়ের পিছু পিছু প্যান্ডেলে ঢুকবেন না।"
     },
     {
-      "en": "Don't stand close to the river edge during immersion processions."
+      "en": "Don't stand close to the river edge during immersion processions.",
+      "hi": "विसर्जन जुलूस के समय नदी के किनारे के पास खड़े न हों।",
+      "bn": "বিসর্জনের শোভাযাত্রার সময় নদীর কিনারার কাছে দাঁড়াবেন না।"
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Saptami, Ashtami, Navami"
+        "en": "Saptami, Ashtami, Navami",
+        "hi": "सप्तमी, अष्टमी, नवमी",
+        "bn": "সপ্তমী, অষ্টমী, নবমী"
       },
       "detail": {
-        "en": "The busiest nights for pandal hopping."
+        "en": "The busiest nights for pandal hopping.",
+        "hi": "पंडाल घूमने के लिए सबसे ज्यादा भीड़ वाली रातें।",
+        "bn": "প্যান্ডেলে প্যান্ডেলে ঘোরার সবচেয়ে ভিড়ের রাত।"
       }
     },
     {
       "title": {
-        "en": "Bijoya Dashami"
+        "en": "Bijoya Dashami",
+        "hi": "विजयादशमी",
+        "bn": "বিজয়া দশমী"
       },
       "detail": {
-        "en": "Immersion processions. In Dhaka the main one goes from Dhakeshwari National Temple to Wiseghat on the Buriganga."
+        "en": "Immersion processions. In Dhaka the main one goes from Dhakeshwari National Temple to Wiseghat on the Buriganga.",
+        "hi": "विसर्जन जुलूस। ढाका में मुख्य जुलूस ढाकेश्वरी राष्ट्रीय मंदिर से बूढ़ीगंगा पर वाइजघाट तक जाता है।",
+        "bn": "বিসর্জনের শোভাযাত্রা। ঢাকায় প্রধান শোভাযাত্রাটি ঢাকেশ্বরী জাতীয় মন্দির থেকে বুড়িগঙ্গার ওয়াইজঘাট পর্যন্ত যায়।"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "আমি হারিয়ে গেছি",
       "lang": "bn",
@@ -131,7 +179,9 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "দয়া করে আমাকে সাহায্য করুন",
       "lang": "bn",
@@ -139,7 +189,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the police help booth?"
+        "en": "Where is the police help booth?",
+        "hi": "पुलिस सहायता बूथ कहाँ है?",
+        "bn": "পুলিশ সহায়তা কেন্দ্র কোথায়?"
       },
       "phrase": "পুলিশ সহায়তা কেন্দ্র কোথায়?",
       "lang": "bn",
@@ -147,7 +199,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?"
       },
       "phrase": "হাসপাতাল কোথায়?",
       "lang": "bn",
@@ -155,7 +209,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the metro station?"
+        "en": "Where is the metro station?",
+        "hi": "मेट्रो स्टेशन कहाँ है?",
+        "bn": "মেট্রো স্টেশন কোথায়?"
       },
       "phrase": "মেট্রো স্টেশন কোথায়?",
       "lang": "bn",
@@ -163,7 +219,9 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "hi": "कृपया पानी दीजिए",
+        "bn": "দয়া করে একটু জল দিন"
       },
       "phrase": "একটু জল দেবেন?",
       "lang": "bn",
@@ -172,16 +230,24 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।"
     },
     {
-      "en": "Children carry a printed lost-child card."
+      "en": "Children carry a printed lost-child card.",
+      "hi": "बच्चों के पास खोए बच्चे के कार्ड का प्रिंट है।",
+      "bn": "শিশুদের কাছে প্রিন্ট করা হারানো শিশুর কার্ড আছে।"
     },
     {
-      "en": "A pandal list for the night, shared with the group."
+      "en": "A pandal list for the night, shared with the group.",
+      "hi": "रात में जाने वाले पंडालों की सूची, ग्रुप के साथ शेयर की हुई।",
+      "bn": "রাতে কোন কোন প্যান্ডেলে যাবেন তার তালিকা গ্রুপের সাথে শেয়ার করা আছে।"
     },
     {
-      "en": "Power bank and charging cable."
+      "en": "Power bank and charging cable.",
+      "hi": "पावर बैंक और चार्जिंग केबल।",
+      "bn": "পাওয়ার ব্যাংক আর চার্জিং কেবল।"
     }
   ],
   "sources": [

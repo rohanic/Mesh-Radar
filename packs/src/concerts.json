@@ -28,80 +28,220 @@
     "tr"
   ],
   "title": {
-    "en": "Concerts and festivals"
+    "en": "Concerts and festivals",
+    "ur": "کنسرٹ اور میلے",
+    "ar": "الحفلات والمهرجانات",
+    "hi": "कॉन्सर्ट और फेस्टिवल",
+    "bn": "কনসার্ট ও উৎসব",
+    "id": "Konser dan festival",
+    "ms": "Konsert dan festival",
+    "tr": "Konserler ve festivaller"
   },
   "summary": {
-    "en": "Loud, dark and packed. Pick a meeting point you can find without a phone signal and keep away from barriers."
+    "en": "Loud, dark and packed. Pick a meeting point you can find without a phone signal and keep away from barriers.",
+    "ur": "شور، اندھیرا اور بہت رش۔ ایسی ملنے کی جگہ چنیں جو فون سگنل کے بغیر بھی مل جائے، اور رکاوٹوں سے دور رہیں۔",
+    "ar": "صاخبة ومظلمة ومكتظة. اختر نقطة تجمع تستطيع إيجادها دون إشارة اتصال، وابتعد عن الحواجز.",
+    "hi": "तेज आवाज, अँधेरा और खचाखच भीड़। ऐसी मिलने की जगह चुनें जो फोन सिग्नल के बिना भी मिल जाए, और बैरियर से दूर रहें।",
+    "bn": "প্রচণ্ড আওয়াজ, অন্ধকার আর ঠাসা ভিড়। এমন একটি দেখা করার জায়গা ঠিক করুন যা ফোনের সিগন্যাল ছাড়াই খুঁজে পাবেন, আর ব্যারিকেড থেকে দূরে থাকুন।",
+    "id": "Bising, gelap dan padat. Pilih titik kumpul yang bisa Anda temukan tanpa sinyal ponsel, dan jauhi pagar pembatas.",
+    "ms": "Bising, gelap dan sesak. Pilih tempat pertemuan yang boleh anda cari tanpa isyarat telefon, dan jauhi penghadang.",
+    "tr": "Gürültülü, karanlık ve çok kalabalık. Telefon sinyali olmadan bulabileceğiniz bir buluşma noktası seçin ve bariyerlerden uzak durun."
   },
   "dates": [],
   "meetingPoints": [
     {
       "name": {
-        "en": "A fixed landmark"
+        "en": "A fixed landmark",
+        "ur": "کوئی مستقل نشانی",
+        "ar": "معلَم ثابت",
+        "hi": "पहचान की कोई पक्की जगह",
+        "bn": "নড়ে না এমন চেনা জায়গা",
+        "id": "Patokan yang tetap",
+        "ms": "Mercu tanda yang tetap",
+        "tr": "Sabit ve belirgin bir nokta"
       },
       "detail": {
-        "en": "A sound desk, a numbered tower or a food stall sign, not a moving crowd spot."
+        "en": "A sound desk, a numbered tower or a food stall sign, not a moving crowd spot.",
+        "ur": "ساؤنڈ ڈیسک، نمبر والا ٹاور یا کھانے کے اسٹال کا بورڈ، ہجوم کی کوئی بدلتی ہوئی جگہ نہیں۔",
+        "ar": "منصة التحكم بالصوت، أو برج مرقّم، أو لافتة كشك طعام، لا مكان وسط حشد يتحرك.",
+        "hi": "साउंड डेस्क, नंबर वाला टावर या खाने के स्टॉल का बोर्ड, भीड़ के बीच की कोई बदलती जगह नहीं।",
+        "bn": "সাউন্ড ডেস্ক, নম্বর লেখা টাওয়ার বা খাবারের স্টলের সাইনবোর্ড। চলমান ভিড়ের মাঝের কোনো জায়গা নয়।",
+        "id": "Meja pengatur suara, menara bernomor atau papan nama kios makanan, bukan titik di tengah kerumunan yang bergerak.",
+        "ms": "Meja kawalan bunyi, menara bernombor atau papan tanda gerai makanan, bukan tempat di tengah orang ramai yang bergerak.",
+        "tr": "Ses masası, numaralı bir kule ya da bir yemek standının tabelası olsun, hareket eden kalabalığın içinde bir yer değil."
       }
     },
     {
       "name": {
-        "en": "An exit you can see"
+        "en": "An exit you can see",
+        "ur": "باہر نکلنے کا ایسا راستہ جو نظر آئے",
+        "ar": "مخرج تراه",
+        "hi": "बाहर जाने का रास्ता, जो आपको दिखे",
+        "bn": "চোখে পড়ে এমন একটি বের হওয়ার পথ",
+        "id": "Pintu keluar yang terlihat",
+        "ms": "Pintu keluar yang boleh dilihat",
+        "tr": "Görebildiğiniz bir çıkış"
       },
       "detail": {
-        "en": "Pick the exit nearest your meeting point when you arrive."
+        "en": "Pick the exit nearest your meeting point when you arrive.",
+        "ur": "پہنچتے ہی اپنی ملنے کی جگہ کے سب سے قریب والا باہر نکلنے کا راستہ چن لیں۔",
+        "ar": "اختر أقرب مخرج إلى نقطة التجمع عند وصولك.",
+        "hi": "पहुँचते ही अपनी मिलने की जगह के सबसे पास वाला बाहर जाने का रास्ता चुन लें।",
+        "bn": "পৌঁছেই আপনার দেখা করার জায়গার সবচেয়ে কাছের বের হওয়ার পথটি বেছে নিন।",
+        "id": "Saat tiba, pilih pintu keluar yang paling dekat dengan titik kumpul Anda.",
+        "ms": "Apabila tiba, pilih pintu keluar yang paling dekat dengan tempat pertemuan anda.",
+        "tr": "Vardığınızda buluşma noktanıza en yakın çıkışı seçin."
       }
     },
     {
       "name": {
-        "en": "Outside the venue"
+        "en": "Outside the venue",
+        "ur": "پنڈال کے باہر",
+        "ar": "خارج مكان الحفل",
+        "hi": "आयोजन की जगह के बाहर",
+        "bn": "অনুষ্ঠানস্থলের বাইরে",
+        "id": "Di luar lokasi acara",
+        "ms": "Di luar tempat acara",
+        "tr": "Etkinlik alanının dışı"
       },
       "detail": {
-        "en": "A second spot outside, in case you are split up when everyone leaves."
+        "en": "A second spot outside, in case you are split up when everyone leaves.",
+        "ur": "باہر ایک دوسری جگہ، اگر سب کے نکلتے وقت آپ بچھڑ جائیں۔",
+        "ar": "مكان ثانٍ في الخارج، تحسبًا لتفرقكم عند خروج الجميع.",
+        "hi": "बाहर एक दूसरी जगह, अगर सबके निकलते समय आप बिछड़ जाएँ।",
+        "bn": "বাইরে দ্বিতীয় একটি জায়গা, যদি সবাই বের হওয়ার সময় আপনারা আলাদা হয়ে যান।",
+        "id": "Tempat kedua di luar, untuk berjaga-jaga jika Anda terpisah saat semua orang keluar.",
+        "ms": "Tempat kedua di luar, sekiranya anda terpisah ketika semua orang keluar.",
+        "tr": "Herkes çıkarken birbirinizden ayrı düşerseniz diye dışarıda ikinci bir yer."
       }
     }
   ],
   "dos": [
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔",
+      "ar": "اعرف أماكن المخارج وطريقًا ثانيًا للخروج فور وصولك.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।",
+      "id": "Begitu tiba, cari pintu keluar dan jalan keluar kedua.",
+      "ms": "Sebaik sahaja tiba, cari pintu keluar dan laluan keluar kedua.",
+      "tr": "Varır varmaz çıkışları ve ikinci bir çıkış yolunu bulun."
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔",
+      "ar": "في الزحام الشديد، ارفع يديك قرب صدرك لتحمي تنفسك.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।",
+      "id": "Di kerumunan padat, angkat kedua tangan dan tahan di dekat dada agar Anda tetap bisa bernapas.",
+      "ms": "Dalam orang ramai yang sesak, angkat kedua-dua tangan dekat dada supaya anda masih boleh bernafas.",
+      "tr": "Yoğun kalabalıkta, nefes alabilmek için ellerinizi göğsünüzün önünde, yukarıda tutun."
     },
     {
-      "en": "Move with the flow and work your way diagonally toward the edge."
+      "en": "Move with the flow and work your way diagonally toward the edge.",
+      "ur": "ہجوم کے بہاؤ کے ساتھ چلیں اور ترچھا چلتے ہوئے آہستہ آہستہ کنارے کی طرف جائیں۔",
+      "ar": "تحرّك مع اتجاه الحشد، وتقدّم بشكل مائل شيئًا فشيئًا نحو الطرف.",
+      "hi": "भीड़ के बहाव के साथ चलें और तिरछी दिशा में धीरे-धीरे किनारे की ओर बढ़ें।",
+      "bn": "ভিড়ের স্রোতের সাথে চলুন, আর কোনাকুনি এগিয়ে ধীরে ধীরে কিনারার দিকে সরে যান।",
+      "id": "Ikuti arus kerumunan dan bergeraklah serong sedikit demi sedikit ke arah tepi.",
+      "ms": "Ikut arus orang ramai dan bergerak menyerong sedikit demi sedikit ke arah tepi.",
+      "tr": "Kalabalığın akışıyla birlikte ilerleyin ve çapraz giderek yavaş yavaş kenara doğru çıkın."
     },
     {
-      "en": "Agree on a time to check in by the app, for example after every third song."
+      "en": "Agree on a time to check in by the app, for example after every third song.",
+      "ur": "ایپ کے ذریعے حاضری لگانے کا وقت طے کریں، مثلاً ہر تیسرے گانے کے بعد۔",
+      "ar": "اتفقوا على وقت لتأكيد السلامة عبر التطبيق، مثلًا بعد كل ثلاث أغانٍ.",
+      "hi": "ऐप से हाजिरी लगाने का समय तय कर लें, जैसे हर तीसरे गाने के बाद।",
+      "bn": "অ্যাপে কখন চেক-ইন করবেন তা আগে থেকে ঠিক করে নিন, যেমন প্রতি তিনটি গানের পরে।",
+      "id": "Sepakati waktu untuk lapor diri lewat aplikasi, misalnya setiap tiga lagu.",
+      "ms": "Tetapkan masa untuk lapor diri melalui aplikasi, contohnya selepas setiap tiga lagu.",
+      "tr": "Uygulamadan durum bildirmek için bir zaman belirleyin, örneğin her üç şarkıda bir."
     },
     {
-      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms."
+      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms.",
+      "ur": "اگر گر جائیں تو جلدی اٹھیں۔ اگر نہ اٹھ سکیں تو کروٹ کے بل سکڑ جائیں اور بازوؤں سے اپنا سر ڈھانپ لیں۔",
+      "ar": "إذا سقطت فانهض بسرعة. وإن لم تستطع، فتكوّر على جنبك وغطِّ رأسك بذراعيك.",
+      "hi": "अगर गिर जाएँ, तो जल्दी उठें। उठ न सकें, तो एक करवट लेटकर सिकुड़ जाएँ और बाँहों से सिर ढक लें।",
+      "bn": "পড়ে গেলে তাড়াতাড়ি উঠে দাঁড়ান। না পারলে এক পাশে কাত হয়ে গুটিসুটি হয়ে শুয়ে দুই হাতে মাথা ঢেকে রাখুন।",
+      "id": "Jika terjatuh, segera bangun. Jika tidak bisa, berbaring miring sambil meringkuk dan lindungi kepala dengan kedua lengan.",
+      "ms": "Jika terjatuh, bangun segera. Jika tidak boleh, baring mengiring dalam keadaan meringkuk dan tutup kepala dengan kedua-dua lengan.",
+      "tr": "Düşerseniz hemen kalkın. Kalkamıyorsanız yan yatıp büzülün ve kollarınızla başınızı kapatın."
     }
   ],
   "donts": [
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔",
+      "ar": "لا تدفع عكس اتجاه الحشد، ولا تتوقف أو تجلس وسطه.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।",
+      "id": "Jangan mendorong melawan arus kerumunan, dan jangan berhenti atau duduk di tengahnya.",
+      "ms": "Jangan menolak melawan arus orang ramai, dan jangan berhenti atau duduk di tengahnya.",
+      "tr": "Kalabalığın akışına karşı itmeyin, kalabalığın içinde durmayın ya da oturmayın."
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "ur": "جب ہجوم شدید ہو تو دیواروں، باڑ یا رکاوٹوں سے لگ کر کھڑے نہ ہوں۔",
+      "ar": "لا تقف ملاصقًا للجدران أو الأسوار أو الحواجز عندما يشتد الزحام.",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "bn": "ভিড় ঘন হলে দেয়াল, বেড়া বা ব্যারিকেডের গা ঘেঁষে দাঁড়াবেন না।",
+      "id": "Jangan berdiri menempel ke dinding, pagar atau barikade saat kerumunan padat.",
+      "ms": "Jangan berdiri rapat pada dinding, pagar atau penghadang apabila orang ramai sesak.",
+      "tr": "Kalabalık yoğunken duvarların, çitlerin veya bariyerlerin dibinde durmayın."
     },
     {
-      "en": "Don't rush for shelter all at once if it starts to rain: a crush on steps at Cochin University in 2023 started this way."
+      "en": "Don't rush for shelter all at once if it starts to rain: a crush on steps at Cochin University in 2023 started this way.",
+      "ur": "بارش شروع ہو تو سب ایک ساتھ پناہ کی طرف نہ بھاگیں: 2023 میں کوچین یونیورسٹی میں سیڑھیوں پر بھگدڑ اسی طرح شروع ہوئی تھی۔",
+      "ar": "لا تندفعوا جميعًا في وقت واحد بحثًا عن مأوى إذا بدأ المطر: هكذا بدأ تدافع على درج في جامعة كوتشين عام 2023.",
+      "hi": "बारिश शुरू हो, तो सब एक साथ आसरे की ओर न भागें: 2023 में कोचीन यूनिवर्सिटी में सीढ़ियों पर भगदड़ ऐसे ही शुरू हुई थी।",
+      "bn": "বৃষ্টি শুরু হলে সবাই মিলে একসাথে আশ্রয়ের দিকে ছুটবেন না। 2023 সালে কোচিন বিশ্ববিদ্যালয়ে সিঁড়িতে ভিড়ের চাপে দুর্ঘটনা এভাবেই শুরু হয়েছিল।",
+      "id": "Jangan berebut mencari tempat berteduh bersamaan saat hujan mulai turun: peristiwa orang terhimpit di tangga Universitas Cochin pada 2023 berawal seperti ini.",
+      "ms": "Jangan berebut mencari tempat berteduh serentak apabila hujan mula turun: himpitan di tangga Universiti Cochin pada 2023 bermula begini.",
+      "tr": "Yağmur başlarsa herkesle aynı anda sığınacak yere koşmayın: 2023'te Cochin Üniversitesi'nde merdivenlerdeki bir ezilme olayı böyle başladı."
     }
   ],
   "schedule": [],
   "phrasebook": [],
   "checklist": [
     {
-      "en": "Every group member has the app and has joined the group."
+      "en": "Every group member has the app and has joined the group.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے اور وہ گروپ میں شامل ہو چکا ہے۔",
+      "ar": "كل فرد في المجموعة لديه التطبيق وانضم إلى المجموعة.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है और सब ग्रुप से जुड़ गए हैं।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে আর সবাই গ্রুপে যোগ দিয়েছেন।",
+      "id": "Semua anggota grup sudah memasang aplikasi dan bergabung ke grup.",
+      "ms": "Setiap ahli kumpulan ada aplikasi ini dan sudah menyertai kumpulan.",
+      "tr": "Gruptaki herkeste uygulama var ve herkes gruba katıldı."
     },
     {
-      "en": "A landmark and an outside spot saved as meeting points."
+      "en": "A landmark and an outside spot saved as meeting points.",
+      "ur": "ایک نشانی اور باہر کی ایک جگہ ملنے کی جگہوں کے طور پر محفوظ ہیں۔",
+      "ar": "معلَم ومكان في الخارج محفوظان كنقطتي تجمع.",
+      "hi": "पहचान की एक जगह और बाहर की एक जगह, मिलने की जगहों के तौर पर सेव हैं।",
+      "bn": "একটি চেনা জায়গা আর বাইরের একটি জায়গা, দুটোই দেখা করার জায়গা হিসেবে সেভ করা আছে।",
+      "id": "Satu patokan dan satu tempat di luar sudah disimpan sebagai titik kumpul.",
+      "ms": "Satu mercu tanda dan satu tempat di luar disimpan sebagai tempat pertemuan.",
+      "tr": "Belirgin bir nokta ve dışarıda bir yer, buluşma noktası olarak kaydedildi."
     },
     {
-      "en": "Power bank and charging cable."
+      "en": "Power bank and charging cable.",
+      "ur": "پاور بینک اور چارجنگ کیبل۔",
+      "ar": "شاحن متنقل وكابل شحن.",
+      "hi": "पावर बैंक और चार्जिंग केबल।",
+      "bn": "পাওয়ার ব্যাংক আর চার্জিং কেবল।",
+      "id": "Power bank dan kabel pengisi daya.",
+      "ms": "Power bank dan kabel pengecas.",
+      "tr": "Powerbank ve şarj kablosu."
     },
     {
-      "en": "Ear protection for children."
+      "en": "Ear protection for children.",
+      "ur": "بچوں کے کانوں کو شور سے بچانے کا سامان۔",
+      "ar": "واقيات للأذن للأطفال.",
+      "hi": "बच्चों के कानों की सुरक्षा का सामान।",
+      "bn": "শিশুদের জন্য কানের সুরক্ষা।",
+      "id": "Pelindung telinga untuk anak-anak.",
+      "ms": "Pelindung telinga untuk kanak-kanak.",
+      "tr": "Çocuklar için kulak koruyucu."
     }
   ],
   "sources": [

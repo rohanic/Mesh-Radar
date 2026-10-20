@@ -16,17 +16,23 @@
     "bn"
   ],
   "title": {
-    "en": "Rath Yatra, Puri"
+    "en": "Rath Yatra, Puri",
+    "hi": "रथ यात्रा, पुरी",
+    "bn": "রথযাত্রা, পুরী"
   },
   "summary": {
-    "en": "Three chariots pulled about 3 km along Bada Danda to the Gundicha Temple. Meet away from the chariot ropes."
+    "en": "Three chariots pulled about 3 km along Bada Danda to the Gundicha Temple. Meet away from the chariot ropes.",
+    "hi": "तीन रथ बड़ा दांड पर लगभग 3 किलोमीटर खींचकर गुंडिचा मंदिर तक ले जाए जाते हैं। रथ की रस्सियों से दूर मिलें।",
+    "bn": "তিনটি রথ বড় দাণ্ড ধরে প্রায় 3 কিলোমিটার টেনে গুন্ডিচা মন্দিরে নেওয়া হয়। রথের দড়ি থেকে দূরে দেখা করুন।"
   },
   "dates": [
     {
       "start": "2027-07-05",
       "end": "2027-07-13",
       "label": {
-        "en": "Rath Yatra 2027 to Bahuda Yatra"
+        "en": "Rath Yatra 2027 to Bahuda Yatra",
+        "hi": "रथ यात्रा 2027 से बाहुड़ा यात्रा तक",
+        "bn": "রথযাত্রা 2027 থেকে বাহুড়া যাত্রা"
       },
       "approx": true
     },
@@ -34,7 +40,9 @@
       "start": "2028-06-24",
       "end": "2028-06-24",
       "label": {
-        "en": "Rath Yatra 2028"
+        "en": "Rath Yatra 2028",
+        "hi": "रथ यात्रा 2028",
+        "bn": "রথযাত্রা 2028"
       },
       "approx": true
     }
@@ -42,96 +50,144 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "A side street off Bada Danda"
+        "en": "A side street off Bada Danda",
+        "hi": "बड़ा दांड से निकलने वाली कोई बगल की गली",
+        "bn": "বড় দাণ্ডের পাশের একটি গলি"
       },
       "detail": {
-        "en": "Pick a named side street, not the Grand Road itself, which fills edge to edge."
+        "en": "Pick a named side street, not the Grand Road itself, which fills edge to edge.",
+        "hi": "किसी नाम वाली बगल की गली चुनें, खुद ग्रैंड रोड नहीं, जो एक किनारे से दूसरे किनारे तक भर जाती है।",
+        "bn": "নাম আছে এমন একটি পাশের গলি বেছে নিন, খোদ গ্র্যান্ড রোড নয়, কারণ সেটি এক কিনারা থেকে আরেক কিনারা পর্যন্ত ভিড়ে ভরে যায়।"
       }
     },
     {
       "name": {
-        "en": "The Gundicha Temple"
+        "en": "The Gundicha Temple",
+        "hi": "गुंडिचा मंदिर",
+        "bn": "গুন্ডিচা মন্দির"
       },
       "detail": {
-        "en": "Where the chariots stop, about 3 km from the main temple."
+        "en": "Where the chariots stop, about 3 km from the main temple.",
+        "hi": "जहाँ रथ रुकते हैं, मुख्य मंदिर से लगभग 3 किलोमीटर दूर।",
+        "bn": "যেখানে রথ থামে, মূল মন্দির থেকে প্রায় 3 কিলোমিটার দূরে।"
       }
     },
     {
       "name": {
-        "en": "Your hotel or dharamshala"
+        "en": "Your hotel or dharamshala",
+        "hi": "आपका होटल या धर्मशाला",
+        "bn": "আপনার হোটেল বা ধর্মশালা"
       },
       "detail": {
-        "en": "A fixed place everyone can reach on their own."
+        "en": "A fixed place everyone can reach on their own.",
+        "hi": "एक पक्की जगह, जहाँ हर कोई खुद पहुँच सके।",
+        "bn": "সবাই নিজে নিজে পৌঁছাতে পারে এমন একটি নির্দিষ্ট জায়গা।"
       }
     }
   ],
   "dos": [
     {
-      "en": "Watch from a side street or a building with permission rather than the middle of the road."
+      "en": "Watch from a side street or a building with permission rather than the middle of the road.",
+      "hi": "सड़क के बीच से नहीं, बल्कि बगल की गली से या इजाजत लेकर किसी इमारत से देखें।",
+      "bn": "রাস্তার মাঝখান থেকে নয়, পাশের গলি থেকে বা অনুমতি নিয়ে কোনো বাড়ি থেকে দেখুন।"
     },
     {
-      "en": "Agree on a meeting point before the chariots start moving."
+      "en": "Agree on a meeting point before the chariots start moving.",
+      "hi": "रथ चलने से पहले मिलने की जगह तय कर लें।",
+      "bn": "রথ চলা শুরুর আগেই দেখা করার জায়গা ঠিক করে নিন।"
     },
     {
-      "en": "Drink water often: it is hot and humid in late June and July."
+      "en": "Drink water often: it is hot and humid in late June and July.",
+      "hi": "बार-बार पानी पिएँ: जून के आखिर और जुलाई में गर्मी और उमस रहती है।",
+      "bn": "বারবার জল পান করুন। জুনের শেষে আর জুলাইয়ে খুব গরম আর ভ্যাপসা থাকে।"
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।"
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।"
     },
     {
-      "en": "Move with the flow and work your way diagonally toward the edge."
+      "en": "Move with the flow and work your way diagonally toward the edge.",
+      "hi": "भीड़ के बहाव के साथ चलें और तिरछी दिशा में धीरे-धीरे किनारे की ओर बढ़ें।",
+      "bn": "ভিড়ের স্রোতের সাথে চলুন, আর কোনাকুনি এগিয়ে ধীরে ধীরে কিনারার দিকে সরে যান।"
     },
     {
-      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms."
+      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms.",
+      "hi": "अगर गिर जाएँ, तो जल्दी उठें। उठ न सकें, तो एक करवट लेटकर सिकुड़ जाएँ और बाँहों से सिर ढक लें।",
+      "bn": "পড়ে গেলে তাড়াতাড়ি উঠে দাঁড়ান। না পারলে এক পাশে কাত হয়ে গুটিসুটি হয়ে শুয়ে দুই হাতে মাথা ঢেকে রাখুন।"
     }
   ],
   "donts": [
     {
-      "en": "Don't get between the crowd and the chariot wheels or ropes."
+      "en": "Don't get between the crowd and the chariot wheels or ropes.",
+      "hi": "भीड़ और रथ के पहियों या रस्सियों के बीच न आएँ।",
+      "bn": "ভিড় আর রথের চাকা বা দড়ির মাঝখানে যাবেন না।"
     },
     {
-      "en": "Don't take small children into the crowd near the chariots."
+      "en": "Don't take small children into the crowd near the chariots.",
+      "hi": "छोटे बच्चों को रथों के पास की भीड़ में न ले जाएँ।",
+      "bn": "ছোট শিশুদের রথের কাছের ভিড়ে নিয়ে যাবেন না।"
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।"
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "bn": "ভিড় ঘন হলে দেয়াল, বেড়া বা ব্যারিকেডের গা ঘেঁষে দাঁড়াবেন না।"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Order of the chariots"
+        "en": "Order of the chariots",
+        "hi": "रथों का क्रम",
+        "bn": "রথগুলোর ক্রম"
       },
       "detail": {
-        "en": "Balabhadra (Taladhwaja, 14 wheels) goes first, then Subhadra (Darpadalana, 12 wheels), then Jagannath (Nandighosa, 16 wheels)."
+        "en": "Balabhadra (Taladhwaja, 14 wheels) goes first, then Subhadra (Darpadalana, 12 wheels), then Jagannath (Nandighosa, 16 wheels).",
+        "hi": "सबसे पहले बलभद्र (तालध्वज, 14 पहिए), फिर सुभद्रा (दर्पदलन, 12 पहिए), फिर जगन्नाथ (नंदीघोष, 16 पहिए)।",
+        "bn": "প্রথমে বলভদ্র (তালধ্বজ, 14 চাকা), তারপর সুভদ্রা (দর্পদলন, 12 চাকা), তারপর জগন্নাথ (নন্দীঘোষ, 16 চাকা)।"
       }
     },
     {
       "title": {
-        "en": "Gundicha Temple"
+        "en": "Gundicha Temple",
+        "hi": "गुंडिचा मंदिर",
+        "bn": "গুন্ডিচা মন্দির"
       },
       "detail": {
-        "en": "The deities stay at the Gundicha Temple for seven days."
+        "en": "The deities stay at the Gundicha Temple for seven days.",
+        "hi": "भगवान सात दिन गुंडिचा मंदिर में रहते हैं।",
+        "bn": "দেবতারা সাত দিন গুন্ডিচা মন্দিরে থাকেন।"
       }
     },
     {
       "title": {
-        "en": "Bahuda Yatra"
+        "en": "Bahuda Yatra",
+        "hi": "बाहुड़ा यात्रा",
+        "bn": "বাহুড়া যাত্রা"
       },
       "detail": {
-        "en": "The return journey on the ninth day, followed by Suna Besha, when the deities wear gold on their chariots."
+        "en": "The return journey on the ninth day, followed by Suna Besha, when the deities wear gold on their chariots.",
+        "hi": "नौवें दिन वापसी की यात्रा, उसके बाद सुना बेश, जब भगवान अपने रथों पर सोने के गहने पहनते हैं।",
+        "bn": "নবম দিনে ফেরার যাত্রা। তারপর সুনা বেশ, যখন দেবতারা রথের ওপরেই সোনার সাজে সাজেন।"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "मैं खो गया हूँ",
       "lang": "hi",
@@ -139,7 +195,9 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "कृपया मेरी मदद कीजिए",
       "lang": "hi",
@@ -147,7 +205,9 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "ଦୟାକରି ମୋତେ ସାହାଯ୍ୟ କରନ୍ତୁ",
       "lang": "or",
@@ -155,7 +215,9 @@
     },
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "ମୁଁ ହଜିଗଲି",
       "lang": "or",
@@ -163,7 +225,9 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?"
       },
       "phrase": "ଡାକ୍ତରଖାନା କେଉଁଠି?",
       "lang": "or",
@@ -172,16 +236,24 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।"
     },
     {
-      "en": "Children carry a printed lost-child card."
+      "en": "Children carry a printed lost-child card.",
+      "hi": "बच्चों के पास खोए बच्चे के कार्ड का प्रिंट है।",
+      "bn": "শিশুদের কাছে প্রিন্ট করা হারানো শিশুর কার্ড আছে।"
     },
     {
-      "en": "A side street and your hotel saved as meeting points."
+      "en": "A side street and your hotel saved as meeting points.",
+      "hi": "बगल की एक गली और आपका होटल, मिलने की जगहों के तौर पर सेव हैं।",
+      "bn": "পাশের একটি গলি আর আপনার হোটেল দেখা করার জায়গা হিসেবে সেভ করা আছে।"
     },
     {
-      "en": "Water bottle, cap and power bank."
+      "en": "Water bottle, cap and power bank.",
+      "hi": "पानी की बोतल, टोपी और पावर बैंक।",
+      "bn": "জলের বোতল, টুপি আর পাওয়ার ব্যাংক।"
     }
   ],
   "sources": [

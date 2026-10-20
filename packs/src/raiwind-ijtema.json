@@ -15,88 +15,109 @@
     "ur"
   ],
   "title": {
-    "en": "Raiwind Ijtema"
+    "en": "Raiwind Ijtema",
+    "ur": "رائیونڈ اجتماع"
   },
   "summary": {
-    "en": "The Tablighi Ijtema near Lahore, held in two phases. Plan your way in and out, and meet at fixed places."
+    "en": "The Tablighi Ijtema near Lahore, held in two phases. Plan your way in and out, and meet at fixed places.",
+    "ur": "لاہور کے قریب تبلیغی اجتماع، جو دو مرحلوں میں ہوتا ہے۔ آنے اور جانے کا راستہ پہلے سے طے کریں، اور طے شدہ جگہوں پر ملیں۔"
   },
   "dates": [],
   "meetingPoints": [
     {
       "name": {
-        "en": "Your camp or block"
+        "en": "Your camp or block",
+        "ur": "آپ کا کیمپ یا بلاک"
       },
       "detail": {
-        "en": "Save your camp or block as a meeting point as soon as you arrive."
+        "en": "Save your camp or block as a meeting point as soon as you arrive.",
+        "ur": "پہنچتے ہی اپنے کیمپ یا بلاک کو ملنے کی جگہ کے طور پر محفوظ کر لیں۔"
       }
     },
     {
       "name": {
-        "en": "Your parking stand"
+        "en": "Your parking stand",
+        "ur": "آپ کا پارکنگ اسٹینڈ"
       },
       "detail": {
-        "en": "Traffic police set up numbered parking stands. Note yours and save it."
+        "en": "Traffic police set up numbered parking stands. Note yours and save it.",
+        "ur": "ٹریفک پولیس نمبر والے پارکنگ اسٹینڈ بناتی ہے۔ اپنے اسٹینڈ کا نمبر لکھ لیں اور اسے محفوظ کر لیں۔"
       }
     },
     {
       "name": {
-        "en": "Raiwind railway station"
+        "en": "Raiwind railway station",
+        "ur": "رائیونڈ ریلوے اسٹیشن"
       },
       "detail": {
-        "en": "The station has extra staff and a medical camp during the Ijtema."
+        "en": "The station has extra staff and a medical camp during the Ijtema.",
+        "ur": "اجتماع کے دنوں میں اسٹیشن پر اضافی عملہ اور ایک میڈیکل کیمپ ہوتا ہے۔"
       }
     }
   ],
   "dos": [
     {
-      "en": "Plan your trip home before the closing dua: roads in Raiwind close and traffic runs one way toward Lahore."
+      "en": "Plan your trip home before the closing dua: roads in Raiwind close and traffic runs one way toward Lahore.",
+      "ur": "اختتامی دعا سے پہلے گھر واپسی کا پلان بنا لیں: رائیونڈ میں سڑکیں بند ہو جاتی ہیں اور ٹریفک صرف ایک طرف لاہور کی جانب چلتی ہے۔"
     },
     {
-      "en": "Park only in the official parking stands."
+      "en": "Park only in the official parking stands.",
+      "ur": "گاڑی صرف سرکاری پارکنگ اسٹینڈ میں کھڑی کریں۔"
     },
     {
-      "en": "Rescue 1122 has medical teams at the Ijtema. Note where the nearest one is."
+      "en": "Rescue 1122 has medical teams at the Ijtema. Note where the nearest one is.",
+      "ur": "اجتماع میں ریسکیو 1122 کی طبی ٹیمیں موجود ہوتی ہیں۔ دیکھ لیں کہ سب سے قریبی ٹیم کہاں ہے۔"
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔"
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔"
     }
   ],
   "donts": [
     {
-      "en": "Don't park outside the stands or on roads kept clear for emergency vehicles."
+      "en": "Don't park outside the stands or on roads kept clear for emergency vehicles.",
+      "ur": "اسٹینڈ کے باہر یا ایمرجنسی گاڑیوں کے لیے خالی رکھی گئی سڑکوں پر گاڑی کھڑی نہ کریں۔"
     },
     {
-      "en": "Don't try to leave with the whole crowd right after the dua if you can wait."
+      "en": "Don't try to leave with the whole crowd right after the dua if you can wait.",
+      "ur": "اگر انتظار کر سکتے ہیں تو دعا کے فوراً بعد پورے ہجوم کے ساتھ نکلنے کی کوشش نہ کریں۔"
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "Two phases"
+        "en": "Two phases",
+        "ur": "دو مرحلے"
       },
       "detail": {
-        "en": "The Ijtema is held in two phases about a week apart, usually in November. Each ends with a collective dua."
+        "en": "The Ijtema is held in two phases about a week apart, usually in November. Each ends with a collective dua.",
+        "ur": "اجتماع تقریباً ایک ہفتے کے وقفے سے دو مرحلوں میں ہوتا ہے، عام طور پر نومبر میں۔ ہر مرحلہ اجتماعی دعا پر ختم ہوتا ہے۔"
       }
     },
     {
       "title": {
-        "en": "Getting there"
+        "en": "Getting there",
+        "ur": "وہاں کیسے پہنچیں"
       },
       "detail": {
-        "en": "In recent years extra trains have stopped at Raiwind, and in 2025 the Punjab government ran an electric bus from Lahore railway station and the airport. Check this year's arrangements."
+        "en": "In recent years extra trains have stopped at Raiwind, and in 2025 the Punjab government ran an electric bus from Lahore railway station and the airport. Check this year's arrangements.",
+        "ur": "پچھلے کچھ سالوں میں اضافی ٹرینیں رائیونڈ پر رکتی رہی ہیں، اور 2025 میں پنجاب حکومت نے لاہور ریلوے اسٹیشن اور ایئرپورٹ سے الیکٹرک بس چلائی۔ اس سال کے انتظامات معلوم کر لیں۔"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں"
       },
       "phrase": "میں کھو گیا ہوں",
       "lang": "ur",
@@ -104,7 +125,8 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں"
       },
       "phrase": "براہ کرم میری مدد کریں",
       "lang": "ur",
@@ -112,7 +134,8 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "ur": "ہسپتال کہاں ہے؟"
       },
       "phrase": "ہسپتال کہاں ہے؟",
       "lang": "ur",
@@ -120,7 +143,8 @@
     },
     {
       "meaning": {
-        "en": "I am looking for my family"
+        "en": "I am looking for my family",
+        "ur": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں"
       },
       "phrase": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
       "lang": "ur",
@@ -128,7 +152,8 @@
     },
     {
       "meaning": {
-        "en": "Where are the police?"
+        "en": "Where are the police?",
+        "ur": "پولیس کہاں ہے؟"
       },
       "phrase": "پولیس کہاں ہے؟",
       "lang": "ur",
@@ -136,7 +161,8 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "ur": "براہ کرم پانی دیں"
       },
       "phrase": "پانی دیجیے",
       "lang": "ur",
@@ -144,7 +170,8 @@
     },
     {
       "meaning": {
-        "en": "Where is Rescue 1122?"
+        "en": "Where is Rescue 1122?",
+        "ur": "ریسکیو 1122 کہاں ہے؟"
       },
       "phrase": "ریسکیو 1122 کہاں ہے؟",
       "lang": "ur",
@@ -153,16 +180,20 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔"
     },
     {
-      "en": "Camp or block and parking stand saved as meeting points."
+      "en": "Camp or block and parking stand saved as meeting points.",
+      "ur": "کیمپ یا بلاک اور پارکنگ اسٹینڈ ملنے کی جگہوں کے طور پر محفوظ ہیں۔"
     },
     {
-      "en": "Power bank and charging cable."
+      "en": "Power bank and charging cable.",
+      "ur": "پاور بینک اور چارجنگ کیبل۔"
     },
     {
-      "en": "A plan for the trip home after the closing dua."
+      "en": "A plan for the trip home after the closing dua.",
+      "ur": "اختتامی دعا کے بعد گھر واپسی کا پلان۔"
     }
   ],
   "sources": [

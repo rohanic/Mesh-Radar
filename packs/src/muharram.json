@@ -22,17 +22,29 @@
     "ar"
   ],
   "title": {
-    "en": "Muharram and Ashura"
+    "en": "Muharram and Ashura",
+    "ur": "محرم اور عاشورہ",
+    "ar": "محرم وعاشوراء",
+    "hi": "मुहर्रम और आशूरा",
+    "bn": "মহররম ও আশুরা"
   },
   "summary": {
-    "en": "Majlis gatherings and processions in the first ten days of Muharram. Know the route and keep children close."
+    "en": "Majlis gatherings and processions in the first ten days of Muharram. Know the route and keep children close.",
+    "ur": "محرم کے پہلے دس دنوں میں مجالس اور جلوس۔ جلوس کا راستہ معلوم رکھیں اور بچوں کو قریب رکھیں۔",
+    "ar": "مجالس ومواكب في الأيام العشرة الأولى من محرم. اعرف المسار وأبقِ الأطفال قريبين منك.",
+    "hi": "मुहर्रम के पहले दस दिनों में मजलिसें और जुलूस। रास्ता जान लें और बच्चों को पास रखें।",
+    "bn": "মহররমের প্রথম দশ দিনে মজলিস আর মিছিল হয়। মিছিলের পথ জেনে রাখুন আর শিশুদের কাছে রাখুন।"
   },
   "dates": [
     {
       "start": "2027-06-06",
       "end": "2027-06-15",
       "label": {
-        "en": "Muharram 1449, 1 to 10 Muharram"
+        "en": "Muharram 1449, 1 to 10 Muharram",
+        "ur": "محرم 1449، 1 سے 10 محرم",
+        "ar": "محرم 1449، من 1 إلى 10 محرم",
+        "hi": "मुहर्रम 1449, 1 से 10 मुहर्रम",
+        "bn": "মহররম 1449, 1 থেকে 10 মহররম"
       },
       "approx": true
     },
@@ -40,7 +52,11 @@
       "start": "2028-05-25",
       "end": "2028-06-03",
       "label": {
-        "en": "Muharram 1450, 1 to 10 Muharram"
+        "en": "Muharram 1450, 1 to 10 Muharram",
+        "ur": "محرم 1450، 1 سے 10 محرم",
+        "ar": "محرم 1450، من 1 إلى 10 محرم",
+        "hi": "मुहर्रम 1450, 1 से 10 मुहर्रम",
+        "bn": "মহররম 1450, 1 থেকে 10 মহররম"
       },
       "approx": true
     }
@@ -48,85 +64,169 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "Your imambargah"
+        "en": "Your imambargah",
+        "ur": "آپ کی امام بارگاہ",
+        "ar": "حسينيتك (الإمام باره)",
+        "hi": "आपका इमामबाड़ा",
+        "bn": "আপনার ইমামবাড়া"
       },
       "detail": {
-        "en": "The place your family gathers for majlis. Save it as a meeting point."
+        "en": "The place your family gathers for majlis. Save it as a meeting point.",
+        "ur": "وہ جگہ جہاں آپ کے گھر والے مجلس کے لیے جمع ہوتے ہیں۔ اسے ملنے کی جگہ کے طور پر محفوظ کر لیں۔",
+        "ar": "المكان الذي تجتمع فيه عائلتك لحضور المجلس. احفظه كنقطة تجمع.",
+        "hi": "वह जगह जहाँ आपका परिवार मजलिस के लिए इकट्ठा होता है। इसे मिलने की जगह के तौर पर सेव कर लें।",
+        "bn": "যেখানে আপনার পরিবার মজলিসে জড়ো হয়। এটি দেখা করার জায়গা হিসেবে সেভ করুন।"
       }
     },
     {
       "name": {
-        "en": "A landmark on the route"
+        "en": "A landmark on the route",
+        "ur": "راستے پر کوئی نشانی",
+        "ar": "معلَم على المسار",
+        "hi": "रास्ते पर पहचान की कोई जगह",
+        "bn": "মিছিলের পথে একটি চেনা জায়গা"
       },
       "detail": {
-        "en": "Pick a fixed point on the procession route before it starts, away from the narrowest streets."
+        "en": "Pick a fixed point on the procession route before it starts, away from the narrowest streets.",
+        "ur": "جلوس شروع ہونے سے پہلے اس کے راستے پر ایک طے شدہ جگہ چن لیں، سب سے تنگ گلیوں سے دور۔",
+        "ar": "اختر نقطة ثابتة على مسار الموكب قبل أن يبدأ، بعيدًا عن أضيق الشوارع.",
+        "hi": "जुलूस शुरू होने से पहले उसके रास्ते पर एक पक्की जगह चुन लें, जो सबसे संकरी गलियों से दूर हो।",
+        "bn": "মিছিল শুরুর আগেই পথের ওপর একটি নির্দিষ্ট জায়গা বেছে নিন, সবচেয়ে সরু রাস্তাগুলো থেকে দূরে।"
       }
     },
     {
       "name": {
-        "en": "The end point of the procession"
+        "en": "The end point of the procession",
+        "ur": "جلوس کے اختتام کی جگہ",
+        "ar": "نقطة نهاية الموكب",
+        "hi": "जुलूस के खत्म होने की जगह",
+        "bn": "মিছিল যেখানে শেষ হয়"
       },
       "detail": {
-        "en": "For example Hussainian Iranian Imambargah in Karachi, Masjid-e-Ilahi in Hyderabad, or the Karbala site by Dhanmondi Lake in Dhaka."
+        "en": "For example Hussainian Iranian Imambargah in Karachi, Masjid-e-Ilahi in Hyderabad, India, or the Karbala site by Dhanmondi Lake in Dhaka.",
+        "ur": "مثلاً کراچی میں حسینیہ ایرانیان امام بارگاہ، حیدرآباد (بھارت) میں مسجدِ الٰہی، یا ڈھاکہ میں دھان منڈی جھیل کے کنارے کربلا کا مقام۔",
+        "ar": "مثل إمام باره حسينيان إيرانيان في كراتشي، أو مسجد إلهي في حيدر آباد بالهند، أو موقع «كربلاء» عند بحيرة دانموندي في دكا.",
+        "hi": "जैसे कराची में हुसैनियान ईरानियान इमामबारगाह, हैदराबाद (भारत) में मस्जिद-ए-इलाही, या ढाका में धानमंडी झील के पास कर्बला वाली जगह।",
+        "bn": "যেমন করাচির হুসাইনিয়ান ইরানিয়ান ইমামবারগাহ, ভারতের হায়দরাবাদের মসজিদে ইলাহি, বা ঢাকায় ধানমন্ডি লেকের পাশের কারবালা।"
       }
     }
   ],
   "dos": [
     {
-      "en": "Check this year's procession route and timings with local police notices."
+      "en": "Check this year's procession route and timings with local police notices.",
+      "ur": "اس سال جلوس کا راستہ اور اوقات مقامی پولیس کے اعلانات سے معلوم کریں۔",
+      "ar": "تحقق من مسار الموكب ومواعيده لهذا العام في إعلانات الشرطة المحلية.",
+      "hi": "इस साल के जुलूस का रास्ता और समय स्थानीय पुलिस की सूचनाओं से जाँच लें।",
+      "bn": "এ বছরের মিছিলের পথ আর সময় স্থানীয় পুলিশের বিজ্ঞপ্তি দেখে মিলিয়ে নিন।"
     },
     {
-      "en": "Keep children and elders on the edge of the procession, not in the middle."
+      "en": "Keep children and elders on the edge of the procession, not in the middle.",
+      "ur": "بچوں اور بزرگوں کو جلوس کے کنارے رکھیں، بیچ میں نہیں۔",
+      "ar": "أبقِ الأطفال وكبار السن على طرف الموكب، لا في وسطه.",
+      "hi": "बच्चों और बुजुर्गों को जुलूस के किनारे रखें, बीच में नहीं।",
+      "bn": "শিশু আর বয়স্কদের মিছিলের কিনারায় রাখুন, মাঝখানে নয়।"
     },
     {
-      "en": "Drink water often. Sabeel stalls are common but carry your own too."
+      "en": "Drink water often. Sabeel stalls are common but carry your own too.",
+      "ur": "بار بار پانی پئیں۔ سبیلیں عام ہوتی ہیں لیکن اپنا پانی بھی ساتھ رکھیں۔",
+      "ar": "اشرب الماء باستمرار. أكشاك السبيل منتشرة، لكن احمل ماءك معك أيضًا.",
+      "hi": "बार-बार पानी पिएँ। सबील के स्टॉल अक्सर मिल जाते हैं, फिर भी अपना पानी साथ रखें।",
+      "bn": "বারবার পানি পান করুন। সাবিলের স্টল অনেক থাকে, তবু নিজের পানিও সাথে রাখুন।"
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔",
+      "ar": "اعرف أماكن المخارج وطريقًا ثانيًا للخروج فور وصولك.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।"
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔",
+      "ar": "في الزحام الشديد، ارفع يديك قرب صدرك لتحمي تنفسك.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।"
     },
     {
-      "en": "Move with the flow and work your way diagonally toward the edge."
+      "en": "Move with the flow and work your way diagonally toward the edge.",
+      "ur": "ہجوم کے بہاؤ کے ساتھ چلیں اور ترچھا چلتے ہوئے آہستہ آہستہ کنارے کی طرف جائیں۔",
+      "ar": "تحرّك مع اتجاه الحشد، وتقدّم بشكل مائل شيئًا فشيئًا نحو الطرف.",
+      "hi": "भीड़ के बहाव के साथ चलें और तिरछी दिशा में धीरे-धीरे किनारे की ओर बढ़ें।",
+      "bn": "ভিড়ের স্রোতের সাথে চলুন, আর কোনাকুনি এগিয়ে ধীরে ধীরে কিনারার দিকে সরে যান।"
     }
   ],
   "donts": [
     {
-      "en": "Don't go into the narrowest lanes of the route when the crowd is densest."
+      "en": "Don't go into the narrowest lanes of the route when the crowd is densest.",
+      "ur": "جب ہجوم سب سے زیادہ ہو تو راستے کی سب سے تنگ گلیوں میں نہ جائیں۔",
+      "ar": "لا تدخل أضيق أزقة المسار عندما يكون الزحام في ذروته.",
+      "hi": "जब भीड़ सबसे ज्यादा घनी हो, तब रास्ते की सबसे संकरी गलियों में न जाएँ।",
+      "bn": "ভিড় যখন সবচেয়ে ঘন, তখন পথের সবচেয়ে সরু গলিগুলোতে ঢুকবেন না।"
     },
     {
-      "en": "Don't stand right at the end of the route in Karbala during the Tuwairij run: a crush there in 2019 killed at least 31 people."
+      "en": "Don't stand right at the end of the route in Karbala, Iraq, during the Tuwairij run: a crush there in 2019 killed at least 31 people.",
+      "ur": "کربلا (عراق) میں طویریج کی دوڑ کے دوران راستے کے بالکل آخر پر کھڑے نہ ہوں: 2019 میں وہاں بھگدڑ سے کم از کم 31 لوگ جاں بحق ہوئے تھے۔",
+      "ar": "لا تقف عند نهاية المسار مباشرة في كربلاء بالعراق أثناء ركضة طويريج: فقد أودى تدافع هناك عام 2019 بحياة 31 شخصًا على الأقل.",
+      "hi": "कर्बला (इराक) में तुवैरीज की दौड़ के दौरान रास्ते के बिल्कुल आखिरी छोर पर खड़े न हों: 2019 में वहाँ भगदड़ में कम से कम 31 लोगों की जान गई थी।",
+      "bn": "ইরাকের কারবালায় তুওয়াইরিজ দৌড়ের সময় পথের একেবারে শেষ মাথায় দাঁড়াবেন না। 2019 সালে সেখানে ভিড়ের চাপে অন্তত 31 জন মারা যান।"
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔",
+      "ar": "لا تدفع عكس اتجاه الحشد، ولا تتوقف أو تجلس وسطه.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।"
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "ur": "جب ہجوم شدید ہو تو دیواروں، باڑ یا رکاوٹوں سے لگ کر کھڑے نہ ہوں۔",
+      "ar": "لا تقف ملاصقًا للجدران أو الأسوار أو الحواجز عندما يشتد الزحام.",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "bn": "ভিড় ঘন হলে দেয়াল, বেড়া বা ব্যারিকেডের গা ঘেঁষে দাঁড়াবেন না।"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "1 to 10 Muharram"
+        "en": "1 to 10 Muharram",
+        "ur": "1 سے 10 محرم",
+        "ar": "من 1 إلى 10 محرم",
+        "hi": "1 से 10 मुहर्रम",
+        "bn": "1 থেকে 10 মহররম"
       },
       "detail": {
-        "en": "Majlis gatherings each evening, with processions on 9 and 10 Muharram in many cities."
+        "en": "Majlis gatherings each evening, with processions on 9 and 10 Muharram in many cities.",
+        "ur": "ہر شام مجالس، اور کئی شہروں میں 9 اور 10 محرم کو جلوس۔",
+        "ar": "مجالس كل مساء، ومواكب يومي 9 و10 محرم في مدن كثيرة.",
+        "hi": "हर शाम मजलिसें, और कई शहरों में 9 और 10 मुहर्रम को जुलूस।",
+        "bn": "প্রতি সন্ধ্যায় মজলিস হয়, আর অনেক শহরে 9 ও 10 মহররমে মিছিল বের হয়।"
       }
     },
     {
       "title": {
-        "en": "Ashura, 10 Muharram"
+        "en": "Ashura, 10 Muharram",
+        "ur": "عاشورہ، 10 محرم",
+        "ar": "عاشوراء، 10 محرم",
+        "hi": "आशूरा, 10 मुहर्रम",
+        "bn": "আশুরা, 10 মহররম"
       },
       "detail": {
-        "en": "Pakistan, India and Bangladesh often observe Ashura a day after Saudi Arabia, as in 2026."
+        "en": "Pakistan, India and Bangladesh often observe Ashura a day after Saudi Arabia, as in 2026.",
+        "ur": "پاکستان، بھارت اور بنگلہ دیش میں عاشورہ اکثر سعودی عرب سے ایک دن بعد ہوتا ہے، جیسے 2026 میں۔",
+        "ar": "يكون عاشوراء في باكستان والهند وبنغلاديش غالبًا بعد السعودية بيوم، كما في 2026.",
+        "hi": "पाकिस्तान, भारत और बांग्लादेश में आशूरा अक्सर सऊदी अरब से एक दिन बाद होता है, जैसे 2026 में।",
+        "bn": "পাকিস্তান, ভারত আর বাংলাদেশে প্রায়ই সৌদি আরবের এক দিন পরে আশুরা পালন হয়, যেমন হয়েছিল 2026 সালে।"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "ar": "أنا تائه",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "میں کھو گیا ہوں",
       "lang": "ur",
@@ -134,7 +234,11 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "ar": "ساعدني من فضلك",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "براہ کرم میری مدد کریں",
       "lang": "ur",
@@ -142,7 +246,11 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "ur": "ہسپتال کہاں ہے؟",
+        "ar": "أين المستشفى؟",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?"
       },
       "phrase": "ہسپتال کہاں ہے؟",
       "lang": "ur",
@@ -150,7 +258,11 @@
     },
     {
       "meaning": {
-        "en": "I am looking for my family"
+        "en": "I am looking for my family",
+        "ur": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
+        "ar": "أبحث عن عائلتي",
+        "hi": "मुझे अपने परिवार की तलाश है",
+        "bn": "আমি আমার পরিবারকে খুঁজছি"
       },
       "phrase": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
       "lang": "ur",
@@ -158,7 +270,11 @@
     },
     {
       "meaning": {
-        "en": "Where are the police?"
+        "en": "Where are the police?",
+        "ur": "پولیس کہاں ہے؟",
+        "ar": "أين الشرطة؟",
+        "hi": "पुलिस कहाँ है?",
+        "bn": "পুলিশ কোথায়?"
       },
       "phrase": "پولیس کہاں ہے؟",
       "lang": "ur",
@@ -166,7 +282,11 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "ur": "براہ کرم پانی دیں",
+        "ar": "ماء من فضلك",
+        "hi": "कृपया पानी दीजिए",
+        "bn": "দয়া করে একটু পানি দিন"
       },
       "phrase": "پانی دیجیے",
       "lang": "ur",
@@ -175,16 +295,32 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "ar": "كل فرد في المجموعة لديه التطبيق، وانضم إلى المجموعة، وملأ بطاقة الطوارئ الخاصة به.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।"
     },
     {
-      "en": "Children carry a printed lost-child card."
+      "en": "Children carry a printed lost-child card.",
+      "ur": "بچوں کے پاس پرنٹ کیا ہوا گمشدہ بچے کا کارڈ ہے۔",
+      "ar": "يحمل الأطفال نسخة مطبوعة من بطاقة الطفل التائه.",
+      "hi": "बच्चों के पास खोए बच्चे के कार्ड का प्रिंट है।",
+      "bn": "শিশুদের কাছে প্রিন্ট করা হারানো শিশুর কার্ড আছে।"
     },
     {
-      "en": "Meeting points saved for your imambargah and one point on the route."
+      "en": "Meeting points saved for your imambargah and one point on the route.",
+      "ur": "آپ کی امام بارگاہ اور راستے کی ایک جگہ ملنے کی جگہوں کے طور پر محفوظ ہیں۔",
+      "ar": "نقاط تجمع محفوظة لحسينيتك (الإمام باره) ولنقطة واحدة على المسار.",
+      "hi": "मिलने की जगहें सेव हैं: आपका इमामबाड़ा और रास्ते पर एक जगह।",
+      "bn": "আপনার ইমামবাড়া আর মিছিলের পথের একটি জায়গা দেখা করার জায়গা হিসেবে সেভ করা আছে।"
     },
     {
-      "en": "Power bank and charging cable."
+      "en": "Power bank and charging cable.",
+      "ur": "پاور بینک اور چارجنگ کیبل۔",
+      "ar": "شاحن متنقل وكابل شحن.",
+      "hi": "पावर बैंक और चार्जिंग केबल।",
+      "bn": "পাওয়ার ব্যাংক আর চার্জিং কেবল।"
     }
   ],
   "sources": [

@@ -19,17 +19,29 @@
     "tr"
   ],
   "title": {
-    "en": "Arbaeen walk"
+    "en": "Arbaeen walk",
+    "ur": "اربعین کا پیدل سفر",
+    "ar": "مسيرة الأربعين",
+    "hi": "अरबईन पैदल यात्रा",
+    "tr": "Erbain yürüyüşü"
   },
   "summary": {
-    "en": "The walk from Najaf to Karbala, about 80 km over 2 to 3 days. Use the numbered poles to meet up."
+    "en": "The walk from Najaf to Karbala, about 80 km over 2 to 3 days. Use the numbered poles to meet up.",
+    "ur": "نجف سے کربلا تک پیدل سفر، تقریباً 80 کلومیٹر، 2 سے 3 دن میں۔ ملنے کے لیے کھمبوں کے نمبر استعمال کریں۔",
+    "ar": "المشي من النجف إلى كربلاء، نحو 80 كم على مدى 2 إلى 3 أيام. استعينوا بالأعمدة المرقّمة لتلتقوا.",
+    "hi": "नजफ़ से कर्बला तक की पैदल यात्रा, लगभग 80 किलोमीटर, 2 से 3 दिन में। मिलने के लिए नंबर वाले खंभों का इस्तेमाल करें।",
+    "tr": "Necef'ten Kerbela'ya yürüyüş, 2 ila 3 günde yaklaşık 80 km. Buluşmak için numaralı direkleri kullanın."
   },
   "dates": [
     {
       "start": "2027-07-24",
       "end": "2027-07-24",
       "label": {
-        "en": "Arbaeen 1449 (20 Safar)"
+        "en": "Arbaeen 1449 (20 Safar)",
+        "ur": "اربعین 1449 (20 صفر)",
+        "ar": "الأربعين 1449 (20 صفر)",
+        "hi": "अरबईन 1449 (20 सफ़र)",
+        "tr": "Erbain 1449 (20 Safer)"
       },
       "approx": true
     },
@@ -37,7 +49,11 @@
       "start": "2028-07-13",
       "end": "2028-07-13",
       "label": {
-        "en": "Arbaeen 1450 (20 Safar)"
+        "en": "Arbaeen 1450 (20 Safar)",
+        "ur": "اربعین 1450 (20 صفر)",
+        "ar": "الأربعين 1450 (20 صفر)",
+        "hi": "अरबईन 1450 (20 सफ़र)",
+        "tr": "Erbain 1450 (20 Safer)"
       },
       "approx": true
     }
@@ -45,93 +61,185 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "A pole number on the route"
+        "en": "A pole number on the route",
+        "ur": "راستے پر کسی کھمبے کا نمبر",
+        "ar": "رقم عمود على الطريق",
+        "hi": "रास्ते पर किसी खंभे का नंबर",
+        "tr": "Yol üzerinde bir direk numarası"
       },
       "detail": {
-        "en": "The route is marked by 1452 numbered poles about 50 m apart. Agree on a pole number for each day."
+        "en": "The route is marked by 1452 numbered poles about 50 m apart. Agree on a pole number for each day.",
+        "ur": "راستے پر 1452 نمبر والے کھمبے لگے ہیں، تقریباً 50 میٹر کے فاصلے پر۔ ہر دن کے لیے ایک کھمبے کا نمبر طے کر لیں۔",
+        "ar": "على الطريق 1452 عمودًا مرقّمًا، بين كل عمود والذي يليه نحو 50 مترًا. اتفقوا على رقم عمود لكل يوم.",
+        "hi": "रास्ते पर नंबर लिखे 1452 खंभे हैं, जो लगभग 50 मीटर की दूरी पर लगे हैं। हर दिन के लिए एक खंभे का नंबर तय कर लें।",
+        "tr": "Yol boyunca yaklaşık 50 m arayla 1452 direk vardır ve her direğin bir numarası vardır. Her gün için bir direk numarasında anlaşın."
       }
     },
     {
       "name": {
-        "en": "A missing persons centre"
+        "en": "A missing persons centre",
+        "ur": "گمشدہ افراد کا مرکز",
+        "ar": "مركز للمفقودين",
+        "hi": "खोए हुए लोगों का केंद्र",
+        "tr": "Kayıp kişiler merkezi"
       },
       "detail": {
-        "en": "Guides list centres at poles 72, 335, 602 and 1103, and at the shrine of al-Abbas. Check they are still there this year."
+        "en": "Guides list centres at poles 72, 335, 602 and 1103, and at the shrine of al-Abbas. Check they are still there this year.",
+        "ur": "گائیڈز کے مطابق یہ مراکز کھمبا نمبر 72، 335، 602 اور 1103 پر، اور حضرت عباس کے روضے پر ہیں۔ تصدیق کر لیں کہ اس سال بھی وہیں ہیں۔",
+        "ar": "تذكر الأدلة الإرشادية مراكز عند الأعمدة 72 و335 و602 و1103، وعند مرقد العباس. تأكد أنها ما زالت موجودة هذا العام.",
+        "hi": "गाइड के मुताबिक खंभा नंबर 72, 335, 602 और 1103 पर, और अल-अब्बास के रौज़े पर ऐसे केंद्र हैं। देख लें कि इस साल भी वे वहाँ हैं।",
+        "tr": "Rehberlere göre 72, 335, 602 ve 1103 numaralı direklerde ve Hz. Abbas Türbesi'nde merkezler var. Bu yıl hâlâ orada olduklarını kontrol edin."
       }
     },
     {
       "name": {
-        "en": "The shrine of al-Abbas in Karbala"
+        "en": "The shrine of al-Abbas in Karbala",
+        "ur": "کربلا میں حضرت عباس کا روضہ",
+        "ar": "مرقد العباس في كربلاء",
+        "hi": "कर्बला में अल-अब्बास का रौज़ा",
+        "tr": "Kerbela'daki Hz. Abbas Türbesi"
       },
       "detail": {
-        "en": "Pole 1452 is where the route enters Karbala near the shrine."
+        "en": "Pole 1452 is where the route enters Karbala near the shrine.",
+        "ur": "کھمبا نمبر 1452 وہ جگہ ہے جہاں راستہ روضے کے قریب کربلا میں داخل ہوتا ہے۔",
+        "ar": "عند العمود 1452 يدخل الطريق كربلاء قرب المرقد.",
+        "hi": "खंभा नंबर 1452 पर रास्ता रौज़े के पास कर्बला में दाखिल होता है।",
+        "tr": "1452 numaralı direk, yolun türbenin yakınında Kerbela'ya girdiği yerdir."
       }
     },
     {
       "name": {
-        "en": "Your mawkib for the night"
+        "en": "Your mawkib for the night",
+        "ur": "رات کے لیے آپ کا موکب",
+        "ar": "الموكب الذي تبيت فيه",
+        "hi": "रात के लिए आपका मौकिब",
+        "tr": "Geceyi geçirdiğiniz mevkib"
       },
       "detail": {
-        "en": "Save the place you sleep as a meeting point before you leave it in the morning."
+        "en": "Save the place you sleep as a meeting point before you leave it in the morning.",
+        "ur": "صبح نکلنے سے پہلے، جہاں آپ سوئے تھے اس جگہ کو ملنے کی جگہ کے طور پر محفوظ کر لیں۔",
+        "ar": "احفظ المكان الذي نمت فيه كنقطة تجمع قبل أن تغادره في الصباح.",
+        "hi": "जहाँ आप सोते हैं, सुबह वहाँ से निकलने से पहले उस जगह को मिलने की जगह के तौर पर सेव कर लें।",
+        "tr": "Sabah ayrılmadan önce uyuduğunuz yeri buluşma noktası olarak kaydedin."
       }
     }
   ],
   "dos": [
     {
-      "en": "Start after the dawn prayer and walk until sunset, with rests in the heat of the day."
+      "en": "Start after the dawn prayer and walk until sunset, with rests in the heat of the day.",
+      "ur": "فجر کی نماز کے بعد چلنا شروع کریں اور سورج ڈوبنے تک چلیں، دن کی شدید گرمی میں آرام کریں۔",
+      "ar": "ابدأ بعد صلاة الفجر وامشِ حتى غروب الشمس، مع فترات راحة وقت اشتداد الحر.",
+      "hi": "फ़ज्र की नमाज़ के बाद चलना शुरू करें और सूरज डूबने तक चलें। दोपहर की गर्मी में आराम करें।",
+      "tr": "Sabah namazından sonra yola çıkın ve gün batımına kadar yürüyün, günün sıcak saatlerinde dinlenin."
     },
     {
-      "en": "Stay with the main crowd on the main road rather than side roads."
+      "en": "Stay with the main crowd on the main road rather than side roads.",
+      "ur": "چھوٹی سڑکوں کے بجائے بڑی سڑک پر لوگوں کے مرکزی ہجوم کے ساتھ رہیں۔",
+      "ar": "ابقَ مع الحشد الرئيسي على الطريق الرئيسي، لا على الطرق الجانبية.",
+      "hi": "बगल की सड़कों के बजाय मुख्य सड़क पर, मुख्य भीड़ के साथ रहें।",
+      "tr": "Yan yollara sapmayın, ana yolda ana kalabalıkla birlikte kalın."
     },
     {
-      "en": "Agree on a pole number to meet at every few hours."
+      "en": "Agree on a pole number to meet at every few hours.",
+      "ur": "ہر چند گھنٹے بعد ملنے کے لیے ایک کھمبے کا نمبر طے کر لیں۔",
+      "ar": "اتفقوا على رقم عمود تلتقون عنده كل بضع ساعات.",
+      "hi": "हर कुछ घंटे बाद मिलने के लिए एक खंभे का नंबर तय कर लें।",
+      "tr": "Birkaç saatte bir buluşacağınız bir direk numarasında anlaşın."
     },
     {
-      "en": "Look after your feet: spare socks, plasters and good shoes."
+      "en": "Look after your feet: spare socks, plasters and good shoes.",
+      "ur": "اپنے پیروں کا خیال رکھیں: اضافی موزے، پٹیاں اور اچھے جوتے۔",
+      "ar": "اعتنِ بقدميك: جوارب إضافية، ولاصقات جروح، وحذاء جيد.",
+      "hi": "अपने पैरों का ध्यान रखें: बदलने के लिए मोजे, चिपकने वाली पट्टी और अच्छे जूते।",
+      "tr": "Ayaklarınıza iyi bakın: yedek çorap, yara bandı ve iyi ayakkabı."
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔",
+      "ar": "اعرف أماكن المخارج وطريقًا ثانيًا للخروج فور وصولك.",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "tr": "Varır varmaz çıkışları ve ikinci bir çıkış yolunu bulun."
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔",
+      "ar": "في الزحام الشديد، ارفع يديك قرب صدرك لتحمي تنفسك.",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "tr": "Yoğun kalabalıkta, nefes alabilmek için ellerinizi göğsünüzün önünde, yukarıda tutun."
     }
   ],
   "donts": [
     {
-      "en": "Don't walk alone at night."
+      "en": "Don't walk alone at night.",
+      "ur": "رات کو اکیلے نہ چلیں۔",
+      "ar": "لا تمشِ وحدك في الليل.",
+      "hi": "रात में अकेले न चलें।",
+      "tr": "Gece tek başınıza yürümeyin."
     },
     {
-      "en": "Don't let children walk ahead of the group in dense crowds near Karbala."
+      "en": "Don't let children walk ahead of the group in dense crowds near Karbala.",
+      "ur": "کربلا کے قریب شدید ہجوم میں بچوں کو گروپ سے آگے نہ چلنے دیں۔",
+      "ar": "لا تدع الأطفال يمشون أمام المجموعة في الزحام الشديد قرب كربلاء.",
+      "hi": "कर्बला के पास घनी भीड़ में बच्चों को ग्रुप से आगे न चलने दें।",
+      "tr": "Kerbela yakınındaki yoğun kalabalıkta çocukların grubun önünde yürümesine izin vermeyin."
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔",
+      "ar": "لا تدفع عكس اتجاه الحشد، ولا تتوقف أو تجلس وسطه.",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "tr": "Kalabalığın akışına karşı itmeyin, kalabalığın içinde durmayın ya da oturmayın."
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "ur": "جب ہجوم شدید ہو تو دیواروں، باڑ یا رکاوٹوں سے لگ کر کھڑے نہ ہوں۔",
+      "ar": "لا تقف ملاصقًا للجدران أو الأسوار أو الحواجز عندما يشتد الزحام.",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "tr": "Kalabalık yoğunken duvarların, çitlerin veya bariyerlerin dibinde durmayın."
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "The walk"
+        "en": "The walk",
+        "ur": "پیدل سفر",
+        "ar": "المسير",
+        "hi": "पैदल यात्रा",
+        "tr": "Yürüyüş"
       },
       "detail": {
-        "en": "Najaf to Karbala is about 80 km and usually takes 2 to 3 days on foot."
+        "en": "Najaf to Karbala is about 80 km and usually takes 2 to 3 days on foot.",
+        "ur": "نجف سے کربلا تقریباً 80 کلومیٹر ہے اور پیدل عام طور پر 2 سے 3 دن لگتے ہیں۔",
+        "ar": "المسافة من النجف إلى كربلاء نحو 80 كم، وتستغرق عادة 2 إلى 3 أيام سيرًا على الأقدام.",
+        "hi": "नजफ़ से कर्बला लगभग 80 किलोमीटर है और पैदल आमतौर पर 2 से 3 दिन लगते हैं।",
+        "tr": "Necef ile Kerbela arası yaklaşık 80 km'dir ve yürüyerek genellikle 2 ila 3 gün sürer."
       }
     },
     {
       "title": {
-        "en": "Arbaeen day"
+        "en": "Arbaeen day",
+        "ur": "اربعین کا دن",
+        "ar": "يوم الأربعين",
+        "hi": "अरबईन का दिन",
+        "tr": "Erbain günü"
       },
       "detail": {
-        "en": "20 Safar. The date depends on the moon, so it can move by a day."
+        "en": "20 Safar. The date depends on the moon, so it can move by a day.",
+        "ur": "20 صفر۔ تاریخ چاند پر منحصر ہے، اس لیے ایک دن آگے پیچھے ہو سکتی ہے۔",
+        "ar": "20 صفر. يعتمد التاريخ على رؤية الهلال، لذا قد يتغير بيوم واحد.",
+        "hi": "20 सफ़र। तारीख चाँद दिखने पर तय होती है, इसलिए एक दिन आगे-पीछे हो सकती है।",
+        "tr": "20 Safer. Tarih hilale göre belirlenir, bu yüzden bir gün kayabilir."
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "ar": "أنا تائه",
+        "hi": "मैं खो गया/गई हूँ",
+        "tr": "Kayboldum"
       },
       "phrase": "أنا تائه",
       "lang": "ar",
@@ -139,7 +247,11 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "ar": "ساعدني من فضلك",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "tr": "Lütfen bana yardım edin"
       },
       "phrase": "ساعدني من فضلك",
       "lang": "ar",
@@ -147,7 +259,11 @@
     },
     {
       "meaning": {
-        "en": "I need a doctor"
+        "en": "I need a doctor",
+        "ur": "مجھے ڈاکٹر چاہیے",
+        "ar": "أحتاج إلى طبيب",
+        "hi": "मुझे डॉक्टर चाहिए",
+        "tr": "Doktora ihtiyacım var"
       },
       "phrase": "أحتاج إلى طبيب",
       "lang": "ar",
@@ -155,7 +271,11 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "ur": "ہسپتال کہاں ہے؟",
+        "ar": "أين المستشفى؟",
+        "hi": "अस्पताल कहाँ है?",
+        "tr": "Hastane nerede?"
       },
       "phrase": "أين المستشفى؟",
       "lang": "ar",
@@ -163,7 +283,11 @@
     },
     {
       "meaning": {
-        "en": "Call an ambulance"
+        "en": "Call an ambulance",
+        "ur": "ایمبولینس بلائیں",
+        "ar": "اتصل بالإسعاف",
+        "hi": "एम्बुलेंस बुलाइए",
+        "tr": "Ambulans çağırın"
       },
       "phrase": "اتصل بالإسعاف",
       "lang": "ar",
@@ -171,7 +295,11 @@
     },
     {
       "meaning": {
-        "en": "I am looking for my family"
+        "en": "I am looking for my family",
+        "ur": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
+        "ar": "أبحث عن عائلتي",
+        "hi": "मुझे अपने परिवार की तलाश है",
+        "tr": "Ailemi arıyorum"
       },
       "phrase": "أبحث عن عائلتي",
       "lang": "ar",
@@ -179,7 +307,11 @@
     },
     {
       "meaning": {
-        "en": "Water, please"
+        "en": "Water, please",
+        "ur": "براہ کرم پانی دیں",
+        "ar": "ماء من فضلك",
+        "hi": "कृपया पानी दीजिए",
+        "tr": "Su, lütfen"
       },
       "phrase": "ماء من فضلك",
       "lang": "ar",
@@ -187,7 +319,11 @@
     },
     {
       "meaning": {
-        "en": "What is the pole number?"
+        "en": "What is the pole number?",
+        "ur": "کھمبے کا نمبر کیا ہے؟",
+        "ar": "ما رقم العمود؟",
+        "hi": "खंभे का नंबर क्या है?",
+        "tr": "Direk numarası kaç?"
       },
       "phrase": "ما رقم العمود؟",
       "lang": "ar",
@@ -196,19 +332,39 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "ar": "كل فرد في المجموعة لديه التطبيق، وانضم إلى المجموعة، وملأ بطاقة الطوارئ الخاصة به.",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "tr": "Gruptaki herkeste uygulama var, herkes gruba katıldı ve acil durum kartını doldurdu."
     },
     {
-      "en": "Children carry a printed lost-child card."
+      "en": "Children carry a printed lost-child card.",
+      "ur": "بچوں کے پاس پرنٹ کیا ہوا گمشدہ بچے کا کارڈ ہے۔",
+      "ar": "يحمل الأطفال نسخة مطبوعة من بطاقة الطفل التائه.",
+      "hi": "बच्चों के पास खोए बच्चे के कार्ड का प्रिंट है।",
+      "tr": "Çocukların üzerinde basılı bir kayıp çocuk kartı var."
     },
     {
-      "en": "Comfortable shoes, spare socks, plasters, a light bag."
+      "en": "Comfortable shoes, spare socks, plasters, a light bag.",
+      "ur": "آرام دہ جوتے، اضافی موزے، پٹیاں، ہلکا بیگ۔",
+      "ar": "حذاء مريح، وجوارب إضافية، ولاصقات جروح، وحقيبة خفيفة.",
+      "hi": "आरामदायक जूते, बदलने के लिए मोजे, चिपकने वाली पट्टी, हल्का बैग।",
+      "tr": "Rahat ayakkabı, yedek çorap, yara bandı, hafif bir çanta."
     },
     {
-      "en": "Power bank: you may not find charging points for hours."
+      "en": "Power bank: you may not find charging points for hours.",
+      "ur": "پاور بینک: ہو سکتا ہے گھنٹوں تک چارجنگ کی جگہ نہ ملے۔",
+      "ar": "شاحن متنقل: قد لا تجد أماكن للشحن لساعات.",
+      "hi": "पावर बैंक: हो सकता है घंटों तक चार्ज करने की जगह न मिले।",
+      "tr": "Powerbank: saatlerce şarj edecek yer bulamayabilirsiniz."
     },
     {
-      "en": "Set the app to Balanced mode for the walk."
+      "en": "Set the app to Balanced mode for the walk.",
+      "ur": "پیدل سفر کے لیے ایپ کو متوازن موڈ پر رکھیں۔",
+      "ar": "اضبط التطبيق على وضع «متوازن» أثناء المسير.",
+      "hi": "पैदल यात्रा के लिए ऐप को संतुलित मोड पर रखें।",
+      "tr": "Yürüyüş için uygulamayı Dengeli moda alın."
     }
   ],
   "sources": [

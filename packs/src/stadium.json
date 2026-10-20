@@ -18,17 +18,26 @@
     "bn"
   ],
   "title": {
-    "en": "Cricket stadium: PSL and IPL"
+    "en": "Cricket stadium: PSL and IPL",
+    "ur": "کرکٹ اسٹیڈیم: PSL اور IPL",
+    "hi": "क्रिकेट स्टेडियम: PSL और IPL",
+    "bn": "ক্রিকেট স্টেডিয়াম: PSL ও IPL"
   },
   "summary": {
-    "en": "Big matches mean crowded gates before and after play. Meet by block or enclosure and leave together."
+    "en": "Big matches mean crowded gates before and after play. Meet by block or enclosure and leave together.",
+    "ur": "بڑے میچوں میں کھیل سے پہلے اور بعد گیٹوں پر بہت رش ہوتا ہے۔ بلاک یا انکلوژر کے حساب سے ملیں اور ساتھ نکلیں۔",
+    "hi": "बड़े मैच में खेल से पहले और बाद में गेटों पर भीड़ रहती है। अपने ब्लॉक या एनक्लोजर पर मिलें और साथ निकलें।",
+    "bn": "বড় ম্যাচে খেলার আগে ও পরে গেটে প্রচণ্ড ভিড় হয়। ব্লক বা এনক্লোজার ধরে দেখা করুন আর একসাথে বের হন।"
   },
   "dates": [
     {
       "start": "2027-03-18",
       "end": "2027-05-02",
       "label": {
-        "en": "HBL PSL 12 season window"
+        "en": "HBL PSL 12 season window",
+        "ur": "HBL PSL 12 سیزن کی مدت",
+        "hi": "HBL PSL 12 सीजन का समय",
+        "bn": "HBL PSL 12 মৌসুমের সময়কাল"
       },
       "approx": false
     }
@@ -36,85 +45,148 @@
   "meetingPoints": [
     {
       "name": {
-        "en": "Your block or enclosure"
+        "en": "Your block or enclosure",
+        "ur": "آپ کا بلاک یا انکلوژر",
+        "hi": "आपका ब्लॉक या एनक्लोजर",
+        "bn": "আপনার ব্লক বা এনক্লোজার"
       },
       "detail": {
-        "en": "Stadiums sell seats by block letter (Eden Gardens) or named enclosure (Gaddafi Stadium). Save yours as a meeting point."
+        "en": "Stadiums sell seats by block letter (Eden Gardens) or named enclosure (Gaddafi Stadium). Save yours as a meeting point.",
+        "ur": "اسٹیڈیم سیٹیں بلاک کے حرف (ایڈن گارڈنز) یا انکلوژر کے نام (قذافی اسٹیڈیم) سے بیچتے ہیں۔ اپنا بلاک یا انکلوژر ملنے کی جگہ کے طور پر محفوظ کر لیں۔",
+        "hi": "स्टेडियम में सीटें ब्लॉक के अक्षर (ईडन गार्डन्स) या एनक्लोजर के नाम (गद्दाफी स्टेडियम) से बिकती हैं। अपना ब्लॉक या एनक्लोजर मिलने की जगह के तौर पर सेव कर लें।",
+        "bn": "স্টেডিয়ামে আসন বিক্রি হয় ব্লকের অক্ষর (ইডেন গার্ডেন্স) বা এনক্লোজারের নাম (গাদ্দাফি স্টেডিয়াম) অনুযায়ী। আপনারটি দেখা করার জায়গা হিসেবে সেভ করুন।"
       }
     },
     {
       "name": {
-        "en": "A gate number outside"
+        "en": "A gate number outside",
+        "ur": "باہر کا کوئی گیٹ نمبر",
+        "hi": "बाहर कोई गेट नंबर",
+        "bn": "বাইরের একটি গেট নম্বর"
       },
       "detail": {
-        "en": "Pick a gate on the side you will leave from, and a fixed spot a little away from it."
+        "en": "Pick a gate on the side you will leave from, and a fixed spot a little away from it.",
+        "ur": "اس طرف کا گیٹ چنیں جدھر سے آپ نکلیں گے، اور اس سے تھوڑا ہٹ کر ایک طے شدہ جگہ۔",
+        "hi": "जिस तरफ से आप निकलेंगे, उस तरफ का एक गेट चुनें, और उससे थोड़ी दूर एक पक्की जगह।",
+        "bn": "যেদিক দিয়ে বের হবেন সেদিকের একটি গেট বেছে নিন, আর গেট থেকে একটু দূরে একটি নির্দিষ্ট জায়গা।"
       }
     },
     {
       "name": {
-        "en": "Your car, bus or rickshaw stand"
+        "en": "Your car, bus or rickshaw stand",
+        "ur": "گاڑی، بس یا رکشے کا اسٹینڈ",
+        "hi": "आपकी कार, बस या रिक्शा स्टैंड",
+        "bn": "আপনার গাড়ি, বাস বা রিকশা স্ট্যান্ড"
       },
       "detail": {
-        "en": "Save it before you go in."
+        "en": "Save it before you go in.",
+        "ur": "اندر جانے سے پہلے اسے محفوظ کر لیں۔",
+        "hi": "अंदर जाने से पहले इसे सेव कर लें।",
+        "bn": "ভেতরে ঢোকার আগেই এটি সেভ করে নিন।"
       }
     }
   ],
   "dos": [
     {
-      "en": "Arrive early and know your gate and block before you queue."
+      "en": "Arrive early and know your gate and block before you queue.",
+      "ur": "جلدی پہنچیں اور لائن میں لگنے سے پہلے اپنا گیٹ اور بلاک معلوم کر لیں۔",
+      "hi": "जल्दी पहुँचें और लाइन में लगने से पहले अपना गेट और ब्लॉक जान लें।",
+      "bn": "আগে আগে পৌঁছান, আর লাইনে দাঁড়ানোর আগেই আপনার গেট আর ব্লক জেনে নিন।"
     },
     {
-      "en": "After the match, wait for the first rush to clear before you leave."
+      "en": "After the match, wait for the first rush to clear before you leave.",
+      "ur": "میچ کے بعد نکلنے سے پہلے پہلا رش کم ہونے کا انتظار کریں۔",
+      "hi": "मैच के बाद, निकलने से पहले पहली भीड़ छँटने का इंतजार करें।",
+      "bn": "ম্যাচ শেষে প্রথম ভিড়টা কমে যাওয়া পর্যন্ত অপেক্ষা করুন, তারপর বের হন।"
     },
     {
-      "en": "Venues can change late: check the official schedule on match day."
+      "en": "Venues can change late: check the official schedule on match day.",
+      "ur": "میچ کی جگہ آخری وقت پر بدل سکتی ہے: میچ والے دن آفیشل شیڈول دیکھ لیں۔",
+      "hi": "मैच की जगह आखिरी समय में बदल सकती है: मैच के दिन आधिकारिक शेड्यूल देख लें।",
+      "bn": "শেষ মুহূর্তে ভেন্যু বদলাতে পারে। ম্যাচের দিন অফিশিয়াল সূচি দেখে নিন।"
     },
     {
-      "en": "Find the exits and a second way out as soon as you arrive."
+      "en": "Find the exits and a second way out as soon as you arrive.",
+      "ur": "پہنچتے ہی باہر نکلنے کے راستے دیکھ لیں، اور نکلنے کا ایک دوسرا راستہ بھی۔",
+      "hi": "पहुँचते ही बाहर निकलने के रास्ते देख लें, और एक दूसरा रास्ता भी।",
+      "bn": "পৌঁছেই বের হওয়ার পথগুলো খুঁজে নিন, আর বের হওয়ার আরেকটি বিকল্প পথও দেখে রাখুন।"
     },
     {
-      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing.",
+      "ur": "شدید ہجوم میں ہاتھ اٹھا کر سینے کے پاس رکھیں تاکہ سانس لینے کی جگہ بنی رہے۔",
+      "hi": "घनी भीड़ में अपने हाथ ऊपर सीने के पास रखें, ताकि साँस लेने में रुकावट न हो।",
+      "bn": "ঘন ভিড়ে দুই হাত তুলে বুকের কাছে রাখুন, যাতে শ্বাস নিতে পারেন।"
     },
     {
-      "en": "Move with the flow and work your way diagonally toward the edge."
+      "en": "Move with the flow and work your way diagonally toward the edge.",
+      "ur": "ہجوم کے بہاؤ کے ساتھ چلیں اور ترچھا چلتے ہوئے آہستہ آہستہ کنارے کی طرف جائیں۔",
+      "hi": "भीड़ के बहाव के साथ चलें और तिरछी दिशा में धीरे-धीरे किनारे की ओर बढ़ें।",
+      "bn": "ভিড়ের স্রোতের সাথে চলুন, আর কোনাকুনি এগিয়ে ধীরে ধীরে কিনারার দিকে সরে যান।"
     }
   ],
   "donts": [
     {
-      "en": "Don't join a crowd outside the gates for victory celebrations: a crush at Chinnaswamy Stadium in Bengaluru killed 11 people in June 2025."
+      "en": "Don't join a crowd outside the gates for victory celebrations: a crush at Chinnaswamy Stadium in Bengaluru killed 11 people in June 2025.",
+      "ur": "جیت کے جشن کے لیے گیٹوں کے باہر ہجوم میں شامل نہ ہوں: جون 2025 میں بنگلورو کے چناسوامی اسٹیڈیم میں بھگدڑ سے 11 لوگ جاں بحق ہوئے تھے۔",
+      "hi": "जीत के जश्न के लिए गेटों के बाहर भीड़ में शामिल न हों: जून 2025 में बेंगलुरु के चिन्नास्वामी स्टेडियम में भगदड़ में 11 लोगों की जान गई थी।",
+      "bn": "জয়ের উৎসব করতে গেটের বাইরের ভিড়ে যোগ দেবেন না। জুন 2025-এ বেঙ্গালুরুর চিন্নাস্বামী স্টেডিয়ামে ভিড়ের চাপে 11 জন মারা যান।"
     },
     {
-      "en": "Don't go to the stadium without a ticket hoping to get in."
+      "en": "Don't go to the stadium without a ticket hoping to get in.",
+      "ur": "اندر جانے کی امید میں ٹکٹ کے بغیر اسٹیڈیم نہ جائیں۔",
+      "hi": "अंदर जाने की उम्मीद में बिना टिकट स्टेडियम न जाएँ।",
+      "bn": "টিকিট ছাড়া ঢুকতে পারবেন ভেবে স্টেডিয়ামে যাবেন না।"
     },
     {
-      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it.",
+      "ur": "ہجوم کے بہاؤ کے الٹ دھکا نہ لگائیں، اور ہجوم میں نہ رکیں نہ بیٹھیں۔",
+      "hi": "भीड़ के बहाव के उल्टी तरफ धक्का न दें, और भीड़ में न रुकें, न बैठें।",
+      "bn": "ভিড়ের স্রোতের উল্টো দিকে ঠেলবেন না, আর ভিড়ের মধ্যে থামবেন না বা বসে পড়বেন না।"
     },
     {
-      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense.",
+      "ur": "جب ہجوم شدید ہو تو دیواروں، باڑ یا رکاوٹوں سے لگ کر کھڑے نہ ہوں۔",
+      "hi": "भीड़ घनी हो, तो दीवारों, बाड़ या बैरिकेड से सटकर खड़े न हों।",
+      "bn": "ভিড় ঘন হলে দেয়াল, বেড়া বা ব্যারিকেডের গা ঘেঁষে দাঁড়াবেন না।"
     }
   ],
   "schedule": [
     {
       "title": {
-        "en": "PSL"
+        "en": "PSL",
+        "ur": "PSL",
+        "hi": "PSL",
+        "bn": "PSL"
       },
       "detail": {
-        "en": "The PCB confirmed 18 March to 2 May 2027 for PSL 12. Venues were not announced at the time of writing."
+        "en": "The PCB confirmed 18 March to 2 May 2027 for PSL 12. Venues were not announced at the time of writing.",
+        "ur": "PCB نے PSL 12 کے لیے 18 مارچ سے 2 مئی 2027 کی تاریخوں کی تصدیق کی ہے۔ یہ لکھتے وقت میچوں کی جگہوں کا اعلان نہیں ہوا تھا۔",
+        "hi": "PCB ने PSL 12 के लिए 18 मार्च से 2 मई 2027 की तारीखें पक्की की हैं। यह जानकारी लिखते समय मैच की जगहों की घोषणा नहीं हुई थी।",
+        "bn": "PCB নিশ্চিত করেছে যে PSL 12 হবে 18 মার্চ থেকে 2 মে 2027 পর্যন্ত। এটি লেখার সময় ভেন্যু ঘোষণা করা হয়নি।"
       }
     },
     {
       "title": {
-        "en": "IPL"
+        "en": "IPL",
+        "ur": "IPL",
+        "hi": "IPL",
+        "bn": "IPL"
       },
       "detail": {
-        "en": "The 2027 schedule had not been announced at the time of writing."
+        "en": "The 2027 schedule had not been announced at the time of writing.",
+        "ur": "یہ لکھتے وقت 2027 کے شیڈول کا اعلان نہیں ہوا تھا۔",
+        "hi": "यह जानकारी लिखते समय 2027 का शेड्यूल घोषित नहीं हुआ था।",
+        "bn": "এটি লেখার সময় 2027 সালের সূচি ঘোষণা করা হয়নি।"
       }
     }
   ],
   "phrasebook": [
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "میں کھو گیا ہوں",
       "lang": "ur",
@@ -122,7 +194,10 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "براہ کرم میری مدد کریں",
       "lang": "ur",
@@ -130,7 +205,10 @@
     },
     {
       "meaning": {
-        "en": "Where is the hospital?"
+        "en": "Where is the hospital?",
+        "ur": "ہسپتال کہاں ہے؟",
+        "hi": "अस्पताल कहाँ है?",
+        "bn": "হাসপাতাল কোথায়?"
       },
       "phrase": "ہسپتال کہاں ہے؟",
       "lang": "ur",
@@ -138,7 +216,10 @@
     },
     {
       "meaning": {
-        "en": "I am lost"
+        "en": "I am lost",
+        "ur": "میں کھو گیا ہوں",
+        "hi": "मैं खो गया/गई हूँ",
+        "bn": "আমি হারিয়ে গেছি"
       },
       "phrase": "मैं खो गया हूँ",
       "lang": "hi",
@@ -146,7 +227,10 @@
     },
     {
       "meaning": {
-        "en": "Please help me"
+        "en": "Please help me",
+        "ur": "براہ کرم میری مدد کریں",
+        "hi": "कृपया मेरी मदद कीजिए",
+        "bn": "দয়া করে আমাকে সাহায্য করুন"
       },
       "phrase": "कृपया मेरी मदद कीजिए",
       "lang": "hi",
@@ -155,13 +239,22 @@
   ],
   "checklist": [
     {
-      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card.",
+      "ur": "گروپ کے ہر ممبر کے پاس ایپ ہے، وہ گروپ میں شامل ہو چکا ہے اور اپنا ایمرجنسی کارڈ بھر چکا ہے۔",
+      "hi": "ग्रुप के हर सदस्य के पास ऐप है, सब ग्रुप से जुड़ गए हैं और सबने अपना इमरजेंसी कार्ड भर लिया है।",
+      "bn": "গ্রুপের সবার ফোনে অ্যাপ আছে, সবাই গ্রুপে যোগ দিয়েছেন আর নিজের জরুরি কার্ড পূরণ করেছেন।"
     },
     {
-      "en": "Block or enclosure and an outside gate saved as meeting points."
+      "en": "Block or enclosure and an outside gate saved as meeting points.",
+      "ur": "بلاک یا انکلوژر اور باہر کا ایک گیٹ ملنے کی جگہوں کے طور پر محفوظ ہیں۔",
+      "hi": "ब्लॉक या एनक्लोजर और बाहर का एक गेट, मिलने की जगहों के तौर पर सेव हैं।",
+      "bn": "ব্লক বা এনক্লোজার আর বাইরের একটি গেট দেখা করার জায়গা হিসেবে সেভ করা আছে।"
     },
     {
-      "en": "Power bank and charging cable."
+      "en": "Power bank and charging cable.",
+      "ur": "پاور بینک اور چارجنگ کیبل۔",
+      "hi": "पावर बैंक और चार्जिंग केबल।",
+      "bn": "পাওয়ার ব্যাংক আর চার্জিং কেবল।"
     }
   ],
   "sources": [
