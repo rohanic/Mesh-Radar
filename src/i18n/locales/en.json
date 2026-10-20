@@ -245,7 +245,8 @@
     "readCount": "Read by {{n}}",
     "fullPhoto": "Get full photo nearby",
     "fullPhotoHint": "Full photos travel only between phones close to each other.",
-    "moment": "Moment"
+    "moment": "Moment",
+    "playVoice": "Play voice clip"
   },
   "quick": {
     "1": "I'm OK",
@@ -428,6 +429,20 @@
     "past": "Ended",
     "approxDate": "Dates are approximate and can change.",
     "hijri": "{{d}} {{month}} {{y}} AH (approx.)",
+    "hijriMonths": {
+      "m1": "Muharram",
+      "m2": "Safar",
+      "m3": "Rabi al-Awwal",
+      "m4": "Rabi al-Thani",
+      "m5": "Jumada al-Ula",
+      "m6": "Jumada al-Akhirah",
+      "m7": "Rajab",
+      "m8": "Shaban",
+      "m9": "Ramadan",
+      "m10": "Shawwal",
+      "m11": "Dhu al-Qadah",
+      "m12": "Dhu al-Hijjah"
+    },
     "meetingPoints": "Meeting-point ideas",
     "numbers": "Emergency numbers",
     "dos": "Do",
@@ -486,7 +501,8 @@
     "block": "Hide this person",
     "offline": "You are offline. Community posts need internet.",
     "rules": "Be kind. No personal details, no locations of individuals, no selling.",
-    "city": "Your city (optional)"
+    "city": "Your city (optional)",
+    "failed": "Could not post. Try again in a few minutes."
   },
   "numbers": {
     "title": "Emergency numbers",
@@ -494,7 +510,19 @@
     "unverified": "Not yet checked by our team. Confirm locally when you can.",
     "country": "Country",
     "worksOffline": "Saved on your phone. Calling needs a phone signal.",
-    "general112": "On most mobile networks, 112 connects to emergency services. Check locally."
+    "general112": "Some mobile networks connect 112 to local emergency services. Use the local numbers above first.",
+    "kinds": {
+      "emergency": "Emergency",
+      "police": "Police",
+      "ambulance": "Ambulance",
+      "fire": "Fire",
+      "rescue": "Rescue",
+      "tourist": "Tourist police",
+      "child": "Child helpline",
+      "women": "Women's helpline",
+      "disaster": "Disaster help",
+      "other": "Help line"
+    }
   },
   "me": {
     "title": "Me",

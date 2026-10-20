@@ -1,0 +1,10 @@
+{
+  "en": { "verified": true, "safetyVerified": true, "reviewer": "source", "date": null },
+  "ur": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "ar": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "hi": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "bn": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "id": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "ms": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "tr": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null }
+}

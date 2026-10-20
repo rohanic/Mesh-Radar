@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { KeyboardAvoidingView, Pressable, ScrollView, Switch, TextInput, View, type TextInputProps, type ViewStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
+import { useTranslation } from 'react-i18next';
 
 import { useTheme } from '@/core/theme/ThemeProvider';
 import { radius, space } from '@/core/theme/tokens';
@@ -29,9 +30,10 @@ export function Screen({ children, scroll = true, padded = true, footer, testID 
 }
 
 export function Header({ title, back = true, right }: { title: string; back?: boolean; right?: ReactNode }) {
+  const { t } = useTranslation();
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm, minHeight: 48 }}>
-      {back ? <IconButton icon="chevron-left" label="Back" onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))} /> : null}
+      {back ? <IconButton icon="chevron-left" label={t('common.back')} onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))} /> : null}
       <View style={{ flex: 1 }}>
         <Text variant="headline" accessibilityRole="header" numberOfLines={2}>
           {title}

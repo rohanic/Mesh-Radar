@@ -5,10 +5,13 @@ export type Units = 'metric' | 'imperial';
 export type Numerals = 'western' | 'eastern_arabic';
 
 const EASTERN = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+/** Urdu writes Eastern digits with the Extended Arabic-Indic set (U+06F0 to U+06F9). */
+const EXTENDED = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
 
-export function toNumerals(text: string, numerals: Numerals): string {
+export function toNumerals(text: string, numerals: Numerals, extended = false): string {
   if (numerals === 'western') return text;
-  return text.replace(/[0-9]/g, (d) => EASTERN[Number(d)]!);
+  const set = extended ? EXTENDED : EASTERN;
+  return text.replace(/[0-9]/g, (d) => set[Number(d)]!);
 }
 
 export interface DistanceParts {
@@ -31,7 +34,7 @@ export function distanceParts(metres: number, units: Units): DistanceParts {
   return { value: Math.round(m / 100) / 10, unit: 'km' };
 }
 
-export function formatDistance(metres: number, units: Units, numerals: Numerals): string {
+export function formatDistance(metres: number, units: Units, numerals: Numerals, extended = false): string {
   const { value, unit } = distanceParts(metres, units);
-  return toNumerals(`${value} ${unit}`, numerals);
+  return toNumerals(`${value} ${unit}`, numerals, extended);
 }

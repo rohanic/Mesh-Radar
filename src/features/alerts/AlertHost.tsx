@@ -51,7 +51,7 @@ function IncomingSos({ alert }: { alert: Extract<Alert, { kind: 'sos' }> }) {
             {t('sos.incomingTitle', { name: sos.member?.name ?? t('common.unknown') })}
           </Text>
           <Text variant="title" tone="onSos" align="center">
-            {t(`sos.kinds.${sos.kind}`)}
+            {t(`native.sos_kind_${sos.kind}`)}
           </Text>
           {where ? (
             <Text variant="distance" tone="onSos" align="center" tabular>

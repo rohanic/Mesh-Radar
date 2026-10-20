@@ -56,6 +56,8 @@ describe('units', () => {
 
   it('writes Eastern Arabic digits on request', () => {
     expect(toNumerals('240 m', 'eastern_arabic')).toBe('٢٤٠ m');
+    expect(toNumerals('240 m', 'eastern_arabic', true)).toBe('۲۴۰ m');
+    expect(toNumerals('240 m', 'western', true)).toBe('240 m');
     expect(formatDistance(85, 'metric', 'western')).toBe('85 m');
     expect(formatDistance(85, 'metric', 'eastern_arabic')).toBe('٨٥ m');
   });

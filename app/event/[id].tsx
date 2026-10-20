@@ -19,8 +19,6 @@ import { Button, Card, Header, ListRow, Notice, Row, Screen, Section, Text, Togg
 import { Icon } from '@/ui/icons/Icon';
 import { useNow } from '@/ui/useNow';
 
-const HIJRI_MONTHS = ['Muharram', 'Safar', 'Rabi al-Awwal', 'Rabi al-Thani', 'Jumada al-Ula', 'Jumada al-Akhirah', 'Rajab', 'Shaban', 'Ramadan', 'Shawwal', 'Dhu al-Qadah', 'Dhu al-Hijjah'];
-
 /** Event pack detail (F2): meeting points, numbers, do's and don'ts, rituals, phrasebook, checklist. */
 export default function PackDetail() {
   const { t } = useTranslation();
@@ -66,7 +64,7 @@ export default function PackDetail() {
               {f.date(Date.parse(`${next.start}T00:00:00Z`))} - {f.date(Date.parse(`${next.end}T00:00:00Z`))}
             </Text>
           </Row>
-          {hijri ? <Text tone="muted">{t('events.hijri', { d: f.digits(String(hijri.d)), month: HIJRI_MONTHS[hijri.m - 1], y: f.digits(String(hijri.y)) })}</Text> : null}
+          {hijri ? <Text tone="muted">{t('events.hijri', { d: f.digits(String(hijri.d)), month: t(`events.hijriMonths.m${hijri.m}`), y: f.digits(String(hijri.y)) })}</Text> : null}
           {next.approx ? <Text variant="caption" tone="muted">{t('events.approxDate')}</Text> : null}
         </Card>
       ) : null}
@@ -124,7 +122,13 @@ export default function PackDetail() {
             <Card key={c}>
               <Text weight="bold">{pick(n.name, lang)}</Text>
               {n.numbers.map((x) => (
-                <ListRow key={x.id} icon="phone" title={`${pick(x.label, lang)}: ${x.number}`} onPress={() => void Linking.openURL(`tel:${x.number}`)} />
+                <ListRow
+                  key={x.id}
+                  icon="phone"
+                  title={`${t(`numbers.kinds.${x.kind}`)}: ${x.number}`}
+                  subtitle={pick(x.label, lang)}
+                  onPress={() => void Linking.openURL(`tel:${x.number}`)}
+                />
               ))}
               {n.numbers.some((x) => !x.verified) ? <Text variant="caption" tone="warning">{t('numbers.unverified')}</Text> : null}
             </Card>

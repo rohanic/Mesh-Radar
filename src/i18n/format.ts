@@ -19,6 +19,7 @@ export interface Formatter {
 
 export function makeFormatter(lang: LanguageCode, units: Units, numerals: Numerals): Formatter {
   const tag = `${lang}-u-nu-latn`;
+  const ext = lang === 'ur';
   const dt = (opts: Intl.DateTimeFormatOptions) => {
     let f: Intl.DateTimeFormat;
     try {
@@ -26,15 +27,16 @@ export function makeFormatter(lang: LanguageCode, units: Units, numerals: Numera
     } catch {
       f = new Intl.DateTimeFormat('en', opts);
     }
-    return (ms: number) => toNumerals(f.format(new Date(ms)).replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d))), numerals);
+    const latin = (s: string) => s.replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d))).replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)));
+    return (ms: number) => toNumerals(latin(f.format(new Date(ms))), numerals, ext);
   };
   return {
-    number: (n) => toNumerals(group(n), numerals),
-    distance: (m) => formatDistance(m, units, numerals),
+    number: (n) => toNumerals(group(n), numerals, ext),
+    distance: (m) => formatDistance(m, units, numerals, ext),
     time: dt({ hour: 'numeric', minute: '2-digit' }),
     date: dt({ day: 'numeric', month: 'short', year: 'numeric' }),
     dateTime: dt({ day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' }),
-    digits: (s) => toNumerals(s, numerals),
+    digits: (s) => toNumerals(s, numerals, ext),
   };
 }
 

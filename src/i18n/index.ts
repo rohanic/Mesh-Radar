@@ -1,5 +1,7 @@
 // i18next's documented API is the default instance (i18n.use, i18n.changeLanguage).
 /* eslint-disable import/no-named-as-default-member */
+// Hermes does not ship Intl.PluralRules, which i18next plurals need (DEC-037).
+import 'intl-pluralrules';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
