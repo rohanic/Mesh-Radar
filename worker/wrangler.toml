@@ -1,0 +1,26 @@
+# Mesh Radar Worker: purchase verification and licences, signed event packs, Family Circle
+# mailboxes and event communities. Secrets are set with `wrangler secret put` (docs/setup.md):
+# LICENCE_SIGNING_SEED, GOOGLE_SERVICE_ACCOUNT_JSON, ADMIN_TOKEN. Never put them in this file.
+name = "mesh-radar"
+main = "src/index.ts"
+compatibility_date = "2026-09-30"
+
+[vars]
+PACKAGE_NAME = "com.rohanic.meshradar"
+
+[[kv_namespaces]]
+binding = "KV"
+# Create with `npx wrangler kv namespace create KV` and paste the id here.
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[[durable_objects.bindings]]
+name = "MAILBOX"
+class_name = "Mailbox"
+
+[[durable_objects.bindings]]
+name = "COMMUNITY"
+class_name = "Community"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Mailbox", "Community"]

@@ -70,3 +70,17 @@ The drafters of these three files stopped before reporting their open questions,
 ## Hijri month names (all languages)
 
 `events.hijriMonths` was drafted separately from the files above, using common spellings in each language. Check them with the rest.
+
+## Event pack text (`packs/src`)
+
+Pack text is drafted into each pack's own languages (`languages` in the pack file). Review it with the pack's facts (docs/event-packs.md).
+
+Indonesian and Malay:
+- Hajj camp terms use "kemah" (id) and "kem" (ms) to match `card.stay`; pilgrims from both countries often say "maktab".
+- "Arafat" is written "Arafah", the usual spelling in both countries.
+- "Day of Sacrifice" is "Hari Nahar (Hari Kurban)" (id) and "Hari Nahar (Hari Korban)" (ms).
+- Indonesian uses "Jumrah Aqabah" and "ketiga jumrah"; Malay uses "jamrah".
+- "The Ministry" is named in full ("Kementerian Haji dan Umrah Saudi" / "... Arab Saudi") so readers do not take it as their own government.
+- Mosque gates use "Pintu" ("Pintu 79"), not the app's generic "Gerbang".
+- "Mashaer metro" is "kereta Masyair" (id) and "tren Masyair" (ms); "mataf" carries a short gloss in umrah/dos[3].
+- "Water, please" is "Minta air"; Malay "relief camp" is "Pusat pemindahan terdekat"; "power bank" kept as is.

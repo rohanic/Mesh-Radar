@@ -31,6 +31,28 @@ jobs:
       - run: npm run check:secrets
       - run: npm run test:coverage -- --ci
 
+  worker:
+    name: Worker typecheck and bundle
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            worker/package-lock.json
+      # The Worker imports shared engine code (and zod) from the app, so both installs are needed.
+      - run: npm ci
+      - run: npm ci
+        working-directory: worker
+      - run: npm run check
+        working-directory: worker
+      - run: npx wrangler deploy --dry-run --outdir dist
+        working-directory: worker
+
   core:
     name: Kotlin mesh core and simulator
     runs-on: ubuntu-latest
