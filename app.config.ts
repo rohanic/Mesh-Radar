@@ -84,7 +84,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       'expo-build-properties',
       {
         android: {
-          compileSdkVersion: 36,
+          // Expo SDK 58 libraries require compileSdk 37 (their AAR metadata check fails on 36).
+          compileSdkVersion: 37,
           targetSdkVersion: 36,
           // Android 8.0: BLE extended advertising (PRD section 9, device compatibility).
           minSdkVersion: 26,
