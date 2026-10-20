@@ -36,7 +36,7 @@ module.exports = {
       ],
     },
   ],
-  collectCoverageFrom: ['src/core/engine/**/*.ts', '!src/core/engine/**/*.test.ts', '!src/core/engine/**/index.ts', '!src/core/engine/types.ts'],
+  collectCoverageFrom: ['src/core/engine/**/*.ts', '!src/core/engine/**/*.test.ts', '!src/core/engine/**/index.ts', '!src/core/engine/types.ts', '!src/core/engine/testkit.ts'],
   coverageThreshold: {
     './src/core/engine/': { branches: 85, functions: 90, lines: 90, statements: 90 },
   },
