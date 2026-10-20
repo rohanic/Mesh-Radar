@@ -1727,6 +1727,11 @@ class MeshCore(
         return Maps.licence(lic)
     }
 
+    /** Event packs and other server files are signed with the licence key (F2, DEC-031). */
+    @Synchronized
+    fun verifyServerSignature(message: ByteArray, signature: ByteArray): Boolean =
+        config.licencePublicKey?.let { crypto.verify(signature, message, it) } ?: false
+
     @Synchronized
     fun restoreLicences(tokens: List<String>) {
         tokens.forEach { if (it !in ownLicences && licences.verify(it, nowSec())?.sub == signPublicHex) ownLicences.add(it) }

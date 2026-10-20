@@ -411,6 +411,9 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
         myTier: 'free',
       };
     },
+    async verifySignature() {
+      return false;
+    },
     async sendDrill() {
       return hex(32);
     },

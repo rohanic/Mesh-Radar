@@ -123,6 +123,8 @@ export interface MeshEngineApi {
   importLicence(token: string): Promise<LicenceInfo>;
   restoreLicences(tokens: string[]): Promise<void>;
   entitlements(groupId: string | null): Promise<Entitlements>;
+  /** Ed25519 check of a server file (event pack) against the licence public key. */
+  verifySignature(message: string, signatureB64: string): Promise<boolean>;
 
   sendDrill(opts: { groupId: string; kind: DrillKind; drillId?: string; hiderId: string; durationSec: number }): Promise<string>;
   setFamilyCircle(groupId: string, on: boolean): Promise<void>;

@@ -299,6 +299,14 @@ class MeshEngineModule : Module() {
 
         AsyncFunction("restoreLicences") { tokens: List<String> -> Engine.core.restoreLicences(tokens) }
 
+        AsyncFunction("verifySignature") { message: String, signatureB64: String ->
+            try {
+                Engine.core.verifyServerSignature(message.toByteArray(Charsets.UTF_8), Base64.getDecoder().decode(signatureB64))
+            } catch (e: IllegalArgumentException) {
+                false
+            }
+        }
+
         AsyncFunction("entitlements") { groupId: String? -> Engine.core.entitlements(groupId?.takeIf { it.isNotEmpty() }) }
 
         // ------------------------------------------------------------ social (G4, G6)
