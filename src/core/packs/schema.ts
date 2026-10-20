@@ -48,6 +48,22 @@ export type EventPack = z.infer<typeof EventPackSchema>;
 
 export const MAX_PACK_BYTES = 2 * 1024 * 1024;
 
+/** The 12 launch packs (F1), in the order the Events tab lists them. */
+export const LAUNCH_PACKS = [
+  'hajj',
+  'umrah',
+  'arbaeen',
+  'raiwind-ijtema',
+  'muharram',
+  'kumbh-magh-mela',
+  'durga-puja',
+  'rath-yatra',
+  'stadium',
+  'concerts',
+  'trekking',
+  'flood-blackout',
+] as const;
+
 export function text(l: Localized | undefined, lang: string | null | undefined): string {
   if (!l) return '';
   return (lang && (l as Record<string, string>)[lang]) || l.en;

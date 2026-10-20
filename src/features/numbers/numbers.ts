@@ -1,15 +1,15 @@
 import { getLocales } from 'expo-localization';
 
 import data from '@config/emergency-numbers.json';
+import type { NumberKind } from '@/core/engine/numbers';
 import type { LanguageCode } from '@/state/settings';
+
+export { NUMBER_KINDS, type NumberKind } from '@/core/engine/numbers';
 
 // Offline emergency numbers by country (E5). Sourced from official pages and marked unverified
 // until a person confirms them (DEC-004); `npm run check:release` blocks release until then.
 
 export type Localized = Partial<Record<LanguageCode, string>> & { en: string };
-
-export const NUMBER_KINDS = ['emergency', 'police', 'ambulance', 'fire', 'rescue', 'tourist', 'child', 'women', 'disaster', 'other'] as const;
-export type NumberKind = (typeof NUMBER_KINDS)[number];
 
 export interface EmergencyNumber {
   id: string;

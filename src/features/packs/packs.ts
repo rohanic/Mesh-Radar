@@ -37,7 +37,7 @@ export async function installPack(id: string, ent: EntitlementFlags): Promise<In
       ]);
       if (body && sig && body.length <= MAX_PACK_BYTES && (await MeshEngine.verifySignature(body, sig.trim()))) {
         const remote = EventPackSchema.safeParse(JSON.parse(body));
-        if (remote.success && (!pack || remote.data.version >= pack.version)) pack = remote.data;
+        if (remote.success && remote.data.id === id && (!pack || remote.data.version >= pack.version)) pack = remote.data;
       }
     } catch {
       // Offline or server error: keep the bundled copy.

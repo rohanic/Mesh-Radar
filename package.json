@@ -18,8 +18,10 @@
     "check:release": "tsx scripts/check-release.ts",
     "packs:validate": "tsx scripts/packs.ts validate",
     "packs:build": "tsx scripts/packs.ts build",
+    "packs:publish": "tsx scripts/packs.ts publish",
     "core:test": "cd modules/mesh-engine/core && gradle test --no-daemon",
-    "worker:check": "tsc --noEmit -p worker"
+    "worker:check": "tsc --noEmit -p worker",
+    "eas-build-post-install": "tsx scripts/check-release.ts --if-gated"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "0.4.2",
