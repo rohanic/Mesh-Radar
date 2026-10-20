@@ -1,0 +1,222 @@
+{
+  "id": "arbaeen",
+  "version": 1,
+  "category": "pilgrimage",
+  "colors": [
+    "#5B2333",
+    "#2E2E2E"
+  ],
+  "icon": "footprints",
+  "hijri": true,
+  "countries": [
+    "IQ"
+  ],
+  "languages": [
+    "en",
+    "ar",
+    "ur",
+    "hi",
+    "tr"
+  ],
+  "title": {
+    "en": "Arbaeen walk"
+  },
+  "summary": {
+    "en": "The walk from Najaf to Karbala, about 80 km over 2 to 3 days. Use the numbered poles to meet up."
+  },
+  "dates": [
+    {
+      "start": "2027-07-24",
+      "end": "2027-07-24",
+      "label": {
+        "en": "Arbaeen 1449 (20 Safar)"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-07-13",
+      "end": "2028-07-13",
+      "label": {
+        "en": "Arbaeen 1450 (20 Safar)"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "A pole number on the route"
+      },
+      "detail": {
+        "en": "The route is marked by 1452 numbered poles about 50 m apart. Agree on a pole number for each day."
+      }
+    },
+    {
+      "name": {
+        "en": "A missing persons centre"
+      },
+      "detail": {
+        "en": "Guides list centres at poles 72, 335, 602 and 1103, and at the shrine of al-Abbas. Check they are still there this year."
+      }
+    },
+    {
+      "name": {
+        "en": "The shrine of al-Abbas in Karbala"
+      },
+      "detail": {
+        "en": "Pole 1452 is where the route enters Karbala near the shrine."
+      }
+    },
+    {
+      "name": {
+        "en": "Your mawkib for the night"
+      },
+      "detail": {
+        "en": "Save the place you sleep as a meeting point before you leave it in the morning."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Start after the dawn prayer and walk until sunset, with rests in the heat of the day."
+    },
+    {
+      "en": "Stay with the main crowd on the main road rather than side roads."
+    },
+    {
+      "en": "Agree on a pole number to meet at every few hours."
+    },
+    {
+      "en": "Look after your feet: spare socks, plasters and good shoes."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't walk alone at night."
+    },
+    {
+      "en": "Don't let children walk ahead of the group in dense crowds near Karbala."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "The walk"
+      },
+      "detail": {
+        "en": "Najaf to Karbala is about 80 km and usually takes 2 to 3 days on foot."
+      }
+    },
+    {
+      "title": {
+        "en": "Arbaeen day"
+      },
+      "detail": {
+        "en": "20 Safar. The date depends on the moon, so it can move by a day."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "أنا تائه",
+      "lang": "ar",
+      "transliteration": "ana ta'ih"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "ساعدني من فضلك",
+      "lang": "ar",
+      "transliteration": "sa'idni min fadlak"
+    },
+    {
+      "meaning": {
+        "en": "I need a doctor"
+      },
+      "phrase": "أحتاج إلى طبيب",
+      "lang": "ar",
+      "transliteration": "ahtaj ila tabib"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "أين المستشفى؟",
+      "lang": "ar",
+      "transliteration": "ayna al-mustashfa?"
+    },
+    {
+      "meaning": {
+        "en": "Call an ambulance"
+      },
+      "phrase": "اتصل بالإسعاف",
+      "lang": "ar",
+      "transliteration": "ittasil bil-is'af"
+    },
+    {
+      "meaning": {
+        "en": "I am looking for my family"
+      },
+      "phrase": "أبحث عن عائلتي",
+      "lang": "ar",
+      "transliteration": "abhath 'an 'a'ilati"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "ماء من فضلك",
+      "lang": "ar",
+      "transliteration": "ma' min fadlak"
+    },
+    {
+      "meaning": {
+        "en": "What is the pole number?"
+      },
+      "phrase": "ما رقم العمود؟",
+      "lang": "ar",
+      "transliteration": "ma raqm al-'amud?"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Children carry a printed lost-child card."
+    },
+    {
+      "en": "Comfortable shoes, spare socks, plasters, a light bag."
+    },
+    {
+      "en": "Power bank: you may not find charging points for hours."
+    },
+    {
+      "en": "Set the app to Balanced mode for the walk."
+    }
+  ],
+  "sources": [
+    "https://imam-us.org/journey-to-karbala-arbaeen-guide",
+    "https://imam-us.org/recommendations-to-the-visitors-of-imam-hussain-p-during-arbaeen",
+    "https://imam-us.org/clarification-regarding-the-determination-of-arbaeen",
+    "https://shiism.hds.harvard.edu/news/2019/10/1452-poles-karbala",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

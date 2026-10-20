@@ -1,0 +1,196 @@
+{
+  "id": "durga-puja",
+  "version": 1,
+  "category": "festival",
+  "colors": [
+    "#C1121F",
+    "#F4A300"
+  ],
+  "icon": "sparkles",
+  "countries": [
+    "IN",
+    "BD"
+  ],
+  "languages": [
+    "en",
+    "bn",
+    "hi"
+  ],
+  "title": {
+    "en": "Durga Puja"
+  },
+  "summary": {
+    "en": "Pandal hopping in Kolkata, across West Bengal and in Bangladesh. Pick meeting points at each pandal and at the metro."
+  },
+  "dates": [
+    {
+      "start": "2026-10-17",
+      "end": "2026-10-21",
+      "label": {
+        "en": "Durga Puja 2026, West Bengal (Shashthi to Bijoya Dashami)"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-10-05",
+      "end": "2027-10-10",
+      "label": {
+        "en": "Durga Puja 2027 (Shashthi to Bijoya Dashami)"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-09-25",
+      "end": "2028-09-27",
+      "label": {
+        "en": "Durga Puja 2028 (Ashtami to Vijayadashami)"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "The entrance of each pandal"
+      },
+      "detail": {
+        "en": "Agree on a spot outside before you go into every pandal, since the way out is often different from the way in."
+      }
+    },
+    {
+      "name": {
+        "en": "A metro station exit"
+      },
+      "detail": {
+        "en": "Kolkata Metro runs late into the night on Saptami, Ashtami and Navami. Pick one station and one exit."
+      }
+    },
+    {
+      "name": {
+        "en": "Your car or bus"
+      },
+      "detail": {
+        "en": "Save where you parked as a meeting point."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Use the Kolkata Police Puja Guide Map to plan your route."
+    },
+    {
+      "en": "Go to the busiest pandals early in the day or after midnight."
+    },
+    {
+      "en": "Hold children's hands in queues and at pandal exits."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't follow the crowd into a pandal without agreeing where to meet outside."
+    },
+    {
+      "en": "Don't stand close to the river edge during immersion processions."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Saptami, Ashtami, Navami"
+      },
+      "detail": {
+        "en": "The busiest nights for pandal hopping."
+      }
+    },
+    {
+      "title": {
+        "en": "Bijoya Dashami"
+      },
+      "detail": {
+        "en": "Immersion processions. In Dhaka the main one goes from Dhakeshwari National Temple to Wiseghat on the Buriganga."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "আমি হারিয়ে গেছি",
+      "lang": "bn",
+      "transliteration": "ami hariye gechhi"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "দয়া করে আমাকে সাহায্য করুন",
+      "lang": "bn",
+      "transliteration": "doya kore amake shahajjo korun"
+    },
+    {
+      "meaning": {
+        "en": "Where is the police help booth?"
+      },
+      "phrase": "পুলিশ সহায়তা কেন্দ্র কোথায়?",
+      "lang": "bn",
+      "transliteration": "police shohayota kendro kothay?"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "হাসপাতাল কোথায়?",
+      "lang": "bn",
+      "transliteration": "hashpatal kothay?"
+    },
+    {
+      "meaning": {
+        "en": "Where is the metro station?"
+      },
+      "phrase": "মেট্রো স্টেশন কোথায়?",
+      "lang": "bn",
+      "transliteration": "metro station kothay?"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "একটু জল দেবেন?",
+      "lang": "bn",
+      "transliteration": "ektu jol deben?"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Children carry a printed lost-child card."
+    },
+    {
+      "en": "A pandal list for the night, shared with the group."
+    },
+    {
+      "en": "Power bank and charging cable."
+    }
+  ],
+  "sources": [
+    "https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703",
+    "https://x.com/KolkataPolice/status/2110012080845947216",
+    "https://www.thedailystar.net/news/bangladesh/news/govt-announces-official-list-public-holidays-2026-4031596",
+    "https://www.bssnews.net/news/317749",
+    "https://theshillongtimes.com/2026/10/08/kolkata-metro-announces-overnight-schedule-for-upcoming-durga-puja/",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

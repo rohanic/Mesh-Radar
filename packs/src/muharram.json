@@ -1,0 +1,201 @@
+{
+  "id": "muharram",
+  "version": 1,
+  "category": "gathering",
+  "colors": [
+    "#1B1B1B",
+    "#7A1F2B"
+  ],
+  "icon": "flag",
+  "hijri": true,
+  "countries": [
+    "PK",
+    "IN",
+    "IQ",
+    "BD"
+  ],
+  "languages": [
+    "en",
+    "ur",
+    "hi",
+    "bn",
+    "ar"
+  ],
+  "title": {
+    "en": "Muharram and Ashura"
+  },
+  "summary": {
+    "en": "Majlis gatherings and processions in the first ten days of Muharram. Know the route and keep children close."
+  },
+  "dates": [
+    {
+      "start": "2027-06-06",
+      "end": "2027-06-15",
+      "label": {
+        "en": "Muharram 1449, 1 to 10 Muharram"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-05-25",
+      "end": "2028-06-03",
+      "label": {
+        "en": "Muharram 1450, 1 to 10 Muharram"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "Your imambargah"
+      },
+      "detail": {
+        "en": "The place your family gathers for majlis. Save it as a meeting point."
+      }
+    },
+    {
+      "name": {
+        "en": "A landmark on the route"
+      },
+      "detail": {
+        "en": "Pick a fixed point on the procession route before it starts, away from the narrowest streets."
+      }
+    },
+    {
+      "name": {
+        "en": "The end point of the procession"
+      },
+      "detail": {
+        "en": "For example Hussainian Iranian Imambargah in Karachi, Masjid-e-Ilahi in Hyderabad, or the Karbala site by Dhanmondi Lake in Dhaka."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Check this year's procession route and timings with local police notices."
+    },
+    {
+      "en": "Keep children and elders on the edge of the procession, not in the middle."
+    },
+    {
+      "en": "Drink water often. Sabeel stalls are common but carry your own too."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    },
+    {
+      "en": "Move with the flow and work your way diagonally toward the edge."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't go into the narrowest lanes of the route when the crowd is densest."
+    },
+    {
+      "en": "Don't stand right at the end of the route in Karbala during the Tuwairij run: a crush there in 2019 killed at least 31 people."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "1 to 10 Muharram"
+      },
+      "detail": {
+        "en": "Majlis gatherings each evening, with processions on 9 and 10 Muharram in many cities."
+      }
+    },
+    {
+      "title": {
+        "en": "Ashura, 10 Muharram"
+      },
+      "detail": {
+        "en": "Pakistan, India and Bangladesh often observe Ashura a day after Saudi Arabia, as in 2026."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "میں کھو گیا ہوں",
+      "lang": "ur",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "براہ کرم میری مدد کریں",
+      "lang": "ur",
+      "transliteration": "barah-e-karam meri madad karein"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "ہسپتال کہاں ہے؟",
+      "lang": "ur",
+      "transliteration": "hospital kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "I am looking for my family"
+      },
+      "phrase": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
+      "lang": "ur",
+      "transliteration": "main apne ghar walon ko dhoond raha hoon"
+    },
+    {
+      "meaning": {
+        "en": "Where are the police?"
+      },
+      "phrase": "پولیس کہاں ہے؟",
+      "lang": "ur",
+      "transliteration": "police kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "پانی دیجیے",
+      "lang": "ur",
+      "transliteration": "paani dijiye"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Children carry a printed lost-child card."
+    },
+    {
+      "en": "Meeting points saved for your imambargah and one point on the route."
+    },
+    {
+      "en": "Power bank and charging cable."
+    }
+  ],
+  "sources": [
+    "https://cabinet.gov.pk/Detail/OTE2ODBiYmItZmI0MS00NDAwLWE5NGUtYmE1MGVjYzllMzAz",
+    "https://www.radio.gov.pk/22-06-2026/govt-announces-public-holidays-on-9th-10th-muharram",
+    "https://www.newsonair.gov.in/youm-e-ashoora-peacefully-observed-in-telangana-bibi-ka-alam-procession-in-hyderabad",
+    "https://www.bssnews.net/news/288808",
+    "https://tribune.com.pk/story/2554447/central-ashura-procession-begins-in-karachi-under-heavy-security",
+    "https://en.prothomalo.com/bangladesh/city/tz8pout22c",
+    "https://www.npr.org/2019/09/10/759620714/mass-stampede-at-iraqi-shia-shrine-kills-more-than-30-pilgrims",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

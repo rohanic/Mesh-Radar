@@ -1,0 +1,250 @@
+{
+  "id": "hajj",
+  "version": 1,
+  "category": "pilgrimage",
+  "colors": [
+    "#0E6B5C",
+    "#C9A227"
+  ],
+  "icon": "tent",
+  "hijri": true,
+  "countries": [
+    "SA"
+  ],
+  "languages": [
+    "en",
+    "ur",
+    "ar",
+    "hi",
+    "bn",
+    "id",
+    "ms",
+    "tr"
+  ],
+  "title": {
+    "en": "Hajj"
+  },
+  "summary": {
+    "en": "Mina, Arafat and Muzdalifah with millions of pilgrims. Agree on your camp and meeting points before each move."
+  },
+  "dates": [
+    {
+      "start": "2027-05-14",
+      "end": "2027-05-19",
+      "label": {
+        "en": "Hajj 1448 (8 to 13 Dhu al-Hijjah)"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-05-03",
+      "end": "2028-05-08",
+      "label": {
+        "en": "Hajj 1449 (8 to 13 Dhu al-Hijjah)"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "Your camp in Mina"
+      },
+      "detail": {
+        "en": "Learn your camp number, its gate and a nearby landmark. Save the camp as a meeting point in the app before you leave it. Roads and camps in Mina look very alike."
+      }
+    },
+    {
+      "name": {
+        "en": "A numbered gate of the Grand Mosque"
+      },
+      "detail": {
+        "en": "Every gate has a number, for example King Abdulaziz Gate 1 and King Fahd Gate 79. Agree on one gate number with your group."
+      }
+    },
+    {
+      "name": {
+        "en": "Your Mashaer metro station"
+      },
+      "detail": {
+        "en": "If your group uses the metro, agree on the station you will meet at. There are three stations each in Arafat, Muzdalifah and Mina."
+      }
+    },
+    {
+      "name": {
+        "en": "Your hotel lobby in Makkah"
+      },
+      "detail": {
+        "en": "A fixed place everyone can reach on their own if the group is split for hours."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Keep your camp number and group leader details with you on paper as well as on your phone."
+    },
+    {
+      "en": "Set a meeting point in the app before every move: Mina, Arafat, Muzdalifah, Jamarat."
+    },
+    {
+      "en": "Drink water often and rest in the shade in the hottest hours."
+    },
+    {
+      "en": "Keep your phone charged and switch Mesh Radar to Balanced mode on long days."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    },
+    {
+      "en": "Move with the flow and work your way diagonally toward the edge."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't leave your group to take a shortcut through the crowd."
+    },
+    {
+      "en": "Don't go to the Jamarat outside your group's scheduled time."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "8 Dhu al-Hijjah, Day of Tarwiyah"
+      },
+      "detail": {
+        "en": "Pilgrims enter ihram for Hajj and most spend the day and night in Mina."
+      }
+    },
+    {
+      "title": {
+        "en": "9 Dhu al-Hijjah, Day of Arafah"
+      },
+      "detail": {
+        "en": "Move from Mina to Arafat and stay until sunset, then go to Muzdalifah for the night."
+      }
+    },
+    {
+      "title": {
+        "en": "10 Dhu al-Hijjah, Day of Sacrifice"
+      },
+      "detail": {
+        "en": "Stone Jamrat al-Aqabah, offer the sacrifice, shave or trim, and perform Tawaf al-Ifadah."
+      }
+    },
+    {
+      "title": {
+        "en": "11 to 13 Dhu al-Hijjah, Days of Tashreeq"
+      },
+      "detail": {
+        "en": "Stay in Mina and stone all three Jamarat each day."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "أنا تائه",
+      "lang": "ar",
+      "transliteration": "ana ta'ih"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "ساعدني من فضلك",
+      "lang": "ar",
+      "transliteration": "sa'idni min fadlak"
+    },
+    {
+      "meaning": {
+        "en": "I need a doctor"
+      },
+      "phrase": "أحتاج إلى طبيب",
+      "lang": "ar",
+      "transliteration": "ahtaj ila tabib"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "أين المستشفى؟",
+      "lang": "ar",
+      "transliteration": "ayna al-mustashfa?"
+    },
+    {
+      "meaning": {
+        "en": "Call an ambulance"
+      },
+      "phrase": "اتصل بالإسعاف",
+      "lang": "ar",
+      "transliteration": "ittasil bil-is'af"
+    },
+    {
+      "meaning": {
+        "en": "I am looking for my family"
+      },
+      "phrase": "أبحث عن عائلتي",
+      "lang": "ar",
+      "transliteration": "abhath 'an 'a'ilati"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "ماء من فضلك",
+      "lang": "ar",
+      "transliteration": "ma' min fadlak"
+    },
+    {
+      "meaning": {
+        "en": "My camp number is"
+      },
+      "phrase": "رقم مخيمي",
+      "lang": "ar",
+      "transliteration": "raqm mukhayyami"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Camp number, hotel name and group leader phone saved in the emergency card."
+    },
+    {
+      "en": "Meeting points added for the camp, a mosque gate and the hotel."
+    },
+    {
+      "en": "Power bank, charging cable and a printed copy of the lost-child card for children."
+    },
+    {
+      "en": "Comfortable sandals, umbrella for shade, refillable water bottle."
+    },
+    {
+      "en": "Practice an SOS together and run one regroup drill before you travel."
+    }
+  ],
+  "sources": [
+    "https://haj.gov.sa/en",
+    "https://hajj.nusuk.sa/",
+    "https://haj.gov.sa/-/media/Project/HAJJ/Awareness-Guides/HAJJ-GUIDE/en-hajj-guide.pdf",
+    "https://haj.gov.sa/-/media/Project/HAJJ/PDF-and-FILES/Awareness-Guides/Mina-Guide/English/EN-Mina-Guide.pdf",
+    "https://haj.gov.sa/-/media/Project/HAJJ/Awareness-Guides/Jamarat-Guide/English/EN-Jamarat-Guide.pdf",
+    "https://haj.gov.sa/en/Hajj/Things-To-Remember",
+    "https://spa.gov.sa/en/N2120309",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

@@ -1,0 +1,296 @@
+{
+  "id": "kumbh-magh-mela",
+  "version": 1,
+  "category": "pilgrimage",
+  "colors": [
+    "#E07A1F",
+    "#1F6FB2"
+  ],
+  "icon": "waves",
+  "countries": [
+    "IN"
+  ],
+  "languages": [
+    "en",
+    "hi",
+    "bn"
+  ],
+  "title": {
+    "en": "Kumbh and Magh Mela"
+  },
+  "summary": {
+    "en": "Bathing days at Prayagraj, Haridwar, Nashik-Trimbakeshwar and Ujjain. Know your sector, ghat and the lost and found centres."
+  },
+  "dates": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "label": {
+        "en": "Nashik-Trimbakeshwar Simhastha opens (flag hoisting)"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-01-14",
+      "end": "2027-04-20",
+      "label": {
+        "en": "Haridwar Ardh Kumbh 2027"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-01-15",
+      "end": "2027-03-06",
+      "label": {
+        "en": "Magh Mela 2027, Prayagraj"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-06",
+      "label": {
+        "en": "Mauni Amavasya, the biggest Magh Mela bathing day"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-03-06",
+      "end": "2027-03-06",
+      "label": {
+        "en": "Haridwar Amrit Snan, Mahashivratri"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-03-08",
+      "end": "2027-03-08",
+      "label": {
+        "en": "Haridwar Amrit Snan, Phalguna Amavasya"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "label": {
+        "en": "Haridwar Amrit Snan, Mesh Sankranti"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-08-02",
+      "end": "2027-08-02",
+      "label": {
+        "en": "Nashik-Trimbakeshwar first Amrit Snan"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-08-31",
+      "end": "2027-08-31",
+      "label": {
+        "en": "Nashik-Trimbakeshwar second Amrit Snan"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-09-11",
+      "end": "2027-09-12",
+      "label": {
+        "en": "Nashik-Trimbakeshwar third Amrit Snan"
+      },
+      "approx": false
+    },
+    {
+      "start": "2028-03-27",
+      "end": "2028-05-27",
+      "label": {
+        "en": "Ujjain Simhastha 2028"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "Your sector and ghat number"
+      },
+      "detail": {
+        "en": "Mela areas are split into numbered or colour coded sectors, and ghats are numbered. Save yours as soon as you arrive."
+      }
+    },
+    {
+      "name": {
+        "en": "A lost and found centre"
+      },
+      "detail": {
+        "en": "At Maha Kumbh 2025 the mela authority ran lost and found centres across the mela area where people without a phone could call family. Note the nearest one."
+      }
+    },
+    {
+      "name": {
+        "en": "A pontoon bridge end"
+      },
+      "detail": {
+        "en": "Pick one end of a named bridge, not the middle."
+      }
+    },
+    {
+      "name": {
+        "en": "Ramkund or Kushavarta"
+      },
+      "detail": {
+        "en": "The main bathing places at the Nashik-Trimbakeshwar Simhastha."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Go to bathe early on the big days, or on a quieter day if you can."
+    },
+    {
+      "en": "Agree on a ghat and a time to meet after bathing."
+    },
+    {
+      "en": "Keep elders and children on the side of the ghat, away from the steps where people push down."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    },
+    {
+      "en": "Move with the flow and work your way diagonally toward the edge."
+    },
+    {
+      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't stop on bridges, steps or narrow approach roads."
+    },
+    {
+      "en": "Don't go into deep water: stay within the ropes and barricades."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Haridwar Ardh Kumbh 2027 bathing days"
+      },
+      "detail": {
+        "en": "14 Jan, 6 Feb, 11 Feb, 20 Feb, 6 Mar, 8 Mar, 7 Apr, 14 Apr, 15 Apr and 20 Apr. Amrit Snans are 6 Mar, 8 Mar and 14 Apr."
+      }
+    },
+    {
+      "title": {
+        "en": "The Sangam at Prayagraj"
+      },
+      "detail": {
+        "en": "Where the Ganga and Yamuna meet, about 7 km from Civil Lines. Boats leave from the ghat near the fort."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "मैं खो गया हूँ",
+      "lang": "hi",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "कृपया मेरी मदद कीजिए",
+      "lang": "hi",
+      "transliteration": "kripya meri madad kijiye"
+    },
+    {
+      "meaning": {
+        "en": "Where is the lost and found centre?"
+      },
+      "phrase": "खोया-पाया केंद्र कहाँ है?",
+      "lang": "hi",
+      "transliteration": "khoya-paya kendra kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "अस्पताल कहाँ है?",
+      "lang": "hi",
+      "transliteration": "aspatal kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "I need a doctor"
+      },
+      "phrase": "मुझे डॉक्टर चाहिए",
+      "lang": "hi",
+      "transliteration": "mujhe doctor chahiye"
+    },
+    {
+      "meaning": {
+        "en": "Where are the police?"
+      },
+      "phrase": "पुलिस कहाँ है?",
+      "lang": "hi",
+      "transliteration": "police kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "पानी दीजिए",
+      "lang": "hi",
+      "transliteration": "paani dijiye"
+    },
+    {
+      "meaning": {
+        "en": "Which sector is this?"
+      },
+      "phrase": "यह कौन सा सेक्टर है?",
+      "lang": "hi",
+      "transliteration": "yah kaun sa sector hai?"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Children carry a printed lost-child card."
+    },
+    {
+      "en": "Sector, ghat and camp saved as meeting points."
+    },
+    {
+      "en": "Dry clothes in a plastic bag, a towel and a power bank."
+    },
+    {
+      "en": "Practice an SOS together and run one regroup drill before you travel."
+    }
+  ],
+  "sources": [
+    "https://kumbh.gov.in/",
+    "https://prayagraj.nic.in/tourist-place/sangam/",
+    "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/magh-mela-2027",
+    "https://theprint.in/india/dates-announced-for-bathing-festivals-during-ardh-kumbh-mela-in-haridwar/2905092/",
+    "https://theprint.in/india/simhastha-kumbh-mela-to-begin-in-nashik-trimbakeshwar-on-oct-31-next-year/2643959/",
+    "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2090956",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

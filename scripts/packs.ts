@@ -17,6 +17,8 @@ function load(): { packs: EventPack[]; problems: string[]; warnings: string[] } 
   const warnings: string[] = [];
   const packs: EventPack[] = [];
   const numbers = readJson<{ countries: Record<string, unknown> }>('config/emergency-numbers.json').countries;
+  // Icon names from the registry (the app renders pack.icon through it).
+  const icons = new Set([...read('src/ui/icons/registry.ts').matchAll(/^  '([a-z0-9-]+)':/gm)].map((m) => m[1]));
 
   for (const file of walk('packs/src', ['.json'])) {
     const name = file.split('/').pop()!.replace(/\.json$/, '');
@@ -41,6 +43,7 @@ function load(): { packs: EventPack[]; problems: string[]; warnings: string[] } 
     for (const s of p.sources) if (!s.startsWith('https://')) problems.push(`${file}: source is not https: ${s}`);
     if (!p.sources.length) problems.push(`${file}: no sources`);
     if (p.community) problems.push(`${file}: launch packs are not community packs`);
+    if (!icons.has(p.icon)) problems.push(`${file}: icon "${p.icon}" is not in src/ui/icons/registry.ts`);
     for (const c of p.countries) if (!numbers[c]) warnings.push(`${file}: no emergency numbers for ${c}`);
     if (p.verified) warnings.push(`${file}: marked verified; make sure a person checked it`);
     packs.push(p);

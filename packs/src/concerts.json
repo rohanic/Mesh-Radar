@@ -1,0 +1,114 @@
+{
+  "id": "concerts",
+  "version": 1,
+  "category": "music",
+  "colors": [
+    "#5B21B6",
+    "#DB2777"
+  ],
+  "icon": "music",
+  "countries": [
+    "IN",
+    "PK",
+    "BD",
+    "ID",
+    "MY",
+    "TR",
+    "AE",
+    "SA"
+  ],
+  "languages": [
+    "en",
+    "ur",
+    "ar",
+    "hi",
+    "bn",
+    "id",
+    "ms",
+    "tr"
+  ],
+  "title": {
+    "en": "Concerts and festivals"
+  },
+  "summary": {
+    "en": "Loud, dark and packed. Pick a meeting point you can find without a phone signal and keep away from barriers."
+  },
+  "dates": [],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "A fixed landmark"
+      },
+      "detail": {
+        "en": "A sound desk, a numbered tower or a food stall sign, not a moving crowd spot."
+      }
+    },
+    {
+      "name": {
+        "en": "An exit you can see"
+      },
+      "detail": {
+        "en": "Pick the exit nearest your meeting point when you arrive."
+      }
+    },
+    {
+      "name": {
+        "en": "Outside the venue"
+      },
+      "detail": {
+        "en": "A second spot outside, in case you are split up when everyone leaves."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    },
+    {
+      "en": "Move with the flow and work your way diagonally toward the edge."
+    },
+    {
+      "en": "Agree on a time to check in by the app, for example after every third song."
+    },
+    {
+      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    },
+    {
+      "en": "Don't rush for shelter all at once if it starts to rain: a crush on steps at Cochin University in 2023 started this way."
+    }
+  ],
+  "schedule": [],
+  "phrasebook": [],
+  "checklist": [
+    {
+      "en": "Every group member has the app and has joined the group."
+    },
+    {
+      "en": "A landmark and an outside spot saved as meeting points."
+    },
+    {
+      "en": "Power bank and charging cable."
+    },
+    {
+      "en": "Ear protection for children."
+    }
+  ],
+  "sources": [
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management",
+    "https://ndma.gov.in/images/pdf/managingcrowdsguide.pdf",
+    "https://nidm.gov.in/PDF/Modules/TrgMod_CrowdatLargeCongregations.pdf",
+    "https://www.deccanherald.com/india/kerala/4-students-killed-64-injured-in-stampede-during-college-tech-fest-in-kerala-2785070"
+  ],
+  "verified": false
+}

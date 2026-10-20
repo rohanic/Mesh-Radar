@@ -11,7 +11,7 @@ import { useProfile } from '@/state/profile';
 import { useSettings } from '@/state/settings';
 import { Button, Chip, Field, Header, Notice, Row, Screen } from '@/ui/components';
 
-const CATEGORIES = ['pilgrimage', 'festival', 'sport', 'music', 'outdoors', 'emergency'] as const;
+const CATEGORIES = ['pilgrimage', 'gathering', 'festival', 'sport', 'music', 'outdoors', 'emergency'] as const;
 
 const lines = (s: string) =>
   s

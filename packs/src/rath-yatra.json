@@ -1,0 +1,195 @@
+{
+  "id": "rath-yatra",
+  "version": 1,
+  "category": "festival",
+  "colors": [
+    "#D62828",
+    "#F2C14E"
+  ],
+  "icon": "route",
+  "countries": [
+    "IN"
+  ],
+  "languages": [
+    "en",
+    "hi",
+    "bn"
+  ],
+  "title": {
+    "en": "Rath Yatra, Puri"
+  },
+  "summary": {
+    "en": "Three chariots pulled about 3 km along Bada Danda to the Gundicha Temple. Meet away from the chariot ropes."
+  },
+  "dates": [
+    {
+      "start": "2027-07-05",
+      "end": "2027-07-13",
+      "label": {
+        "en": "Rath Yatra 2027 to Bahuda Yatra"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-06-24",
+      "end": "2028-06-24",
+      "label": {
+        "en": "Rath Yatra 2028"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "A side street off Bada Danda"
+      },
+      "detail": {
+        "en": "Pick a named side street, not the Grand Road itself, which fills edge to edge."
+      }
+    },
+    {
+      "name": {
+        "en": "The Gundicha Temple"
+      },
+      "detail": {
+        "en": "Where the chariots stop, about 3 km from the main temple."
+      }
+    },
+    {
+      "name": {
+        "en": "Your hotel or dharamshala"
+      },
+      "detail": {
+        "en": "A fixed place everyone can reach on their own."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Watch from a side street or a building with permission rather than the middle of the road."
+    },
+    {
+      "en": "Agree on a meeting point before the chariots start moving."
+    },
+    {
+      "en": "Drink water often: it is hot and humid in late June and July."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    },
+    {
+      "en": "Move with the flow and work your way diagonally toward the edge."
+    },
+    {
+      "en": "If you fall, get up fast. If you cannot, curl up on your side and cover your head with your arms."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't get between the crowd and the chariot wheels or ropes."
+    },
+    {
+      "en": "Don't take small children into the crowd near the chariots."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Order of the chariots"
+      },
+      "detail": {
+        "en": "Balabhadra (Taladhwaja, 14 wheels) goes first, then Subhadra (Darpadalana, 12 wheels), then Jagannath (Nandighosa, 16 wheels)."
+      }
+    },
+    {
+      "title": {
+        "en": "Gundicha Temple"
+      },
+      "detail": {
+        "en": "The deities stay at the Gundicha Temple for seven days."
+      }
+    },
+    {
+      "title": {
+        "en": "Bahuda Yatra"
+      },
+      "detail": {
+        "en": "The return journey on the ninth day, followed by Suna Besha, when the deities wear gold on their chariots."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "मैं खो गया हूँ",
+      "lang": "hi",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "कृपया मेरी मदद कीजिए",
+      "lang": "hi",
+      "transliteration": "kripya meri madad kijiye"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "ଦୟାକରି ମୋତେ ସାହାଯ୍ୟ କରନ୍ତୁ",
+      "lang": "or",
+      "transliteration": "dayakari mote sahajya karantu"
+    },
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "ମୁଁ ହଜିଗଲି",
+      "lang": "or",
+      "transliteration": "mun hajigali"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "ଡାକ୍ତରଖାନା କେଉଁଠି?",
+      "lang": "or",
+      "transliteration": "daktarakhana keunthi?"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Children carry a printed lost-child card."
+    },
+    {
+      "en": "A side street and your hotel saved as meeting points."
+    },
+    {
+      "en": "Water bottle, cap and power bank."
+    }
+  ],
+  "sources": [
+    "https://www.shreejagannatha.in/ratha-yatra/",
+    "https://www.shreejagannatha.in/the-chariots/",
+    "https://www.shreejagannatha.in/about-bahuda-jatra/",
+    "https://odishatourism.gov.in/content/tourism/en/experience/event/ratha-jatra-2026.html",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

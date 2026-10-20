@@ -1,0 +1,216 @@
+{
+  "id": "umrah",
+  "version": 1,
+  "category": "pilgrimage",
+  "colors": [
+    "#1F5F8B",
+    "#C9A227"
+  ],
+  "icon": "landmark",
+  "hijri": true,
+  "countries": [
+    "SA"
+  ],
+  "languages": [
+    "en",
+    "ur",
+    "ar",
+    "hi",
+    "bn",
+    "id",
+    "ms",
+    "tr"
+  ],
+  "title": {
+    "en": "Umrah"
+  },
+  "summary": {
+    "en": "Umrah at the Grand Mosque, busiest in Ramadan. Use gate numbers to meet up and keep your permits ready."
+  },
+  "dates": [
+    {
+      "start": "2027-02-08",
+      "end": "2027-03-08",
+      "label": {
+        "en": "Ramadan 1448, the busiest Umrah weeks"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-01-28",
+      "end": "2028-02-25",
+      "label": {
+        "en": "Ramadan 1449, the busiest Umrah weeks"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "A numbered gate of the Grand Mosque"
+      },
+      "detail": {
+        "en": "Every gate has its own number, for example King Abdulaziz Gate 1, Safa Gate 11, Fath Gate 45, Umrah Gate 62, King Fahd Gate 79 and King Abdullah Gate 100. The Ministry advises agreeing on a door number before you start."
+      }
+    },
+    {
+      "name": {
+        "en": "Your hotel lobby"
+      },
+      "detail": {
+        "en": "A fixed place everyone can reach on their own."
+      }
+    },
+    {
+      "name": {
+        "en": "A spot outside the gate"
+      },
+      "detail": {
+        "en": "Gates can close when full (the gate panel turns red), so also agree on a spot outside it."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Book your Umrah and prayer permits in the Nusuk app before you go."
+    },
+    {
+      "en": "Agree on a gate number before every visit to the mosque."
+    },
+    {
+      "en": "Check the gate panels: green means entry is open, red means that gate is full."
+    },
+    {
+      "en": "Keep elders and children close in the mataf and on the way out after prayers."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't wait for a lost person inside the mataf. Go to your agreed gate."
+    },
+    {
+      "en": "Don't block doors or stairways after prayers."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Umrah season 1448"
+      },
+      "detail": {
+        "en": "The Ministry calendar runs the season from 14 Dhu al-Hijjah 1447 to 30 Shawwal 1448 (about 31 May 2026 to 7 April 2027)."
+      }
+    },
+    {
+      "title": {
+        "en": "Ramadan"
+      },
+      "detail": {
+        "en": "The mosque is busiest in the last ten nights. Plan meeting points before each night prayer."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "أنا تائه",
+      "lang": "ar",
+      "transliteration": "ana ta'ih"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "ساعدني من فضلك",
+      "lang": "ar",
+      "transliteration": "sa'idni min fadlak"
+    },
+    {
+      "meaning": {
+        "en": "I need a doctor"
+      },
+      "phrase": "أحتاج إلى طبيب",
+      "lang": "ar",
+      "transliteration": "ahtaj ila tabib"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "أين المستشفى؟",
+      "lang": "ar",
+      "transliteration": "ayna al-mustashfa?"
+    },
+    {
+      "meaning": {
+        "en": "Call an ambulance"
+      },
+      "phrase": "اتصل بالإسعاف",
+      "lang": "ar",
+      "transliteration": "ittasil bil-is'af"
+    },
+    {
+      "meaning": {
+        "en": "I am looking for my family"
+      },
+      "phrase": "أبحث عن عائلتي",
+      "lang": "ar",
+      "transliteration": "abhath 'an 'a'ilati"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "ماء من فضلك",
+      "lang": "ar",
+      "transliteration": "ma' min fadlak"
+    },
+    {
+      "meaning": {
+        "en": "Where is gate number"
+      },
+      "phrase": "أين باب رقم",
+      "lang": "ar",
+      "transliteration": "ayna bab raqam"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Nusuk permits booked for Umrah and for the Rawdah if you plan to visit."
+    },
+    {
+      "en": "Hotel name and group leader phone saved in the emergency card."
+    },
+    {
+      "en": "A gate number and a hotel added as meeting points."
+    },
+    {
+      "en": "Power bank and charging cable."
+    }
+  ],
+  "sources": [
+    "https://haj.gov.sa/en/Umrah",
+    "https://haj.gov.sa/en/Media-Center/Ministry-News/2026/Ministry-of-Hajj-and-Umrah-Announces-the-Umrah-Season-Calendar-for-1448-AH",
+    "https://haj.gov.sa/-/media/Project/HAJJ/Awareness-Guides/UMRAH-VISIT-GUIDE/English/EN-Umrah-visit-Guide.pdf",
+    "https://haj.gov.sa/en/Hajj/Things-To-Remember",
+    "https://www.spa.gov.sa/en/N2534374",
+    "https://www.spa.gov.sa/en/N2521566",
+    "https://www.spa.gov.sa/en/N2149988"
+  ],
+  "verified": false
+}

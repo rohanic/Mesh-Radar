@@ -1,0 +1,171 @@
+{
+  "id": "flood-blackout",
+  "version": 1,
+  "category": "emergency",
+  "colors": [
+    "#1E3A5F",
+    "#4A6FA5"
+  ],
+  "icon": "cloud-rain",
+  "countries": [
+    "PK",
+    "IN",
+    "BD",
+    "NP",
+    "ID",
+    "MY"
+  ],
+  "languages": [
+    "en",
+    "ur",
+    "hi",
+    "bn",
+    "id",
+    "ms"
+  ],
+  "title": {
+    "en": "Floods and blackouts"
+  },
+  "summary": {
+    "en": "When the network and power fail, the mesh keeps your family in touch. Agree on where to go before you need it."
+  },
+  "dates": [
+    {
+      "start": "2026-10-01",
+      "end": "2026-12-31",
+      "label": {
+        "en": "India northeast monsoon 2026 (south peninsula)"
+      },
+      "approx": false
+    },
+    {
+      "start": "2027-04-01",
+      "end": "2027-10-31",
+      "label": {
+        "en": "Bangladesh flood season 2027"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-06-01",
+      "end": "2027-09-30",
+      "label": {
+        "en": "India and Nepal southwest monsoon 2027"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-07-01",
+      "end": "2027-09-30",
+      "label": {
+        "en": "Pakistan monsoon 2027"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-10-01",
+      "end": "2027-12-31",
+      "label": {
+        "en": "India northeast monsoon 2027 (south peninsula)"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "High ground near home"
+      },
+      "detail": {
+        "en": "A school, mosque, temple or upper floor everyone in the family knows."
+      }
+    },
+    {
+      "name": {
+        "en": "The nearest relief camp"
+      },
+      "detail": {
+        "en": "Add it as a meeting point when local authorities announce it."
+      }
+    },
+    {
+      "name": {
+        "en": "A relative's home outside the flood area"
+      },
+      "detail": {
+        "en": "Somewhere to regroup if you are separated for days."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Agree on a family meeting point on high ground before the monsoon."
+    },
+    {
+      "en": "Keep phones and power banks charged when a warning is issued, and switch the app to Ultra-saver if the power is out."
+    },
+    {
+      "en": "Use a stick to check for open manholes and drains when you must walk in water."
+    },
+    {
+      "en": "Switch off electricity at home before water comes in."
+    },
+    {
+      "en": "Follow warnings from your national meteorological department."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't walk through moving water: even a shallow current can knock an adult down."
+    },
+    {
+      "en": "Don't drive into flooded roads: about half a metre of water can carry a car away."
+    },
+    {
+      "en": "Don't go near power lines in a flood."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Monsoon seasons"
+      },
+      "detail": {
+        "en": "India June to September (northeast monsoon in the south October to December), Pakistan July to September, Nepal normally mid June to early October, Bangladesh flood season April to October. Real onset moves by weeks."
+      }
+    },
+    {
+      "title": {
+        "en": "Blackouts"
+      },
+      "detail": {
+        "en": "On 23 January 2023 Pakistan's national grid failed nationwide; mobile towers were affected and many areas were dark for over 12 hours. The mesh works without towers or power."
+      }
+    }
+  ],
+  "phrasebook": [],
+  "checklist": [
+    {
+      "en": "Every family member has the app, has joined the family group and has filled in their emergency card."
+    },
+    {
+      "en": "A family meeting point on high ground saved in the app."
+    },
+    {
+      "en": "Charged power banks, torch, drinking water, medicines and copies of documents in a waterproof bag."
+    },
+    {
+      "en": "If you use Family Circle, turn it on for the family group before the season."
+    }
+  ],
+  "sources": [
+    "https://mausam.imd.gov.in/",
+    "https://ndma.gov.in/Natural-Hazards/Urban-Floods/Dos-Donts",
+    "https://sachet.ndma.gov.in/DosDont",
+    "https://www.ndma.gov.pk/public/plans",
+    "https://ffd.pmd.gov.pk/bulletin/",
+    "https://dhm.gov.np/uploads/dhm/climateService/1777360855_cde386661a4216e39437.pdf",
+    "https://www.arabnews.com/node/2237601/world"
+  ],
+  "verified": false
+}

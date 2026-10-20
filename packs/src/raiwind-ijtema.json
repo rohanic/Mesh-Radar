@@ -1,0 +1,176 @@
+{
+  "id": "raiwind-ijtema",
+  "version": 1,
+  "category": "gathering",
+  "colors": [
+    "#2D6A4F",
+    "#95D5B2"
+  ],
+  "icon": "users",
+  "countries": [
+    "PK"
+  ],
+  "languages": [
+    "en",
+    "ur"
+  ],
+  "title": {
+    "en": "Raiwind Ijtema"
+  },
+  "summary": {
+    "en": "The Tablighi Ijtema near Lahore, held in two phases. Plan your way in and out, and meet at fixed places."
+  },
+  "dates": [],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "Your camp or block"
+      },
+      "detail": {
+        "en": "Save your camp or block as a meeting point as soon as you arrive."
+      }
+    },
+    {
+      "name": {
+        "en": "Your parking stand"
+      },
+      "detail": {
+        "en": "Traffic police set up numbered parking stands. Note yours and save it."
+      }
+    },
+    {
+      "name": {
+        "en": "Raiwind railway station"
+      },
+      "detail": {
+        "en": "The station has extra staff and a medical camp during the Ijtema."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Plan your trip home before the closing dua: roads in Raiwind close and traffic runs one way toward Lahore."
+    },
+    {
+      "en": "Park only in the official parking stands."
+    },
+    {
+      "en": "Rescue 1122 has medical teams at the Ijtema. Note where the nearest one is."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't park outside the stands or on roads kept clear for emergency vehicles."
+    },
+    {
+      "en": "Don't try to leave with the whole crowd right after the dua if you can wait."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Two phases"
+      },
+      "detail": {
+        "en": "The Ijtema is held in two phases about a week apart, usually in November. Each ends with a collective dua."
+      }
+    },
+    {
+      "title": {
+        "en": "Getting there"
+      },
+      "detail": {
+        "en": "In recent years extra trains have stopped at Raiwind, and in 2025 the Punjab government ran an electric bus from Lahore railway station and the airport. Check this year's arrangements."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "میں کھو گیا ہوں",
+      "lang": "ur",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "براہ کرم میری مدد کریں",
+      "lang": "ur",
+      "transliteration": "barah-e-karam meri madad karein"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "ہسپتال کہاں ہے؟",
+      "lang": "ur",
+      "transliteration": "hospital kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "I am looking for my family"
+      },
+      "phrase": "میں اپنے گھر والوں کو ڈھونڈ رہا ہوں",
+      "lang": "ur",
+      "transliteration": "main apne ghar walon ko dhoond raha hoon"
+    },
+    {
+      "meaning": {
+        "en": "Where are the police?"
+      },
+      "phrase": "پولیس کہاں ہے؟",
+      "lang": "ur",
+      "transliteration": "police kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "Water, please"
+      },
+      "phrase": "پانی دیجیے",
+      "lang": "ur",
+      "transliteration": "paani dijiye"
+    },
+    {
+      "meaning": {
+        "en": "Where is Rescue 1122?"
+      },
+      "phrase": "ریسکیو 1122 کہاں ہے؟",
+      "lang": "ur",
+      "transliteration": "rescue 1122 kahan hai?"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Camp or block and parking stand saved as meeting points."
+    },
+    {
+      "en": "Power bank and charging cable."
+    },
+    {
+      "en": "A plan for the trip home after the closing dua."
+    }
+  ],
+  "sources": [
+    "https://www.app.com.pk/domestic/traffic-plan-for-raiwind-ijtema-finalized/",
+    "https://www.app.com.pk/domestic/pakistan-railways-makes-special-arrangements-at-raiwind-station-for-tablighi-ijtima/",
+    "https://www.thenews.com.pk/latest/1350844-maryam-orders-facilities-e-bus-service-for-raiwind-moot",
+    "https://www.nation.com.pk/04-Nov-2023/24-medical-emergency-vehicles-provided-for-raiwind-ijtima-participants",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

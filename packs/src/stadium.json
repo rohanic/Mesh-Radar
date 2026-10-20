@@ -1,0 +1,176 @@
+{
+  "id": "stadium",
+  "version": 1,
+  "category": "sport",
+  "colors": [
+    "#14532D",
+    "#1E3A8A"
+  ],
+  "icon": "trophy",
+  "countries": [
+    "PK",
+    "IN"
+  ],
+  "languages": [
+    "en",
+    "ur",
+    "hi",
+    "bn"
+  ],
+  "title": {
+    "en": "Cricket stadium: PSL and IPL"
+  },
+  "summary": {
+    "en": "Big matches mean crowded gates before and after play. Meet by block or enclosure and leave together."
+  },
+  "dates": [
+    {
+      "start": "2027-03-18",
+      "end": "2027-05-02",
+      "label": {
+        "en": "HBL PSL 12 season window"
+      },
+      "approx": false
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "Your block or enclosure"
+      },
+      "detail": {
+        "en": "Stadiums sell seats by block letter (Eden Gardens) or named enclosure (Gaddafi Stadium). Save yours as a meeting point."
+      }
+    },
+    {
+      "name": {
+        "en": "A gate number outside"
+      },
+      "detail": {
+        "en": "Pick a gate on the side you will leave from, and a fixed spot a little away from it."
+      }
+    },
+    {
+      "name": {
+        "en": "Your car, bus or rickshaw stand"
+      },
+      "detail": {
+        "en": "Save it before you go in."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Arrive early and know your gate and block before you queue."
+    },
+    {
+      "en": "After the match, wait for the first rush to clear before you leave."
+    },
+    {
+      "en": "Venues can change late: check the official schedule on match day."
+    },
+    {
+      "en": "Find the exits and a second way out as soon as you arrive."
+    },
+    {
+      "en": "In a dense crowd, keep your hands up near your chest to protect your breathing."
+    },
+    {
+      "en": "Move with the flow and work your way diagonally toward the edge."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't join a crowd outside the gates for victory celebrations: a crush at Chinnaswamy Stadium in Bengaluru killed 11 people in June 2025."
+    },
+    {
+      "en": "Don't go to the stadium without a ticket hoping to get in."
+    },
+    {
+      "en": "Don't push against the flow of a crowd, and don't stop or sit down in it."
+    },
+    {
+      "en": "Don't stand against walls, fences or barricades when a crowd is dense."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "PSL"
+      },
+      "detail": {
+        "en": "The PCB confirmed 18 March to 2 May 2027 for PSL 12. Venues were not announced at the time of writing."
+      }
+    },
+    {
+      "title": {
+        "en": "IPL"
+      },
+      "detail": {
+        "en": "The 2027 schedule had not been announced at the time of writing."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "میں کھو گیا ہوں",
+      "lang": "ur",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "براہ کرم میری مدد کریں",
+      "lang": "ur",
+      "transliteration": "barah-e-karam meri madad karein"
+    },
+    {
+      "meaning": {
+        "en": "Where is the hospital?"
+      },
+      "phrase": "ہسپتال کہاں ہے؟",
+      "lang": "ur",
+      "transliteration": "hospital kahan hai?"
+    },
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "मैं खो गया हूँ",
+      "lang": "hi",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "कृपया मेरी मदद कीजिए",
+      "lang": "hi",
+      "transliteration": "kripya meri madad kijiye"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card."
+    },
+    {
+      "en": "Block or enclosure and an outside gate saved as meeting points."
+    },
+    {
+      "en": "Power bank and charging cable."
+    }
+  ],
+  "sources": [
+    "https://www.pcb.com.pk/press-release-detail/hbl-psl-12-window-confirmed-eight-teams-one-champion-the-countdown-begins.html",
+    "https://www.pcb.com.pk/press-release-detail/pcb-announces-revised-schedule-for-hbl-psl-11.html",
+    "https://psl-t20.com/",
+    "https://www.iplt20.com/",
+    "https://scroll.in/latest/1083195/bengaluru-several-feared-dead-in-stampede-during-ipl-victory-celebrations-say-reports",
+    "https://ndma.gov.in/Resources/awareness/Crowd_Management"
+  ],
+  "verified": false
+}

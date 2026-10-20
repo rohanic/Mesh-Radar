@@ -12,7 +12,7 @@ export const LocalizedSchema = z
   .refine((o) => Object.keys(o).every((k) => (LANGS as readonly string[]).includes(k)), { message: 'unknown language key' });
 export type Localized = z.infer<typeof LocalizedSchema>;
 
-export const Category = z.enum(['pilgrimage', 'festival', 'sport', 'music', 'outdoors', 'emergency']);
+export const Category = z.enum(['pilgrimage', 'gathering', 'festival', 'sport', 'music', 'outdoors', 'emergency']);
 
 export const PackDate = z.object({
   start: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
@@ -33,6 +33,8 @@ export const EventPackSchema = z.object({
   title: LocalizedSchema,
   summary: LocalizedSchema,
   dates: z.array(PackDate),
+  /** Islamic events also show the Hijri date (section 11, calendars). */
+  hijri: z.boolean().optional(),
   meetingPoints: z.array(z.object({ name: LocalizedSchema, detail: LocalizedSchema })).min(1),
   dos: z.array(LocalizedSchema).min(1),
   donts: z.array(LocalizedSchema).min(1),

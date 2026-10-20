@@ -1,0 +1,216 @@
+{
+  "id": "trekking",
+  "version": 1,
+  "category": "outdoors",
+  "colors": [
+    "#2F5D50",
+    "#8AB17D"
+  ],
+  "icon": "mountain",
+  "countries": [
+    "NP",
+    "PK",
+    "IN"
+  ],
+  "languages": [
+    "en",
+    "hi",
+    "ur"
+  ],
+  "title": {
+    "en": "Trekking"
+  },
+  "summary": {
+    "en": "Treks in Nepal, Gilgit-Baltistan and the Indian Himalaya. Set check-in timers and keep the group within reach."
+  },
+  "dates": [
+    {
+      "start": "2026-09-01",
+      "end": "2026-11-30",
+      "label": {
+        "en": "Nepal autumn trekking season 2026"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-03-01",
+      "end": "2027-05-31",
+      "label": {
+        "en": "Nepal spring trekking season 2027"
+      },
+      "approx": true
+    },
+    {
+      "start": "2027-09-01",
+      "end": "2027-11-30",
+      "label": {
+        "en": "Nepal autumn trekking season 2027"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-03-01",
+      "end": "2028-05-31",
+      "label": {
+        "en": "Nepal spring trekking season 2028"
+      },
+      "approx": true
+    },
+    {
+      "start": "2028-09-01",
+      "end": "2028-11-30",
+      "label": {
+        "en": "Nepal autumn trekking season 2028"
+      },
+      "approx": true
+    }
+  ],
+  "meetingPoints": [
+    {
+      "name": {
+        "en": "Tonight's lodge or camp"
+      },
+      "detail": {
+        "en": "Save it as a meeting point every morning before you set off."
+      }
+    },
+    {
+      "name": {
+        "en": "Each trail junction"
+      },
+      "detail": {
+        "en": "The leader can add checkpoints with deadlines in the app."
+      }
+    },
+    {
+      "name": {
+        "en": "A Himalayan Rescue Association aid post"
+      },
+      "detail": {
+        "en": "On the Everest route at Pheriche and on the Annapurna route at Manang, staffed in spring and autumn."
+      }
+    }
+  ],
+  "dos": [
+    {
+      "en": "Set a check-in timer before every day on the trail."
+    },
+    {
+      "en": "Keep the slowest walker in the middle of the group, not at the back."
+    },
+    {
+      "en": "Check permit rules before you go: in parts of Nepal you need a licensed guide and a TIMS card."
+    },
+    {
+      "en": "Register your trek with the tourism department in Gilgit-Baltistan."
+    },
+    {
+      "en": "Climb slowly and rest when anyone has a headache, nausea or dizziness at altitude."
+    }
+  ],
+  "donts": [
+    {
+      "en": "Don't leave the trail to take a shortcut, especially in fog or snow."
+    },
+    {
+      "en": "Don't split the group without agreeing where and when you will meet again."
+    },
+    {
+      "en": "Don't keep climbing with symptoms of altitude sickness."
+    }
+  ],
+  "schedule": [
+    {
+      "title": {
+        "en": "Seasons"
+      },
+      "detail": {
+        "en": "The Nepal Tourism Board lists spring (March to May) and autumn (September to November) as the best months for the Annapurna area. Other areas differ."
+      }
+    }
+  ],
+  "phrasebook": [
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "कृपया मलाई मद्दत गर्नुहोस्",
+      "lang": "ne",
+      "transliteration": "kripaya malai maddat garnuhos"
+    },
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "म बाटो हराएँ",
+      "lang": "ne",
+      "transliteration": "ma bato harae"
+    },
+    {
+      "meaning": {
+        "en": "I need a doctor"
+      },
+      "phrase": "मलाई डाक्टर चाहियो",
+      "lang": "ne",
+      "transliteration": "malai daktar chahiyo"
+    },
+    {
+      "meaning": {
+        "en": "Where is the nearest village?"
+      },
+      "phrase": "नजिकको गाउँ कहाँ छ?",
+      "lang": "ne",
+      "transliteration": "najikko gaun kaha chha?"
+    },
+    {
+      "meaning": {
+        "en": "Call the police"
+      },
+      "phrase": "प्रहरीलाई बोलाउनुहोस्",
+      "lang": "ne",
+      "transliteration": "praharilai bolaunuhos"
+    },
+    {
+      "meaning": {
+        "en": "I am lost"
+      },
+      "phrase": "میں کھو گیا ہوں",
+      "lang": "ur",
+      "transliteration": "main kho gaya hoon"
+    },
+    {
+      "meaning": {
+        "en": "Please help me"
+      },
+      "phrase": "براہ کرم میری مدد کریں",
+      "lang": "ur",
+      "transliteration": "barah-e-karam meri madad karein"
+    }
+  ],
+  "checklist": [
+    {
+      "en": "Every group member has the app, has joined the group and has filled in their emergency card, including blood group."
+    },
+    {
+      "en": "Permits, TIMS card or registration done for your route."
+    },
+    {
+      "en": "Check-in plan with checkpoints and deadlines set by the leader."
+    },
+    {
+      "en": "Power bank, headlamp, warm layers, water purification."
+    },
+    {
+      "en": "Set the app to Balanced mode; use Ultra-saver when battery is low."
+    }
+  ],
+  "sources": [
+    "https://ntb.gov.np/plan-your-trip/before-you-come/tims-card",
+    "https://ntb.gov.np/en/plan-your-trip/before-you-come/safety-in-the-mountains",
+    "https://ntb.gov.np/plan-your-trip/before-you-come/tourist-police",
+    "https://ntb.gov.np/en/annapurna-conservation-area",
+    "https://www.visitgilgitbaltistan.gov.pk/public/pages/faqs?page=2",
+    "https://mountaineering.uk.gov.in/"
+  ],
+  "verified": false
+}
