@@ -21,55 +21,65 @@ Copy-ready values for publishing Mesh Radar. Policy pages change, so read Play C
 | Short description (80) | See your group on a radar, chat and send SOS with no internet or signal. |
 | App icon 512 x 512 | `assets/store/play-icon-512.png` |
 | Feature graphic 1024 x 500 | `assets/store/feature-graphic-1024x500.png` |
-| Phone screenshots | 4 to 8, from an Android phone: Radar, Find mode, Chat with quick replies, SOS, Event pack, Elder mode. Make them in English, Urdu, Arabic, Hindi and Bengali when you can |
+| Phone screenshots | `assets/store/screenshots/01` to `08` (1080 x 1920, 9:16, captions in English), upload in that order. `09` and `10` are spares. Taken from the app with sample data (Expo Go, `EXPO_PUBLIC_DEMO=1`); retake on an Android phone and in Urdu, Arabic, Hindi and Bengali when you can |
 | Category | Maps & Navigation (alternative: Travel & Local) |
 | Tags | Pick those closest to: offline, family safety, location sharing, group travel, navigation |
 | Email | creaeza7@gmail.com |
 | Website | https://creaeza.com |
 | Privacy policy | https://creaeza.com/mesh-radar-privacy/ |
 
-Full description (under 4000 characters):
+Full description (4000 characters maximum; this one is 3,876):
 
 ```text
-Mesh Radar keeps your group together when the mobile network fails: in crowds, on trails and in blackouts.
+Mesh Radar keeps your family and friends together when the mobile network fails: in big crowds, on mountain trails, in floods and during blackouts.
 
-Phones talk to each other directly over Bluetooth and Wi-Fi and pass messages along for each other, so your family can see where everyone is, send messages and ask for help with no signal, no SIM and no internet.
+Phones running Mesh Radar talk to each other directly over Bluetooth and Wi-Fi and pass messages along for each other, hop by hop. Your group can see where everyone is, send messages and ask for help with no signal, no SIM card, no internet and no map download.
 
-FIND YOUR PEOPLE
-- A live radar shows each member of your group with direction and distance.
-- Find mode gives a big arrow, the distance and vibrations that speed up as you get closer.
-- Floor estimates in malls and stadiums.
-- Meeting points: the leader drops named pins like "Gate 7" or "Tent 42".
+FIND YOUR PEOPLE ON A RADAR
+- Everyone in your group appears on a live radar with direction and distance.
+- See how fresh each position is, from "now" to "last seen 9 min".
+- Find mode shows one big arrow and the distance, and the phone vibrates faster as you get closer.
+- Floor estimates in malls, stadiums and hotels.
+- The leader drops named meeting points such as "Gate 7" or "Tent 42", and everyone gets an arrow to them.
+- A list view reads every person aloud for screen readers.
 
-STAY IN TOUCH WITHOUT SIGNAL
-- Group chat and direct messages, end-to-end encrypted.
-- Quick replies such as "I'm OK", "Wait for me" and "Need water", in your language.
-- Messages hop through nearby phones and wait until the other person is back in range.
+MESSAGES THAT WORK WITHOUT A NETWORK
+- Group chat and direct messages, encrypted end to end. Phones that pass your messages along cannot read them.
+- One-tap quick replies: I'm OK, Wait for me, Come to me, Meet at a meeting point, Need water, Need medical help, Low battery.
+- Quick replies arrive in the reader's own language, so an Urdu "Wait for me" reaches an Indonesian phone in Indonesian.
+- Messages wait for up to 6 hours and are delivered when the other person comes back into range.
 
 SAFETY FEATURES ARE FREE, ALWAYS
-- Hold SOS for 3 seconds to send your exact location to your group.
-- Last-Crumb sends your last location when your battery runs low.
-- Separation alerts tell the leader when an elder or a child moves too far away.
-- Offline emergency numbers for 10 countries.
-- An emergency card for rescuers and a lost-child card for families.
+- SOS: hold the red button for 3 seconds to send your exact location to your group. Choose Medical, Lost or Danger, or let it send by itself.
+- Your emergency card (blood group, medicines, a home contact) is shown full screen for rescuers.
+- Last-Crumb: when your battery runs low, your last location is sent to your group automatically.
+- Separation alerts tell the group leader when an elder or a child moves too far away.
+- Offline emergency numbers for Pakistan, India, Bangladesh, Saudi Arabia, the UAE, Iraq, Indonesia, Malaysia, Turkey and Nepal.
+- Lost-child card: a lock screen card and a printable card with a QR code that alerts the family when scanned.
+- Check-in timer for treks: if you do not check in on time, your group is told.
 
 MADE FOR BIG GATHERINGS
-Ready packs for Hajj, Umrah, Arbaeen, Raiwind Ijtema, Muharram, Kumbh and Magh Mela, Durga Puja, Rath Yatra, cricket stadiums, concerts, trekking, and floods and blackouts, with meeting point ideas, tips and phrases.
+Ready event packs for Hajj, Umrah, Arbaeen, Raiwind Ijtema, Muharram, Kumbh and Magh Mela, Durga Puja, Rath Yatra, cricket stadiums, concerts, trekking, and floods and blackouts. Each pack has meeting point ideas, local emergency numbers, do's and don'ts, a schedule guide and useful phrases, and works offline once downloaded. Event day mode keeps the mesh at full strength while you are there.
+
+EASY FOR EVERYONE
+- Elder mode: larger text and three big buttons, Find family, Call for help and I'm OK.
+- 8 languages: English, Urdu, Arabic, Hindi, Bengali, Indonesian, Malay and Turkish, with right-to-left layouts.
+- Light, dark and a high-contrast Sunlight theme for bright outdoor light.
+- Power modes from live radar to an ultra battery saver.
 
 PRIVATE BY DESIGN
-- No account, no phone number, no email.
+- No account, phone number or email.
 - Your location and messages go only to your group, encrypted end to end.
+- Groups are joined in person, by QR code or a code the leader approves.
 - Delete everything in one tap, even offline.
 
-8 LANGUAGES
-English, Urdu, Arabic, Hindi, Bengali, Indonesian, Malay and Turkish, with right-to-left layouts and an Elder mode with larger text and three big buttons.
-
 PLANS
-Relaying and every safety feature are free. Optional Event Pass and Family Plus plans add bigger groups, all event packs, trails and trip memories. One person pays and the whole group benefits.
+Relaying and every safety feature are free. 1 group of up to 6 people and 3 event packs are free. Optional Event Pass and Family Plus plans add bigger groups, all event packs, trails and trip memories. One person pays and the whole group benefits, and a plan keeps working offline.
 
-Mesh Radar works best when people around you have it too. Share it phone to phone from the app, even without internet.
+GROW THE MESH
+Mesh Radar works best when people around you have it too. Share the app phone to phone from the app, even without internet, and practise with a weekly Regroup Drill.
 
-Mesh Radar helps your group stay connected. It is not an emergency service and does not replace calling one. Delivery depends on nearby phones running the app.
+Mesh Radar helps your group stay connected. It is not an emergency service and does not replace calling one. Delivery depends on other phones nearby running the app, with Bluetooth, Wi-Fi and location turned on.
 ```
 
 Never write "guarantees rescue" or "replaces emergency services" anywhere in the listing (PRD section 9).
@@ -196,6 +206,15 @@ Then link purchases to the Worker: Google Cloud service account with the Google 
 ```sh
 npm run setup:worker -- --service-account ~/Downloads/play-service-account.json
 ```
+
+## 6b. App size and crash reports (R8)
+
+Nothing to upload by hand. Release bundles are shrunk and obfuscated by R8 (code and resource shrinking on), and the bundle carries both files Play Console needs, so Android vitals shows readable crash reports:
+
+- the R8 mapping file (deobfuscation), included in the bundle by the Android Gradle plugin;
+- native debug symbols at `SYMBOL_TABLE` level (DEC-047), so native crashes show function names.
+
+If Play Console ever warns that a deobfuscation file is missing for a release, check that it was built with the `production` or `internal` profile (both minify).
 
 ## 7. Countries and release
 
