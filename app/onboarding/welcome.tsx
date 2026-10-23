@@ -40,7 +40,7 @@ export default function Welcome() {
         </>
       }>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', gap: space.xl }}>
-        <View style={{ width: 160, height: 160, borderRadius: 80, backgroundColor: theme.colors.surfaceRaised, alignItems: 'center', justifyContent: 'center' }}>
+        <View style={{ width: 160, height: 160, borderRadius: 80, backgroundColor: slide.icon === 'siren' ? theme.colors.surfaceRaised : theme.colors.primarySoft, borderWidth: 1, borderColor: slide.icon === 'siren' ? theme.colors.border : theme.colors.primary, alignItems: 'center', justifyContent: 'center' }}>
           <Icon name={slide.icon} size={80} color={slide.icon === 'siren' ? theme.colors.sos : theme.colors.primary} />
         </View>
         <Text variant="headline" align="center" accessibilityRole="header">

@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 import { useTheme } from '@/core/theme/ThemeProvider';
 import { radius, space } from '@/core/theme/tokens';
+import { FLOATING_SOS_CLEARANCE, useFloatingSos } from '../floatingSos';
 import { Icon, type IconName } from '../icons/Icon';
 import { IconButton } from './Button';
 import { Text } from './Text';
@@ -17,6 +18,7 @@ export function Screen({ children, scroll = true, padded = true, footer, testID 
   const t = useTheme();
   // Screens with a footer sit above the system navigation bar (edge to edge on Android 15+).
   const { bottom } = useSafeAreaInsets();
+  const sos = useFloatingSos();
   const body = scroll ? (
     <ScrollView contentContainerStyle={{ padding: padded ? space.lg : 0, gap: space.lg, paddingBottom: 120, width: '100%', maxWidth: CONTENT_MAX_WIDTH, alignSelf: 'center' }} keyboardShouldPersistTaps="handled">
       {children}
@@ -28,7 +30,7 @@ export function Screen({ children, scroll = true, padded = true, footer, testID 
     <SafeAreaView testID={testID} style={{ flex: 1, backgroundColor: t.colors.bg }} edges={['top', 'left', 'right']}>
       <KeyboardAvoidingView style={{ flex: 1 }} behavior="height">
         {body}
-        {footer ? <View style={{ padding: space.lg, paddingBottom: space.lg + bottom, gap: space.sm, width: '100%', maxWidth: CONTENT_MAX_WIDTH, alignSelf: 'center' }}>{footer}</View> : null}
+        {footer ? <View style={{ padding: space.lg, paddingTop: space.lg + (sos ? FLOATING_SOS_CLEARANCE : 0), paddingBottom: space.lg + bottom, gap: space.sm, width: '100%', maxWidth: CONTENT_MAX_WIDTH, alignSelf: 'center' }}>{footer}</View> : null}
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
@@ -92,7 +94,11 @@ export function ListRow({ title, subtitle, icon, right, onPress, tone, testID }:
       onPress={onPress}
       disabled={!onPress}
       style={({ pressed }) => ({ minHeight: t.touch + 8, flexDirection: 'row', alignItems: 'center', gap: space.md, paddingVertical: space.sm, opacity: pressed ? 0.7 : 1 })}>
-      {icon ? <Icon name={icon} color={tone ?? t.colors.primary} /> : null}
+      {icon ? (
+        <View style={{ width: 40, height: 40, borderRadius: radius.chip, alignItems: 'center', justifyContent: 'center', backgroundColor: tone ? t.colors.surfaceRaised : t.colors.primarySoft }}>
+          <Icon name={icon} size={22} color={tone ?? t.colors.primary} />
+        </View>
+      ) : null}
       <View style={{ flex: 1 }}>
         <Text weight="bold">{title}</Text>
         {subtitle ? <Text variant="bodySmall" tone="muted">{subtitle}</Text> : null}
@@ -176,7 +182,7 @@ export function Notice({ text, tone = 'info', icon }: { text: string; tone?: 'in
   const t = useTheme();
   const color = tone === 'warning' ? t.colors.warning : tone === 'sos' ? t.colors.sos : tone === 'success' ? t.colors.success : t.colors.primary;
   return (
-    <View accessibilityRole="text" style={{ flexDirection: 'row', gap: space.sm, padding: space.md, borderRadius: radius.chip, borderWidth: 1, borderColor: color, backgroundColor: t.colors.surface }}>
+    <View accessibilityRole="text" style={{ flexDirection: 'row', gap: space.sm, padding: space.md, borderRadius: radius.chip, borderWidth: 1, borderColor: color, backgroundColor: tone === 'info' ? t.colors.primarySoft : t.colors.surface }}>
       <Icon name={icon ?? (tone === 'info' ? 'info' : 'alert')} color={color} size={20} />
       <Text variant="bodySmall" style={{ flex: 1 }}>
         {text}

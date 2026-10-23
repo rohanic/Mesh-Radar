@@ -11,8 +11,11 @@ export interface Colors {
   textMuted: string;
   primary: string;
   onPrimary: string;
+  /** Tinted backgrounds behind primary and accent icons (no text-only use). */
+  primarySoft: string;
   accent: string;
   onAccent: string;
+  accentSoft: string;
   sos: string;
   onSos: string;
   warning: string;
@@ -22,44 +25,51 @@ export interface Colors {
   overlay: string;
 }
 
+// DEC-045: palettes refreshed to match the neon Location Pin logo. Every text pair is checked for
+// WCAG AA in contrast.test.ts.
 export const palettes: Record<ThemeName, Colors> = {
   light: {
-    bg: '#F6F8FB',
+    bg: '#F3F6FA',
     surface: '#FFFFFF',
-    surfaceRaised: '#EEF2F7',
-    border: '#DCE2EA',
-    text: '#0B1220',
-    textMuted: '#5A6478',
-    // DEC-028: #00987F with white text is 3.6:1; darkened for AA. #00987F stays for the radar sweep.
-    primary: '#007F6A',
+    surfaceRaised: '#EAF0F6',
+    border: '#D8E0EA',
+    text: '#0A1324',
+    textMuted: '#536079',
+    // Cyan teal from the logo, dark enough for white text (5.1:1, DEC-028).
+    primary: '#007A80',
     onPrimary: '#FFFFFF',
-    accent: '#6350F5',
+    primarySoft: '#DDF3F4',
+    accent: '#5B46F0',
     onAccent: '#FFFFFF',
+    accentSoft: '#ECE9FF',
     sos: '#D91F36',
     onSos: '#FFFFFF',
-    warning: '#C77700',
-    success: '#148A45',
-    radarRing: '#B9C4D2',
-    radarSweep: '#00987F',
-    overlay: 'rgba(11,18,32,0.45)',
+    warning: '#9A5B00',
+    success: '#0F7A45',
+    radarRing: '#C3CEDB',
+    radarSweep: '#0097A0',
+    overlay: 'rgba(10,19,36,0.45)',
   },
   dark: {
-    bg: '#070C17',
-    surface: '#0F1626',
-    surfaceRaised: '#172036',
-    border: '#25304A',
-    text: '#EAF0FA',
-    textMuted: '#96A3BC',
-    primary: '#2EE6C5',
-    onPrimary: '#04251F',
-    accent: '#9A8CFF',
-    onAccent: '#0B0830',
+    bg: '#060B16',
+    surface: '#0E1729',
+    surfaceRaised: '#16213A',
+    border: '#233150',
+    text: '#EAF1FB',
+    textMuted: '#9AA8C2',
+    // The logo's neon teal and violet glow.
+    primary: '#2CEFD6',
+    onPrimary: '#03241F',
+    primarySoft: '#0D2D33',
+    accent: '#9D8CFF',
+    onAccent: '#120A3A',
+    accentSoft: '#1E1A45',
     sos: '#FF4D5E',
     onSos: '#1A0004',
     warning: '#FFB547',
     success: '#3DDC84',
-    radarRing: '#25304A',
-    radarSweep: '#2EE6C5',
+    radarRing: '#22324F',
+    radarSweep: '#2CEFD6',
     overlay: 'rgba(0,0,0,0.6)',
   },
   // High-contrast Sunlight theme (H2): black on white, no tinted surfaces.
@@ -72,8 +82,10 @@ export const palettes: Record<ThemeName, Colors> = {
     textMuted: '#000000',
     primary: '#00574A',
     onPrimary: '#FFFFFF',
+    primarySoft: '#FFFFFF',
     accent: '#3A27C9',
     onAccent: '#FFFFFF',
+    accentSoft: '#FFFFFF',
     sos: '#B00020',
     onSos: '#FFFFFF',
     warning: '#7A4700',
@@ -90,8 +102,8 @@ export const palettes: Record<ThemeName, Colors> = {
  */
 export type GroupShape = 'circle' | 'triangle' | 'square' | 'diamond';
 export const groupColours: { name: string; light: string; dark: string; shape: GroupShape }[] = [
-  { name: 'teal', light: '#00897B', dark: '#2EE6C5', shape: 'circle' },
-  { name: 'violet', light: '#6350F5', dark: '#9A8CFF', shape: 'triangle' },
+  { name: 'teal', light: '#00838A', dark: '#2CEFD6', shape: 'circle' },
+  { name: 'violet', light: '#5B46F0', dark: '#9D8CFF', shape: 'triangle' },
   { name: 'amber', light: '#B26A00', dark: '#FFB547', shape: 'square' },
   { name: 'rose', light: '#C2185B', dark: '#FF7AA8', shape: 'diamond' },
   { name: 'sky', light: '#0277BD', dark: '#5CC8FF', shape: 'circle' },

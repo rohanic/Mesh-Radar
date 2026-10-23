@@ -19,7 +19,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     package: ANDROID_PACKAGE,
     versionCode: 1,
     adaptiveIcon: {
-      backgroundColor: '#070C17',
+      backgroundColor: '#060B16',
       foregroundImage: './assets/images/adaptive-icon.png',
       monochromeImage: './assets/images/monochrome-icon.png',
     },
@@ -60,10 +60,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       'expo-splash-screen',
       {
         // Navy in both modes so the neon logo never sits on white.
-        backgroundColor: '#070C17',
+        backgroundColor: '#060B16',
         image: './assets/images/splash-icon.png',
         imageWidth: 120,
-        dark: { backgroundColor: '#070C17', image: './assets/images/splash-icon.png' },
+        dark: { backgroundColor: '#060B16', image: './assets/images/splash-icon.png' },
       },
     ],
     ['expo-notifications', { color: '#00987F', icon: './assets/images/notification-icon.png' }],

@@ -48,8 +48,10 @@ export default function LanguageScreen() {
               gap: space.md,
               opacity: pressed ? 0.8 : 1,
             })}>
-            <View style={{ width: 40, height: 40, borderRadius: 20, backgroundColor: theme.colors.surfaceRaised, alignItems: 'center', justifyContent: 'center' }}>
-              <Text weight="bold">{l.code.toUpperCase()}</Text>
+            <View style={{ width: 40, height: 40, borderRadius: 20, backgroundColor: selected ? theme.colors.primarySoft : theme.colors.surfaceRaised, alignItems: 'center', justifyContent: 'center' }}>
+              <Text weight="bold" tone={selected ? 'primary' : 'default'}>
+                {l.code.toUpperCase()}
+              </Text>
             </View>
             <View style={{ flex: 1, alignItems: l.rtl ? 'flex-end' : 'flex-start' }}>
               <Text style={{ fontFamily: f.bold, fontSize: 22, lineHeight: Math.round(22 * f.lineHeight), writingDirection: l.rtl ? 'rtl' : 'ltr' }}>{l.native}</Text>
