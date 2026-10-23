@@ -2,16 +2,14 @@ import { Linking, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
 import { space } from '@/core/theme/tokens';
-import { extra } from '@/features/engine/config';
+import { ANDROID_PACKAGE, PLAY_STORE_URL } from '@/features/engine/config';
 import { QRCode } from '@/ui/components/QRCode';
 import { Button, Card, Header, Screen, Text } from '@/ui/components';
-
-const STORE = 'https://play.google.com/store/apps/details?id=com.rohanic.meshradar';
 
 /** Offline invite (G8): Play Store Quick Share steps, plus a QR to the store page. */
 export default function Invite() {
   const { t } = useTranslation();
-  const url = extra.playStoreUrl || STORE;
+  const url = PLAY_STORE_URL;
   return (
     <Screen>
       <Header title={t('invite.title')} />
@@ -19,7 +17,7 @@ export default function Invite() {
       <Card>
         <Text weight="bold">{t('invite.quickShare')}</Text>
         <Text tone="muted">{t('invite.quickShareSteps')}</Text>
-        <Button icon="share" label={t('invite.quickShare')} onPress={() => void Linking.openURL('market://details?id=com.rohanic.meshradar').catch(() => Linking.openURL(url))} />
+        <Button icon="share" label={t('invite.quickShare')} onPress={() => void Linking.openURL(`market://details?id=${ANDROID_PACKAGE}`).catch(() => Linking.openURL(url))} />
       </Card>
       <Card>
         <Text weight="bold">{t('invite.storeQr')}</Text>

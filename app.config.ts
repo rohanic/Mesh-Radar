@@ -1,8 +1,10 @@
 import type { ConfigContext, ExpoConfig } from 'expo/config';
 
-// DEC-001: display name "Mesh Radar", package com.rohanic.meshradar (permanent after first Play upload).
+// DEC-001: display name "Mesh Radar". The Android package is permanent after the first Play upload.
 // Mesh permissions, the foreground service and receivers live in the engine module's manifest
 // (modules/mesh-engine/android/src/main/AndroidManifest.xml) and merge into the app manifest.
+const ANDROID_PACKAGE = 'com.meshradar.findgroupoffline';
+
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'Mesh Radar',
@@ -14,12 +16,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   userInterfaceStyle: 'automatic',
   platforms: ['android'],
   android: {
-    package: 'com.rohanic.meshradar',
+    package: ANDROID_PACKAGE,
     versionCode: 1,
     adaptiveIcon: {
       backgroundColor: '#070C17',
       foregroundImage: './assets/images/adaptive-icon.png',
-      monochromeImage: './assets/images/adaptive-icon.png',
+      monochromeImage: './assets/images/monochrome-icon.png',
     },
     permissions: ['android.permission.INTERNET', 'android.permission.VIBRATE'],
     // Section 9: never request background location or battery-optimisation exemption; no exact
@@ -57,9 +59,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     [
       'expo-splash-screen',
       {
-        backgroundColor: '#F6F8FB',
+        // Navy in both modes so the neon logo never sits on white.
+        backgroundColor: '#070C17',
         image: './assets/images/splash-icon.png',
-        imageWidth: 96,
+        imageWidth: 120,
         dark: { backgroundColor: '#070C17', image: './assets/images/splash-icon.png' },
       },
     ],
@@ -106,7 +109,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     sentryDsn: process.env.EXPO_PUBLIC_SENTRY_DSN ?? '',
     posthogKey: process.env.EXPO_PUBLIC_POSTHOG_KEY ?? '',
     posthogHost: process.env.EXPO_PUBLIC_POSTHOG_HOST ?? '',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.rohanic.meshradar',
+    androidPackage: ANDROID_PACKAGE,
+    playStoreUrl: `https://play.google.com/store/apps/details?id=${ANDROID_PACKAGE}`,
     eas: { projectId: process.env.EAS_PROJECT_ID },
   },
 });

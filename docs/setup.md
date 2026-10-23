@@ -82,7 +82,7 @@ Routes:
 
 ## 5. Google Play Console
 
-1. Create the app with package `com.rohanic.meshradar` (permanent after the first upload, DEC-001).
+1. Create the app with package `com.meshradar.findgroupoffline` (permanent after the first upload, DEC-001).
 2. Create these products with exactly these IDs (`src/core/engine/tiers.ts`):
    - One-time: `event_pass_14d`, `organiser_50`, `organiser_100`, `organiser_250`, `organiser_500`.
    - Subscription: `family_plus_yearly` (one yearly base plan).

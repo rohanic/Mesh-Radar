@@ -5,7 +5,7 @@ import { deviceCountry, numbersFor, pick } from '@/features/numbers/numbers';
 import { useSettings } from '@/state/settings';
 import { Button, Card, ListRow, Notice, Screen, Text } from '@/ui/components';
 
-import { extra } from './config';
+import { PLAY_STORE_URL } from './config';
 
 /**
  * A release build without the native engine (DEC-042). The in-memory fake engine would show a
@@ -16,7 +16,6 @@ export function EngineMissing() {
   const { t } = useTranslation();
   const lang = useSettings((s) => s.language);
   const country = numbersFor(deviceCountry());
-  const store = extra.playStoreUrl ?? 'https://play.google.com/store/apps/details?id=com.rohanic.meshradar';
   return (
     <Screen>
       <Text variant="headline" accessibilityRole="header">
@@ -42,7 +41,7 @@ export function EngineMissing() {
           {t('numbers.general112')}
         </Text>
       )}
-      <Button icon="download" label={t('engineMissing.store')} onPress={() => void Linking.openURL(store)} />
+      <Button icon="download" label={t('engineMissing.store')} onPress={() => void Linking.openURL(PLAY_STORE_URL)} />
     </Screen>
   );
 }

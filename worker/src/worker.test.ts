@@ -44,7 +44,7 @@ function makeEnv(play: Partial<Play> = {}): Env {
       const store = new MemoryCommunityStore();
       return { list: async (now) => listPosts(store, now), post: async (p) => addPost(store, p), report: async (id, r) => report(store, id, r) };
     }),
-    PACKAGE_NAME: 'com.rohanic.meshradar',
+    PACKAGE_NAME: 'com.meshradar.findgroupoffline',
     LICENCE_SIGNING_SEED: SEED,
     GOOGLE_SERVICE_ACCOUNT_JSON: '{}',
     ADMIN_TOKEN: 'admin-secret',
