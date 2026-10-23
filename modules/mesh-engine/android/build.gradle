@@ -11,6 +11,8 @@ android {
   defaultConfig {
     versionCode 1
     versionName '1.0.0'
+    // Keep rules for JNA and lazysodium in minified release builds (DEC-041).
+    consumerProguardFiles 'proguard-rules.pro'
   }
   sourceSets {
     // The pure Kotlin mesh core is shared with the JVM test project in ../core (DEC-009).
