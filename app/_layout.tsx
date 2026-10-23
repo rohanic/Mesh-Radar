@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { I18nManager, View } from 'react-native';
+import { I18nManager, LogBox, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useFonts } from 'expo-font';
@@ -8,6 +8,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { getLocales } from 'expo-localization';
 import { reloadAppAsync } from 'expo';
+import Constants, { ExecutionEnvironment } from 'expo-constants';
 
 import { ThemeProvider, useTheme } from '@/core/theme/ThemeProvider';
 import { AlertHost } from '@/features/alerts/AlertHost';
@@ -25,6 +26,10 @@ import { useFloatingSos } from '@/ui/floatingSos';
 import { isNativeEngine } from 'mesh-engine';
 
 void SplashScreen.preventAutoHideAsync();
+
+// Expo Go has no notifications or Google Play Billing; its warnings about them are expected there
+// and never appear in the real app, so they stay out of the way of real errors.
+if (Constants.executionEnvironment === ExecutionEnvironment.StoreClient) LogBox.ignoreLogs(['expo-notifications', '[Expo-IAP]']);
 
 /** Release builds never run on the in-memory fake engine (DEC-042). */
 const ENGINE_MISSING = !__DEV__ && !isNativeEngine;
