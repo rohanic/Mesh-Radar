@@ -23,12 +23,24 @@ export default function Invite() {
   const [payload, setPayload] = useState<string | null>(null);
   const [code, setCode] = useState<string | null>(null);
 
+  // A stale link or a group deleted on this phone has nothing to invite to.
+  const known = !!group;
   useEffect(() => {
-    void MeshEngine.invitePayload(id).then(setPayload);
-    return () => void MeshEngine.closeJoinWindow(id);
-  }, [id]);
+    if (!known) return;
+    void MeshEngine.invitePayload(id)
+      .then(setPayload)
+      .catch(() => setPayload(null));
+    return () => void MeshEngine.closeJoinWindow(id).catch(() => undefined);
+  }, [id, known]);
 
-  if (!group) return null;
+  if (!group) {
+    return (
+      <Screen>
+        <Header title={t('groups.inviteTitle')} />
+        <Notice tone="warning" text={t('errors.no_group')} />
+      </Screen>
+    );
+  }
   const full = group.memberCount >= group.maxMembers;
   return (
     <Screen
