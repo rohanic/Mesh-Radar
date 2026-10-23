@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- jest.mock factories and per-screen loading need require(). */
 import type { ComponentType, ReactNode } from 'react';
 import { Alert } from 'react-native';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react-native';

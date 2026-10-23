@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- jest.mock factories and per-screen loading need require(). */
 import { readdirSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import type { ComponentType, ReactNode } from 'react';
