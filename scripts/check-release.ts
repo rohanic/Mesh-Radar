@@ -1,6 +1,9 @@
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
 import { NUMBER_KINDS } from '../src/core/engine/numbers';
 import { EventPackSchema, LAUNCH_PACKS } from '../src/core/packs/schema';
-import { finish, read, readJson, walk } from './lib';
+import { ROOT, finish, read, readJson, walk } from './lib';
 
 // Release gate (DEC-004). Blocks a production build until people have verified the safety
 // content: emergency numbers, translations, event packs, and the open decisions.
@@ -57,9 +60,18 @@ for (const file of walk('packs/src', ['.json'])) {
 }
 
 // 4. Build configuration: public values the release build needs.
-const pk = process.env.EXPO_PUBLIC_LICENCE_PUBLIC_KEY ?? '';
+// EAS builds get the public values from the EAS environment; local runs and builds read .env,
+// as Expo does for the app itself.
+function publicValue(key: string): string {
+  if (process.env[key]) return process.env[key]!;
+  const file = join(ROOT, '.env');
+  if (!existsSync(file)) return '';
+  const line = readFileSync(file, 'utf8').split('\n').find((l) => l.startsWith(`${key}=`));
+  return line ? line.slice(key.length + 1).trim() : '';
+}
+const pk = publicValue('EXPO_PUBLIC_LICENCE_PUBLIC_KEY');
 if (!/^[0-9a-f]{64}$/i.test(pk)) problems.push('env: EXPO_PUBLIC_LICENCE_PUBLIC_KEY must be the 64-hex Ed25519 public key');
-const api = process.env.EXPO_PUBLIC_API_BASE_URL ?? '';
+const api = publicValue('EXPO_PUBLIC_API_BASE_URL');
 if (!/^https:\/\//.test(api)) problems.push('env: EXPO_PUBLIC_API_BASE_URL must be an https URL');
 
 // 5. Open decisions that need Rohan.
