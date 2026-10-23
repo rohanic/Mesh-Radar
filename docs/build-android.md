@@ -36,7 +36,6 @@ git config --system core.longpaths true
 ```sh
 git clone https://github.com/rohanic/Mesh-Radar.git mr
 cd mr
-git checkout claude/brave-wright-oxgy46
 npm ci
 ```
 

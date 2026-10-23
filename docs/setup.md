@@ -43,6 +43,16 @@ If the seed is lost, every licence issued so far stops verifying in new app buil
 
 The Worker verifies purchases and signs licences, serves signed event pack updates, relays Family Circle packets and hosts event communities (DEC-038). Nothing in the safety path depends on it.
 
+**Guided way.** One script does sections 2 to 4: it creates the KV namespace, deploys, generates the licence key pair, sets the three secrets (never replacing one that exists), checks the live Worker and writes the two public values into `.env`. It prints the licence seed and the admin token once for your password manager.
+
+```sh
+npm ci && (cd worker && npm ci)
+npx wrangler login
+npm run setup:worker -- --service-account /path/to/play-service-account.json
+```
+
+The service account flag can be left out and added on a later run. The manual steps below do the same thing.
+
 ```sh
 npm ci                              # the Worker imports shared code (and zod) from the app
 cd worker && npm ci

@@ -21,6 +21,7 @@
     "packs:publish": "tsx scripts/packs.ts publish",
     "core:test": "tsx scripts/core-test.ts",
     "worker:check": "npm --prefix worker run check",
+    "setup:worker": "tsx scripts/setup-worker.ts",
     "eas-build-post-install": "tsx scripts/check-release.ts --if-gated"
   },
   "dependencies": {
