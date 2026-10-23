@@ -30,6 +30,10 @@ Draft answers, to be checked with [privacy-policy.md](privacy-policy.md) and rev
 
 ## Store listing
 
+- App name (title): **Mesh Radar: Find Group Offline** (30 characters, Play's limit). The launcher name stays "Mesh Radar".
+- Short description (80 characters max): "See your group on a radar, chat and send SOS with no internet or signal."
+- App icon 512 x 512: `assets/store/play-icon-512.png`. Feature graphic 1024 x 500: `assets/store/feature-graphic-1024x500.png`. Source art: `assets/brand/`.
+- Package: `com.meshradar.findgroupoffline` (DEC-001).
 - Say "helps your group stay connected". Never "guarantees rescue" or "replaces emergency services" (PRD section 9).
 - The listing and in-app text say it is not a replacement for emergency services.
 - Screenshots in at least English, Urdu, Arabic, Hindi and Bengali.
