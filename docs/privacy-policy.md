@@ -45,4 +45,4 @@ Me, Privacy, **Delete everything** removes your keys, groups, messages and histo
 
 ## Contact
 
-[Contact email to be added before publication.]
+creaeza7@gmail.com (Rohan Ahmad, Islamabad, Pakistan). The published version is `docs/legal/privacy-policy.html`.
