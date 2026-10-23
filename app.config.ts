@@ -39,6 +39,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       'android.permission.RECEIVE_BOOT_COMPLETED',
       'android.permission.READ_MEDIA_VIDEO',
       'android.permission.READ_MEDIA_AUDIO',
+      // Added by libraries but unused: Find mode sets only its own window brightness, and the app
+      // sends local notifications only (no push), so Firebase messaging never needs to register.
+      'android.permission.WRITE_SETTINGS',
+      'com.google.android.c2dm.permission.RECEIVE',
     ],
     // Keys stay in the Android Keystore; a restored backup could not open them anyway.
     allowBackup: false,

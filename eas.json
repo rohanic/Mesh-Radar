@@ -19,6 +19,12 @@
         "buildType": "apk"
       }
     },
+    "internal": {
+      "extends": "production",
+      "env": {
+        "MR_RELEASE_GATE": "0"
+      }
+    },
     "production": {
       "environment": "production",
       "autoIncrement": true,
@@ -32,6 +38,12 @@
   },
   "submit": {
     "production": {
+      "android": {
+        "track": "internal",
+        "releaseStatus": "draft"
+      }
+    },
+    "internal": {
       "android": {
         "track": "internal",
         "releaseStatus": "draft"
