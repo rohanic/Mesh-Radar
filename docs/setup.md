@@ -37,7 +37,7 @@ If the seed is lost, every licence issued so far stops verifying in new app buil
 | `EXPO_PUBLIC_API_BASE_URL` | `.env`, EAS environment | The Worker URL, for example `https://mesh-radar.<account>.workers.dev` |
 | `EXPO_PUBLIC_SENTRY_DSN` | optional | Crash reports, sent only after the person opts in |
 | `EXPO_PUBLIC_POSTHOG_KEY`, `EXPO_PUBLIC_POSTHOG_HOST` | optional | Analytics, sent only after the person opts in |
-| `EAS_PROJECT_ID` | EAS | From `eas init` |
+| EAS project | `app.config.ts` | `@rohanic/mesh-radar`, ID `8169fd0b-b16d-4edc-ae69-2f873dc75f02` (already set) |
 
 ## 4. Cloudflare Worker
 

@@ -4,11 +4,14 @@ import type { ConfigContext, ExpoConfig } from 'expo/config';
 // Mesh permissions, the foreground service and receivers live in the engine module's manifest
 // (modules/mesh-engine/android/src/main/AndroidManifest.xml) and merge into the app manifest.
 const ANDROID_PACKAGE = 'com.meshradar.findgroupoffline';
+/** EAS project @rohanic/mesh-radar (public, from `eas init`). */
+const EAS_PROJECT_ID = '8169fd0b-b16d-4edc-ae69-2f873dc75f02';
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'Mesh Radar',
   slug: 'mesh-radar',
+  owner: 'rohanic',
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/images/icon.png',
@@ -111,6 +114,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     posthogHost: process.env.EXPO_PUBLIC_POSTHOG_HOST ?? '',
     androidPackage: ANDROID_PACKAGE,
     playStoreUrl: `https://play.google.com/store/apps/details?id=${ANDROID_PACKAGE}`,
-    eas: { projectId: process.env.EAS_PROJECT_ID },
+    eas: { projectId: EAS_PROJECT_ID },
   },
 });
