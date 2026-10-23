@@ -154,4 +154,6 @@ export const isNativeEngine = native != null;
  * The engine. In tests and Expo Go there is no native module, so an in-memory fake with the same
  * API stands in (single phone, no radio), which keeps the UI testable.
  */
-export const MeshEngine: MeshEngineApi & MeshEngineEmitter = (native as (MeshEngineApi & MeshEngineEmitter) | null) ?? createFakeEngine();
+export const MeshEngine: MeshEngineApi & MeshEngineEmitter = (native as (MeshEngineApi & MeshEngineEmitter) | null) ??
+  // Development only: sample data for screenshots and design work (EXPO_PUBLIC_DEMO=1).
+  createFakeEngine({ demo: process.env.EXPO_PUBLIC_DEMO === '1' });

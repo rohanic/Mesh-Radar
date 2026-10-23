@@ -12,6 +12,7 @@ import type {
   Message,
   OwnSos,
   Pin,
+  Position,
   PowerMode,
   Profile,
   Tier,
@@ -36,7 +37,19 @@ function hex(n: number): string {
  * In-memory stand-in for the native engine: one phone, no radio. Used by Jest and by Expo Go,
  * where native modules are unavailable. It keeps the same contract so screens behave the same.
  */
-export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
+/** A point `distanceM` metres from `from` on `bearingDeg` (flat-earth, fine for demo distances). */
+function offset(from: { lat: number; lon: number }, bearingDeg: number, distanceM: number) {
+  const b = (bearingDeg * Math.PI) / 180;
+  return {
+    lat: from.lat + (distanceM * Math.cos(b)) / 111_320,
+    lon: from.lon + (distanceM * Math.sin(b)) / (111_320 * Math.cos((from.lat * Math.PI) / 180)),
+  };
+}
+
+/** Demo mode (development only, EXPO_PUBLIC_DEMO=1): a family group at Mina for store screenshots. */
+const DEMO_HOME = { lat: 21.4133, lon: 39.8933 };
+
+export function createFakeEngine(opts: { demo?: boolean } = {}): MeshEngineApi & MeshEngineEmitter {
   type AnyListener = (e: never) => void;
   const listeners = new Map<string, Set<AnyListener>>();
   const emit = <K extends keyof MeshEngineEvents>(name: K, payload: Parameters<MeshEngineEvents[K]>[0]) => {
@@ -80,8 +93,8 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
   };
 
   const health = (): Health => ({
-    neighbours: 0,
-    maxHops: 0,
+    neighbours: opts.demo ? 12 : 0,
+    maxHops: opts.demo ? 3 : 0,
     lastPacketMs: 0,
     lastSyncMs: 0,
     stored: 0,
@@ -107,7 +120,7 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
       playServices: false,
       uwb: false,
       barometer: false,
-      compass: false,
+      compass: !!opts.demo,
       sdk: 0,
       manufacturer: 'fake',
       permissions: {},
@@ -151,6 +164,67 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
     return m;
   };
 
+  function demoPosition(at: { lat: number; lon: number }, fixTimeMs: number, battery = 80): Position {
+    return { ...at, altM: 880, pressurePa: null, accuracyM: 6, heading: null, battery, charging: false, sos: false, ultraSaver: false, fixTimeMs };
+  }
+
+  function seedDemo() {
+    const now = Date.now();
+    running = true;
+    const person = (id: string, name: string, role: Member['role'], avatarPreset: number, colour: number, bearing: number, distanceM: number, agoMs: number, battery: number): Member => ({
+      id,
+      name,
+      colour,
+      avatarPreset,
+      avatarPhoto: null,
+      role,
+      joinedAtMs: now - 86_400_000,
+      position: demoPosition(offset(DEMO_HOME, bearing, distanceM), now - agoMs, battery),
+      lastHeardMs: now - agoMs,
+      hops: agoMs > 60_000 ? 2 : 1,
+      via: 'nearby',
+      isSelf: false,
+      signPk: hex(64),
+    });
+    const me = { ...self('leader'), position: demoPosition(DEMO_HOME, now) };
+    const g: GroupDetail = {
+      id: 'demo-family',
+      name: 'Family, Hajj',
+      eventId: 'hajj',
+      colour: 0,
+      archived: false,
+      createdAtMs: now - 86_400_000,
+      expiresAtMs: 0,
+      memberCount: 5,
+      maxMembers: TIERS.free.maxMembers,
+      isLeader: true,
+      myRole: 'leader',
+      separationM: 150,
+      tier: 'free',
+      members: [
+        me,
+        person('demo-ammi', 'Ammi', 'elder', 11, 3, 40, 85, 20_000, 62),
+        person('demo-abbu', 'Abbu', 'member', 6, 4, 300, 160, 120_000, 41),
+        person('demo-sara', 'Sara', 'member', 1, 1, 160, 40, 5_000, 90),
+        person('demo-bilal', 'Bilal', 'child', 7, 2, 80, 230, 540_000, 14),
+      ],
+      pins: [
+        { id: 'demo-gate', name: 'Gate 7', ...offset(DEMO_HOME, 20, 120), floor: 0, icon: 1, updatedMs: now - 3_600_000 },
+        { id: 'demo-tent', name: 'Tent 42', ...offset(DEMO_HOME, 210, 60), floor: 0, icon: 2, updatedMs: now - 3_600_000 },
+      ],
+      checkin: { planDeadlineMs: 0, checkpoints: [], timers: {}, progress: {}, lastCheckinMs: {} },
+      mailboxId: hex(32),
+    };
+    groups.set(g.id, g);
+    const incoming = (senderId: string, agoMs: number, partial: Partial<Message>) =>
+      message(g.id, { senderId, outgoing: false, state: 'delivered', hops: 2, createdAtMs: now - agoMs, ...partial });
+    incoming('demo-abbu', 1_500_000, { kind: 'quick', quickCode: 4, refId: 'demo-tent' });
+    incoming('demo-ammi', 900_000, { kind: 'quick', quickCode: 1 });
+    incoming('demo-sara', 420_000, { kind: 'text', text: 'At the water point near Gate 7, coming back now' });
+    message(g.id, { kind: 'quick', quickCode: 2, state: 'read', delivered: 3, read: 3, createdAtMs: now - 300_000 });
+    incoming('demo-bilal', 240_000, { kind: 'quick', quickCode: 5 });
+  }
+
   const api: MeshEngineApi & MeshEngineEmitter = {
     addListener(event, listener) {
       const set = listeners.get(event) ?? new Set();
@@ -172,6 +246,10 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
     async start() {
       running = true;
       emit('engineState', state());
+      if (opts.demo) {
+        emit('ownPosition', demoPosition(DEMO_HOME, Date.now()));
+        emit('health', health());
+      }
     },
     async stop() {
       running = false;
@@ -191,7 +269,12 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
     async setActiveEvent(eventId) {
       activeEventId = eventId;
     },
-    async setHeadingActive() {},
+    async setHeadingActive(on) {
+      if (opts.demo && on) {
+        emit('ownPosition', demoPosition(DEMO_HOME, Date.now()));
+        emit('heading', { heading: 15, accuracy: 3 });
+      }
+    },
     async health() {
       return health();
     },
@@ -432,5 +515,6 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
     },
     async stopUwb() {},
   };
+  if (opts.demo) seedDemo();
   return api;
 }
