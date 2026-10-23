@@ -5,7 +5,10 @@ import com.rohanic.meshradar.core.protocol.hexToBytes
 import org.json.JSONObject
 import java.util.Base64
 
-/** Paid tiers and what they unlock (PRD section 10). Safety features are never gated (rule 1). */
+/**
+ * Paid tiers and what they unlock (PRD section 10). Safety features are never gated (rule 1), and
+ * separation alerts for Elders and Children are free in every tier (DEC-027).
+ */
 enum class Tier(
     val rank: Int,
     val maxMembers: Int,
@@ -17,7 +20,7 @@ enum class Tier(
     val familyCircle: Boolean,
     val organiser: Boolean,
 ) {
-    FREE(0, 6, 1, false, false, false, false, false, false),
+    FREE(0, 6, 1, false, false, true, false, false, false),
     EVENT_PASS(1, 25, 1, true, true, true, true, false, false),
     FAMILY_PLUS(2, 25, 5, true, true, true, true, true, false),
     ORGANISER(3, 500, 5, true, true, true, true, false, true),

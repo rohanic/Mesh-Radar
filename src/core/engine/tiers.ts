@@ -54,7 +54,8 @@ export type Feature =
   | 'emergency_numbers'
   | 'relay';
 
-export const ALWAYS_FREE: Feature[] = ['sos', 'last_crumb', 'find_mode', 'emergency_numbers', 'relay'];
+// DEC-027: separation alerts protect Elders and Children, so they are free in every tier.
+export const ALWAYS_FREE: Feature[] = ['sos', 'last_crumb', 'find_mode', 'emergency_numbers', 'relay', 'separation_alerts'];
 
 export interface EntitlementFlags {
   maxMembers: number;
@@ -75,8 +76,6 @@ export function canUse(feature: Feature, e: EntitlementFlags): boolean {
       return e.allPacks;
     case 'breadcrumbs':
       return e.breadcrumbs;
-    case 'separation_alerts':
-      return e.separationAlerts;
     case 'memories':
       return e.memories;
     case 'family_circle':

@@ -42,7 +42,7 @@ export default function PackDetail() {
   if (!pack) return null;
   const next = nextDate(pack, now);
   const hijri = next && pack.hijri ? toHijri(Date.parse(`${next.start}T12:00:00Z`)) : null;
-  const flags = ent ?? { maxMembers: 6, maxActiveGroups: 1, allPacks: false, breadcrumbs: false, separationAlerts: false, memories: false, familyCircle: false, organiser: false };
+  const flags = ent ?? { maxMembers: 6, maxActiveGroups: 1, allPacks: false, breadcrumbs: false, separationAlerts: true, memories: false, familyCircle: false, organiser: false };
   const group = activeGroup(groups, preferred);
 
   return (

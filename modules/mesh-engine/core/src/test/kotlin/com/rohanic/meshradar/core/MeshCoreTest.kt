@@ -281,23 +281,21 @@ class MeshCoreTest {
     }
 
     @Test
-    fun `separation alerts for elders need a pass and fire past the set distance`() {
-        val licenceKey = Sodium.crypto.newIdentity()
-        val net = TestNet(config = CoreConfig(licencePublicKey = licenceKey.signPublic))
+    fun `separation alerts for elders are free and fire past the set distance`() {
+        val net = TestNet()
         val g = family(net, "leader", "nana")
         net.connect("leader", "nana")
         net.run(2_000)
         net["leader"].core.setRole(g, net["nana"].core.myId, Role.ELDER)
         net["leader"].at(21.4225, 39.8262)
         net["nana"].core.setPowerMode(PowerMode.RADAR)
-        net["nana"].at(21.4245, 39.8262) // about 220 m north
-        net.run(2_000)
-        assertTrue(net["leader"].ev("separation").isEmpty(), "free tier has no separation alerts")
-        upgrade(net, net["leader"], "event_pass", licenceKey)
+        net["nana"].at(21.4238, 39.8262) // about 145 m north, inside the default 150 m
         net.run(6_000)
-        net["nana"].at(21.4246, 39.8262)
-        net.run(1_000)
-        val alert = net["leader"].ev("separation").single().payload
+        assertTrue(net["leader"].ev("separation").isEmpty(), "no alert inside the set distance")
+        net["nana"].at(21.4246, 39.8262) // about 235 m north
+        net.run(6_000)
+        // DEC-027: no pass needed on the free tier.
+        val alert = net["leader"].ev("separation").first().payload
         assertTrue((alert["distanceM"] as Double) > 150)
         assertEquals(150, alert["thresholdM"])
     }

@@ -24,7 +24,7 @@ The product source of truth is [docs/PRD.md](docs/PRD.md). Every approved change
 All the code and content is written. The JavaScript app, the Kotlin mesh core (with its simulator) and the Worker pass their checks and tests. What is left before a Play release:
 
 1. **Verify safety content.** Emergency numbers ([docs/emergency-numbers.md](docs/emergency-numbers.md)), the 12 event packs ([docs/event-packs.md](docs/event-packs.md)) and all 7 translations ([docs/translation-review.md](docs/translation-review.md)) are drafts marked unverified. `npm run check:release` blocks a production build until each is verified.
-2. **Decide two open questions** marked NEEDS ROHAN in [docs/decisions.md](docs/decisions.md): DEC-027 (separation alerts are paid) and DEC-029 (language picker without flags).
+2. **Decide the open question** marked NEEDS ROHAN in [docs/decisions.md](docs/decisions.md): DEC-029 (language picker without flags). DEC-027 is closed: separation alerts are free.
 3. **Record voice clips** for the 7 quick replies in each language (DEC-032).
 4. **Build on a laptop and test on phones** ([docs/build-android.md](docs/build-android.md)). The JavaScript app, the Kotlin mesh core and the Worker are checked in CI; the full Android build has not yet completed anywhere, so the first laptop build is also the first full compile of the native module.
 5. **Field tests and device lab** from PRD section 12, an external security review of the protocol ([docs/security.md](docs/security.md)), and the Play Console steps in [docs/play-checklist.md](docs/play-checklist.md).

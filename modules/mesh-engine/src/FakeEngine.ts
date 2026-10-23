@@ -406,7 +406,7 @@ export function createFakeEngine(): MeshEngineApi & MeshEngineEmitter {
         maxActiveGroups: t.maxActiveGroups,
         allPacks: t.paid,
         breadcrumbs: t.paid,
-        separationAlerts: t.paid,
+        separationAlerts: true,
         memories: t.paid,
         familyCircle: t.familyCircle,
         organiser: t.organiser,

@@ -165,10 +165,15 @@ describe('analytics privacy (section 9)', () => {
 describe('feature matrix', () => {
   it('maps every paid feature to its flag', () => {
     const all = { maxMembers: 500, maxActiveGroups: 5, allPacks: true, breadcrumbs: true, separationAlerts: true, memories: true, familyCircle: true, organiser: true };
-    for (const f of ['big_group', 'all_packs', 'breadcrumbs', 'separation_alerts', 'memories', 'family_circle', 'multiple_groups', 'organiser_tools'] as const) {
+    for (const f of ['big_group', 'all_packs', 'breadcrumbs', 'memories', 'family_circle', 'multiple_groups', 'organiser_tools'] as const) {
       expect(canUse(f, all)).toBe(true);
       expect(canUse(f, free)).toBe(false);
     }
+  });
+
+  it('never gates a safety feature, separation alerts included (rule 1, DEC-027)', () => {
+    for (const f of ALWAYS_FREE) expect(canUse(f, free)).toBe(true);
+    expect(ALWAYS_FREE).toContain('separation_alerts');
   });
 
   it('awards regroup, drill and event badges at their thresholds', () => {

@@ -71,7 +71,6 @@ export default function GroupManager() {
               <Chip key={m} label={f.distance(m)} selected={detail.separationM === m} onPress={() => void MeshEngine.updateGroup(id, { separationM: m })} />
             ))}
           </Row>
-          {!ent?.separationAlerts ? <Notice tone="warning" text={t('errors.needs_pass')} /> : null}
         </Section>
       ) : null}
 
