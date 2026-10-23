@@ -6,6 +6,7 @@ import { optOut } from '@/features/telemetry/telemetry';
 import { MeshEngine } from 'mesh-engine';
 import { useMesh } from '@/state/mesh';
 import { usePacks } from '@/state/packs';
+import { usePrompts } from '@/state/prompts';
 import { useProfile } from '@/state/profile';
 import { usePurchases } from '@/state/purchases';
 import { useSettings } from '@/state/settings';
@@ -58,6 +59,7 @@ export default function PrivacyScreen() {
                 useProfile.getState().reset();
                 usePacks.getState().reset();
                 useSocial.getState().reset();
+                usePrompts.getState().reset();
                 usePurchases.getState().reset();
                 optOut();
                 useSettings.getState().reset();

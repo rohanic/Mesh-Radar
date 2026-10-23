@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import { DRILL_SECONDS, HIDE_SECONDS, nextHider, phase, results, secondsLeft, seekerFound } from '@/core/engine/drill';
 import { distanceM } from '@/core/engine/geo';
+import { noteReviewMoment } from '@/features/store/StorePrompts';
 import { track } from '@/features/telemetry/telemetry';
 import { useFormat } from '@/i18n/format';
 import { MeshEngine } from 'mesh-engine';
@@ -42,6 +43,7 @@ export default function Drill() {
   useEffect(() => {
     if (ph === 'done' && drill && !drill.ended) {
       useSocial.setState((s) => ({ drillsCompleted: s.drillsCompleted + 1 }));
+      noteReviewMoment('drillDone');
       useMesh.setState((s) => ({ drills: { ...s.drills, [id]: { ...drill, ended: true } } }));
       track('drill_done', { count: Object.keys(drill.found).length });
     }

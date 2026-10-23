@@ -760,5 +760,23 @@
     "dir_SW": "güneybatı",
     "dir_W": "batı",
     "dir_NW": "kuzeybatı"
+  },
+  "update": {
+    "title": "Yeni sürüm hazır",
+    "body": "İnternet varken güncelleyin. İndirme sırasında ağ çalışmaya devam eder.",
+    "urgentBody": "Bu güncelleme önemli bir sorunu düzeltiyor. Lütfen internet varken güncelleyin.",
+    "update": "Güncelle",
+    "later": "Sonra",
+    "downloading": "Güncelleme indiriliyor. Uygulamayı kullanmaya devam edebilirsiniz.",
+    "readyTitle": "Güncelleme indirildi",
+    "readyBody": "Tamamlamak için uygulamayı yeniden başlatın. Birkaç saniye sürer.",
+    "readyBodyMesh": "Tamamlamak için uygulamayı yeniden başlatın. Yeniden başlatma sırasında ağ durur, sonrasında ağı tekrar başlatın.",
+    "restart": "Yeniden başlat"
+  },
+  "engineMissing": {
+    "title": "Radyo motoru bulunamadı",
+    "body": "Mesh Radar'ın bu kopyası Bluetooth veya Wi-Fi kullanamıyor, bu yüzden mesajlar, radar ve SOS çalışmaz. Mesh Radar'ı Google Play'den yükleyin.",
+    "danger": "Biri tehlikedeyse hemen bir acil durum numarasını arayın.",
+    "store": "Google Play'i aç"
   }
 }

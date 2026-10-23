@@ -10,7 +10,8 @@
       "@/*": ["./src/*"],
       "@config/*": ["./config/*"],
       "@assets/*": ["./assets/*"],
-      "mesh-engine": ["./modules/mesh-engine"]
+      "mesh-engine": ["./modules/mesh-engine"],
+      "play-store": ["./modules/play-store"]
     },
     "types": ["jest", "node"]
   },

@@ -5,6 +5,7 @@ const moduleNameMapper = {
   '^@config/(.*)$': '<rootDir>/config/$1',
   '^@assets/(.*)$': '<rootDir>/assets/$1',
   '^mesh-engine$': '<rootDir>/modules/mesh-engine',
+  '^play-store$': '<rootDir>/modules/play-store',
 };
 
 /** @type {import('jest').Config} */

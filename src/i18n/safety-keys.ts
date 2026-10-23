@@ -17,6 +17,7 @@ export const SAFETY_PREFIXES = [
   'checkin.missed',
   'events.crowd',
   'native.',
+  'engineMissing.',
 ] as const;
 
 export function isSafetyKey(key: string): boolean {

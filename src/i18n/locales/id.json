@@ -752,5 +752,23 @@
     "dir_SW": "barat daya",
     "dir_W": "barat",
     "dir_NW": "barat laut"
+  },
+  "update": {
+    "title": "Versi baru sudah siap",
+    "body": "Perbarui selagi ada internet. Mesh tetap berjalan selama pengunduhan.",
+    "urgentBody": "Pembaruan ini memperbaiki masalah penting. Harap perbarui selagi ada internet.",
+    "update": "Perbarui",
+    "later": "Nanti",
+    "downloading": "Mengunduh pembaruan. Anda tetap bisa memakai aplikasi.",
+    "readyTitle": "Pembaruan sudah diunduh",
+    "readyBody": "Mulai ulang aplikasi untuk menyelesaikan. Hanya butuh beberapa detik.",
+    "readyBodyMesh": "Mulai ulang aplikasi untuk menyelesaikan. Mesh berhenti selama dimulai ulang, jadi nyalakan lagi setelahnya.",
+    "restart": "Mulai ulang"
+  },
+  "engineMissing": {
+    "title": "Mesin radio tidak ditemukan",
+    "body": "Salinan Mesh Radar ini tidak bisa memakai Bluetooth atau Wi-Fi, jadi pesan, radar, dan SOS tidak berfungsi. Pasang Mesh Radar dari Google Play.",
+    "danger": "Jika ada yang dalam bahaya, hubungi nomor darurat sekarang.",
+    "store": "Buka Google Play"
   }
 }

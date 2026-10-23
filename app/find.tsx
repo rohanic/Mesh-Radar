@@ -15,6 +15,7 @@ import { space } from '@/core/theme/tokens';
 import { FindArrow, Pulse } from '@/features/find/FindArrow';
 import { requestUwb } from '@/features/permissions/permissions';
 import { playChime } from '@/features/sound/sound';
+import { noteReviewMoment } from '@/features/store/StorePrompts';
 import { track } from '@/features/telemetry/telemetry';
 import { useFormat } from '@/i18n/format';
 import { MeshEngine } from 'mesh-engine';
@@ -84,6 +85,7 @@ export default function FindScreen() {
     arrivedOnce.current = true;
     void playChime();
     recordRegroup();
+    noteReviewMoment('regroup');
     track('regroup_success', { durationSec: Math.round((Date.now() - start.current) / 1000) });
     // Chime on their phone too (flow 2, step 4).
     if (params.group && member) void MeshEngine.sendChat({ groupId: params.group, recipientId: member.id, kind: 'system', text: 'arrived', quickCode: 0 }).catch(() => undefined);

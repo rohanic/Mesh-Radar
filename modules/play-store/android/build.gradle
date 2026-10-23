@@ -1,0 +1,21 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'com.rohanic.meshradar'
+version = '1.0.0'
+
+android {
+  namespace "com.rohanic.meshradar.playstore"
+  defaultConfig {
+    versionCode 1
+    versionName '1.0.0'
+  }
+}
+
+dependencies {
+  // Google Play in-app updates (DEC-043) and in-app review (DEC-044). Both ship their own R8 rules.
+  implementation 'com.google.android.play:app-update:2.1.0'
+  implementation 'com.google.android.play:review:2.0.2'
+}

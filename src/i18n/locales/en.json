@@ -760,5 +760,23 @@
     "dir_SW": "south-west",
     "dir_W": "west",
     "dir_NW": "north-west"
+  },
+  "update": {
+    "title": "A new version is ready",
+    "body": "Update while you have internet. The mesh keeps working while it downloads.",
+    "urgentBody": "This update fixes something important. Please update while you have internet.",
+    "update": "Update",
+    "later": "Later",
+    "downloading": "Downloading the update. You can keep using the app.",
+    "readyTitle": "Update downloaded",
+    "readyBody": "Restart the app to finish. It takes a few seconds.",
+    "readyBodyMesh": "Restart the app to finish. The mesh stops during the restart, so start it again afterwards.",
+    "restart": "Restart"
+  },
+  "engineMissing": {
+    "title": "The radio engine is missing",
+    "body": "This copy of Mesh Radar cannot use Bluetooth or Wi-Fi, so messages, the radar and SOS do not work. Install Mesh Radar from Google Play.",
+    "danger": "If someone is in danger, call an emergency number now.",
+    "store": "Open Google Play"
   }
 }

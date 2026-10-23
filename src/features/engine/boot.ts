@@ -4,6 +4,7 @@ import { nativeStrings } from '@/i18n';
 import { refreshAll, startMeshBridge } from '@/state/mesh';
 import { useProfile } from '@/state/profile';
 import { usePurchases } from '@/state/purchases';
+import { PlayStore } from 'play-store';
 
 import { extra } from './config';
 
@@ -19,7 +20,9 @@ export async function bootEngine(): Promise<void> {
     // Community packs shared by group members (v1.2).
     MeshEngine.addListener('pack', ({ json, fromName }) => void installCommunityPack(json, fromName));
   }
-  await MeshEngine.configure(extra.licencePublicKey ?? '', extra.apiBaseUrl ?? '', 1);
+  // Members announce their real build number in a 16-bit field (MemberBody.appVersion).
+  const appVersion = Math.min(Math.max(Math.round(PlayStore.versionCode()), 1), 0xffff);
+  await MeshEngine.configure(extra.licencePublicKey ?? '', extra.apiBaseUrl ?? '', appVersion);
   await MeshEngine.setStrings(JSON.stringify(nativeStrings()));
   const tokens = usePurchases.getState().tokens;
   if (tokens.length) await MeshEngine.restoreLicences(tokens);
