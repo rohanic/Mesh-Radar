@@ -26,7 +26,7 @@ Draft answers, to be checked with [privacy-policy.md](privacy-policy.md) and rev
 - **Photos:** avatar and moment photos stay on the device or go phone to phone.
 - **App activity and diagnostics:** only after the person opts in to analytics or crash reports. No location in either.
 - **Purchase history:** Play purchase tokens go to our Worker to issue a licence.
-- **No account, phone number or email.** Data can be deleted on the device at any time (Me, Settings, Delete everything).
+- **No account, phone number or email.** Data can be deleted on the device at any time (Me, Privacy, Delete everything).
 
 ## Store listing
 

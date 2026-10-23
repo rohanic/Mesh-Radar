@@ -41,7 +41,7 @@ Children can be added to a family group by a parent or guardian. They do not cre
 
 ## Deleting your data
 
-Me, Settings, **Delete everything** removes your keys, groups, messages and history from your phone at once, even offline. Packets already delivered to other phones stay on those phones until their owners delete them.
+Me, Privacy, **Delete everything** removes your keys, groups, messages and history from your phone at once, even offline. Packets already delivered to other phones stay on those phones until their owners delete them.
 
 ## Contact
 
