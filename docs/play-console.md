@@ -26,7 +26,7 @@ Copy-ready values for publishing Mesh Radar. Policy pages change, so read Play C
 | Tags | Pick those closest to: offline, family safety, location sharing, group travel, navigation |
 | Email | creaeza7@gmail.com |
 | Website | https://creaeza.com |
-| Privacy policy | https://creaeza.com/mesh-radar/privacy-policy/ (publish `docs/legal/privacy-policy.html` there first) |
+| Privacy policy | https://creaeza.com/mesh-radar-privacy/ |
 
 Full description (under 4000 characters):
 
@@ -78,7 +78,7 @@ Never write "guarantees rescue" or "replaces emergency services" anywhere in the
 
 | Section | Answer |
 | --- | --- |
-| Privacy policy | https://creaeza.com/mesh-radar/privacy-policy/ |
+| Privacy policy | https://creaeza.com/mesh-radar-privacy/ (also linked in the app: Me, Privacy) |
 | App access | All functionality is available without special access (no login). Note for reviewers: "The mesh needs two Android phones near each other. Create a group on one phone and scan its QR code from the other." |
 | Ads | No, the app does not contain ads |
 | Advertising ID | No. The app does not use the advertising ID (the manifest has no AD_ID permission) |
@@ -101,7 +101,7 @@ General answers:
 | --- | --- |
 | Does the app collect or share any of the required user data types? | Yes |
 | Is all user data encrypted in transit? | Yes (HTTPS to the server, end-to-end encryption phone to phone) |
-| Can users request that their data is deleted? | Yes: Me, Privacy, Delete everything in the app, and https://creaeza.com/mesh-radar/delete-data/ |
+| Can users request that their data is deleted? | Yes: Me, Privacy, Delete everything in the app, and https://creaeza.com/mesh-radar-delete-data/ |
 | Account creation | The app does not let users create an account |
 
 Declare conservatively (draft; have it reviewed with the privacy policy):
