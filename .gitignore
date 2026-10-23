@@ -22,6 +22,7 @@ expo-env.d.ts
 modules/mesh-engine/core/build/
 modules/mesh-engine/core/.gradle/
 modules/*/android/build/
+modules/*/android/.gradle/
 
 # Metro
 .metro-health-check*
