@@ -15,6 +15,7 @@ import { loadMessages, useMesh } from '@/state/mesh';
 import { recordCheckin } from '@/state/social';
 import { Button, Header, IconButton, ListRow, Notice, Row, Text } from '@/ui/components';
 import { QuickReplyTray } from '@/ui/components/QuickReplyTray';
+import { SosButton } from '@/ui/components/SosButton';
 
 /** Group chat and direct messages (D1, D2, D3, D5, D6), end-to-end encrypted by the engine. */
 export default function ChatScreen() {
@@ -76,7 +77,7 @@ export default function ChatScreen() {
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.colors.bg }}>
       <KeyboardAvoidingView style={{ flex: 1 }} behavior="height">
         <View style={{ paddingHorizontal: space.lg }}>
-          <Header title={peerMember ? `${t('chat.direct')}: ${peerMember.name}` : detail.name} />
+          <Header title={peerMember ? `${t('chat.direct')}: ${peerMember.name}` : detail.name} right={<SosButton compact onFire={() => router.push('/sos?fire=1')} />} />
         </View>
         <FlatList
           ref={list}

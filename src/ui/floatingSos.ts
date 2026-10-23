@@ -2,8 +2,11 @@ import { usePathname } from 'expo-router';
 
 import { useSettings } from '@/state/settings';
 
-/** Routes where the floating SOS button would get in the way. */
-export const NO_FLOATING_SOS = ['/sos', '/alert', '/find', '/onboarding', '/elder', '/scan'];
+/**
+ * Routes where the floating SOS button would get in the way. A conversation (`/chat/<group>`) shows a
+ * compact SOS in its header instead, so the button never covers the quick replies.
+ */
+export const NO_FLOATING_SOS = ['/sos', '/alert', '/find', '/onboarding', '/elder', '/scan', '/chat/'];
 
 /** Height the floating SOS button needs above a screen's footer buttons, so it never covers them. */
 export const FLOATING_SOS_CLEARANCE = 80;
