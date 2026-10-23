@@ -13,6 +13,9 @@ import { useSettings } from '@/state/settings';
 // throwing and without an update loop. This caught the zustand selector loop that blanked the
 // Radar tab (bc55e9e) only after a run on a device; now it is caught on every test run.
 
+// Loading whole screens is slow on CI runners with coverage on; the default 5 s is too tight.
+jest.setTimeout(30_000);
+
 jest.mock('react-native-safe-area-context', () => require('react-native-safe-area-context/jest/mock').default);
 
 // Skia draws the radar natively; in tests its components render nothing.

@@ -20,7 +20,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   platforms: ['android'],
   android: {
     package: ANDROID_PACKAGE,
-    versionCode: 1,
+    // versionCode comes from EAS (appVersionSource "remote", autoIncrement), not from here.
     adaptiveIcon: {
       backgroundColor: '#060B16',
       foregroundImage: './assets/images/adaptive-icon.png',

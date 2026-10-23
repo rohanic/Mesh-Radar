@@ -13,6 +13,9 @@ import { MeshEngine } from 'mesh-engine';
 // engine: create a group, see it on the radar, chat with a quick reply and typed text, and send and
 // resolve an SOS (B1, C1, D1, D2, E1).
 
+// Loading whole screens is slow on CI runners with coverage on; the default 5 s is too tight.
+jest.setTimeout(30_000);
+
 jest.mock('react-native-safe-area-context', () => require('react-native-safe-area-context/jest/mock').default);
 jest.mock('@sentry/react-native', () => ({ init: jest.fn(), captureException: jest.fn() }));
 jest.mock('expo-audio', () => {
