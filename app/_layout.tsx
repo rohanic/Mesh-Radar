@@ -3,7 +3,7 @@ import { I18nManager, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useFonts } from 'expo-font';
-import { Stack, router, usePathname } from 'expo-router';
+import { Stack, router } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { getLocales } from 'expo-localization';
@@ -21,6 +21,7 @@ import { FONT_ASSETS } from '@/i18n/fonts';
 import { language, matchDeviceLanguage } from '@/i18n/languages';
 import { useSettings } from '@/state/settings';
 import { SosButton } from '@/ui/components/SosButton';
+import { useFloatingSos } from '@/ui/floatingSos';
 import { isNativeEngine } from 'mesh-engine';
 
 void SplashScreen.preventAutoHideAsync();
@@ -28,14 +29,10 @@ void SplashScreen.preventAutoHideAsync();
 /** Release builds never run on the in-memory fake engine (DEC-042). */
 const ENGINE_MISSING = !__DEV__ && !isNativeEngine;
 
-/** Routes where the floating SOS button would get in the way. */
-const NO_SOS = ['/sos', '/alert', '/find', '/onboarding', '/elder', '/scan'];
-
 function FloatingSos() {
-  const path = usePathname();
-  const done = useSettings((s) => s.onboarding === 'done');
+  const visible = useFloatingSos();
   const { bottom } = useSafeAreaInsets();
-  if (!done || NO_SOS.some((p) => path.startsWith(p))) return null;
+  if (!visible) return null;
   return (
     <View pointerEvents="box-none" style={{ position: 'absolute', left: 0, right: 0, bottom: 84 + bottom, alignItems: 'center' }}>
       <SosButton onFire={() => router.push('/sos?fire=1')} />
