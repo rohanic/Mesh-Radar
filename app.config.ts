@@ -79,7 +79,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         microphonePermission: false,
       },
     ],
-    'expo-iap',
+    // Google Play only (section 9); pinned so the store never depends on a connected device.
+    ['expo-iap', { android: { store: 'play' } }],
     [
       'expo-build-properties',
       {
