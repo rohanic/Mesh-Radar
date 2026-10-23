@@ -15,7 +15,7 @@ You do not give us your name, phone number or email. Your profile (name, picture
 - Your location, messages, photos and SOS go from your phone to your group members' phones, over Bluetooth and Wi-Fi, encrypted end to end. Other phones that relay them cannot read them.
 - **Family Circle (optional):** when it is on and you have internet, the same encrypted packets also pass through our server so your family can stay in touch over the internet. The server cannot read them and deletes them after 24 hours.
 - **Public SOS (optional):** if you send an SOS to everyone nearby, people around you see only a rough direction and distance, not your name or exact location.
-- **Event channel and crowd reports:** posts are public to app users nearby and use a different anonymous name at each event.
+- **Event channel and crowd reports:** posts are public to app users nearby and use a different anonymous name at each event. A crowd report includes the location you report.
 
 ## What reaches our servers
 

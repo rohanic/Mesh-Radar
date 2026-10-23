@@ -82,7 +82,7 @@ Never write "guarantees rescue" or "replaces emergency services" anywhere in the
 | App access | All functionality is available without special access (no login). Note for reviewers: "The mesh needs two Android phones near each other. Create a group on one phone and scan its QR code from the other." |
 | Ads | No, the app does not contain ads |
 | Advertising ID | No. The app does not use the advertising ID (the manifest has no AD_ID permission) |
-| Content rating | Fill the questionnaire: no violence, sexual content, profanity, drugs or gambling. Yes to users interacting or exchanging content (group chat, event channel), yes to sharing the user's location with other users, yes to digital purchases |
+| Content rating | See section 4b |
 | Target audience | 13 to 15, 16 to 17, and 18 and over. Not under 13. Does not appeal to children |
 | News app | No |
 | COVID-19 apps | No |
@@ -93,34 +93,73 @@ Never write "guarantees rescue" or "replaces emergency services" anywhere in the
 | Foreground service | See section 5 |
 | Full-screen intent | See section 5 |
 
-## 4. Data safety
+## 4. Data safety (Policy, App content, Data safety)
 
-General answers:
+Google's rule: "collected" means data that leaves the phone. Data encrypted end to end, so that only the sender and the recipient can read it, does not need to be declared, and neither does data that stays on the phone. In Mesh Radar that covers group positions, chat, photos, the emergency card, names and Family Circle: relays and our server cannot read any of them. Only what leaves the phone readable is declared below. Transfers to service providers (Cloudflare, Google Play, PostHog, Sentry) and transfers the person starts themselves are not "sharing".
+
+**Step 1, Data collection and security**
 
 | Question | Answer |
 | --- | --- |
-| Does the app collect or share any of the required user data types? | Yes |
-| Is all user data encrypted in transit? | Yes (HTTPS to the server, end-to-end encryption phone to phone) |
-| Can users request that their data is deleted? | Yes: Me, Privacy, Delete everything in the app, and https://creaeza.com/mesh-radar-delete-data/ |
-| Account creation | The app does not let users create an account |
+| Does your app collect or share any of the required user data types? | Yes |
+| Is all of the user data collected by your app encrypted in transit? | Yes (HTTPS to our server, and Nearby Connections encrypts every link; Bluetooth broadcasts carry only group-encrypted packets) |
+| Which methods of account creation does your app support? | My app does not allow users to create an account |
+| Do you provide a way for users to request that their data is deleted? | Yes. In the app: Me, Privacy, Delete everything. Web: https://creaeza.com/mesh-radar-delete-data/ |
+| Independent security review | No (not yet) |
 
-Declare conservatively (draft; have it reviewed with the privacy policy):
+**Step 2, Data types:** tick exactly these 10, nothing else.
 
-| Data type | Collected | Shared | Required or optional | Purpose |
-| --- | --- | --- | --- | --- |
-| Location: precise | Yes | No | Required | App functionality |
-| Location: approximate | Yes | No | Required | App functionality |
-| Personal info: name | Yes | No | Required | App functionality |
-| Personal info: user IDs (the app's public key, for licences) | Yes | No | Optional | App functionality |
-| Health info (emergency card) | Yes | No | Optional | App functionality |
-| Messages: other in-app messages | Yes | No | Optional | App functionality |
-| Photos | Yes | No | Optional | App functionality |
-| Financial info: purchase history | Yes | No | Optional | App functionality |
-| App activity: app interactions | Yes | No | Optional (opt-in) | Analytics |
-| App info and performance: crash logs, diagnostics | Yes | No | Optional (opt-in) | App functionality |
-| Device or other IDs (random analytics ID) | Yes | No | Optional (opt-in) | Analytics |
+| Category | Data type | Where it comes from |
+| --- | --- | --- |
+| Location | Approximate location | Public SOS sends a 150 m area to app users nearby |
+| Location | Precise location | A crowd report carries the spot being reported |
+| Personal info | User IDs | The app's public key, sent with purchases and with the free pilgrimage pass |
+| Financial info | Purchase history | The Google Play purchase token, sent to issue the licence |
+| Messages | Other in-app messages | Event channel posts and event community posts |
+| App activity | App interactions | Optional analytics (off until the person turns it on) |
+| App info and performance | Crash logs | Optional crash reports (off until turned on) |
+| App info and performance | Diagnostics | Optional crash reports (off until turned on) |
+| Device or other IDs | Device or other IDs | The random analytics and crash report ID (optional) |
+| App activity | Other user-generated content | The city a person may add to an event community post |
 
-"Shared" is No because data goes to the person's own group at their request (which Play does not count as sharing) and to service providers (Cloudflare, Google Play, Sentry, PostHog) that process it for us.
+**Step 3, Data usage and handling:** the same answers for every type unless the table says otherwise.
+
+| Data type | Collected | Shared | Processed ephemerally | Required or optional | Purposes |
+| --- | --- | --- | --- | --- | --- |
+| Approximate location | Yes | No | No | Optional | App functionality |
+| Precise location | Yes | No | No | Optional | App functionality |
+| User IDs | Yes | No | No | Optional | App functionality, Fraud prevention, security and compliance |
+| Purchase history | Yes | No | No | Optional | App functionality |
+| Other in-app messages | Yes | No | No | Optional | App functionality |
+| Other user-generated content | Yes | No | No | Optional | App functionality |
+| App interactions | Yes | No | No | Optional | Analytics |
+| Crash logs | Yes | No | No | Optional | Analytics |
+| Diagnostics | Yes | No | No | Optional | Analytics |
+| Device or other IDs | Yes | No | No | Optional | Analytics |
+
+**Step 4:** check the store listing preview, then Save and Submit. If a feature changes what leaves the phone, update this form and the privacy policy together.
+
+## 4b. Content rating (Policy, App content, Content rating)
+
+1. Start, enter **creaeza7@gmail.com** (the rating body writes to this address).
+2. Category: the one for utility, productivity, communication or other apps (not Game, not Social networking).
+3. Answer:
+
+| Topic | Answer | Why |
+| --- | --- | --- |
+| Violence, blood, fear or horror | No | Crowd alerts are short text warnings |
+| Sexuality or nudity | No | |
+| Profanity or crude humour | No | |
+| Drugs, alcohol or tobacco | No | The emergency card's medicines field is the person's own medical info |
+| Gambling or simulated gambling | No | |
+| Users can interact or communicate with each other | Yes | Group chat and photos, the public event channel and event communities |
+| Users can share content they create, including photos | Yes | Photos and messages in groups, posts in event communities |
+| Shares the user's current location with other users | Yes | The radar and SOS share location with the group |
+| Digital purchases | Yes | Event Pass, Family Plus, organiser plans |
+| Unrestricted internet access or web browsing | No | |
+| Promotes age-restricted products | No | |
+
+4. Review the ratings on the summary page and Submit. Expect a low age rating with notices like "Users interact", "Shares location" and "In-app purchases". Redo the questionnaire if a feature changes these answers.
 
 ## 5. Permissions and declarations
 
