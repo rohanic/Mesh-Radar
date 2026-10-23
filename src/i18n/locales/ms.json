@@ -594,7 +594,8 @@
     "firstPilgrimage": "Ziarah pertama? Dapatkan Pas Acara 14 hari secara percuma.",
     "claim": "Tuntut pas percuma",
     "purchased": "Terima kasih. Kumpulan anda akan menerima pas melalui mesh.",
-    "error": "Pembelian tidak dapat diselesaikan."
+    "error": "Pembelian tidak dapat diselesaikan.",
+    "storeOnly": "Pelan dibeli melalui Google Play dalam aplikasi Android."
   },
   "badges": {
     "title": "Lencana",

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { requireOptionalNativeModule } from 'expo';
 import { useIAP } from 'expo-iap';
 import { useTranslation } from 'react-i18next';
 
@@ -10,8 +11,30 @@ import { usePacks } from '@/state/packs';
 import { usePurchases } from '@/state/purchases';
 import { Button, Card, Header, Notice, Screen, Text } from '@/ui/components';
 
+/** Google Play Billing is present only in the Android build, not in Expo Go or tests. */
+const HAS_BILLING = requireOptionalNativeModule('ExpoIap') != null;
+
 /** Plans (section 10). Safety features are free forever; one payer unlocks the whole group. */
 export default function Plans() {
+  return HAS_BILLING ? <StorePlans /> : <NoBilling />;
+}
+
+function NoBilling() {
+  const { t } = useTranslation();
+  return (
+    <Screen>
+      <Header title={t('plans.title')} />
+      <Text>{t('plans.body')}</Text>
+      <Card tone="accent">
+        <Text variant="title">{t('plans.free')}</Text>
+        <Text tone="muted">{t('plans.freeBody')}</Text>
+      </Card>
+      <Notice text={t('plans.storeOnly')} />
+    </Screen>
+  );
+}
+
+function StorePlans() {
   const { t } = useTranslation();
   const f = useFormat();
   const ent = useMesh((s) => s.entitlements.me);

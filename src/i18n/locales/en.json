@@ -601,7 +601,8 @@
     "firstPilgrimage": "First pilgrimage? Get a free 14-day Event Pass.",
     "claim": "Claim free pass",
     "purchased": "Thank you. Your group will receive the pass over the mesh.",
-    "error": "The purchase could not be completed."
+    "error": "The purchase could not be completed.",
+    "storeOnly": "Plans are bought through Google Play in the Android app."
   },
   "badges": {
     "title": "Badges",

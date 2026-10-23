@@ -601,7 +601,8 @@
     "firstPilgrimage": "İlk kutsal yolculuğunuz mu? 14 günlük ücretsiz Etkinlik Pasosu alın.",
     "claim": "Ücretsiz pasoyu al",
     "purchased": "Teşekkürler. Grubunuz pasoyu ağ üzerinden alacak.",
-    "error": "Satın alma tamamlanamadı."
+    "error": "Satın alma tamamlanamadı.",
+    "storeOnly": "Planlar Android uygulamasında Google Play üzerinden satın alınır."
   },
   "badges": {
     "title": "Rozetler",
