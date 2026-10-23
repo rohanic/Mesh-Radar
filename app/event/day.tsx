@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react';
 import { router, useFocusEffect } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useShallow } from 'zustand/react/shallow';
 
 import { text } from '@/core/packs/schema';
 import { errorKey } from '@/features/engine/boot';
@@ -23,8 +24,8 @@ export default function EventDay() {
   const eventId = usePacks((s) => s.activeEventId);
   const installed = usePacks((s) => (eventId ? s.installed[eventId] : undefined));
   const pack = installed ?? bundledPacks().find((p) => p.id === eventId);
-  const posts = useMesh((s) => (eventId ? s.posts[eventId] ?? [] : []));
-  const crowd = useMesh((s) => (eventId ? s.crowd[eventId] ?? [] : []));
+  const posts = useMesh(useShallow((s) => (eventId ? s.posts[eventId] ?? [] : [])));
+  const crowd = useMesh(useShallow((s) => (eventId ? s.crowd[eventId] ?? [] : [])));
   const own = useMesh((s) => s.own);
   const cert = usePurchases((s) => (eventId ? s.organiserCerts[eventId] : undefined));
   const [draft, setDraft] = useState('');

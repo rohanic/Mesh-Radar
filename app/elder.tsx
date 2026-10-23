@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useShallow } from 'zustand/react/shallow';
 
 import { QUICK_IM_OK } from '@/core/engine/quickReplies';
 import { useTheme } from '@/core/theme/ThemeProvider';
@@ -17,7 +18,7 @@ import { Button, Notice, Text } from '@/ui/components';
 export default function ElderHome() {
   const { t } = useTranslation();
   const theme = useTheme();
-  const groups = useMesh((s) => s.groups.filter((g) => !g.archived));
+  const groups = useMesh(useShallow((s) => s.groups.filter((g) => !g.archived)));
   const set = useSettings((s) => s.set);
   const [sent, setSent] = useState(false);
   return (

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Linking, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useShallow } from 'zustand/react/shallow';
 
 import { toHijri } from '@/core/engine/hijri';
 import { nextDate, text } from '@/core/packs/schema';
@@ -26,7 +27,7 @@ export default function PackDetail() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const lang = useSettings((s) => s.language);
   const installed = usePacks((s) => s.installed[id]);
-  const checklist = usePacks((s) => s.checklist[id] ?? []);
+  const checklist = usePacks(useShallow((s) => s.checklist[id] ?? []));
   const toggleItem = usePacks((s) => s.toggleItem);
   const remove = usePacks((s) => s.remove);
   const active = usePacks((s) => s.activeEventId === id && s.eventDay);

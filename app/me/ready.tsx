@@ -1,5 +1,6 @@
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useShallow } from 'zustand/react/shallow';
 
 import { cardFilled, readiness, type ReadinessInput } from '@/core/engine/safetyScore';
 import { useFormat } from '@/i18n/format';
@@ -27,7 +28,7 @@ export default function Ready() {
   const f = useFormat();
   const p = useProfile();
   const groups = useMesh((s) => s.groups);
-  const perms = useMesh((s) => s.engine?.radios.permissions ?? {});
+  const perms = useMesh(useShallow((s) => s.engine?.radios.permissions ?? {}));
   const packs = usePacks((s) => Object.keys(s.installed).length);
   const drills = useSocial((s) => s.drillsCompleted);
   const tutorialDone = useSettings((s) => s.tutorialDone);

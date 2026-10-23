@@ -1,5 +1,6 @@
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useShallow } from 'zustand/react/shallow';
 
 import { QUICK_LOW_BATTERY } from '@/core/engine/quickReplies';
 import { hoursLeft } from '@/core/engine/power';
@@ -13,7 +14,7 @@ export default function BatteryPrompt() {
   const { t } = useTranslation();
   const f = useFormat();
   const battery = useMesh((s) => s.battery);
-  const groups = useMesh((s) => s.groups.filter((g) => !g.archived));
+  const groups = useMesh(useShallow((s) => s.groups.filter((g) => !g.archived)));
   const level = battery?.level ?? 15;
   return (
     <Screen>

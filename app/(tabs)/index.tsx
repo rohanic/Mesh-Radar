@@ -3,6 +3,7 @@ import { ScrollView, View, useWindowDimensions } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useShallow } from 'zustand/react/shallow';
 
 import { shouldSuggestMeetingPoint, nearestPin } from '@/core/engine/find';
 import { floorsRelative } from '@/core/engine/floors';
@@ -38,7 +39,7 @@ export default function RadarTab() {
   const heading = useMesh((s) => s.heading);
   const headingAccuracy = useMesh((s) => s.headingAccuracy);
   const myPressure = useMesh((s) => s.pressurePa);
-  const groups = useMesh((s) => s.groups.filter((g) => !g.archived));
+  const groups = useMesh(useShallow((s) => s.groups.filter((g) => !g.archived)));
   const { group, members, pins, crumbs } = useRadarData();
   const view = useSettings((s) => s.radarView);
   const setSettings = useSettings((s) => s.set);

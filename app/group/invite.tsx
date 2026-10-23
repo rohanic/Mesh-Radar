@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useShallow } from 'zustand/react/shallow';
 
 import { space } from '@/core/theme/tokens';
 import { useFormat } from '@/i18n/format';
@@ -17,7 +18,7 @@ export default function Invite() {
   const f = useFormat();
   const { id, onboarding } = useLocalSearchParams<{ id: string; onboarding?: string }>();
   const group = useMesh((s) => s.groups.find((g) => g.id === id));
-  const requests = useMesh((s) => s.joinRequests.filter((r) => r.groupId === id));
+  const requests = useMesh(useShallow((s) => s.joinRequests.filter((r) => r.groupId === id)));
   const running = useMesh((s) => !!s.engine?.running);
   const [payload, setPayload] = useState<string | null>(null);
   const [code, setCode] = useState<string | null>(null);
