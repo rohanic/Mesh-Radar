@@ -580,7 +580,8 @@
     "deleteAll": "Delete everything",
     "deleteAllBody": "Deletes your keys, groups, messages and settings from this phone. This cannot be undone.",
     "deleteConfirm": "Delete everything now?",
-    "deleted": "Everything was deleted."
+    "deleted": "Everything was deleted.",
+    "terms": "Terms of use"
   },
   "plans": {
     "title": "Plans",

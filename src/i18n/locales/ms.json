@@ -573,7 +573,8 @@
     "deleteAll": "Padam semua",
     "deleteAllBody": "Memadam kunci, kumpulan, mesej dan tetapan anda daripada telefon ini. Tindakan ini tidak boleh dibatalkan.",
     "deleteConfirm": "Padam semua sekarang?",
-    "deleted": "Semua telah dipadam."
+    "deleted": "Semua telah dipadam.",
+    "terms": "Terma penggunaan"
   },
   "plans": {
     "title": "Pelan",

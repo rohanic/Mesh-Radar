@@ -573,7 +573,8 @@
     "deleteAll": "Hapus semuanya",
     "deleteAllBody": "Menghapus kunci, grup, pesan dan pengaturan Anda dari ponsel ini. Tidak bisa dibatalkan.",
     "deleteConfirm": "Hapus semuanya sekarang?",
-    "deleted": "Semuanya sudah dihapus."
+    "deleted": "Semuanya sudah dihapus.",
+    "terms": "Ketentuan penggunaan"
   },
   "plans": {
     "title": "Paket",

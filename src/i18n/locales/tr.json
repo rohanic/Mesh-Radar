@@ -580,7 +580,8 @@
     "deleteAll": "Her şeyi sil",
     "deleteAllBody": "Anahtarlarınızı, gruplarınızı, mesajlarınızı ve ayarlarınızı bu telefondan siler. Bu işlem geri alınamaz.",
     "deleteConfirm": "Her şey şimdi silinsin mi?",
-    "deleted": "Her şey silindi."
+    "deleted": "Her şey silindi.",
+    "terms": "Kullanım koşulları"
   },
   "plans": {
     "title": "Planlar",

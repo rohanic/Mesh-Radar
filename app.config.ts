@@ -117,6 +117,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     posthogKey: process.env.EXPO_PUBLIC_POSTHOG_KEY ?? '',
     posthogHost: process.env.EXPO_PUBLIC_POSTHOG_HOST ?? '',
     androidPackage: ANDROID_PACKAGE,
+    privacyUrl: 'https://creaeza.com/mesh-radar-privacy/',
+    termsUrl: 'https://creaeza.com/mesh-radar-terms/',
     playStoreUrl: `https://play.google.com/store/apps/details?id=${ANDROID_PACKAGE}`,
     eas: { projectId: EAS_PROJECT_ID },
   },

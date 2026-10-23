@@ -2,6 +2,7 @@ import { Alert, Linking } from 'react-native';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
+import { PRIVACY_URL, TERMS_URL } from '@/features/engine/config';
 import { optOut } from '@/features/telemetry/telemetry';
 import { MeshEngine } from 'mesh-engine';
 import { useMesh } from '@/state/mesh';
@@ -13,7 +14,6 @@ import { useSettings } from '@/state/settings';
 import { useSocial } from '@/state/social';
 import { Button, Card, Header, ListRow, Notice, Screen, Text, Toggle } from '@/ui/components';
 
-const POLICY_URL = 'https://github.com/rohanic/Mesh-Radar/blob/main/docs/privacy-policy.md';
 
 /** Privacy (section 9): opt-in analytics and crashes, DND access, and Delete everything (H4). */
 export default function PrivacyScreen() {
@@ -39,7 +39,8 @@ export default function PrivacyScreen() {
       <Card>
         <ListRow icon="bell" title={t('privacy.dnd')} subtitle={t('privacy.dndHint')} right={engine?.dndAccess ? <Text tone="success">{t('common.on')}</Text> : undefined} onPress={() => void MeshEngine.openSettings('dnd')} />
         <ListRow icon="siren" title={t('privacy.fullScreen')} onPress={() => void MeshEngine.openSettings('fullscreen')} />
-        <ListRow icon="book-open" title={t('privacy.policy')} onPress={() => void Linking.openURL(POLICY_URL)} />
+        <ListRow icon="book-open" title={t('privacy.policy')} onPress={() => void Linking.openURL(PRIVACY_URL)} />
+        <ListRow icon="landmark" title={t('privacy.terms')} onPress={() => void Linking.openURL(TERMS_URL)} />
       </Card>
       <Notice tone="warning" text={t('privacy.deleteAllBody')} />
       <Button
