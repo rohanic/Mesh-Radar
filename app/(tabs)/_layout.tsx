@@ -1,5 +1,6 @@
 import { Tabs } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useTheme } from '@/core/theme/ThemeProvider';
 import { useMesh } from '@/state/mesh';
@@ -9,6 +10,8 @@ import { Icon } from '@/ui/icons/Icon';
 export default function TabsLayout() {
   const { t } = useTranslation();
   const theme = useTheme();
+  // Android 15+ draws edge to edge, so the tab bar sits above the system navigation bar.
+  const { bottom } = useSafeAreaInsets();
   const unread = useMesh((s) => Object.values(s.unread).reduce((a, b) => a + b, 0));
   return (
     <Tabs
@@ -16,7 +19,7 @@ export default function TabsLayout() {
         headerShown: false,
         tabBarActiveTintColor: theme.colors.primary,
         tabBarInactiveTintColor: theme.colors.textMuted,
-        tabBarStyle: { backgroundColor: theme.colors.surface, borderTopColor: theme.colors.border, height: theme.elder ? 76 : 64, paddingBottom: 8 },
+        tabBarStyle: { backgroundColor: theme.colors.surface, borderTopColor: theme.colors.border, height: (theme.elder ? 76 : 64) + bottom, paddingBottom: 8 + bottom },
         tabBarLabelStyle: { fontFamily: theme.fonts.bold, fontSize: theme.size('caption') },
       }}>
       <Tabs.Screen name="index" options={{ title: t('tabs.radar'), tabBarIcon: ({ color }) => <Icon name="radar" color={String(color)} /> }} />

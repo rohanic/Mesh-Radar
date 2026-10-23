@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { KeyboardAvoidingView, Pressable, ScrollView, Switch, TextInput, View, type TextInputProps, type ViewStyle } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
@@ -10,20 +10,25 @@ import { Icon, type IconName } from '../icons/Icon';
 import { IconButton } from './Button';
 import { Text } from './Text';
 
+/** Tablets, foldables and landscape keep a readable column instead of stretching edge to edge. */
+const CONTENT_MAX_WIDTH = 720;
+
 export function Screen({ children, scroll = true, padded = true, footer, testID }: { children: ReactNode; scroll?: boolean; padded?: boolean; footer?: ReactNode; testID?: string }) {
   const t = useTheme();
+  // Screens with a footer sit above the system navigation bar (edge to edge on Android 15+).
+  const { bottom } = useSafeAreaInsets();
   const body = scroll ? (
-    <ScrollView contentContainerStyle={{ padding: padded ? space.lg : 0, gap: space.lg, paddingBottom: 120 }} keyboardShouldPersistTaps="handled">
+    <ScrollView contentContainerStyle={{ padding: padded ? space.lg : 0, gap: space.lg, paddingBottom: 120, width: '100%', maxWidth: CONTENT_MAX_WIDTH, alignSelf: 'center' }} keyboardShouldPersistTaps="handled">
       {children}
     </ScrollView>
   ) : (
-    <View style={{ flex: 1, padding: padded ? space.lg : 0, gap: space.lg }}>{children}</View>
+    <View style={{ flex: 1, padding: padded ? space.lg : 0, gap: space.lg, width: '100%', maxWidth: CONTENT_MAX_WIDTH, alignSelf: 'center' }}>{children}</View>
   );
   return (
     <SafeAreaView testID={testID} style={{ flex: 1, backgroundColor: t.colors.bg }} edges={['top', 'left', 'right']}>
       <KeyboardAvoidingView style={{ flex: 1 }} behavior="height">
         {body}
-        {footer ? <View style={{ padding: space.lg, gap: space.sm }}>{footer}</View> : null}
+        {footer ? <View style={{ padding: space.lg, paddingBottom: space.lg + bottom, gap: space.sm, width: '100%', maxWidth: CONTENT_MAX_WIDTH, alignSelf: 'center' }}>{footer}</View> : null}
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
