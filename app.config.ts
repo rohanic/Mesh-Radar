@@ -89,6 +89,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         microphonePermission: false,
       },
     ],
+    // Native debug symbols in the release bundle for Play Console crash reports (DEC-047).
+    './plugins/with-native-debug-symbols',
     // Google Play only (section 9); pinned so the store never depends on a connected device.
     ['expo-iap', { android: { store: 'play' } }],
     [
