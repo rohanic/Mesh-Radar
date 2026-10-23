@@ -1,13 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
-import { Alert, Linking, Pressable, ScrollView, View } from 'react-native';
+import { Alert, Pressable, ScrollView, View } from 'react-native';
 import { useKeepAwake } from 'expo-keep-awake';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { numberLine } from '@/core/engine/numbers';
 import { useTheme } from '@/core/theme/ThemeProvider';
 import { radius, space } from '@/core/theme/tokens';
-import { deviceCountry, numbersFor, pick } from '@/features/numbers/numbers';
+import { deviceCountry, dial, numbersFor, pick } from '@/features/numbers/numbers';
 import { usePacks } from '@/state/packs';
 import { startSiren, stopSiren } from '@/features/sound/sound';
 import { track } from '@/features/telemetry/telemetry';
@@ -153,9 +154,9 @@ function ActiveSos({ silentDefault }: { silentDefault: boolean }) {
           <Card>
             <Text variant="title">{t('sos.callNumbers')}</Text>
             {numbers.numbers.map((n) => (
-              <Pressable key={n.id} accessibilityRole="button" accessibilityLabel={t('numbers.call', { number: n.number })} onPress={() => void Linking.openURL(`tel:${n.number}`)} style={{ minHeight: 56, justifyContent: 'center' }}>
+              <Pressable key={n.id} accessibilityRole="button" accessibilityLabel={t('numbers.call', { number: n.number })} onPress={() => dial(n.number, t('numbers.cannotCall'))} style={{ minHeight: 56, justifyContent: 'center' }}>
                 <Row style={{ justifyContent: 'space-between' }}>
-                  <Text style={{ flex: 1 }}>{`${t(`numbers.kinds.${n.kind}`)}, ${pick(n.label, lang)}`}</Text>
+                  <Text style={{ flex: 1 }}>{numberLine(t(`numbers.kinds.${n.kind}`), pick(n.label, lang))}</Text>
                   <Text variant="title" tone="sos" tabular>
                     {n.number}
                   </Text>

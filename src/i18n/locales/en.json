@@ -272,7 +272,7 @@
     "silent": "Silent SOS",
     "silentHint": "No siren or flashing. Your group is still alerted.",
     "activeTitle": "SOS is active",
-    "activeBody": "Your group has your location. Sent {{n}} times. It repeats every 30 seconds.",
+    "activeBody": "Your group has your location. Times sent: {{n}}. It repeats every 30 seconds.",
     "notSentYet": "No phones in range yet. It will send the moment one appears.",
     "siren": "Siren",
     "strobe": "Flash screen",
@@ -523,7 +523,8 @@
       "women": "Women's helpline",
       "disaster": "Disaster help",
       "other": "Help line"
-    }
+    },
+    "cannotCall": "This device cannot make calls. Call this number from another phone."
   },
   "me": {
     "title": "Me",

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Linking, View } from 'react-native';
+import { View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useShallow } from 'zustand/react/shallow';
@@ -7,7 +7,7 @@ import { useShallow } from 'zustand/react/shallow';
 import { toHijri } from '@/core/engine/hijri';
 import { nextDate, text } from '@/core/packs/schema';
 import { space } from '@/core/theme/tokens';
-import { numbersFor, pick } from '@/features/numbers/numbers';
+import { dial, numbersFor, openLink, pick } from '@/features/numbers/numbers';
 import { bundledPacks, installPack, packSizeKB } from '@/features/packs/packs';
 import { cancelEventReminders, scheduleEventReminders } from '@/features/reminders/reminders';
 import { useFormat } from '@/i18n/format';
@@ -128,7 +128,7 @@ export default function PackDetail() {
                   icon="phone"
                   title={`${t(`numbers.kinds.${x.kind}`)}: ${x.number}`}
                   subtitle={pick(x.label, lang)}
-                  onPress={() => void Linking.openURL(`tel:${x.number}`)}
+                  onPress={() => dial(x.number, t('numbers.cannotCall'))}
                 />
               ))}
               {n.numbers.some((x) => !x.verified) ? <Text variant="caption" tone="warning">{t('numbers.unverified')}</Text> : null}
@@ -207,7 +207,7 @@ export default function PackDetail() {
       ) : null}
       {installed ? <Button variant="ghost" icon="trash" label={t('events.remove')} onPress={() => remove(id)} /> : null}
       {pack.sources.map((s) => (
-        <Text key={s} variant="caption" tone="muted" onPress={() => void Linking.openURL(s)}>
+        <Text key={s} variant="caption" tone="muted" onPress={() => openLink(s)}>
           {s}
         </Text>
       ))}

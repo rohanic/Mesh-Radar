@@ -1,3 +1,4 @@
+import { Alert, Linking } from 'react-native';
 import { getLocales } from 'expo-localization';
 
 import data from '@config/emergency-numbers.json';
@@ -47,4 +48,17 @@ export function pick(text: Localized, lang: LanguageCode | null): string {
 /** The phone's region, used as a default before an event pack is active. */
 export function deviceCountry(): string | null {
   return getLocales()[0]?.regionCode ?? null;
+}
+
+/**
+ * Opens the dialler with the number (E5). Phones without calling (Wi-Fi tablets, some Android Go
+ * devices) cannot open `tel:`, so the number is shown instead of failing silently. Never throws.
+ */
+export function dial(number: string, cannotCall: string): void {
+  Linking.openURL(`tel:${number}`).catch(() => Alert.alert(number, cannotCall));
+}
+
+/** Opens a web page or store link; nothing happens if no app can open it. Never throws. */
+export function openLink(url: string): void {
+  Linking.openURL(url).catch(() => undefined);
 }

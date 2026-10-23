@@ -1,7 +1,6 @@
-import { Linking } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
-import { deviceCountry, numbersFor, pick } from '@/features/numbers/numbers';
+import { deviceCountry, dial, numbersFor, openLink, pick } from '@/features/numbers/numbers';
 import { useSettings } from '@/state/settings';
 import { Button, Card, ListRow, Notice, Screen, Text } from '@/ui/components';
 
@@ -32,7 +31,7 @@ export function EngineMissing() {
               icon="phone"
               title={`${t(`numbers.kinds.${n.kind}`)}: ${n.number}`}
               subtitle={pick(n.label, lang)}
-              onPress={() => void Linking.openURL(`tel:${n.number}`)}
+              onPress={() => dial(n.number, t('numbers.cannotCall'))}
             />
           ))}
         </Card>
@@ -41,7 +40,7 @@ export function EngineMissing() {
           {t('numbers.general112')}
         </Text>
       )}
-      <Button icon="download" label={t('engineMissing.store')} onPress={() => void Linking.openURL(PLAY_STORE_URL)} />
+      <Button icon="download" label={t('engineMissing.store')} onPress={() => openLink(PLAY_STORE_URL)} />
     </Screen>
   );
 }

@@ -517,7 +517,8 @@
       "women": "Layanan bantuan perempuan",
       "disaster": "Bantuan bencana",
       "other": "Layanan bantuan"
-    }
+    },
+    "cannotCall": "Perangkat ini tidak bisa menelepon. Hubungi nomor ini dari ponsel lain."
   },
   "me": {
     "title": "Saya",

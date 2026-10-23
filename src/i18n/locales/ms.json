@@ -517,7 +517,8 @@
       "women": "Talian bantuan wanita",
       "disaster": "Bantuan bencana",
       "other": "Talian bantuan"
-    }
+    },
+    "cannotCall": "Peranti ini tidak boleh membuat panggilan. Hubungi nombor ini dari telefon lain."
   },
   "me": {
     "title": "Saya",

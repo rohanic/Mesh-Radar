@@ -1,3 +1,4 @@
+import { numberLine } from './numbers';
 import { REVIEW_GAP_DAYS, REVIEW_MAX_ASKS, dayKey, shouldAskForReview, type ReviewStats } from './review';
 import { RESTART_SNOOZE_HOURS, UPDATE_SNOOZE_DAYS, isUrgent, updateAction, type UpdateContext, type UpdateInfo } from './updates';
 
@@ -110,5 +111,19 @@ describe('in-app review (DEC-044)', () => {
     // UTC+5 (offset -300): 01:00 the next local day.
     expect(dayKey(lateEvening, -300)).toBe(dayKey(lateEvening, 0) + 1);
     expect(dayKey(lateEvening + 60 * 60 * 1000, 0)).toBe(dayKey(lateEvening, 0));
+  });
+});
+
+describe('emergency number lines (E5)', () => {
+  it('drops the kind when the label already names it', () => {
+    expect(numberLine('Police', 'Police')).toBe('Police');
+    expect(numberLine('Police', 'Motorway Police (motorways)')).toBe('Motorway Police (motorways)');
+    expect(numberLine('Fire', 'Fire brigade')).toBe('Fire brigade');
+    expect(numberLine('Child helpline', 'Child protection helpline')).toBe('Child protection helpline');
+  });
+
+  it('keeps both when the label is a name', () => {
+    expect(numberLine('Rescue', 'Basarnas')).toBe('Rescue, Basarnas');
+    expect(numberLine('Ambulance', '')).toBe('Ambulance');
   });
 });

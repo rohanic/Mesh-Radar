@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { Linking } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
-import { allCountries, deviceCountry, pick } from '@/features/numbers/numbers';
+import { allCountries, deviceCountry, dial, pick } from '@/features/numbers/numbers';
 import { usePacks } from '@/state/packs';
 import { useSettings } from '@/state/settings';
 import { Card, Chip, Header, ListRow, Notice, Row, Screen, Text } from '@/ui/components';
@@ -33,7 +32,7 @@ export default function Numbers() {
               icon="phone"
               title={`${t(`numbers.kinds.${n.kind}`)}: ${n.number}`}
               subtitle={pick(n.label, lang)}
-              onPress={() => void Linking.openURL(`tel:${n.number}`)}
+              onPress={() => dial(n.number, t('numbers.cannotCall'))}
             />
           ))}
           {c.note ? <Text variant="caption" tone="muted">{pick(c.note, lang)}</Text> : null}

@@ -523,7 +523,8 @@
       "women": "Kadın yardım hattı",
       "disaster": "Afet yardımı",
       "other": "Yardım hattı"
-    }
+    },
+    "cannotCall": "Bu cihaz arama yapamıyor. Bu numarayı başka bir telefondan arayın."
   },
   "me": {
     "title": "Ben",
