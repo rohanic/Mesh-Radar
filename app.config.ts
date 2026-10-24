@@ -63,7 +63,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       'expo-localization',
       // Languages offered to Android's per-app language setting; match `released` in
       // src/i18n/status.json (DEC-050).
-      { supportsRTL: true, supportedLocales: ['en', 'ur'] },
+      { supportsRTL: true, supportedLocales: ['en'] },
     ],
     [
       'expo-splash-screen',

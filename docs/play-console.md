@@ -28,7 +28,7 @@ Copy-ready values for publishing Mesh Radar. Policy pages change, so read Play C
 | Website | https://creaeza.com |
 | Privacy policy | https://creaeza.com/mesh-radar-privacy/ |
 
-Full description (4000 characters maximum; this one is 3,883):
+Full description (4000 characters maximum; this one is 3,726):
 
 ```text
 Mesh Radar keeps your family and friends together when the mobile network fails: in big crowds, on mountain trails, in floods and during blackouts.
@@ -46,7 +46,6 @@ FIND YOUR PEOPLE ON A RADAR
 MESSAGES THAT WORK WITHOUT A NETWORK
 - Group chat and direct messages, encrypted end to end. Phones that pass your messages along cannot read them.
 - One-tap quick replies: I'm OK, Wait for me, Come to me, Meet at a meeting point, Need water, Need medical help, Low battery.
-- Quick replies arrive in the reader's own language, so a "Wait for me" sent in Urdu reaches an English phone in English.
 - Messages wait for up to 6 hours and are delivered when the other person comes back into range.
 
 SAFETY FEATURES ARE FREE, ALWAYS
@@ -63,7 +62,7 @@ Ready event packs for Hajj, Umrah, Arbaeen, Raiwind Ijtema, Muharram, Kumbh and 
 
 EASY FOR EVERYONE
 - Elder mode: larger text and three big buttons, Find family, Call for help and I'm OK.
-- English and Urdu, with a right-to-left layout for Urdu. More languages are coming after native speakers review them.
+- In English. Urdu and more languages are coming after native speakers review them.
 - Light, dark and a high-contrast Sunlight theme for bright outdoor light.
 - Power modes from live radar to an ultra battery saver.
 
