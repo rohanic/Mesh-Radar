@@ -37,13 +37,17 @@ for (const [code, c] of Object.entries(countries)) {
 }
 
 // 2. Translations (section 11): safety strings professionally translated, the rest reviewed.
-const status = readJson<Record<string, { verified: boolean; safetyVerified: boolean }>>('src/i18n/status.json');
+// Only languages that ship (`released`) must be reviewed; the others stay hidden in release builds
+// until a native speaker checks them (DEC-050).
+const status = readJson<Record<string, { released?: boolean; verified: boolean; safetyVerified: boolean }>>('src/i18n/status.json');
+if (!status.en?.released) problems.push('translations: English must be released (src/i18n/status.json)');
 for (const [lang, s] of Object.entries(status)) {
+  if (!s.released) continue;
   if (!s.safetyVerified) problems.push(`translations: ${lang} safety strings are not verified (src/i18n/status.json)`);
   if (!s.verified) problems.push(`translations: ${lang} is not reviewed (src/i18n/status.json)`);
 }
 
-// 3. Event packs (F1): bundled copy matches the sources and every pack is verified.
+// 3. Event packs (F1): bundled copy matches the sources; unverified packs are labelled drafts.
 const bundled = (JSON.parse(read('src/features/packs/bundled.json')) as unknown[]).map((p) => EventPackSchema.parse(p));
 for (const id of LAUNCH_PACKS) {
   const b = bundled.find((p) => p.id === id);
@@ -51,7 +55,8 @@ for (const id of LAUNCH_PACKS) {
     problems.push(`packs: ${id} is not bundled (run npm run packs:build)`);
     continue;
   }
-  if (!b.verified) problems.push(`packs: ${id} is not verified`);
+  // Unchecked packs ship with their 'Draft, not yet checked' label (DEC-051); they do not block.
+  if (!b.verified) warnings.push(`packs: ${id} is not verified and shows as a draft`);
 }
 for (const file of walk('packs/src', ['.json'])) {
   const src = EventPackSchema.parse(JSON.parse(read(file)));

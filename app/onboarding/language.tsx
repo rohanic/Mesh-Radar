@@ -5,7 +5,7 @@ import { getLocales } from 'expo-localization';
 import { useTheme } from '@/core/theme/ThemeProvider';
 import { radius, space } from '@/core/theme/tokens';
 import { fontsFor } from '@/i18n/fonts';
-import { LANGUAGES, matchDeviceLanguage } from '@/i18n/languages';
+import { availableLanguages, matchDeviceLanguage } from '@/i18n/languages';
 import { resources } from '@/i18n';
 import { useSettings } from '@/state/settings';
 import { Screen, Text } from '@/ui/components';
@@ -21,7 +21,7 @@ export default function LanguageScreen() {
       <View style={{ alignItems: 'center', gap: space.sm, marginTop: space.lg }}>
         <Icon name="languages" size={40} color={theme.colors.primary} />
       </View>
-      {LANGUAGES.map((l) => {
+      {availableLanguages().map((l) => {
         const f = fontsFor(l.script);
         const selected = l.code === current;
         const title = (resources[l.code].translation as { onboarding: { languageTitle: string } }).onboarding.languageTitle;

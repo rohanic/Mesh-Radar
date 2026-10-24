@@ -1,5 +1,7 @@
 import type { LanguageCode } from '@/state/settings';
 
+import status from './status.json';
+
 // v1.0 languages (section 11). No flag images or emoji: languages are not countries, and the copy
 // rules forbid emoji (DEC-029). The picker shows the native name large and the English name small.
 export interface Language {
@@ -23,15 +25,24 @@ export const LANGUAGES: Language[] = [
   { code: 'tr', native: 'Türkçe', english: 'Turkish', rtl: false, script: 'latin', defaultNumerals: 'western' },
 ];
 
+/**
+ * Languages people can pick (DEC-050). Release builds offer only languages whose safety text has a
+ * reviewer (`released` in status.json); development builds offer all of them for translators.
+ */
+export function availableLanguages(dev: boolean = __DEV__): Language[] {
+  const released = status as Record<string, { released?: boolean }>;
+  return LANGUAGES.filter((l) => dev || released[l.code]?.released);
+}
+
 export function language(code: LanguageCode | null | undefined): Language {
-  return LANGUAGES.find((l) => l.code === code) ?? LANGUAGES[0]!;
+  return availableLanguages().find((l) => l.code === code) ?? LANGUAGES[0]!;
 }
 
 /** Best match for the phone's locale list (BCP-47 tags), English otherwise. */
 export function matchDeviceLanguage(tags: string[]): LanguageCode {
   for (const tag of tags) {
     const base = tag.toLowerCase().split(/[-_]/)[0];
-    const found = LANGUAGES.find((l) => l.code === base || (base === 'in' && l.code === 'id'));
+    const found = availableLanguages().find((l) => l.code === base || (base === 'in' && l.code === 'id'));
     if (found) return found.code;
   }
   return 'en';

@@ -1,10 +1,10 @@
 {
-  "en": { "verified": true, "safetyVerified": true, "reviewer": "source", "date": null },
-  "ur": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
-  "ar": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
-  "hi": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
-  "bn": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
-  "id": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
-  "ms": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
-  "tr": { "verified": false, "safetyVerified": false, "reviewer": null, "date": null }
+  "en": { "released": true, "verified": true, "safetyVerified": true, "reviewer": "source", "date": null },
+  "ur": { "released": true, "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "ar": { "released": false, "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "hi": { "released": false, "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "bn": { "released": false, "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "id": { "released": false, "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "ms": { "released": false, "verified": false, "safetyVerified": false, "reviewer": null, "date": null },
+  "tr": { "released": false, "verified": false, "safetyVerified": false, "reviewer": null, "date": null }
 }

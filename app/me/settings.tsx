@@ -1,7 +1,7 @@
 import { Alert } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
-import { LANGUAGES, language } from '@/i18n/languages';
+import { availableLanguages, language } from '@/i18n/languages';
 import { useSettings, type ThemePref } from '@/state/settings';
 import { Card, Chip, Header, Notice, Row, Screen, Section, Segmented, Toggle } from '@/ui/components';
 
@@ -15,7 +15,7 @@ export default function SettingsScreen() {
       <Header title={t('me.themeLanguage')} />
       <Section title={t('settings.language')}>
         <Row style={{ flexWrap: 'wrap' }}>
-          {LANGUAGES.map((l) => (
+          {availableLanguages().map((l) => (
             <Chip
               key={l.code}
               label={l.native}
