@@ -21,14 +21,14 @@ Copy-ready values for publishing Mesh Radar. Policy pages change, so read Play C
 | Short description (80) | See your group on a radar, chat and send SOS with no internet or signal. |
 | App icon 512 x 512 | `assets/store/play-icon-512.png` |
 | Feature graphic 1024 x 500 | `assets/store/feature-graphic-1024x500.png` |
-| Phone screenshots | `assets/store/screenshots/01` to `08` (1080 x 1920, 9:16, captions in English), upload in that order. `09` and `10` are spares. Taken from the app with sample data (Expo Go, `EXPO_PUBLIC_DEMO=1`); retake on an Android phone and in Urdu, Arabic, Hindi and Bengali when you can |
+| Phone screenshots | `assets/store/screenshots/01` to `08` (1080 x 1920, 9:16, captions in English), upload in that order. `09` is a spare. Taken from the app with sample data (Expo Go, `EXPO_PUBLIC_DEMO=1`); retake on an Android phone and in Urdu, Arabic, Hindi and Bengali when you can |
 | Category | Maps & Navigation (alternative: Travel & Local) |
 | Tags | Pick those closest to: offline, family safety, location sharing, group travel, navigation |
 | Email | creaeza7@gmail.com |
 | Website | https://creaeza.com |
 | Privacy policy | https://creaeza.com/mesh-radar-privacy/ |
 
-Full description (4000 characters maximum; this one is 3,876):
+Full description (4000 characters maximum; this one is 3,883):
 
 ```text
 Mesh Radar keeps your family and friends together when the mobile network fails: in big crowds, on mountain trails, in floods and during blackouts.
@@ -46,7 +46,7 @@ FIND YOUR PEOPLE ON A RADAR
 MESSAGES THAT WORK WITHOUT A NETWORK
 - Group chat and direct messages, encrypted end to end. Phones that pass your messages along cannot read them.
 - One-tap quick replies: I'm OK, Wait for me, Come to me, Meet at a meeting point, Need water, Need medical help, Low battery.
-- Quick replies arrive in the reader's own language, so an Urdu "Wait for me" reaches an Indonesian phone in Indonesian.
+- Quick replies arrive in the reader's own language, so a "Wait for me" sent in Urdu reaches an English phone in English.
 - Messages wait for up to 6 hours and are delivered when the other person comes back into range.
 
 SAFETY FEATURES ARE FREE, ALWAYS
@@ -63,7 +63,7 @@ Ready event packs for Hajj, Umrah, Arbaeen, Raiwind Ijtema, Muharram, Kumbh and 
 
 EASY FOR EVERYONE
 - Elder mode: larger text and three big buttons, Find family, Call for help and I'm OK.
-- 8 languages: English, Urdu, Arabic, Hindi, Bengali, Indonesian, Malay and Turkish, with right-to-left layouts.
+- English and Urdu, with a right-to-left layout for Urdu. More languages are coming after native speakers review them.
 - Light, dark and a high-contrast Sunlight theme for bright outdoor light.
 - Power modes from live radar to an ultra battery saver.
 
