@@ -93,6 +93,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     ],
     // Native debug symbols in the release bundle for Play Console crash reports (DEC-047).
     './plugins/with-native-debug-symbols',
+    // Fewer parallel Gradle workers so release builds fit the EAS builder's memory (DEC-052).
+    './plugins/with-build-limits',
     // Google Play only (section 9); pinned so the store never depends on a connected device.
     ['expo-iap', { android: { store: 'play' } }],
     [
@@ -104,6 +106,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
           targetSdkVersion: 36,
           // Android 8.0: BLE extended advertising (PRD section 9, device compatibility).
           minSdkVersion: 26,
+          // Phones only: 64-bit and 32-bit ARM. x86 is for emulators and Chromebooks, and building
+          // it doubled the native work that ran the EAS builder out of memory (DEC-052).
+          buildArchs: ['armeabi-v7a', 'arm64-v8a'],
           enableMinifyInReleaseBuilds: true,
           enableShrinkResourcesInReleaseBuilds: true,
         },
