@@ -1,6 +1,6 @@
 {
   "id": "umrah",
-  "version": 1,
+  "version": 2,
   "category": "pilgrimage",
   "colors": [
     "#1F5F8B",
@@ -464,5 +464,5 @@
     "https://www.spa.gov.sa/en/N2521566",
     "https://www.spa.gov.sa/en/N2149988"
   ],
-  "verified": false
+  "verified": true
 }

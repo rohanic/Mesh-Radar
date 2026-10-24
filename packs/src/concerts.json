@@ -1,6 +1,6 @@
 {
   "id": "concerts",
-  "version": 1,
+  "version": 2,
   "category": "music",
   "colors": [
     "#5B21B6",
@@ -250,5 +250,5 @@
     "https://nidm.gov.in/PDF/Modules/TrgMod_CrowdatLargeCongregations.pdf",
     "https://www.deccanherald.com/india/kerala/4-students-killed-64-injured-in-stampede-during-college-tech-fest-in-kerala-2785070"
   ],
-  "verified": false
+  "verified": true
 }

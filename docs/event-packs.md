@@ -6,6 +6,25 @@ Researched on 2026-10-20. The research tool could not open pages in this environ
 
 Phrasebooks (Arabic, Hindi, Urdu, Bengali, Odia, Nepali) and all advice text were drafted for the packs and need a native speaker and a safety reviewer.
 
+## Verification, 25 October 2026 (DEC-051)
+
+| Pack | Status | How the dates were checked |
+| --- | --- | --- |
+| Hajj | Verified | 8 and 13 Dhu al-Hijjah 1448 and 1449 match the Umm al-Qura calendar |
+| Umrah | Verified | 1 and 29 Ramadan 1448 and 1449 match Umm al-Qura |
+| Arbaeen | Verified | 20 Safar 1449 and 1450 match Umm al-Qura |
+| Muharram | Verified | 1 and 10 Muharram 1449 and 1450 match Umm al-Qura |
+| Trekking | Verified | Nepal Tourism Board: "the two main trekking seasons, spring and autumn"; months are marked approximate |
+| Concerts | Verified | No dates; emergency numbers from the verified list |
+| Raiwind Ijtema | Verified | No dates; emergency numbers from the verified list |
+| Kumbh and Magh Mela | Draft | Magh Mela 2027 (15 January to 6 March) confirmed on Incredible India; the Haridwar and Nashik dates rest on news reports that could not be opened |
+| Stadium | Draft | The PCB press release could not be opened |
+| Durga Puja | Draft | Lunar dates not confirmed on an official page |
+| Rath Yatra | Draft | Lunar dates not confirmed on an official page |
+| Flood and blackout | Draft | Season windows are climate averages, not confirmed dates |
+
+Draft packs show "Draft, not yet checked" in the app. To verify one, confirm its dates on an official page, set `verified: true`, raise `version`, and run `npm run packs:build`.
+
 ## hajj
 
 Dates:

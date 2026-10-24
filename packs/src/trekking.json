@@ -1,6 +1,6 @@
 {
   "id": "trekking",
-  "version": 1,
+  "version": 2,
   "category": "outdoors",
   "colors": [
     "#2F5D50",
@@ -282,5 +282,5 @@
     "https://www.visitgilgitbaltistan.gov.pk/public/pages/faqs?page=2",
     "https://mountaineering.uk.gov.in/"
   ],
-  "verified": false
+  "verified": true
 }

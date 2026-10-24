@@ -1,6 +1,7 @@
-// Hijri dates for event packs (section 11: Gregorian plus Hijri). This is the arithmetic (tabular)
-// Islamic calendar. Official calendars (Umm al-Qura, local moon sighting) can differ by a day or
-// two, so the UI labels these dates "approximately"; packs carry official dates where known.
+// Hijri dates for event packs (section 11: Gregorian plus Hijri). toHijri uses Saudi Arabia's
+// official Umm al-Qura calendar through Intl when the engine supports it, and the arithmetic
+// (tabular) calendar otherwise, which can be a day off. Local moon sighting can still differ, so the
+// UI labels these dates "approximately".
 
 const ISLAMIC_EPOCH = 1948439.5;
 
@@ -39,8 +40,25 @@ export function jdToIslamic(jd: number): { y: number; m: number; d: number } {
   return { y, m, d };
 }
 
-/** Hijri date (approximate) for a UTC timestamp. Months are 1 (Muharram) to 12 (Dhu al-Hijjah). */
+/** Umm al-Qura date from the JS engine's Intl, or null when the engine lacks that calendar. */
+export function umAlQura(ms: number): { y: number; m: number; d: number } | null {
+  try {
+    const f = new Intl.DateTimeFormat('en-u-ca-islamic-umalqura-nu-latn', { timeZone: 'UTC', year: 'numeric', month: 'numeric', day: 'numeric' });
+    if (f.resolvedOptions().calendar !== 'islamic-umalqura') return null;
+    const parts = Object.fromEntries(f.formatToParts(new Date(ms)).map((p) => [p.type, p.value]));
+    const y = parseInt(parts.year ?? '', 10);
+    const m = parseInt(parts.month ?? '', 10);
+    const d = parseInt(parts.day ?? '', 10);
+    return y > 1300 && m >= 1 && m <= 12 && d >= 1 && d <= 30 ? { y, m, d } : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Hijri date for a UTC timestamp. Months are 1 (Muharram) to 12 (Dhu al-Hijjah). */
 export function toHijri(ms: number): { y: number; m: number; d: number } {
+  const official = umAlQura(ms);
+  if (official) return official;
   const date = new Date(ms);
   return jdToIslamic(gregorianToJd(date.getUTCFullYear(), date.getUTCMonth() + 1, date.getUTCDate()));
 }

@@ -1,6 +1,6 @@
 {
   "id": "muharram",
-  "version": 1,
+  "version": 2,
   "category": "gathering",
   "colors": [
     "#1B1B1B",
@@ -333,5 +333,5 @@
     "https://www.npr.org/2019/09/10/759620714/mass-stampede-at-iraqi-shia-shrine-kills-more-than-30-pilgrims",
     "https://ndma.gov.in/Resources/awareness/Crowd_Management"
   ],
-  "verified": false
+  "verified": true
 }

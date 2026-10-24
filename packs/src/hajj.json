@@ -1,6 +1,6 @@
 {
   "id": "hajj",
-  "version": 1,
+  "version": 2,
   "category": "pilgrimage",
   "colors": [
     "#0E6B5C",
@@ -561,5 +561,5 @@
     "https://spa.gov.sa/en/N2120309",
     "https://ndma.gov.in/Resources/awareness/Crowd_Management"
   ],
-  "verified": false
+  "verified": true
 }

@@ -1,6 +1,6 @@
 {
   "id": "raiwind-ijtema",
-  "version": 1,
+  "version": 2,
   "category": "gathering",
   "colors": [
     "#2D6A4F",
@@ -203,5 +203,5 @@
     "https://www.nation.com.pk/04-Nov-2023/24-medical-emergency-vehicles-provided-for-raiwind-ijtima-participants",
     "https://ndma.gov.in/Resources/awareness/Crowd_Management"
   ],
-  "verified": false
+  "verified": true
 }

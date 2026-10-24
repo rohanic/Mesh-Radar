@@ -123,6 +123,15 @@ describe('Hijri calendar (section 11)', () => {
     }
   });
 
+  it('matches the official Umm al-Qura calendar for pack dates', () => {
+    const at = (iso: string) => toHijri(Date.parse(`${iso}T12:00:00Z`));
+    // Hajj 1448 starts on 8 Dhu al-Hijjah; the tabular calendar alone said the 7th.
+    expect(at('2027-05-14')).toEqual({ y: 1448, m: 12, d: 8 });
+    expect(at('2027-02-08')).toEqual({ y: 1448, m: 9, d: 1 });
+    expect(at('2027-06-15')).toEqual({ y: 1449, m: 1, d: 10 });
+    expect(at('2027-07-24')).toEqual({ y: 1449, m: 2, d: 20 });
+  });
+
   it('places October 2026 in the year 1448', () => {
     const h = toHijri(now);
     expect(h.y).toBe(1448);
