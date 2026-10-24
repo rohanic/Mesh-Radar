@@ -1,8 +1,47 @@
 # Emergency numbers: verification sheet
 
-`config/emergency-numbers.json` ships every number with `verified: false` (DEC-004). A person checks each one against its source, calls the non-emergency ones where sensible, then sets `verified: true`. `npm run check:release` blocks a production build until every number is verified.
+`config/emergency-numbers.json` ships only verified numbers (DEC-004, DEC-049). `npm run check:release` blocks a production build if any number is unverified.
 
 Researched on 2026-10-20 from official government or service domains, and from UK, US and Australian government travel pages. The research tool could not open pages in this environment, so every entry below rests on a search result snippet from the source domain: open each source before verifying.
+
+## Verification, 25 October 2026
+
+Each number in `config/emergency-numbers.json` was checked by opening its official page (the country's own government site, or the UK GOV.UK foreign travel advice, a government source). A number is marked verified only when the page shows that number for that service; the exact words are stored in its `evidence` field. Approved for release by Rohan Ahmad (DEC-049). Labels and country notes were cut back to what the pages say.
+
+Changed: India 108 replaced by 102, which the National Portal of India lists as the National Ambulance Service; it lists 108 nowhere and Incredible India lists 108 as disaster management.
+
+### Removed until a person confirms them
+
+Their pages could not be opened from here (blocked, offline or refusing the connection) or did not show the number. Every country still has a confirmed main emergency number. To add one back, confirm it on an official page, then add it to the JSON with `verified: true` and the quote in `evidence`.
+
+| Country | Number | Was listed as | Why removed |
+| --- | --- | --- | --- |
+| SA | 999 | Police | no official page could be opened that shows it |
+| SA | 997 | Saudi Red Crescent (ambulance) | no official page could be opened that shows it |
+| SA | 998 | Civil Defense (fire, rescue, disasters) | no official page could be opened that shows it |
+| SA | 116111 | Child helpline (National Family Safety Program) | no official page could be opened that shows it |
+| IQ | 104 | Police | no official page could be opened that shows it |
+| PK | 115 | Ambulance | no official page could be opened that shows it |
+| PK | 16 | Fire brigade | no official page could be opened that shows it |
+| IN | 108 | Emergency ambulance | India National Portal lists 102 (National Ambulance Service), not 108; Incredible India lists 108 as disaster management |
+| BD | 109 | Helpline for violence against women and children | no official page could be opened that shows it |
+| BD | 01320222222 | Tourist Police | no official page could be opened that shows it |
+| BD | 1090 | Disaster and weather warnings (recorded messages) | no official page could be opened that shows it |
+| ID | 113 | Fire brigade | no official page could be opened that shows it |
+| ID | 117 | BNPB disaster call centre | no official page could be opened that shows it |
+| ID | 129 | SAPA 129 (violence against women and children) | no official page could be opened that shows it |
+| TR | 155 | Police (connects to 112) | no official page could be opened that shows it |
+| TR | 156 | Gendarmerie, rural areas (connects to 112) | no official page could be opened that shows it |
+| TR | 110 | Fire (connects to 112) | no official page could be opened that shows it |
+| TR | 122 | AFAD disaster line (connects to 112) | no official page could be opened that shows it |
+| TR | 183 | ALO 183 social support (violence, women, children, family) | no official page could be opened that shows it |
+| TR | 02125274503 | Istanbul Tourist Police | no official page could be opened that shows it |
+| NP | 1234 | Government disaster and rescue hotline | no official page could be opened that shows it |
+| NP | 1114 | Armed Police Force | no official page could be opened that shows it |
+| NP | 1098 | Child helpline | no official page could be opened that shows it |
+| AE | 0504538107 | Dubai Tourist Police duty officer | no official page could be opened that shows it |
+
+The research notes below are from the first draft (20 October 2026) and describe the original sources.
 
 ## Saudi Arabia (SA)
 
