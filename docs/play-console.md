@@ -187,6 +187,15 @@ From the release manifest. Not requested: background location, battery optimisat
 | `SET_WALLPAPER` | Lost-child card on the lock screen, only when the guardian taps it | None |
 | `com.android.vending.BILLING` | In-app purchases | None |
 
+## 5b. Release review forms (answers as filed)
+
+**Full-screen intent.** Core functionality: **Other**. Mesh Radar is not an alarm clock or calling app, so Play does not pre-grant the permission. The app checks `canUseFullScreenIntent()` and, when it is not granted, shows a high-priority alert instead; Me, Privacy, Full-screen alerts opens the system setting (DEC-024).
+
+**Foreground service permissions.**
+- `FOREGROUND_SERVICE_CONNECTED_DEVICE`: **Continuous data transfer to an external device**.
+- `FOREGROUND_SERVICE_LOCATION`: **User-initiated location sharing** only (not Navigation, Geofencing or Other).
+- Video: one short screen recording, linked as an unlisted YouTube video: open the app, tap Start mesh, show the persistent notification with Stop, lock the phone, and show a message and the other phone's position still arriving from a second phone; then tap Stop in the notification.
+
 ## 6. In-app products (Monetize, Products)
 
 Needs a payments profile (merchant account) in Play Console first.
