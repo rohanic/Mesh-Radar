@@ -22,7 +22,8 @@
     "core:test": "tsx scripts/core-test.ts",
     "worker:check": "npm --prefix worker run check",
     "setup:worker": "tsx scripts/setup-worker.ts",
-    "eas-build-post-install": "tsx scripts/check-release.ts --if-gated"
+    "eas-build-post-install": "tsx scripts/check-release.ts --if-gated && sh scripts/eas-memory.sh start",
+    "eas-build-on-error": "sh scripts/eas-memory.sh report"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "0.4.2",
